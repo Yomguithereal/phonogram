@@ -3,7 +3,7 @@
  * ================================
  */
 import assert from 'assert';
-import PhonogramCode from '../../src/abstract/PhonogramCode';
+import PhonogramCode from '../src/PhonogramCode';
 
 describe('PhonogramCode', function() {
 
@@ -21,5 +21,11 @@ describe('PhonogramCode', function() {
       ['o', 'õ'],
       ['n', '']
     ]);
+  });
+
+  it('should normalized some cases.', function() {
+    const code = new PhonogramCode('Cœlacanthe');
+
+    assert.strictEqual(code.get(), 'coelacanthe');
   });
 });

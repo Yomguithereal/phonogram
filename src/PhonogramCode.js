@@ -17,7 +17,7 @@
  * @param  {string} string  - The string to match.
  * @return {array}          - An array of matches.
  */
-export function findall(pattern, string) {
+function findall(pattern, string) {
   const matches = [];
 
   let match;
@@ -31,6 +31,19 @@ export function findall(pattern, string) {
 }
 
 /**
+ * Function normalizing various patterns found in european text such as the
+ * "œ" character for instance.
+ *
+ * @param  {string} target - The target string.
+ * @return {string}
+ */
+function normalize(target) {
+  return target
+    .replace(/œ/g, 'oe')
+    .replace(/æ/g, 'ae');
+}
+
+/**
  * Phonogram Code class.
  *
  * @constructor
@@ -41,7 +54,7 @@ export default class PhonogramCode {
 
     // Properties
     this.word = word;
-    this.normalizedWord = word.toLowerCase();
+    this.normalizedWord = normalize(word.toLowerCase());
     this.mapping = [];
 
     for (let i = 0, l = this.normalizedWord.length; i < l; i++) {
