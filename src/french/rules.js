@@ -21,17 +21,32 @@ export const POETIC_RULES = [
   //----------------------------------------------------------------------------
 
   // "ch" before a consonant is always *k*
-  [new RegExp(`c(?=[^${VOWELS}])`, 'g'), 'k'],
+  [g(`ch(?=[^${VOWELS}])`), 'k'],
 
-  // "c" before "e", "i" or "y"
-  [new RegExp(`c(?=[${E + I + Y}])`, 'g'), 's'],
+  // "c" before "e", "i" or "y" is pronounced *s*
+  [g(`c(?=[${E + I + Y}])`), 's'],
+
+  // "s" between two vowels is pronounced *z*
+  [g(`([${VOWELS}])s(?=[${VOWELS}])`), 'z', 1],
+
+  // "th" is pronounced *t*
+  [/th/g, 't'],
 
   //-- Vowels
   //----------------------------------------------------------------------------
 
+  // Final "e" is not pronounced
+  [/e$/],
+
+  // "è" is always pronounced "ɛ"
+  [/è/g, 'ɛ'],
+
+  // "ien" is pronounced "jẽ"
+  [/ien/g, 'jẽ'],
+
   // "on" - "bonbon", "savon"
-  [/on/g, 'õ'],
+  [g(`on(?=[^${VOWELS}]|$)`), 'õ'],
 
   // "y" before a consonant or final, is pronounced *i*
-  [/y/g]
+  [/y/g, 'i']
 ];

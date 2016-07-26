@@ -20,6 +20,15 @@
 function findall(pattern, string) {
   const matches = [];
 
+  if (!pattern.global) {
+    const result = pattern.exec(string);
+
+    if (result)
+      matches.push(result);
+
+    return matches;
+  }
+
   let match;
   while (match = pattern.exec(string))
     matches.push(match);
@@ -69,9 +78,10 @@ export default class PhonogramCode {
    *
    * @param  {RegExp}        pattern     - Pattern to find.
    * @param  {string}        replacement - Replacement if pattern is found.
+   * @param  {number}        offset      - Offset to emulate lookbehinds.
    * @return {PhonogramCode}             - Returns itself for chaining purposes.
    */
-  replace(pattern, replacement) {
+  replace(pattern, replacement = '', offset = 0) {
     const matches = findall(pattern, this.normalizedWord);
 
     if (!matches.length)
@@ -80,10 +90,10 @@ export default class PhonogramCode {
     // Solving matches in reverse order
     for (let i = matches.length - 1; i >= 0; i--) {
       const match = matches[i],
-            index = match.index,
-            offset = index + match[0].length;
+            index = match.index + offset,
+            limit = index + match[0].length - offset;
 
-      for (let j = index; j < offset; j++)
+      for (let j = index; j < limit; j++)
         this.mapping[j][1] = (j === index) ? replacement : '';
     }
 

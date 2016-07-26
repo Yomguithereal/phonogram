@@ -9,8 +9,8 @@ export default {
   cases: [
 
     // "ch" before a consonant is always "k"
-    // ['chrysanthème', ''],
-    // ['chtonien', ''],
+    ['chrysanthème', 'krizantɛm'],
+    ['chtonien', 'ktonjẽ'],
 
     // "on"
     ['bonbon', 'bõbõ'],
