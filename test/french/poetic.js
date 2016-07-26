@@ -7,13 +7,14 @@ import {poetic} from '../../src/french';
 export default {
   fn: poetic,
   cases: [
-
-    // "ch" before a consonant is always "k"
-    ['chrysanthème', 'krizantɛm'],
-    ['chtonien', 'ktonjẽ'],
-
-    // "on"
+    ['an', 'ã'],
+    ['blanc', 'blã'],
     ['bonbon', 'bõbõ'],
-    ['savon', 'savõ']
+    ['chrysanthème', 'krizãtɛm'],
+    ['chtonien', 'ktonjẽ'],
+    ['manteau', 'mãto'],
+    ['noir', 'nwar'],
+    ['savon', 'savõ'],
+    ['tronc', 'trõ']
   ]
 };

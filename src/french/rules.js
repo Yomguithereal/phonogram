@@ -35,17 +35,32 @@ export const POETIC_RULES = [
   //-- Vowels
   //----------------------------------------------------------------------------
 
+  // Final "anc" is pronounced *ã*
+  [/anc$/, 'ã'],
+
+  // "an" is pronounced *ã*
+  [g(`an(?=[^${VOWELS}n]|$)`), 'ã'],
+
   // Final "e" is not pronounced
   [/e$/],
 
-  // "è" is always pronounced "ɛ"
+  // "è" is always pronounced *ɛ*
   [/è/g, 'ɛ'],
 
-  // "ien" is pronounced "jẽ"
+  // "eau" is pronounced *o*
+  [/eau/g, 'o'],
+
+  // "ien" is pronounced *jẽ*
   [/ien/g, 'jẽ'],
 
-  // "on" - "bonbon", "savon"
-  [g(`on(?=[^${VOWELS}]|$)`), 'õ'],
+  // "oi" is pronounced *wa*
+  [/oi/g, 'wa'],
+
+  // Final "onc" is prononced *õ*
+  [/onc$/, 'õ'],
+
+  // "on" is prononced *õ*
+  [g(`on(?=[^${VOWELS}n]|$)`), 'õ'],
 
   // "y" before a consonant or final, is pronounced *i*
   [/y/g, 'i']
