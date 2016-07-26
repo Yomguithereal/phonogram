@@ -28,6 +28,7 @@ export default {
     ['savon', 'savõ'],
     ['scenario', 'senarjo'],
     ['shawarma', 'ʃawarma'],
-    ['tronc', 'trõ']
+    ['tronc', 'trõ'],
+    ['yanick', 'janik']
   ]
 };
