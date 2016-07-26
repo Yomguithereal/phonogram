@@ -4,6 +4,7 @@
   "description": "Collection of phonetic algorithms targeting a variety of European languages.",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint src test",
     "test": "mocha --compilers js:babel-core/register -R spec ./test/endpoint.js"
   },
   "repository": {
@@ -43,5 +44,8 @@
         }
       ]
     ]
+  },
+  "eslintConfig": {
+    "extends": "@yomguithereal/eslint-config/es6"
   }
 }
