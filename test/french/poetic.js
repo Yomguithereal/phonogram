@@ -10,6 +10,7 @@ export default {
     ['an', 'ã'],
     ['blanc', 'blã'],
     ['bonbon', 'bõbõ'],
+    ['cartes', 'kart'],
     ['chrysanthème', 'krizãtɛm'],
     ['chtonien', 'ktonjẽ'],
     ['manteau', 'mãto'],

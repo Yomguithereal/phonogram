@@ -26,8 +26,14 @@ export const POETIC_RULES = [
   // "c" before "e", "i" or "y" is pronounced *s*
   [g(`c(?=[${E + I + Y}])`), 's'],
 
+  // "c" before anything else is pronounced *k*
+  [/c/g, 'k'],
+
+  // Final "s" is not pronounced, except before a "è"
+  [/[^è]s$/, '', 1],
+
   // "s" between two vowels is pronounced *z*
-  [g(`([${VOWELS}])s(?=[${VOWELS}])`), 'z', 1],
+  [g(`[${VOWELS}]s(?=[${VOWELS}])`), 'z', 1],
 
   // "th" is pronounced *t*
   [/th/g, 't'],
@@ -42,7 +48,7 @@ export const POETIC_RULES = [
   [g(`an(?=[^${VOWELS}n]|$)`), 'ã'],
 
   // Final "e" is not pronounced
-  [/e$/],
+  [/es?$/],
 
   // "è" is always pronounced *ɛ*
   [/è/g, 'ɛ'],
