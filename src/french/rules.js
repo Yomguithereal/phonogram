@@ -5,7 +5,7 @@
  * Collecting the various rules used to produce a phonetic representation
  * of French words.
  */
-import {r, INITIAL} from '../helpers';
+import {compileRules, INITIAL} from '../helpers';
 
 export const A = 'aàâ';
 export const E = 'eéèë';
@@ -15,7 +15,7 @@ export const U = 'uü';
 export const Y = 'y';
 export const VOWELS = A + E + I + O + U + Y;
 
-export const POETIC_RULES = {
+export const POETIC_RULES = compileRules({
 
   //-- A
   //----------------------------------------------------------------------------
@@ -28,18 +28,27 @@ export const POETIC_RULES = {
     [/anc$/, 'ã'],
 
     // "an" is pronounced *ã*
-    [r(`an(?=[^${VOWELS}n]|$)`), 'ã']
+    [`an(?=[^${VOWELS}n]|$)`, 'ã']
+  ],
+
+  //-- Â
+  //----------------------------------------------------------------------------
+  â: [
+    [null, 'a']
   ],
 
   //-- C
   //----------------------------------------------------------------------------
   c: [
 
+    // "ck" is pronounced *k*
+    [/ck/, 'k'],
+
     // "ch" before a consonant is always *k*
-    [r(`ch(?=[^${VOWELS}])`), 'k'],
+    [`ch(?=[^${VOWELS}])`, 'k'],
 
     // "c" before "e", "i" or "y" is pronounced *s*
-    [r(`c(?=[${E + I + Y}])`), 's'],
+    [`c(?=[${E + I + Y}])`, 's'],
 
     // "c" before anything else is pronounced *k*
     [null, 'k']
@@ -72,7 +81,7 @@ export const POETIC_RULES = {
   g: [
 
     // "g" before "e", "i" or "y" is pronounced "ʒ"
-    [r(`g(?=[${E + I + Y}])`), 'ʒ']
+    [`g(?=[${E + I + Y}])`, 'ʒ']
   ],
 
   //-- I
@@ -108,7 +117,7 @@ export const POETIC_RULES = {
     [/onc$/, 'õ'],
 
     // "on" is prononced *õ*
-    [r(`on(?=[^${VOWELS}n]|$)`), 'õ']
+    [`on(?=[^${VOWELS}n]|$)`, 'õ']
   ],
 
   //-- Q
@@ -141,7 +150,7 @@ export const POETIC_RULES = {
     [/^s$/, '', /[^è]$/],
 
     // "s" between two vowels is pronounced *z*
-    [r(`s(?=[${VOWELS}])`), 'z', r(`[${VOWELS}]$`)],
+    [`s(?=[${VOWELS}])`, 'z', `[${VOWELS}]$`],
   ],
 
   //-- T
@@ -169,4 +178,4 @@ export const POETIC_RULES = {
   y: [
     [null, 'i']
   ]
-};
+});

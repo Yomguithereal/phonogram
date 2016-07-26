@@ -8,6 +8,7 @@ export default {
   fn: poetic,
   cases: [
     ['abeille', 'abej'],
+    ['âme', 'am'],
     ['an', 'ã'],
     ['blanc', 'blã'],
     ['bonbon', 'bõbõ'],
