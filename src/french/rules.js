@@ -5,7 +5,7 @@
  * Collecting the various rules used to produce a phonetic representation
  * of French words.
  */
-import {r} from '../helpers';
+import {r, INITIAL} from '../helpers';
 
 export const A = 'aàâ';
 export const E = 'eéèë';
@@ -20,6 +20,9 @@ export const POETIC_RULES = {
   //-- A
   //----------------------------------------------------------------------------
   a: [
+
+    // "aon" is always pronounced *ã*
+    [/aon/, 'ã'],
 
     // Final "anc" is pronounced *ã*
     [/anc$/, 'ã'],
@@ -45,6 +48,9 @@ export const POETIC_RULES = {
   //-- E
   //----------------------------------------------------------------------------
   e: [
+
+    // "eill" is pronounced *ej*
+    [/eill/, 'ej'],
 
     // Final "e" is not pronounced
     [/es?$/],
@@ -105,6 +111,14 @@ export const POETIC_RULES = {
     [r(`on(?=[^${VOWELS}n]|$)`), 'õ']
   ],
 
+  //-- Q
+  //----------------------------------------------------------------------------
+  q: [
+
+    // "qu" is pronounced *k*
+    [/qu/, 'k']
+  ],
+
   //-- R
   //----------------------------------------------------------------------------
   r: [
@@ -120,8 +134,11 @@ export const POETIC_RULES = {
     // "sc" is pronounced *s*
     [/sc/, 's'],
 
+    // Initial "sh" is pronounced *ʃ*
+    [/sh/, 'ʃ', INITIAL],
+
     // Final "s" is not pronounced, except before a "è"
-    [/s$/, '', /[^è]$/],
+    [/^s$/, '', /[^è]$/],
 
     // "s" between two vowels is pronounced *z*
     [r(`s(?=[${VOWELS}])`), 'z', r(`[${VOWELS}]$`)],
@@ -132,7 +149,13 @@ export const POETIC_RULES = {
   t: [
 
     // "th" is pronounced *t*
-    [/th/, 't']
+    [/th/, 't'],
+
+    // "tion" is pronounced *sjõ*
+    [/^tion/, 'sjõ'],
+
+    // Final "tie" is pronounced *si*
+    [/tie$/, 'si']
   ],
 
   //-- U

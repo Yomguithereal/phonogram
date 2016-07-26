@@ -7,3 +7,5 @@
 export function r(string) {
   return new RegExp(string);
 }
+
+export const INITIAL = /.+/;
