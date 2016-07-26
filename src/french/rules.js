@@ -29,6 +29,9 @@ export const POETIC_RULES = [
   // "c" before anything else is pronounced *k*
   [/c/g, 'k'],
 
+  // "sc" is pronounced *s*
+  [/sc/g, 's'],
+
   // Final "s" is not pronounced, except before a "è"
   [/[^è]s$/, '', 1],
 
@@ -58,6 +61,9 @@ export const POETIC_RULES = [
 
   // "ien" is pronounced *jẽ*
   [/ien/g, 'jẽ'],
+
+  // "io" is pronounced "jo"
+  [/io/g, 'jo'],
 
   // "oi" is pronounced *wa*
   [/oi/g, 'wa'],

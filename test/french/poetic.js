@@ -16,6 +16,7 @@ export default {
     ['manteau', 'mãto'],
     ['noir', 'nwar'],
     ['savon', 'savõ'],
+    ['scenario', 'senarjo'],
     ['tronc', 'trõ']
   ]
 };
