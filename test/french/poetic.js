@@ -13,6 +13,8 @@ export default {
     ['cartes', 'kart'],
     ['chrysanthème', 'krizãtɛm'],
     ['chtonien', 'ktonjẽ'],
+    ['gérard', 'ʒérar'],
+    ['julie', 'ʒyli'],
     ['manteau', 'mãto'],
     ['noir', 'nwar'],
     ['savon', 'savõ'],

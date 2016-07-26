@@ -5,7 +5,7 @@
  * Collecting the various rules used to produce a phonetic representation
  * of French words.
  */
-import {g} from '../helpers';
+import {r} from '../helpers';
 
 export const A = 'aàâ';
 export const E = 'eéèë';
@@ -15,65 +15,135 @@ export const U = 'uü';
 export const Y = 'y';
 export const VOWELS = A + E + I + O + U + Y;
 
-export const POETIC_RULES = [
+export const POETIC_RULES = {
 
-  //-- Consonants
+  //-- A
   //----------------------------------------------------------------------------
+  a: [
 
-  // "ch" before a consonant is always *k*
-  [g(`ch(?=[^${VOWELS}])`), 'k'],
+    // Final "anc" is pronounced *ã*
+    [/anc$/, 'ã'],
 
-  // "c" before "e", "i" or "y" is pronounced *s*
-  [g(`c(?=[${E + I + Y}])`), 's'],
+    // "an" is pronounced *ã*
+    [r(`an(?=[^${VOWELS}n]|$)`), 'ã']
+  ],
 
-  // "c" before anything else is pronounced *k*
-  [/c/g, 'k'],
-
-  // "sc" is pronounced *s*
-  [/sc/g, 's'],
-
-  // Final "s" is not pronounced, except before a "è"
-  [/[^è]s$/, '', 1],
-
-  // "s" between two vowels is pronounced *z*
-  [g(`[${VOWELS}]s(?=[${VOWELS}])`), 'z', 1],
-
-  // "th" is pronounced *t*
-  [/th/g, 't'],
-
-  //-- Vowels
+  //-- C
   //----------------------------------------------------------------------------
+  c: [
 
-  // Final "anc" is pronounced *ã*
-  [/anc$/, 'ã'],
+    // "ch" before a consonant is always *k*
+    [r(`ch(?=[^${VOWELS}])`), 'k'],
 
-  // "an" is pronounced *ã*
-  [g(`an(?=[^${VOWELS}n]|$)`), 'ã'],
+    // "c" before "e", "i" or "y" is pronounced *s*
+    [r(`c(?=[${E + I + Y}])`), 's'],
 
-  // Final "e" is not pronounced
-  [/es?$/],
+    // "c" before anything else is pronounced *k*
+    [null, 'k']
+  ],
 
-  // "è" is always pronounced *ɛ*
-  [/è/g, 'ɛ'],
+  //-- E
+  //----------------------------------------------------------------------------
+  e: [
 
-  // "eau" is pronounced *o*
-  [/eau/g, 'o'],
+    // Final "e" is not pronounced
+    [/es?$/],
 
-  // "ien" is pronounced *jẽ*
-  [/ien/g, 'jẽ'],
+    // "eau" is pronounced *o*
+    [/eau/, 'o']
+  ],
 
-  // "io" is pronounced "jo"
-  [/io/g, 'jo'],
+  //-- È
+  //----------------------------------------------------------------------------
+  è: [
 
-  // "oi" is pronounced *wa*
-  [/oi/g, 'wa'],
+    // "è" is always pronounced *ɛ*
+    [null, 'ɛ']
+  ],
 
-  // Final "onc" is prononced *õ*
-  [/onc$/, 'õ'],
+  //-- G
+  //----------------------------------------------------------------------------
+  g: [
 
-  // "on" is prononced *õ*
-  [g(`on(?=[^${VOWELS}n]|$)`), 'õ'],
+    // "g" before "e", "i" or "y" is pronounced "ʒ"
+    [r(`g(?=[${E + I + Y}])`), 'ʒ']
+  ],
 
-  // "y" before a consonant or final, is pronounced *i*
-  [/y/g, 'i']
-];
+  //-- I
+  //----------------------------------------------------------------------------
+  i: [
+
+    // "ien" is pronounced *jẽ*
+    [/ien/, 'jẽ'],
+
+    // Final "ie" is pronounced *i*
+    [/ie$/, 'i'],
+
+    // "io" is pronounced "jo"
+    [/io/, 'jo']
+  ],
+
+  //-- J
+  //----------------------------------------------------------------------------
+  j: [
+
+    // "j" is always pronounced *ʒ*
+    [null, 'ʒ']
+  ],
+
+  //-- O
+  //----------------------------------------------------------------------------
+  o: [
+
+    // "oi" is pronounced *wa*
+    [/oi/, 'wa'],
+
+    // Final "onc" is prononced *õ*
+    [/onc$/, 'õ'],
+
+    // "on" is prononced *õ*
+    [r(`on(?=[^${VOWELS}n]|$)`), 'õ']
+  ],
+
+  //-- R
+  //----------------------------------------------------------------------------
+  r: [
+
+    // Final "rd" is pronounced "r"
+    [/rd$/, 'r']
+  ],
+
+  //-- S
+  //----------------------------------------------------------------------------
+  s: [
+
+    // "sc" is pronounced *s*
+    [/sc/, 's'],
+
+    // Final "s" is not pronounced, except before a "è"
+    [/s$/, '', /[^è]$/],
+
+    // "s" between two vowels is pronounced *z*
+    [r(`s(?=[${VOWELS}])`), 'z', r(`[${VOWELS}]$`)],
+  ],
+
+  //-- T
+  //----------------------------------------------------------------------------
+  t: [
+
+    // "th" is pronounced *t*
+    [/th/, 't']
+  ],
+
+  //-- U
+  //----------------------------------------------------------------------------
+  u: [
+    [null, 'y']
+  ],
+
+  //-- Y
+  //----------------------------------------------------------------------------
+  y: [
+    [null, 'i']
+  ]
+};

@@ -10,36 +10,6 @@
  */
 
 /**
- * Function returning all the matches of a regular expression over the given
- * string.
- *
- * @param  {RegExp} pattern - The regular expression to apply.
- * @param  {string} string  - The string to match.
- * @return {array}          - An array of matches.
- */
-function findall(pattern, string) {
-  const matches = [];
-
-  if (!pattern.global) {
-    const result = pattern.exec(string);
-
-    if (result)
-      matches.push(result);
-
-    return matches;
-  }
-
-  let match;
-  while (match = pattern.exec(string))
-    matches.push(match);
-
-  // Resetting state of the Regex for safety
-  pattern.lastIndex = 0;
-
-  return matches;
-}
-
-/**
  * Function normalizing various patterns found in european text such as the
  * "œ" character for instance.
  *
@@ -73,31 +43,39 @@ export default class PhonogramCode {
   }
 
   /**
+   * Method used to replace the character at index.
+   *
+   * @param  {number}        index       - Pattern to find.
+   * @param  {string}        replacement - Replacement if pattern is found.
+   * @return {PhonogramCode}             - Returns itself for chaining.
+   */
+  replaceAt(index, replacement = '') {
+    this.mapping[index][1] = replacement;
+  }
+
+  /**
    * Method used to apply a substitution rule and keeping track of it within
    * the state of the code.
    *
-   * @param  {RegExp}        pattern     - Pattern to find.
-   * @param  {string}        replacement - Replacement if pattern is found.
-   * @param  {number}        offset      - Offset to emulate lookbehinds.
-   * @return {PhonogramCode}             - Returns itself for chaining purposes.
+   * @param  {number}  offset      - Starting offset.
+   * @param  {RegExp}  pattern     - Pattern to find.
+   * @param  {string}  replacement - Replacement if pattern is found.
+   * @return {object}              - Potential match information.
    */
-  replace(pattern, replacement = '', offset = 0) {
-    const matches = findall(pattern, this.normalizedWord);
+  replace(offset, pattern, replacement = '') {
+    const match = pattern.exec(this.normalizedWord.slice(offset));
 
-    if (!matches.length)
-      return this;
+    if (!match)
+      return null;
 
     // Solving matches in reverse order
-    for (let i = matches.length - 1; i >= 0; i--) {
-      const match = matches[i],
-            index = match.index + offset,
-            limit = index + match[0].length - offset;
+    const index = match.index + offset,
+          limit = index + match[0].length;
 
-      for (let j = index; j < limit; j++)
-        this.mapping[j][1] = (j === index) ? replacement : '';
-    }
+    for (let i = index; i < limit; i++)
+      this.replaceAt(i, i === index ? replacement : '');
 
-    return this;
+    return match;
   }
 
   /**

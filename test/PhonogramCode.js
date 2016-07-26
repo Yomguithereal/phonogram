@@ -9,8 +9,10 @@ describe('PhonogramCode', function() {
 
   it('should be possible to apply substitutions and to keep track of them.', function() {
     const code = new PhonogramCode('Bonbon');
-    code.replace(/on/g, 'õ');
-    code.replace(/b/g, 'p');
+    code.replace(1, /on/, 'õ');
+    code.replace(4, /on/, 'õ');
+    code.replace(0, /b/, 'p');
+    code.replace(3, /b/, 'p');
 
     assert.strictEqual(code.get(), 'põpõ');
     assert.deepEqual(code.mapping, [
