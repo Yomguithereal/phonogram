@@ -12,7 +12,7 @@
  * @param  {object} rules - Rules to compile.
  * @return {object}       - Compiled rules.
  */
-export function compileRules(rules) {
+export function compileRules(rules) {
   const compiled = {};
 
   for (const k in rules) {
@@ -33,7 +33,7 @@ export function compileRules(rules) {
       if (rule[2])
         lookbehind = new RegExp(rule[2].source || rule[2]);
 
-      compiled[k].push([pattern || null, rule[1], lookbehind]);
+      compiled[k].push([pattern || null, rule[1], lookbehind]);
     }
   }
 

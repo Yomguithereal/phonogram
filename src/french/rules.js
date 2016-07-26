@@ -22,7 +22,7 @@ export const POETIC_RULES = compileRules({
   a: [
 
     // "aon" is always pronounced *ã*
-    [/aon/, 'ã'],
+    ['aon', 'ã'],
 
     // Final "anc" is pronounced *ã*
     [/anc$/, 'ã'],
@@ -42,13 +42,13 @@ export const POETIC_RULES = compileRules({
   c: [
 
     // "ck" is pronounced *k*
-    [/ck/, 'k'],
+    ['ck', 'k'],
 
     // "ch" before a consonant is always *k*
     [`ch(?=[^${VOWELS}])`, 'k'],
 
     // "ch" is generally pronounced "ʃ"
-    [/ch/, 'ʃ'],
+    ['ch', 'ʃ'],
 
     // "c" before "e", "i" or "y" is pronounced *s*
     [`c(?=[${E + I + Y}])`, 's'],
@@ -62,7 +62,7 @@ export const POETIC_RULES = compileRules({
   e: [
 
     // "eill" is pronounced *ej*
-    [/eill/, 'ej'],
+    ['eill', 'ej'],
 
     // Final "e" is not pronounced
     [/es?$/],
@@ -92,13 +92,13 @@ export const POETIC_RULES = compileRules({
   i: [
 
     // "ien" is pronounced *jẽ*
-    [/ien/, 'jẽ'],
+    ['ien', 'jẽ'],
 
     // Final "ie" is pronounced *i*
     [/ie$/, 'i'],
 
     // "io" is pronounced *jo*
-    [/io/, 'jo']
+    ['io', 'jo']
   ],
 
   //-- J
@@ -114,10 +114,10 @@ export const POETIC_RULES = compileRules({
   o: [
 
     // Final "oing" or "oint" is pronounced *wẽ*
-    [/oin[gt]s?$/, "wẽ"],
+    [/oin[gt]s?$/, 'wẽ'],
 
     // "oi" is pronounced *wa*
-    [/oi/, 'wa'],
+    ['oi', 'wa'],
 
     // Final "onc" is prononced *õ*
     [/onc$/, 'õ'],
@@ -126,10 +126,10 @@ export const POETIC_RULES = compileRules({
     [`on(?=[^${VOWELS}n]|$)`, 'õ'],
 
     // "om" before "b" or "p" is pronounced *õ*
-    [`om(?=[pb])`, 'õ'],
+    [/om(?=[pb])/, 'õ'],
 
     // "ou" is generally pronounced *u*
-    [/ou/, 'u']
+    ['ou', 'u']
   ],
 
   //-- Q
@@ -137,7 +137,7 @@ export const POETIC_RULES = compileRules({
   q: [
 
     // "qu" is pronounced *k*
-    [/qu/, 'k']
+    ['qu', 'k']
   ],
 
   //-- R
@@ -153,13 +153,13 @@ export const POETIC_RULES = compileRules({
   s: [
 
     // "sc" is pronounced *s*
-    [/sc/, 's'],
+    ['sc', 's'],
 
     // Initial "sh" is pronounced *ʃ*
-    [/sh/, 'ʃ', INITIAL],
+    ['sh', 'ʃ', INITIAL],
 
     // Final "s" is not pronounced, except before a "è"
-    [/^s$/, '', /[^è]$/],
+    [/s$/, '', /[^è]$/],
 
     // "s" between two vowels is pronounced *z*
     [`s(?=[${VOWELS}])`, 'z', `[${VOWELS}]$`],
@@ -170,10 +170,10 @@ export const POETIC_RULES = compileRules({
   t: [
 
     // "th" is pronounced *t*
-    [/th/, 't'],
+    ['th', 't'],
 
     // "tion" is pronounced *sjõ*
-    [/^tion/, 'sjõ'],
+    ['tion', 'sjõ'],
 
     // Final "tie" is pronounced *si*
     [/tie$/, 'si']

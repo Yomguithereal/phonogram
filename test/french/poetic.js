@@ -27,6 +27,7 @@ export default {
     ['julie', 'ʒyli'],
     ['manteau', 'mãto'],
     ['noir', 'nwar'],
+    ['oiseau', 'wazo'],
     ['ombres', 'õbr'],
     ['oreille', 'orej'],
     ['paon', 'pã'],
