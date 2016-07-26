@@ -47,6 +47,9 @@ export const POETIC_RULES = compileRules({
     // "ch" before a consonant is always *k*
     [`ch(?=[^${VOWELS}])`, 'k'],
 
+    // "ch" is generally pronounced "ʃ"
+    [/ch/, 'ʃ'],
+
     // "c" before "e", "i" or "y" is pronounced *s*
     [`c(?=[${E + I + Y}])`, 's'],
 
@@ -65,7 +68,7 @@ export const POETIC_RULES = compileRules({
     [/es?$/],
 
     // "eau" is pronounced *o*
-    [/eau/, 'o']
+    [/eaux?/, 'o']
   ],
 
   //-- È
@@ -80,7 +83,7 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   g: [
 
-    // "g" before "e", "i" or "y" is pronounced "ʒ"
+    // "g" before "e", "i" or "y" is pronounced *ʒ*
     [`g(?=[${E + I + Y}])`, 'ʒ']
   ],
 
@@ -94,7 +97,7 @@ export const POETIC_RULES = compileRules({
     // Final "ie" is pronounced *i*
     [/ie$/, 'i'],
 
-    // "io" is pronounced "jo"
+    // "io" is pronounced *jo*
     [/io/, 'jo']
   ],
 
@@ -110,6 +113,9 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   o: [
 
+    // Final "oing" or "oint" is pronounced *wẽ*
+    [/oin[gt]s?$/, "wẽ"],
+
     // "oi" is pronounced *wa*
     [/oi/, 'wa'],
 
@@ -117,7 +123,13 @@ export const POETIC_RULES = compileRules({
     [/onc$/, 'õ'],
 
     // "on" is prononced *õ*
-    [`on(?=[^${VOWELS}n]|$)`, 'õ']
+    [`on(?=[^${VOWELS}n]|$)`, 'õ'],
+
+    // "om" before "b" or "p" is pronounced *õ*
+    [`om(?=[pb])`, 'õ'],
+
+    // "ou" is generally pronounced *u*
+    [/ou/, 'u']
   ],
 
   //-- Q
@@ -132,7 +144,7 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   r: [
 
-    // Final "rd" is pronounced "r"
+    // Final "rd" is pronounced *r*
     [/rd$/, 'r']
   ],
 
@@ -176,7 +188,11 @@ export const POETIC_RULES = compileRules({
   //-- Y
   //----------------------------------------------------------------------------
   y: [
+
+    // "y" before a vowel is pronounced *j*
     [`y(?=[${VOWELS}])`, 'j'],
+
+    // "y" is generally pronounced *i*
     [null, 'i']
   ]
 });
