@@ -21,6 +21,9 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   a: [
 
+    // "aing" & "ain" are pronounced *ẽ*
+    [/aing?/, 'ẽ'],
+
     // "aon" is always pronounced *ã*
     ['aon', 'ã'],
 
@@ -70,11 +73,17 @@ export const POETIC_RULES = compileRules({
     // "eill" is pronounced *ej*
     ['eill', 'ej'],
 
+    // Final "ein" is pronounced *ẽ*
+    [/ein$/, 'ẽ'],
+
     // "eau" is pronounced *o*
     [/eaux?/, 'o'],
 
     // "eu" is pronounced *ø*
     [/eux?/, 'ø'],
+
+    // Final "er" is pronounced "é"
+    [/er$/, 'é'],
 
     // Final "e" is not pronounced
     [/es?$/]
@@ -185,6 +194,9 @@ export const POETIC_RULES = compileRules({
   //-- S
   //----------------------------------------------------------------------------
   s: [
+
+    // "ss" is squeezed
+    ['ss', 's'],
 
     // "sc" is pronounced *s*
     ['sc', 's'],

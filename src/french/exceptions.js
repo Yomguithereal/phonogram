@@ -11,8 +11,7 @@
 // os
 // gnou
 // plomb
-// manger
-// baignoire
-// gnon
-// gnognotte
 // gnose
+
+
+// pain, chemin, parpaing, dessein, chien
