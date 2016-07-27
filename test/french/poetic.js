@@ -105,6 +105,8 @@ export default {
     ['pain', 'pẽ'],
     ['paon', 'pã'],
     ['parpaing', 'parpẽ'],
+    ['pharisien', 'farizjẽ'],
+    ['pharynx', 'farẽks'],
     ['plombes', 'plõb'],
     ['poing', 'pwẽ'],
     ['point', 'pwẽ'],
