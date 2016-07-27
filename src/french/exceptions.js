@@ -13,5 +13,3 @@
 // gnou
 // plomb
 // gnose
-
-// vademecum, caecum, coelacanthe

@@ -20,16 +20,22 @@ export default {
 
     ['baignoire', 'bɛnwar'],
     ['blanc', 'blã'],
+    ['bœuf', 'bøf'],
     ['bonbon', 'bõbõ'],
 
+    ['caecum', 'sékʌm'],
+    ['cæcal', 'sékal'],
     ['cartes', 'kart'],
     ['cases', 'kaz'],
     ['chateau', 'ʃato'],
     ['chateaux', 'ʃato'],
     ['chemin', 'ʃemin'],
+    ['chevreuil', 'ʃevrøj'],
     ['chien', 'ʃjẽ'],
     ['chrysanthème', 'krizãtɛm'],
     ['chtonien', 'ktonjẽ'],
+    ['coecalanthe', 'køkalãt'],
+    ['cœcalanthe', 'køkalãt'],
     ['coing', 'kwẽ'],
     ['coings', 'kwẽ'],
     ['constitution', 'kõstitysjõ'],
@@ -39,6 +45,7 @@ export default {
     ['daim', 'dẽ'],
     ['démocratie', 'démokrasi'],
     ['dessein', 'desẽ'],
+    ['deuil', 'døj'],
     ['dévorée', 'dévoré'],
 
     ['essaim', 'esẽ'],
@@ -75,6 +82,9 @@ export default {
     ['noyau', 'nwajo'],
     ['noyauter', 'nwajoté'],
 
+    ['oeil', 'øj'],
+    ['œil', 'øj'],
+    ['oeuf', 'øf'],
     ['oiseau', 'wazo'],
     ['ombres', 'õbr'],
     ['oreille', 'orɛj'],
@@ -104,10 +114,12 @@ export default {
     ['toutou', 'tutu'],
     ['tronc', 'trõ'],
 
+    ['vademecum', 'vademekʌm'],
     ['vos', 'vo'],
 
     ['xylophone', 'gzilofon'],
 
-    ['yanick', 'janik']
+    ['yanick', 'janik'],
+    ['yeux', 'jø']
   ]
 };

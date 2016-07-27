@@ -10,19 +10,6 @@
  */
 
 /**
- * Function normalizing various patterns found in european text such as the
- * "œ" character for instance.
- *
- * @param  {string} target - The target string.
- * @return {string}
- */
-function normalize(target) {
-  return target
-    .replace(/œ/g, 'oe')
-    .replace(/æ/g, 'ae');
-}
-
-/**
  * Phonogram Code class.
  *
  * @constructor
@@ -33,13 +20,22 @@ export default class PhonogramCode {
 
     // Properties
     this.word = word;
-    this.normalizedWord = normalize(word.toLowerCase());
+    this.normalizedWord = word.toLowerCase();
     this.mapping = [];
 
     for (let i = 0, l = this.normalizedWord.length; i < l; i++) {
       const character = this.normalizedWord[i];
       this.mapping.push([character, character]);
     }
+
+    // Apply some generic normalization
+    let match;
+
+    if (match = /æ/.exec(this.normalizedWord))
+      this.replaceAt(match.index, 'ae');
+
+    if (match = /œ/.exec(this.normalizedWord))
+      this.replaceAt(match.index, 'oe');
   }
 
   /**

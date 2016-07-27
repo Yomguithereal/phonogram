@@ -65,6 +65,9 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   c: [
 
+    // "cae" is pronounced *sé*
+    ['c(?:æ|ae)', 'sé'],
+
     // "ck" is pronounced *k*
     ['ck', 'k'],
 
@@ -93,6 +96,9 @@ export const POETIC_RULES = compileRules({
 
     // "eau" is pronounced *o*
     [/eaux?/, 'o'],
+
+    // Final "euil" is pronounced *øj*
+    [/euil$/, 'øj'],
 
     // "eu" is pronounced *ø*
     [/eux?/, 'ø'],
@@ -198,6 +204,9 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   o: [
 
+    // Final "oeil" is pronounced *øj*
+    [/oeil$/, 'øj'],
+
     // Final "oing" or "oint" is pronounced *wẽ*
     [/oin[gt]s?$/, 'wẽ'],
 
@@ -217,13 +226,27 @@ export const POETIC_RULES = compileRules({
     [/oy(?=[a])/, 'waj', /.+/],
 
     // "ou" is generally pronounced *u*
-    ['oux?', 'u']
+    ['oux?', 'u'],
+
+    // "oe" is generally pronounced *ø*
+    [/oeu?/, 'ø']
   ],
 
   //-- Ô
   //----------------------------------------------------------------------------
   ô: [
     [null, 'o']
+  ],
+
+  //-- Œ
+  //----------------------------------------------------------------------------
+  œ: [
+
+    // Final "œil" is pronounced *œj*
+    [/œil$/, 'øj'],
+
+    // "œu" is pronounced *ø*
+    [/œu?/, 'ø']
   ],
 
   //-- P
@@ -293,6 +316,11 @@ export const POETIC_RULES = compileRules({
   //-- U
   //----------------------------------------------------------------------------
   u: [
+
+    // Final "um" is pronounced *ʌm*
+    [/um$/, 'ʌm'],
+
+    // "u" is generally pronounced *y*
     [null, 'y']
   ],
 
