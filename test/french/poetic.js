@@ -12,6 +12,8 @@ export default {
     ['ambiance', 'ãbjãs'],
     ['amphétamine', 'ãfétamin'],
     ['an', 'ã'],
+    ['arabesque', 'arabesk'],
+    ['arhe', 'ar'],
     ['aux', 'o'],
     ['auxilliaire', 'oksiljɛr'],
     ['ayant', 'ɛjã'],
@@ -19,6 +21,7 @@ export default {
     ['ayez', 'ɛjé'],
 
     ['baignoire', 'bɛnwar'],
+    ['bibelot', 'bibelo'],
     ['blanc', 'blã'],
     ['bœuf', 'bøf'],
     ['bonbon', 'bõbõ'],
@@ -69,11 +72,14 @@ export default {
 
     ['illégal', 'illégal'],
     ['inquiet', 'ẽkjɛ'],
+    ['inquisition', 'ẽkizisjõ'],
 
+    ['javelot', 'ʒavelo'],
     ['jeu', 'ʒø'],
     ['julie', 'ʒyli'],
 
     ['lapin', 'lapẽ'],
+    ['lyncher', 'lẽʃé'],
 
     ['manger', 'mãʒé'],
     ['manteau', 'mãto'],
@@ -92,6 +98,7 @@ export default {
     ['oiseau', 'wazo'],
     ['ombres', 'õbr'],
     ['oreille', 'orɛj'],
+    ['ornithorynque', 'ornitorẽk'],
     ['ôter', 'oté'],
     ['oyez', 'ojé'],
 
@@ -108,10 +115,14 @@ export default {
 
     ['rayon', 'rɛjõ'],
     ['rayonner', 'rɛjoné'],
+    ['rhume', 'rym'],
 
     ['savon', 'savõ'],
+    ['sashimi', 'saʃimi'],
     ['scenario', 'senarjo'],
     ['shawarma', 'ʃawarma'],
+    ['synthèse', 'sẽtɛz'],
+    ['synthétique', 'sẽtétik'],
 
     ['thérapie', 'térapi'],
     ['tiare', 'tjar'],
@@ -124,6 +135,9 @@ export default {
     ['xylophone', 'gzilofon'],
 
     ['yannick', 'janik'],
-    ['yeux', 'jø']
+    ['yeux', 'jø'],
+
+    ['zèbre', 'zɛbr'],
+    ['zyeuter', 'zjøté']
   ]
 };

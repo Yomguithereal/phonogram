@@ -238,7 +238,10 @@ export const POETIC_RULES = compileRules({
     ['oux?', 'u'],
 
     // "oe" is generally pronounced *ø*
-    [/oeu?/, 'ø']
+    [/oeu?/, 'ø'],
+
+    // Final "ot" is pronounced *o*
+    [/ot$/, 'o']
   ],
 
   //-- Ô
@@ -295,8 +298,8 @@ export const POETIC_RULES = compileRules({
     // "sc" is pronounced *s*
     ['sc', 's'],
 
-    // Initial "sh" is pronounced *ʃ*
-    ['sh', 'ʃ', INITIAL],
+    // "sh" is pronounced *ʃ*
+    ['sh', 'ʃ'],
 
     // Final "s" is not pronounced, except before a "è"
     [/s$/, '', /[^è]$/],
@@ -353,6 +356,9 @@ export const POETIC_RULES = compileRules({
   //-- Y
   //----------------------------------------------------------------------------
   y: [
+
+    // "yn" before a consonant different than "n" is pronounced *ẽ*
+    [`yn(?=[^${VOWELS}n])`, 'ẽ'],
 
     // "y" before a vowel is pronounced *j*
     [`y(?=[${VOWELS}])`, 'j'],
