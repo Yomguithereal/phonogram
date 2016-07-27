@@ -37,6 +37,7 @@ export default {
 
     ['faon', 'fã'],
 
+    ['genoux', 'ʒenu'],
     ['gérard', 'ʒérar'],
     ['gnognotte', 'njonjot'],
     ['gnon', 'njõ'],
@@ -62,6 +63,8 @@ export default {
     ['plombes', 'plõb'],
     ['poing', 'pwẽ'],
     ['point', 'pwẽ'],
+    ['poix', 'pwa'],
+    ['poux', 'pu'],
 
     ['quidam', 'kidam'],
 

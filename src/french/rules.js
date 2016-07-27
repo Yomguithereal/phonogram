@@ -152,7 +152,7 @@ export const POETIC_RULES = compileRules({
     [/oin[gt]s?$/, 'wẽ'],
 
     // "oi" is pronounced *wa*
-    ['oi', 'wa'],
+    [/oix?/, 'wa'],
 
     // Final "onc" is prononced *õ*
     [/onc$/, 'õ'],
@@ -164,7 +164,7 @@ export const POETIC_RULES = compileRules({
     [/om(?=[bp])/, 'õ'],
 
     // "ou" is generally pronounced *u*
-    ['ou', 'u']
+    ['oux?', 'u']
   ],
 
   //-- P

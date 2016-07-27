@@ -12,6 +12,3 @@
 // gnou
 // plomb
 // gnose
-
-
-// pain, chemin, parpaing, dessein, chien
