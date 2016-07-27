@@ -31,9 +31,7 @@ export function poetic(word) {
 
       // Handling potential lookbehind
       if (lookbehind) {
-        const length = lookbehind.length;
-
-        if (!lookbehind.test(word.substr(0, length)))
+        if (!lookbehind.test(word.slice(0, i)))
           continue;
       }
 

@@ -44,4 +44,4 @@ export function compileRules(rules) {
  * Simple regex used sometimes as lookbehind to check if the search string
  * is initial or not.
  */
-export const INITIAL = /.+/;
+export const INITIAL = /^$/;

@@ -28,7 +28,10 @@ export const POETIC_RULES = compileRules({
     [/anc$/, 'ã'],
 
     // "an" is pronounced *ã*
-    [`an(?=[^${VOWELS}n]|$)`, 'ã']
+    [`an(?=[^${VOWELS}n]|$)`, 'ã'],
+
+    // "am" before "b" or "p" is pronounced *ã*
+    [/am(?=[bp])/, 'ã']
   ],
 
   //-- Â
@@ -64,11 +67,14 @@ export const POETIC_RULES = compileRules({
     // "eill" is pronounced *ej*
     ['eill', 'ej'],
 
-    // Final "e" is not pronounced
-    [/es?$/],
-
     // "eau" is pronounced *o*
-    [/eaux?/, 'o']
+    [/eaux?/, 'o'],
+
+    // "eu" is pronounced *ø*
+    [/eux?/, 'ø'],
+
+    // Final "e" is not pronounced
+    [/es?$/]
   ],
 
   //-- È
@@ -87,9 +93,20 @@ export const POETIC_RULES = compileRules({
     [`g(?=[${E + I + Y}])`, 'ʒ']
   ],
 
+  //-- H
+  //----------------------------------------------------------------------------
+  h: [
+
+    // "h" is usually silent
+    [null, '']
+  ],
+
   //-- I
   //----------------------------------------------------------------------------
   i: [
+
+    // "ian" is pronounced *jã*
+    ['ian', 'jã'],
 
     // "ien" is pronounced *jẽ*
     ['ien', 'jẽ'],
@@ -126,7 +143,7 @@ export const POETIC_RULES = compileRules({
     [`on(?=[^${VOWELS}n]|$)`, 'õ'],
 
     // "om" before "b" or "p" is pronounced *õ*
-    [/om(?=[pb])/, 'õ'],
+    [/om(?=[bp])/, 'õ'],
 
     // "ou" is generally pronounced *u*
     ['ou', 'u']
