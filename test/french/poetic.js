@@ -27,6 +27,7 @@ export default {
     ['julie', 'ʒyli'],
     ['manteau', 'mãto'],
     ['noir', 'nwar'],
+    ['nos', 'no'],
     ['oiseau', 'wazo'],
     ['ombres', 'õbr'],
     ['oreille', 'orej'],
@@ -40,6 +41,7 @@ export default {
     ['shawarma', 'ʃawarma'],
     ['toutou', 'tutu'],
     ['tronc', 'trõ'],
+    ['vos', 'vo'],
     ['yanick', 'janik']
   ]
 };

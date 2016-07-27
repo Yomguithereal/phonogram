@@ -7,3 +7,5 @@
 
 // mille, ville, tranquille, villa
 // outil, fusil, fils
+// mes, tes, ses
+// nos, vos, os
