@@ -166,6 +166,12 @@ export const POETIC_RULES = compileRules({
     // "ill" after a vowel and not before a "i" is pronounced *ij*
     [/ill(?=[^i])/, 'ij', `[^${VOWELS}]`],
 
+    // "in" before a consonant which is not "n" or final is pronounced *ẽ*
+    [`in(?=$|[^${VOWELS}n])`, 'ẽ'],
+
+    // Final "iet" is pronounced *jɛ*
+    [/iet$/, 'jɛ'],
+
     // Final "ie" is pronounced *i*
     [/ie$/, 'i'],
 
@@ -203,6 +209,9 @@ export const POETIC_RULES = compileRules({
   //-- O
   //----------------------------------------------------------------------------
   o: [
+
+    // Final "oigt" is pronounced *wa*
+    [/oigt$/, 'wa'],
 
     // Final "oeil" is pronounced *øj*
     [/oeil$/, 'øj'],

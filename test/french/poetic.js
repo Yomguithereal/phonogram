@@ -29,7 +29,7 @@ export default {
     ['cases', 'kaz'],
     ['chateau', 'ʃato'],
     ['chateaux', 'ʃato'],
-    ['chemin', 'ʃemin'],
+    ['chemin', 'ʃemẽ'],
     ['chevreuil', 'ʃevrøj'],
     ['chien', 'ʃjẽ'],
     ['chrysanthème', 'krizãtɛm'],
@@ -47,6 +47,7 @@ export default {
     ['dessein', 'desẽ'],
     ['deuil', 'døj'],
     ['dévorée', 'dévoré'],
+    ['doigt', 'dwa'],
 
     ['essaim', 'esẽ'],
     ['euphorie', 'øfori'],
@@ -67,9 +68,12 @@ export default {
     ['horrible', 'oribl'],
 
     ['illégal', 'illégal'],
+    ['inquiet', 'ẽkjɛ'],
 
     ['jeu', 'ʒø'],
     ['julie', 'ʒyli'],
+
+    ['lapin', 'lapẽ'],
 
     ['manger', 'mãʒé'],
     ['manteau', 'mãto'],
