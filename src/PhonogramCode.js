@@ -92,3 +92,18 @@ export default class PhonogramCode {
     return code;
   }
 }
+
+/**
+ * Static method of the PhonogramCode class used to create a code from
+ * an already existing mapping (typically exceptions).
+ *
+ * @param  {string}        word    - The word.
+ * @param  {array}         mapping - Pre-existing mapping.
+ * @return {PhonogramCode}
+ */
+PhonogramCode.from = function(word, mapping) {
+  const code = new PhonogramCode(word);
+  code.mapping = mapping;
+
+  return code;
+};

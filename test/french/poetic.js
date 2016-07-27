@@ -41,14 +41,20 @@ export default {
     ['gérard', 'ʒérar'],
     ['gnognotte', 'njonjot'],
     ['gnon', 'njõ'],
+    ['guillaume', 'gijom'],
 
     ['hasard', 'azar'],
+    ['horrible', 'oribl'],
+
+    ['illégal', 'illégal'],
 
     ['jeu', 'ʒø'],
     ['julie', 'ʒyli'],
 
     ['manger', 'mãʒé'],
     ['manteau', 'mãto'],
+    ['milliard', 'miljar'],
+    ['million', 'miljõ'],
 
     ['noir', 'nwar'],
     ['nos', 'no'],

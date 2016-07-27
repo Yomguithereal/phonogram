@@ -37,7 +37,10 @@ export const POETIC_RULES = compileRules({
     [/am(?=[bp])/, 'ã'],
 
     // "ai" is generally pronounced *ɛ*
-    ['ai', 'ɛ']
+    ['ai', 'ɛ'],
+
+    // "au" is generally pronounced *o*
+    ['au', 'o']
   ],
 
   //-- Â
@@ -102,10 +105,13 @@ export const POETIC_RULES = compileRules({
   g: [
 
     // "gnoi" is pronounced *nwa*
-    [/gnoi/, 'nwa'],
+    ['gnoi', 'nwa'],
+
+    // "gu" is pronounced *g*
+    ['gu', 'g'],
 
     // "gn" is pronounced *nj*
-    [/gn/, 'nj'],
+    ['gn', 'nj'],
 
     // "g" before "e", "i" or "y" is pronounced *ʒ*
     [`g(?=[${E + I + Y}])`, 'ʒ']
@@ -123,17 +129,17 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   i: [
 
-    // "ian" is pronounced *jã*
-    ['ian', 'jã'],
-
-    // "ien" is pronounced *jẽ*
-    ['ien', 'jẽ'],
+    // "ill" after a vowel and not before a "i" is pronounced *ij*
+    [/ill(?=[^i])/, 'ij', `[^${VOWELS}]`],
 
     // Final "ie" is pronounced *i*
     [/ie$/, 'i'],
 
-    // "io" is pronounced *jo*
-    ['io', 'jo']
+    // "ien" is pronounced *jẽ*
+    ['ien', 'jẽ'],
+
+    // "i" before some vowels is pronounced *j*
+    [`i(?=[${A + E + O + U}])`, 'j']
   ],
 
   //-- J
@@ -142,6 +148,14 @@ export const POETIC_RULES = compileRules({
 
     // "j" is always pronounced *ʒ*
     [null, 'ʒ']
+  ],
+
+  //-- L
+  //----------------------------------------------------------------------------
+  l: [
+
+    // "ll" is squeezed
+    ['ll', 'l', /.{2,}/]
   ],
 
   //-- O
@@ -186,6 +200,9 @@ export const POETIC_RULES = compileRules({
   //-- R
   //----------------------------------------------------------------------------
   r: [
+
+    // "rr" is squeezed
+    ['rr', 'r'],
 
     // Final "rd" is pronounced *r*
     [/rd$/, 'r']
