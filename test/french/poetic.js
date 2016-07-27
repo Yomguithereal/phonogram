@@ -12,6 +12,9 @@ export default {
     ['ambiance', 'ãbjãs'],
     ['amphétamine', 'ãfétamin'],
     ['an', 'ã'],
+    ['ayant', 'ɛjã'],
+    ['ayatollah', 'ajatola'],
+    ['ayez', 'ɛjé'],
 
     ['baignoire', 'bɛnwar'],
     ['blanc', 'blã'],
@@ -27,11 +30,15 @@ export default {
     ['coing', 'kwẽ'],
     ['coings', 'kwẽ'],
     ['constitution', 'kõstitysjõ'],
+    ['contestation', 'kõtestasjõ'],
     ['coucou', 'kuku'],
 
+    ['daim', 'dẽ'],
     ['démocratie', 'démokrasi'],
     ['dessein', 'desẽ'],
+    ['dévorée', 'dévoré'],
 
+    ['essaim', 'esẽ'],
     ['euphorie', 'øfori'],
     ['eux', 'ø'],
 
@@ -55,13 +62,17 @@ export default {
     ['manteau', 'mãto'],
     ['milliard', 'miljar'],
     ['million', 'miljõ'],
+    ['montez', 'mõté'],
 
     ['noir', 'nwar'],
     ['nos', 'no'],
+    ['noyau', 'nwajo'],
+    ['noyauter', 'nwajoté'],
 
     ['oiseau', 'wazo'],
     ['ombres', 'õbr'],
     ['oreille', 'orej'],
+    ['oyez', 'ojé'],
 
     ['pain', 'pẽ'],
     ['paon', 'pã'],
@@ -74,10 +85,14 @@ export default {
 
     ['quidam', 'kidam'],
 
+    ['rayon', 'rɛjõ'],
+    ['rayonner', 'rɛjoné'],
+
     ['savon', 'savõ'],
     ['scenario', 'senarjo'],
     ['shawarma', 'ʃawarma'],
 
+    ['thérapie', 'térapi'],
     ['toutou', 'tutu'],
     ['tronc', 'trõ'],
 

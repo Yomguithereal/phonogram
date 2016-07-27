@@ -24,11 +24,17 @@ export const POETIC_RULES = compileRules({
     // "aing" & "ain" are pronounced *ẽ*
     [/aing?/, 'ẽ'],
 
+    // Final "aim" is pronounced *ẽ*
+    [/aim$/, 'ẽ'],
+
     // "aon" is always pronounced *ã*
     ['aon', 'ã'],
 
     // Final "anc" is pronounced *ã*
     [/anc$/, 'ã'],
+
+    // Final "ant" is pronounced *ã*
+    [/ant$/, 'ã'],
 
     // "an" is pronounced *ã*
     [`an(?=[^${VOWELS}n]|$)`, 'ã'],
@@ -38,6 +44,9 @@ export const POETIC_RULES = compileRules({
 
     // "ai" is generally pronounced *ɛ*
     ['ai', 'ɛ'],
+
+    // "ay" before some posterior vowels is pronounced *ɛj*
+    [/ay(?=[ao]n|e)/, 'ɛj'],
 
     // "au" is generally pronounced *o*
     ['au', 'o']
@@ -85,11 +94,19 @@ export const POETIC_RULES = compileRules({
     // "eu" is pronounced *ø*
     [/eux?/, 'ø'],
 
-    // Final "er" is pronounced "é"
-    [/er$/, 'é'],
+    // Final "er" & "ez" is pronounced "é"
+    [/e[rz]$/, 'é'],
 
     // Final "e" is not pronounced
     [/es?$/]
+  ],
+
+  //-- É
+  //----------------------------------------------------------------------------
+  é: [
+
+    // Final "ée" is pronounced "é"
+    [/ée$/, 'é']
   ],
 
   //-- È
@@ -158,6 +175,14 @@ export const POETIC_RULES = compileRules({
     ['ll', 'l', /.{2,}/]
   ],
 
+  //-- N
+  //----------------------------------------------------------------------------
+  n: [
+
+    // "nn" is squeezed
+    ['nn', 'n']
+  ],
+
   //-- O
   //----------------------------------------------------------------------------
   o: [
@@ -176,6 +201,9 @@ export const POETIC_RULES = compileRules({
 
     // "om" before "b" or "p" is pronounced *õ*
     [/om(?=[bp])/, 'õ'],
+
+    // "oy" is pronounced *waj* before a and if the wor
+    [/oy(?=[a])/, 'waj', /.+/],
 
     // "ou" is generally pronounced *u*
     ['oux?', 'u']
