@@ -7,11 +7,13 @@ import {poetic} from '../../src/french';
 export default {
   fn: poetic,
   cases: [
-    ['abeille', 'abej'],
+    ['abeille', 'abɛj'],
     ['âme', 'am'],
     ['ambiance', 'ãbjãs'],
     ['amphétamine', 'ãfétamin'],
     ['an', 'ã'],
+    ['aux', 'o'],
+    ['auxilliaire', 'oksiljɛr'],
     ['ayant', 'ɛjã'],
     ['ayatollah', 'ajatola'],
     ['ayez', 'ɛjé'],
@@ -21,6 +23,7 @@ export default {
     ['bonbon', 'bõbõ'],
 
     ['cartes', 'kart'],
+    ['cases', 'kaz'],
     ['chateau', 'ʃato'],
     ['chateaux', 'ʃato'],
     ['chemin', 'ʃemin'],
@@ -41,8 +44,10 @@ export default {
     ['essaim', 'esẽ'],
     ['euphorie', 'øfori'],
     ['eux', 'ø'],
+    ['exception', 'eksepsjõ'],
 
     ['faon', 'fã'],
+    ['finaux', 'fino'],
 
     ['genoux', 'ʒenu'],
     ['gérard', 'ʒérar'],
@@ -71,7 +76,7 @@ export default {
 
     ['oiseau', 'wazo'],
     ['ombres', 'õbr'],
-    ['oreille', 'orej'],
+    ['oreille', 'orɛj'],
     ['oyez', 'ojé'],
 
     ['pain', 'pẽ'],
@@ -93,10 +98,13 @@ export default {
     ['shawarma', 'ʃawarma'],
 
     ['thérapie', 'térapi'],
+    ['tiare', 'tjar'],
     ['toutou', 'tutu'],
     ['tronc', 'trõ'],
 
     ['vos', 'vo'],
+
+    ['xylophone', 'gzilofon'],
 
     ['yanick', 'janik']
   ]

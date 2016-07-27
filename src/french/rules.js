@@ -48,6 +48,9 @@ export const POETIC_RULES = compileRules({
     // "ay" before some posterior vowels is pronounced *ɛj*
     [/ay(?=[ao]n|e)/, 'ɛj'],
 
+    // Final "aux" is pronounced *o*
+    [/aux$/, 'o'],
+
     // "au" is generally pronounced *o*
     ['au', 'o']
   ],
@@ -82,8 +85,8 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   e: [
 
-    // "eill" is pronounced *ej*
-    ['eill', 'ej'],
+    // "eill" is pronounced *ɛj*
+    ['eill', 'ɛj'],
 
     // Final "ein" is pronounced *ẽ*
     [/ein$/, 'ẽ'],
@@ -277,6 +280,23 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   u: [
     [null, 'y']
+  ],
+
+  //-- X
+  //----------------------------------------------------------------------------
+  x: [
+
+    // "xc" simplifies to *ks*
+    ['xc', 'ks'],
+
+    // Before a "i", "x" is pronounced *ks*
+    ['x(?=i)', 'ks'],
+
+    // Before another vowel, "x" is pronounced *gz*
+    [`x(?=[${VOWELS}])`, 'gz'],
+
+    // Else it is pronounced *ks*
+    [null, 'ks']
   ],
 
   //-- Y
