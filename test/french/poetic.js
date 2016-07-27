@@ -47,6 +47,7 @@ export default {
     ['exception', 'eksepsjõ'],
 
     ['faon', 'fã'],
+    ['fête', 'fɛt'],
     ['finaux', 'fino'],
 
     ['genoux', 'ʒenu'],
@@ -77,6 +78,7 @@ export default {
     ['oiseau', 'wazo'],
     ['ombres', 'õbr'],
     ['oreille', 'orɛj'],
+    ['ôter', 'oté'],
     ['oyez', 'ojé'],
 
     ['pain', 'pẽ'],
