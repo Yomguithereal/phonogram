@@ -8,6 +8,11 @@
 // mille, ville, tranquille, villa
 // outil, fusil, fils
 // mes, tes, ses
-// nos, vos, os
-
-// euphorie
+// os
+// gnou
+// plomb
+// manger
+// baignoire
+// gnon
+// gnognotte
+// gnose

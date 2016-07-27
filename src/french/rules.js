@@ -31,7 +31,10 @@ export const POETIC_RULES = compileRules({
     [`an(?=[^${VOWELS}n]|$)`, 'ã'],
 
     // "am" before "b" or "p" is pronounced *ã*
-    [/am(?=[bp])/, 'ã']
+    [/am(?=[bp])/, 'ã'],
+
+    // "ai" is generally pronounced *ɛ*
+    ['ai', 'ɛ']
   ],
 
   //-- Â
@@ -88,6 +91,12 @@ export const POETIC_RULES = compileRules({
   //-- G
   //----------------------------------------------------------------------------
   g: [
+
+    // "gnoi" is pronounced *nwa*
+    [/gnoi/, 'nwa'],
+
+    // "gn" is pronounced *nj*
+    [/gn/, 'nj'],
 
     // "g" before "e", "i" or "y" is pronounced *ʒ*
     [`g(?=[${E + I + Y}])`, 'ʒ']
@@ -149,6 +158,14 @@ export const POETIC_RULES = compileRules({
     ['ou', 'u']
   ],
 
+  //-- P
+  //----------------------------------------------------------------------------
+  p: [
+
+    // "ph" is pronounced *f*
+    ['ph', 'f']
+  ],
+
   //-- Q
   //----------------------------------------------------------------------------
   q: [
@@ -185,6 +202,9 @@ export const POETIC_RULES = compileRules({
   //-- T
   //----------------------------------------------------------------------------
   t: [
+
+    // "tt" is squeezed
+    ['tt', 't'],
 
     // "th" is pronounced *t*
     ['th', 't'],
