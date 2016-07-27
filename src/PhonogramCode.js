@@ -1,3 +1,4 @@
+/* eslint no-cond-assign: 0 */
 /**
  * Phonogram Code Abstract
  * ========================

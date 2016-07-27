@@ -119,7 +119,7 @@ export default {
 
     ['xylophone', 'gzilofon'],
 
-    ['yanick', 'janik'],
+    ['yannick', 'janik'],
     ['yeux', 'jø']
   ]
 };
