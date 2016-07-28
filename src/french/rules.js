@@ -5,8 +5,11 @@
  * Collecting the various rules used to produce a phonetic representation
  * of French words.
  */
-import {compileRules, INITIAL} from '../helpers';
+import {compileRules} from '../helpers';
 
+/**
+ * Vowel definitions.
+ */
 export const A = 'aàâ';
 export const E = 'eéèë';
 export const I = 'iï';
@@ -15,6 +18,9 @@ export const U = 'uü';
 export const Y = 'y';
 export const VOWELS = A + E + I + O + U + Y;
 
+/**
+ * Most precise ruleset.
+ */
 export const POETIC_RULES = compileRules({
 
   //-- A

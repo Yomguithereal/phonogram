@@ -4,6 +4,7 @@
   "description": "Collection of phonetic algorithms targeting a variety of European languages.",
   "main": "index.js",
   "scripts": {
+    "check": "npm test && npm run lint",
     "lint": "eslint src test",
     "test": "mocha --compilers js:babel-core/register -R spec ./test/endpoint.js"
   },

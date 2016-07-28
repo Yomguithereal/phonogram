@@ -29,3 +29,8 @@ describe('abstract', function() {
 describe('french', function() {
   test('poetic', './french/poetic.js');
 });
+
+describe('spanish', function() {
+  return;
+  test('poetic', './spanish/poetic.js');
+});
