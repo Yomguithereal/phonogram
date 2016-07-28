@@ -4,9 +4,11 @@
  *
  * The phonogram phonetic encoding algorithm for the Spanish language.
  */
-import {POETIC_RULES} from './rules';
+import {O, POETIC_RULES} from './rules';
 import {isJotaX, isNahuatl} from './heuristics';
 import {createPoetic} from '../factories';
+
+const O_SET = new Set(O);
 
 const hasher = (index, letter, word) => {
   if (letter !== 'x')
@@ -17,7 +19,7 @@ const hasher = (index, letter, word) => {
 
   const nextLetter = word[index + 1];
 
-  if (nextLetter === 'o' && isNahuatl(word))
+  if (O_SET.has(nextLetter) && isNahuatl(word))
     return 'nahuatlX';
 
   return 'x';

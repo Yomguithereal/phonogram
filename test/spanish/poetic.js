@@ -41,6 +41,7 @@ export default {
     ['hijo', 'ixo'],
     ['huaca', 'waka'],
     ['huari', 'wari'],
+    ['Huehuecóyotl', 'wewekojotel'],
     ['Huitzilopochtli', 'witsilopoʃtli'],
 
     ['Jorje', 'xorxe'],
@@ -74,6 +75,8 @@ export default {
     ['totomochtle', 'totomoʃtle'],
     ['trashojar', 'trashoxar'],
 
+    ['Ueuecoyotl', 'wewekojotel'],
+
     ['vergüenza', 'vergwensa'],
 
     ['waka', 'waka'],
@@ -83,6 +86,7 @@ export default {
     ['xilophono', 'silofono'],
     ['xolo', 'ʃolo'],
     ['xoloitzcuintli', 'ʃoloitskwintli'],
+    ['Xólotl', 'ʃolotel'],
 
     ['zanahoria', 'sanaorja']
   ]
