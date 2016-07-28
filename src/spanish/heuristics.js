@@ -5,43 +5,44 @@
  * Heuristics related to the linguistic origin of some Spanish words.
  */
 
-const SPECIAL_X = new Set([
-  'mexico',
-  'oaxaca',
-  'texas',
-  'xalapa',
-  'xalapeno',
+/**
+ * Function returning whether the given word's "x" letter should be pronounced
+ * like the Spanish jota (*x*).
+ *
+ * @param  {string}  word - The target word.
+ * @return {boolean}
+ */
+const JOTA_X_WORDS = new Set([
   'xavier'
 ]);
 
-export function hasSpecialX(word) {
+const MEXICO_REGEX = /^mexi(?:co|quen)/,
+      OAXACA_REGEX = /^oaxa(?:ca|quen)/,
+      TEXAS_REGEX = /^te(?:xas|quen[oa])/,
+      XALAPA_REGEX = /^xalap(?:a$|en)/;
+
+export function isJotaX(word) {
   const fingerprint = word
-    .toLowerCase()
     .replace(/ñ/g, 'n');
 
-  return SPECIAL_X.has(fingerprint);
+  return (
+    JOTA_X_WORDS.has(fingerprint) ||
+    MEXICO_REGEX.test(fingerprint) ||
+    OAXACA_REGEX.test(fingerprint) ||
+    TEXAS_REGEX.test(fingerprint) ||
+    XALAPA_REGEX.test(fingerprint)
+  );
 }
 
-// chil & oyote check + cht (chtonien?)
-const NAHUATL = /(?:t[lz]|oa|oyote|chil)/;
+/**
+ * Function returning whether the given word looks like a Nahuatl loan word.
+ * Note that it will never handle words without an "x".
+ *
+ * @param  {string}  word - The target word.
+ * @return {boolean}
+ */
+const NAHUATL_REGEX = /(?:^xolo$|^xochi|^oa|oyote|chimil|chil$|t[lz])/;
 
 export function isNahuatl(word) {
-
+  return NAHUATL_REGEX.test(word);
 }
-
-export function isCatalan(word) {
-
-}
-
-// initial x & not nahuatl is pronounced *s* before "i" & "e", else ks "examen"
-
-// x nahuatl only if before vowel, nixtamal
-// tz -> ts, tenochtitlan -> sh
-// quetzalcoatl -> ketsalkoatel
-// tlaxcala -> tlaskala (quand x devant ca -> *s*)
-// quinientos
-// ceviche
-// ancash
-// shawarma
-// ancashino
-// deshacer

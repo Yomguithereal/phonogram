@@ -5,7 +5,7 @@
  * Collecting the various rules used to produce a phonetic representation
  * of Spanish words.
  */
-import {compileRules, INITIAL} from '../helpers';
+import {compileRules, INITIAL, NEGATIVE} from '../helpers';
 
 /**
  * Vowel definitions.
@@ -30,6 +30,9 @@ export const POETIC_RULES = compileRules({
   //-- (c)
   //----------------------------------------------------------------------------
   c: [
+
+    // "ch" before a "t" is pronounced *ʃ*
+    [/ch(?=t)/, 'ʃ'],
 
     // "ch" is generally pronounced *tʃ*
     ['ch', 'tʃ'],
@@ -105,13 +108,13 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   o: [
 
-    // "oa" is pronounced *wa*
-    ['oa', 'wa']
+    // Initial "oa" is pronounced *wa*
+    ['oa', 'wa', INITIAL]
   ],
 
   //-- (ó)
   //----------------------------------------------------------------------------
-  ó: 'ó',
+  ó: 'o',
 
   //-- (p)
   //----------------------------------------------------------------------------
@@ -137,7 +140,7 @@ export const POETIC_RULES = compileRules({
   s: [
 
     // "sh" is generally pronounced *ʃ*
-    ['sh', 'ʃ', /^(?!tras|des)$/]
+    ['sh', 'ʃ', /^(?:tra|de)$/, NEGATIVE]
   ],
 
   //-- (t)
@@ -167,6 +170,25 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   ú: 'u',
 
+  //-- (x)
+  //----------------------------------------------------------------------------
+  x: [
+
+    // Before "ca", "x" is pronounced *s* if not before an initial "ex"
+    [/x(?=ca)/, 's', /^e$/, NEGATIVE],
+
+    // Before a "e" or a "i", initial "x" is pronounced *s*
+    [`x(?=[${E + I}])`, 's', INITIAL],
+
+    // "x" is generally pronounced *ks*
+    [null, 'ks']
+  ],
+
+  jotaX: 'x',
+
+  // Note: it seems that in some cases it might even be pronounced *s*.
+  nahuatlX: 'ʃ',
+
   //-- (y)
   //----------------------------------------------------------------------------
   y: 'j',
@@ -176,8 +198,5 @@ export const POETIC_RULES = compileRules({
   z: 's'
 });
 
-// cuy
-// use a hasher to solve specific things about the letter (specifically x)
-
-// b -> v for standard, not poetic?
+// b -> v for standard, not poetic? ceviche
 // drop h for standard

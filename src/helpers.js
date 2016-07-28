@@ -20,8 +20,10 @@ export function compileRules(rules) {
 
     compiled[k] = [];
 
-    if (typeof letter !== 'object')
+    if (typeof letter !== 'object') {
       compiled[k] = [[null, letter]];
+      continue;
+    }
 
     for (let i = 0, l = letter.length; i < l; i++) {
       const rule = letter[i];
@@ -36,7 +38,12 @@ export function compileRules(rules) {
       if (rule[2])
         lookbehind = rule[2].source ? rule[2] : new RegExp(rule[2]);
 
-      compiled[k].push([pattern || null, rule[1], lookbehind]);
+      compiled[k].push([
+        pattern || null,
+        rule[1] || '',
+        lookbehind || null,
+        rule[3] || false
+      ]);
     }
   }
 
@@ -48,3 +55,8 @@ export function compileRules(rules) {
  * is initial or not.
  */
 export const INITIAL = /^$/;
+
+/**
+ * Boolean flag used for readability purposes.
+ */
+export const NEGATIVE = true;

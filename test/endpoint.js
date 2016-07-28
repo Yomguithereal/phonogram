@@ -31,5 +31,6 @@ describe('french', function() {
 });
 
 describe('spanish', function() {
-  // test('poetic', './spanish/poetic.js');
+  require('./spanish/heuristics.js');
+  test('poetic', './spanish/poetic.js');
 });

@@ -33,14 +33,22 @@ export function createPoeticCode(options) {
 
       // Looping on each letter
       for (let i = 0, l = normalizedWord.length; i < l; i++) {
-        const letter = normalizedWord[i],
-              rules = RULES[letter];
+        const letter = normalizedWord[i];
 
-        if (!rules)
+        // Hashing if necessary
+        const key = hasher ? hasher(i, letter, normalizedWord) : letter,
+              patterns = RULES[key];
+
+        if (!patterns)
           continue;
 
-        for (let j = 0, m = rules.length; j < m; j++) {
-          const [pattern, replacement, lookbehind] = rules[j];
+        for (let j = 0, m = patterns.length; j < m; j++) {
+          const [
+            pattern,
+            replacement,
+            lookbehind,
+            negative = false
+          ] = patterns[j];
 
           // If pattern is "null", we just need to apply the replacement
           if (!pattern) {
@@ -50,8 +58,16 @@ export function createPoeticCode(options) {
 
           // Handling potential lookbehind
           if (lookbehind) {
-            if (!lookbehind.test(normalizedWord.slice(0, i)))
-              continue;
+            const test = lookbehind.test(normalizedWord.slice(0, i));
+
+            if (negative) {
+              if (test)
+                continue;
+            }
+            else {
+              if (!test)
+                continue;
+            }
           }
 
           // Applying substitution

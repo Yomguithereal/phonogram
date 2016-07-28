@@ -1,6 +1,6 @@
 /**
- * Phonogram French Poetic Unit Tests
- * ===================================
+ * Phonogram Spanish Poetic Unit Tests
+ * ====================================
  */
 import {poetic} from '../../src/spanish';
 
@@ -8,19 +8,30 @@ export default {
   fn: poetic,
   cases: [
     ['alla', 'aja'],
+    ['Áncash', 'ankaʃ'],
+    ['ancashino', 'ankaʃino'],
     ['Andahuaylillas', 'andawajlijas'],
     ['arroyo', 'arrojo'],
     ['arümbaya', 'arumbaja'],
+    ['áxcale', 'askale'],
+
+    ['brechtiano', 'breʃtjano'],
 
     ['capacñan', 'kapaknjan'],
+    ['ceviche', 'sevitʃe'],
     ['cero', 'sero'],
     ['chachapoyas', 'tʃatʃapojas'],
     ['churros', 'tʃurros'],
-    ['coatlicue', 'kwatlikwe'],
+    ['coatlicue', 'koatlikwe'],
+    ['cuexca', 'kweska'],
+    ['cuidado', 'kwidado'],
     ['cuy', 'kuj'],
 
     ['deshacer', 'deshaser'],
     ['deshojador', 'deshoxador'],
+
+    ['examen', 'eksamen'],
+    ['excavación', 'ekskavasjon'],
 
     ['gato', 'gato'],
     ['Guadalajara', 'gwadalaxara'],
@@ -40,13 +51,16 @@ export default {
     ['mueca', 'mweka'],
     ['muñeca', 'munjeka'],
 
+    ['nixtamal', 'nikstamal'],
+
     ['Oaxaca', 'waxaka'],
 
-    ['psicologico', 'sikoloxico'],
+    ['psicologico', 'sikoloxiko'],
     ['pucllana', 'pukjana'],
 
     ['qhapaqñan', 'kapaknjan'],
     ['Quetzalcoatl', 'ketsalkoatel'],
+    ['quinientos', 'kinjentos'],
     ['Quito', 'kito'],
 
     ['rey', 'rej'],
@@ -56,6 +70,8 @@ export default {
     ['sushi', 'suʃi'],
 
     ['Tenochtitlan', 'tenoʃtitlan'],
+    ['Tlaxcala', 'tlaskala'],
+    ['totomochtle', 'totomoʃtle'],
     ['trashojar', 'trashoxar'],
 
     ['vergüenza', 'vergwensa'],
@@ -65,6 +81,8 @@ export default {
 
     ['xilofono', 'silofono'],
     ['xilophono', 'silofono'],
+    ['xolo', 'ʃolo'],
+    ['xoloitzcuintli', 'ʃoloitskwintli'],
 
     ['zanahoria', 'sanaorja']
   ]
