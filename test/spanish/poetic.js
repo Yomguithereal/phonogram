@@ -9,7 +9,7 @@ export default {
   cases: [
     ['alla', 'aja'],
     ['Andahuaylillas', 'andawajlijas'],
-    ['arroyo', 'arroyo'],
+    ['arroyo', 'arrojo'],
     ['arümbaya', 'arumbaja'],
 
     ['capacñan', 'kapaknjan'],
@@ -17,11 +17,14 @@ export default {
     ['chachapoyas', 'tʃatʃapojas'],
     ['churros', 'tʃurros'],
     ['coatlicue', 'kwatlikwe'],
+    ['cuy', 'kuj'],
 
-    ['deshacer', 'desaser'],
+    ['deshacer', 'deshaser'],
+    ['deshojador', 'deshoxador'],
 
     ['gato', 'gato'],
     ['Guadalajara', 'gwadalaxara'],
+    ['guerrero', 'gerrero'],
     ['Guillermo', 'gijermo'],
 
     ['hijo', 'ixo'],
@@ -43,13 +46,17 @@ export default {
     ['pucllana', 'pukjana'],
 
     ['qhapaqñan', 'kapaknjan'],
+    ['Quetzalcoatl', 'ketsalkoatel'],
     ['Quito', 'kito'],
 
     ['rey', 'rej'],
 
+    ['sherpa', 'ʃerpa'],
     ['sobrevivencia', 'sobrevivensja'],
+    ['sushi', 'suʃi'],
 
     ['Tenochtitlan', 'tenoʃtitlan'],
+    ['trashojar', 'trashoxar'],
 
     ['vergüenza', 'vergwensa'],
 

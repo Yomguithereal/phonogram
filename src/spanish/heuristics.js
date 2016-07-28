@@ -10,7 +10,7 @@ const SPECIAL_X = new Set([
   'oaxaca',
   'texas',
   'xalapa',
-  'xalapeño',
+  'xalapeno',
   'xavier'
 ]);
 
@@ -22,6 +22,7 @@ export function hasSpecialX(word) {
   return SPECIAL_X.has(fingerprint);
 }
 
+// chil & oyote check + cht (chtonien?)
 const NAHUATL = /(?:t[lz]|oa|oyote|chil)/;
 
 export function isNahuatl(word) {
@@ -39,3 +40,8 @@ export function isCatalan(word) {
 // quetzalcoatl -> ketsalkoatel
 // tlaxcala -> tlaskala (quand x devant ca -> *s*)
 // quinientos
+// ceviche
+// ancash
+// shawarma
+// ancashino
+// deshacer

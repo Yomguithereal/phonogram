@@ -2,7 +2,7 @@
  * Phonogram Helpers
  * ==================
  *
- * Collecting miscellaneous helper functions & constantd.
+ * Collecting miscellaneous helper functions & constant.
  */
 
 /**
@@ -20,6 +20,9 @@ export function compileRules(rules) {
 
     compiled[k] = [];
 
+    if (typeof letter !== 'object')
+      compiled[k] = [[null, letter]];
+
     for (let i = 0, l = letter.length; i < l; i++) {
       const rule = letter[i];
 
@@ -31,7 +34,7 @@ export function compileRules(rules) {
       let lookbehind;
 
       if (rule[2])
-        lookbehind = new RegExp(rule[2].source || rule[2]);
+        lookbehind = rule[2].source ? rule[2] : new RegExp(rule[2]);
 
       compiled[k].push([pattern || null, rule[1], lookbehind]);
     }
