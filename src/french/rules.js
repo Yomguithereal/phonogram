@@ -351,8 +351,8 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   v: [
 
-    // Handling some exceptions related to "villa-"
-    [/vill(?=a(?:$|in))/, 'vill']
+    // Handling some exceptions related to "villain-"
+    [/vill(?=ain)/, 'vil']
   ],
 
   //-- (x)

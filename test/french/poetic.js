@@ -21,7 +21,7 @@ export default {
     ['ayez', 'ɛjé'],
 
     ['baignoire', 'bɛnwar'],
-    ['beauvillaine', 'bovillɛn'],
+    ['beauvillaine', 'bovilɛn'],
     ['bibelot', 'bibelo'],
     ['blanc', 'blã'],
     ['bœuf', 'bøf'],
@@ -149,7 +149,7 @@ export default {
     ['vair', 'vɛr'],
     ['verre', 'vɛr'],
     ['villa', 'villa'],
-    ['villain', 'villẽ'],
+    ['villain', 'vilẽ'],
     ['vos', 'vo'],
 
     ['xylophone', 'gzilofon'],

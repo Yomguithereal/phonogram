@@ -4,6 +4,10 @@
  *
  * Gathering every found word that could not be solved by generic rules alone.
  */
+export default {
+  villa: [['v', 'v'], ['i', 'i'], ['l', 'l'], ['l', 'l'], ['a', 'a']]
+};
+
 
 // bruxelles, auxerres
 // mille, ville, tranquille, villa
