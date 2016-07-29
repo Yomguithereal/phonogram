@@ -69,6 +69,9 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   c: [
 
+    // Words finishing by "clef" pronounce it "klé"
+    [/clef$/, 'klé'],
+
     // "cae" is pronounced *sé*
     ['c(?:æ|ae)', 'sé'],
 
@@ -91,6 +94,17 @@ export const POETIC_RULES = compileRules({
   //-- (e)
   //----------------------------------------------------------------------------
   e: [
+
+    // Final "erf" after "c", "n" or "s" is pronounced *ɛr*
+    [/erf$/, 'ɛr', /[cns]$/],
+
+    // "err" is prononounced *ɛrr*
+    [/erre$/, 'ɛr'],
+    ['err', 'ɛrr'],
+
+    // "enn" is pronounced *ɛnn*
+    [/enne$/, 'ɛn'],
+    ['enn', 'ɛnn'],
 
     // "eill" is pronounced *ɛj*
     ['eill', 'ɛj'],
@@ -228,8 +242,8 @@ export const POETIC_RULES = compileRules({
     // "oe" is generally pronounced *ø*
     [/oeu?/, 'ø'],
 
-    // Final "ot" is pronounced *o*
-    [/ot$/, 'o']
+    // Final "ot" is pronounced *o*, also before a "c" but not "ch"
+    [/ot(?:$|(?=c(?!h)))/, 'o']
   ],
 
   //-- (ô)
