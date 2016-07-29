@@ -21,6 +21,7 @@ export default {
     ['ayez', 'ɛjé'],
 
     ['baignoire', 'bɛnwar'],
+    ['beauvillaine', 'bovillɛn'],
     ['bibelot', 'bibelo'],
     ['blanc', 'blã'],
     ['bœuf', 'bøf'],
@@ -49,6 +50,7 @@ export default {
     ['coucou', 'kuku'],
 
     ['daim', 'dẽ'],
+    ['darmstadt', 'darmstat'],
     ['démocratie', 'démokrasi'],
     ['dessein', 'desẽ'],
     ['deuil', 'døj'],
@@ -58,6 +60,7 @@ export default {
     ['essaim', 'esẽ'],
     ['euphorie', 'øfori'],
     ['eux', 'ø'],
+    ['excalibur', 'ekskalibyr'],
     ['exception', 'eksepsjõ'],
 
     ['faon', 'fã'],
@@ -105,6 +108,7 @@ export default {
     ['oreille', 'orɛj'],
     ['ornithorynque', 'ornitorẽk'],
     ['ôter', 'oté'],
+    ['où', 'u'],
     ['oyez', 'ojé'],
 
     ['pain', 'pẽ'],
@@ -129,6 +133,7 @@ export default {
     ['savon', 'savõ'],
     ['sashimi', 'saʃimi'],
     ['scenario', 'senarjo'],
+    ['scotcher', 'skotʃé'],
     ['serf', 'sɛr'],
     ['shawarma', 'ʃawarma'],
     ['synthèse', 'sẽtɛz'],
@@ -143,6 +148,8 @@ export default {
     ['vademecum', 'vademekʌm'],
     ['vair', 'vɛr'],
     ['verre', 'vɛr'],
+    ['villa', 'villa'],
+    ['villain', 'villẽ'],
     ['vos', 'vo'],
 
     ['xylophone', 'gzilofon'],

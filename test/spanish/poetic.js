@@ -65,9 +65,12 @@ export default {
     ['Quito', 'kito'],
 
     ['rey', 'rej'],
+    ['río', 'rijo'],
 
     ['sherpa', 'ʃerpa'],
     ['sobrevivencia', 'sobrevivensja'],
+    ['sonreír', 'sonreir'],
+    ['sonría', 'sonrija'],
     ['sushi', 'suʃi'],
 
     ['Tenochtitlan', 'tenoʃtitlan'],

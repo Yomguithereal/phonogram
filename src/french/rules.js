@@ -13,7 +13,7 @@ import {compileRules} from '../helpers';
 export const A = 'aàâ';
 export const E = 'eéèë';
 export const I = 'iï';
-export const O = 'oôü';
+export const O = 'oôùü';
 export const U = 'uü';
 export const Y = 'y';
 export const VOWELS = A + E + I + O + U + Y;
@@ -28,7 +28,7 @@ export const POETIC_RULES = compileRules({
   a: [
 
     // "aing" & "ain" are pronounced *ẽ*
-    [/aing?/, 'ẽ'],
+    [/aing?$/, 'ẽ'],
 
     // Final "aim" is pronounced *ẽ*
     [/aim$/, 'ẽ'],
@@ -89,6 +89,14 @@ export const POETIC_RULES = compileRules({
 
     // "c" before anything else is pronounced *k*
     [null, 'k']
+  ],
+
+  //-- (d)
+  //----------------------------------------------------------------------------
+  d: [
+
+    // Final "dt" is pronounced *t*
+    [/dt$/, 't']
   ],
 
   //-- (e)
@@ -237,7 +245,7 @@ export const POETIC_RULES = compileRules({
     [/oy(?=[a])/, 'waj', /.+/],
 
     // "ou" is generally pronounced *u*
-    ['oux?', 'u'],
+    [/o[uù]x?/, 'u'],
 
     // "oe" is generally pronounced *ø*
     [/oeu?/, 'ø'],
@@ -295,8 +303,8 @@ export const POETIC_RULES = compileRules({
     // "ss" is squeezed
     ['ss', 's'],
 
-    // "sc" is pronounced *s*
-    ['sc', 's'],
+    // "sc" is pronounced *s* before "e", "i" or "y"
+    [`sc(?=[${E + I + Y}])`, 's'],
 
     // "sh" is pronounced *ʃ*
     ['sh', 'ʃ'],
@@ -311,6 +319,9 @@ export const POETIC_RULES = compileRules({
   //-- (t)
   //----------------------------------------------------------------------------
   t: [
+
+    // "tch" is pronounced *tʃ*
+    ['tch', 'tʃ'],
 
     // "tt" is squeezed
     ['tt', 't'],
@@ -336,12 +347,20 @@ export const POETIC_RULES = compileRules({
     [null, 'y']
   ],
 
+  //-- (v)
+  //----------------------------------------------------------------------------
+  v: [
+
+    // Handling some exceptions related to "villa-"
+    [/vill(?=a(?:$|in))/, 'vill']
+  ],
+
   //-- (x)
   //----------------------------------------------------------------------------
   x: [
 
-    // "xc" simplifies to *ks*
-    ['xc', 'ks'],
+    // "xc" simplifies to *ks* before "e", "i" & "y"
+    [`xc(?=[${E + I + Y}])`, 'ks'],
 
     // Before a "i", "x" is pronounced *ks*
     ['x(?=i)', 'ks'],

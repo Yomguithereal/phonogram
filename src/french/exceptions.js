@@ -18,7 +18,4 @@
 // croc
 // rhésus us$, us & coutumes
 
-// dt
-// excalibur
-// ù, ü
-// clef
+// ü û
