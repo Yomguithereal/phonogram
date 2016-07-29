@@ -7,13 +7,13 @@ export default {
     'a',
     'e', 'é', 'ɛ', 'ø',
     'i',
-    'o',
+    'o', 'ɔ',
     'u', 'ʌ', 'y',
     'ã', 'ẽ', 'õ'
   ],
   semiVowels: [
     'j',
-    'w',
+    'w', 'ɥ',
     'h'
   ],
   consonants: [

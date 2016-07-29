@@ -103,6 +103,12 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   e: [
 
+    // Final "emment" is pronounced *amã*
+    [/emment$/, 'amã'],
+
+    // Final "ement" is pronounced *øment*
+    [/ement$/, 'ømã'],
+
     // Final "erf" after "c", "n" or "s" is pronounced *ɛr*
     [/erf$/, 'ɛr', /[cns]$/],
 
@@ -140,6 +146,9 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   é: [
 
+    // Final "ément" is pronounced "émã"
+    [/ément$/, 'émã'],
+
     // Final "ée" is pronounced "é"
     [/ée$/, 'é']
   ],
@@ -158,6 +167,9 @@ export const POETIC_RULES = compileRules({
 
     // "gnoi" is pronounced *nwa*
     ['gnoi', 'nwa'],
+
+    // "gn" before "ou" or "os" is pronounced *gn*
+    [/gn(?=(?:ou$|os))/, 'gn'],
 
     // "gu" is pronounced *g*
     ['gu', 'g'],
@@ -237,6 +249,9 @@ export const POETIC_RULES = compileRules({
 
     // "on" is prononced *õ*
     [`on(?=[^${VOWELS}n]|$)`, 'õ'],
+
+    // Final "omb" is pronounced *õ*
+    [/omb$/, 'õ'],
 
     // "om" before "b" or "p" is pronounced *õ*
     [/om(?=[bp])/, 'õ'],

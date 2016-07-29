@@ -15,11 +15,14 @@ export default {
 // mes, tes, ses, est, plus
 // os
 // gnou
-// plomb
 // gnose
 // diazote
 // tabac
 // croc
 // rhésus us$, us & coutumes
 
+// couvent, plus, est, +ment$
+
 // ü û
+// accent boniment mentent mangent, filament, proclament
+// dévient devient

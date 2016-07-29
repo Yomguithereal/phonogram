@@ -8,10 +8,14 @@ export default {
   fn: poetic,
   cases: [
     ['abeille', 'abɛj'],
+    // ['accent', 'aksã'],
+    // ['accentuation', 'aksãtyasjõ'],
     ['âme', 'am'],
     ['ambiance', 'ãbjãs'],
     ['amphétamine', 'ãfétamin'],
     ['an', 'ã'],
+    ['antagoniste', 'ãtagonist'],
+    ['aplomb', 'aplõ'],
     ['arabesque', 'arabesk'],
     ['arhe', 'ar'],
     ['aux', 'o'],
@@ -26,9 +30,11 @@ export default {
     ['blanc', 'blã'],
     ['bœuf', 'bøf'],
     ['bonbon', 'bõbõ'],
+    // ['boniment', 'bonimã'],
 
     ['caecum', 'sékʌm'],
     ['cæcal', 'sékal'],
+    ['calmement', 'kalmømã'],
     ['cartes', 'kart'],
     ['cases', 'kaz'],
     ['cerf', 'sɛr'],
@@ -71,6 +77,8 @@ export default {
     ['gérard', 'ʒérar'],
     ['gnognotte', 'njonjot'],
     ['gnon', 'njõ'],
+    ['gnosticisme', 'gnostisism'],
+    ['gnou', 'gnu'],
     ['guillaume', 'gijom'],
 
     ['hasard', 'azar'],
@@ -117,11 +125,14 @@ export default {
     ['parterre', 'partɛr'],
     ['pharisien', 'farizjẽ'],
     ['pharynx', 'farẽks'],
+    ['plomb', 'plõ'],
     ['plombes', 'plõb'],
     ['poing', 'pwẽ'],
     ['point', 'pwẽ'],
     ['poix', 'pwa'],
+    ['posément', 'pozémã'],
     ['poux', 'pu'],
+    // ['puissamment', 'pwi']
 
     ['quidam', 'kidam'],
 
@@ -130,9 +141,11 @@ export default {
     ['renne', 'rɛn'],
     ['rhume', 'rym'],
 
+    ['sagement', 'saʒømã'],
     ['savon', 'savõ'],
     ['sashimi', 'saʃimi'],
     ['scenario', 'senarjo'],
+    ['sciemment', 'sjamã'],
     ['scotcher', 'skotʃé'],
     ['serf', 'sɛr'],
     ['shawarma', 'ʃawarma'],
