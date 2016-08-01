@@ -53,6 +53,9 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   a: [
 
+    // "alcool" is pronounced *alkɔl*
+    [/alcool/, 'alkɔl'],
+
     // Final "amment" is prononced *ã*
     [/amment$/, 'amã'],
 
@@ -366,7 +369,7 @@ export const POETIC_RULES = compileRules({
     [/o[uùû]x?/, 'u'],
 
     // "oo" is generally pronounced *u*
-    [/oo/, 'u', /(?:[^z]|^)$/],
+    [/oo/, 'u'],
 
     // "oe" is generally pronounced *ø*
     [/oeu?/, 'ø'],
@@ -377,8 +380,11 @@ export const POETIC_RULES = compileRules({
     // Final "op" is pronounced *o* is some rare cases
     [/ops?$/, 'o', /(?:sal|syr|gal|tr)$/],
 
-    // "o" is pronounced *ɔ* before a *k* sound
-    [/o?(?=(?:que|t?te|l?le)(?![rz])|ck|[ckp]$)/, 'ɔ']
+    // "o" before a "l" with no subsequent vowel is pronounced *ɔ*
+    [/o(?=l)/, 'ɔ'],
+
+    // "o" is pronounced *ɔ* before a *k* or *t* sound
+    [/o?(?=(?:que|t?te)(?![rz])|ck|[ckp]$)/, 'ɔ']
   ],
 
   //-- (ô)
@@ -561,6 +567,9 @@ export const POETIC_RULES = compileRules({
   z: [
 
     // "zz" is pronounced *dz*
-    ['zz', 'dz']
+    ['zz', 'dz'],
+
+    // Initial "zoo" is pronounced "zoo"
+    ['zoo', 'zoo', INITIAL]
   ]
 });
