@@ -4,3 +4,13 @@ build
 *.log
 .DS_Store
 TODO.md
+
+# Transpiled files
+index.js
+factories.js
+helpers.js
+PhonogramCode.js
+
+# Transpiled directories
+french
+spanish
