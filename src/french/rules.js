@@ -12,7 +12,7 @@ import {compileRules, INITIAL, NEGATIVE} from '../helpers';
  */
 export const A = 'aàâ';
 export const E = 'eéèë';
-export const I = 'iï';
+export const I = 'iïî';
 export const O = 'oôùü';
 export const U = 'uü';
 export const Y = 'y';
@@ -205,16 +205,13 @@ export const POETIC_RULES = compileRules({
     // Final "e" is not pronounced
     [/es?$/],
 
-    // "e" as second letter between two consonants is pronounced *ø*
-    // NOTE: this feels clunky & could probably merged with the last rule
-    [/e(?!(\w)\1|$)/, 'ø', /^(?:ch|[fr])$/],
-
     // "e" before some letters is pronounced *ɛ* if no vowel comes after
     [`e(?=[clmnrz](?![${VOWELS}])|s(?![${VOWELS}s]))`, 'ɛ'],
 
     // "e" between some letters is pronounced *ø*
     [/e(?=l)/, 'ø', /p$/],
-    [/e(?=r)/, 'ø', /[csz]$/]
+    [/e(?=r)/, 'ø', /[csz]$/],
+    [/e(?!(\w)\1|$)/, 'ø', /^(?:ch|[fr])$/]
   ],
 
   //-- (é)
@@ -306,6 +303,10 @@ export const POETIC_RULES = compileRules({
   //-- (ï)
   //----------------------------------------------------------------------------
   ï: 'i',
+
+  //-- (î)
+  //----------------------------------------------------------------------------
+  î: 'i',
 
   //-- (j)
   //----------------------------------------------------------------------------

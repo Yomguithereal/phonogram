@@ -58,6 +58,7 @@ export default {
     ['cæcal', 'sekal'],
     ['calmement', 'kalmømã'],
     ['camembert', 'kamãbɛr'],
+    ['Carentan', 'karãtã'],
     ['cartes', 'kart'],
     ['cases', 'kaz'],
     ['cerf', 'sɛr'],
@@ -267,6 +268,7 @@ export default {
     ['qualité', 'kalite'],
     ['quantité', 'kãtite'],
     ['quartz', 'kwarts'],
+    ['que', 'kø'],
     ['quidam', 'kidam'],
     ['quoi', 'kwa'],
 
@@ -337,6 +339,7 @@ export default {
     ['verre', 'vɛr'],
     ['villa', 'villa'],
     ['villain', 'vilẽ'],
+    ['vîmes', 'vim'],
     ['vos', 'vo'],
     ['vraie', 'vrɛ'],
 

@@ -32,6 +32,7 @@ const EXCEPTIONS = {
   munster: 'm(un•ẽ)st(e•ɛ)r',
   münster: 'm(ün•ẽ)st(e•ɛ)r',
   oignon: '(oi•o)(gn•nj)(on•õ)',
+  que: '(qu•k)(e•ø)',
   ses: 's(es•ɛ)',
   tes: 't(es•ɛ)',
   villa: 'villa',

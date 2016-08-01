@@ -32,8 +32,8 @@ Compiling some cases to handle for target languages.
 * Papaye
 * Pommeraye
 * Haye
-* que, queue
-* î vîmes
+* queue, bue, eue, due, moue, noue
+* anus, adjectifs en u, tissu au pluriel
 
 **Multi**
 
