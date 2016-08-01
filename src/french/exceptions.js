@@ -19,6 +19,8 @@ const EXCEPTIONS = {
   gageure: 'ga(g•ʒ)(eu•y)r(e•)',
   les: 'l(es•ɛ)',
   mes: 'm(es•ɛ)',
+  messieurs: 'me(ssieurs•sjø)',
+  monsieur: 'm(on•ø)s(ieur•jø)',
   munster: 'm(un•ẽ)st(e•ɛ)r',
   münster: 'm(ün•ẽ)st(e•ɛ)r',
   ses: 's(es•ɛ)',
@@ -32,6 +34,7 @@ const plurals = [
   'aiguë',
   'femme',
   'gageure',
+  'monsieur',
   'villa',
   'wagon'
 ];
