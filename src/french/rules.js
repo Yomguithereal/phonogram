@@ -24,10 +24,11 @@ export const VOWELS = A + E + I + O + U + Y;
 const PREFIXES = [
   // 'a',
   // NOTE: there, we'll need a heuristics to check some patterns
+  // NOTE: could also use this to figure out the diphtongue cases
   'anti',
   'bio',
   'dé',
-  'dys',
+  'dy',
   'hétéro',
   'homo',
   'hyper',
@@ -116,7 +117,7 @@ export const POETIC_RULES = compileRules({
     ['ck', 'k'],
 
     // "ch" before a consonant is always *k*
-    [`ch(?=[^${VOWELS}])`, 'k'],
+    [`ch(?=[^${VOWELS}n])`, 'k'],
 
     // "ch" is generally pronounced "ʃ"
     ['ch', 'ʃ'],
@@ -366,7 +367,10 @@ export const POETIC_RULES = compileRules({
     [/ot(?:$|(?=c(?!h)))/, 'o'],
 
     // Final "op" is pronounced *o* is some rare cases
-    [/ops?$/, 'o', /(?:sal|syr|gal|tr)$/]
+    [/ops?$/, 'o', /(?:sal|syr|gal|tr)$/],
+
+    // "o" is pronounced *ɔ* before a *k* sound
+    [/o?(?=(?:que|t?te)(?![rz])|ck|[cp]$)/, 'ɔ']
   ],
 
   //-- (ô)
@@ -423,6 +427,9 @@ export const POETIC_RULES = compileRules({
 
     // "susur" is always pronounced *sysyr*
     [/susu(?=r)/, 'sysy'],
+
+    // Like in german, "sch" is pronounced "ʃ"
+    ['sch', 'ʃ'],
 
     // "ss" is squeezed
     ['ss', 's'],

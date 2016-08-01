@@ -43,6 +43,13 @@ Compiling some cases to handle for target languages.
 * Onion/Oignon
 * Mesclun
 * Gazole
+* Van Gogh
+* Election
+* Nuit
+* Annuité
+* ennui
+* toque
+* cloque
 
 **Multi**:
 couvent, plus, est, os, dessein
