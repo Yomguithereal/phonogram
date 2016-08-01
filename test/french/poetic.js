@@ -79,6 +79,7 @@ export default {
     ['contestation', 'kõtɛstasjõ'],
     ['coucou', 'kuku'],
     ['couille', 'kuj'],
+    ['cruel', 'kryɛl'],
     ['cul', 'ky'],
 
     ['daim', 'dẽ'],
@@ -103,6 +104,9 @@ export default {
     ['eux', 'ø'],
     ['excalibur', 'ekskalibyr'],
     ['exception', 'eksepsjõ'],
+    ['excitation', 'eksitasjõ'],
+    ['exulter', 'egzylte'],
+    ['exutoire', 'egzytwar'],
 
     ['faisan', 'føzã'],
     ['faisons', 'føzõ'],
@@ -134,6 +138,7 @@ export default {
 
     ['hasard', 'azar'],
     ['hêtre', 'ɛtr'],
+    ['homosexuel', 'omoseksyɛl'],
     ['horrible', 'oribl'],
     ['hun', 'ẽ'],
 

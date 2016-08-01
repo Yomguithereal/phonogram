@@ -5,7 +5,7 @@
  * Collecting the various rules used to produce a phonetic representation
  * of French words.
  */
-import {compileRules, INITIAL} from '../helpers';
+import {compileRules, INITIAL, NEGATIVE} from '../helpers';
 
 /**
  * Vowel definitions.
@@ -510,8 +510,11 @@ export const POETIC_RULES = compileRules({
     // "xc" simplifies to *ks* before "e", "i" & "y"
     [`xc(?=[${E + I + Y}])`, 'ks'],
 
+    // Before a "u", "x" is pronounced *ks* if not after an initial "e"
+    [/x(?=u)/, 'ks', /^e$/, NEGATIVE],
+
     // Before a "i", "x" is pronounced *ks*
-    ['x(?=i)', 'ks'],
+    [/x(?=i)/, 'ks'],
 
     // Before another vowel, "x" is pronounced *gz*
     [`x(?=[${VOWELS}])`, 'gz'],

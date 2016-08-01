@@ -6,7 +6,6 @@ Compiling some cases to handle for target languages.
 
 * Rut But Chut =/= Chahut Bahut =/= qu'il plût, il lut, Azimut
 * Squat
-* Homosexuel
 * Pigeon
 * Plongeoir
 * Mangeant
@@ -19,6 +18,31 @@ Compiling some cases to handle for target languages.
 * joliet
 * accent boniment mentent mangent, filament, proclament
 * primesautier
+* charisme
+* chiroubles
+* Cruel
+* Incognito
+* Hauteville
+* Axolotl
+* Engrosser
+* Dengue
+* Benzène
+* Güise
+* Guatémala
+* Sortie
+* Picpus
+* Gleyre
+* Bretzel
+* Chorégraphie
+* Chorizo
+* es/ès
+* Agen
+* Jeun
+* Abidjan
+* Doisneau
+* Onion/Oignon
+* Mesclun
+* Gazole
 
 **Multi**:
 couvent, plus, est, os, dessein
@@ -27,11 +51,21 @@ couvent, plus, est, os, dessein
 
 * Centre / Center
 * Li
+* Duchess
+* Randell
+* Clue
+* Cruel
+
+## German
+
+* Dirndl
 
 ## Syllabification
 
 * Every consonant should be squeezed but syllabification should handle the case on its own to get back to the original word.
+* Handle le ao
 
 ## General simplification rules
 
 * pn -> n
+* ð -> θ
