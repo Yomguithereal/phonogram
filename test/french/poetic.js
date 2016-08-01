@@ -11,6 +11,7 @@ export default {
     ['abeille', 'abɛj'],
     ['aigüe', 'ɛgy'],
     ['aiguës', 'ɛgy'],
+    ['ail', 'aj'],
     ['almanach', 'almana'],
     ['accentuation', 'aksãtyasjõ'],
     ['âme', 'am'],
@@ -123,6 +124,7 @@ export default {
     ['hasard', 'azar'],
     ['hêtre', 'ɛtr'],
     ['horrible', 'oribl'],
+    ['hun', 'ẽ'],
 
     ['illégal', 'illegal'],
     ['imbu', 'ẽby'],
@@ -137,6 +139,7 @@ export default {
     ['lapin', 'lapẽ'],
     ['litigieuse', 'litiʒjøz'],
     ['Livaro', 'livaro'],
+    ['lunaire', 'lynɛr'],
     ['lyncher', 'lẽʃe'],
 
     ['manger', 'mãʒe'],
@@ -148,6 +151,8 @@ export default {
     ['million', 'miljõ'],
     ['montez', 'mõte'],
     ['motclef', 'mokle'],
+    ['Munster', 'mẽstɛr'],
+    ['Münster', 'mẽstɛr'],
 
     ['nerf', 'nɛr'],
     ['nimbée', 'nẽbe'],
@@ -198,7 +203,7 @@ export default {
     ['rach', 'rak'],
     ['rat', 'ra'],
     ['rayon', 'rɛjõ'],
-    ['rayonner', 'rɛjone'],
+    ['rayoner', 'rɛjone'],
     ['remerciements', 'rømɛrsimã'],
     ['renne', 'rɛn'],
     ['requartzifier', 'røkwartsifje'],
@@ -235,6 +240,10 @@ export default {
     ['tronc', 'trõ'],
     ['trop', 'tro'],
     ['truelle', 'tryɛl'],
+    ['tunnel', 'tynɛl'],
+
+    ['un', 'ẽ'],
+    ['unitaire', 'ynitɛr'],
 
     ['vademecum', 'vademekʌm'],
     ['vair', 'vɛr'],

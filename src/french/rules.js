@@ -444,6 +444,9 @@ export const POETIC_RULES = compileRules({
     // Final "um" is pronounced *ʌm*
     [/um$/, 'ʌm'],
 
+    // "un" not before "n" or a vowel is pronounced *ẽ*
+    [`un(?=[^${VOWELS}n]|$)`, 'ẽ'],
+
     // "u" before "i" is pronounced *ɥ*
     [/u(?=i)/, 'ɥ'],
 
