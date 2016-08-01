@@ -8,7 +8,6 @@ export default {
   fn: poetic,
   cases: [
     ['abeille', 'abɛj'],
-    // ['accent', 'aksã'],
     ['accentuation', 'aksãtyasjõ'],
     ['âme', 'am'],
     ['ambiance', 'ãbjãs'],
@@ -19,6 +18,7 @@ export default {
     ['arabesque', 'arabesk'],
     ['arhe', 'ar'],
     ['aux', 'o'],
+    ['Auxerres', 'osɛr'],
     ['auxilliaire', 'oksiljɛr'],
     ['ayant', 'ɛjã'],
     ['ayatollah', 'ajatola'],
@@ -26,12 +26,13 @@ export default {
 
     ['baignoire', 'bɛnwar'],
     ['beauvillaine', 'bovilɛn'],
+    ['belle', 'bel'],
+    ['belles', 'bel'],
     ['bibelot', 'bibelo'],
     ['blanc', 'blã'],
     ['bœuf', 'bøf'],
     ['bonbon', 'bõbõ'],
-    // ['boniment', 'bonimã'],
-    ['Bruxelles', 'brysel'],
+    ['Bruxelles', 'brysɛl'],
     ['buisson', 'bɥisõ'],
 
     ['caecum', 'sékʌm'],
@@ -53,6 +54,7 @@ export default {
     ['cœlacanthe', 'kølakãt'],
     ['coing', 'kwẽ'],
     ['coings', 'kwẽ'],
+    ['conne', 'kɔn'],
     ['constitution', 'kõstitysjõ'],
     ['contestation', 'kõtestasjõ'],
     ['coucou', 'kuku'],
@@ -65,6 +67,7 @@ export default {
     ['dévorée', 'dévoré'],
     ['doigt', 'dwa'],
 
+    ['emmerder', 'ãmerdé'],
     ['essaim', 'esẽ'],
     ['euphorie', 'øfori'],
     ['eux', 'ø'],
@@ -134,7 +137,11 @@ export default {
     ['poing', 'pwẽ'],
     ['point', 'pwẽ'],
     ['poix', 'pwa'],
+    ['pomme', 'pɔm'],
+    ['pommes', 'pɔm'],
+    ['pommeaux', 'pomo'],
     ['posément', 'pozémã'],
+    ['poubelle', 'pubel'],
     ['poux', 'pu'],
     ['puissamment', 'pɥisamã'],
 
@@ -161,6 +168,7 @@ export default {
     ['tiare', 'tjar'],
     ['toutou', 'tutu'],
     ['tronc', 'trõ'],
+    ['truelle', 'tryel'],
 
     ['vademecum', 'vademekʌm'],
     ['vair', 'vɛr'],

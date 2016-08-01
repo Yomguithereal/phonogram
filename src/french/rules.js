@@ -5,7 +5,7 @@
  * Collecting the various rules used to produce a phonetic representation
  * of French words.
  */
-import {compileRules} from '../helpers';
+import {compileRules, INITIAL} from '../helpers';
 
 /**
  * Vowel definitions.
@@ -106,6 +106,9 @@ export const POETIC_RULES = compileRules({
   //-- (e)
   //----------------------------------------------------------------------------
   e: [
+
+    // Initial "emm" is pronounced *ã*
+    [/em(?=m)/, 'ã', INITIAL],
 
     // Final "emment" is pronounced *amã*
     [/emment$/, 'amã'],
@@ -227,6 +230,14 @@ export const POETIC_RULES = compileRules({
     ['ll', 'l', /.{2,}/]
   ],
 
+  //-- (m)
+  //----------------------------------------------------------------------------
+  m: [
+
+    // "m" is squeezed
+    ['mm', 'm', /.{2,}/]
+  ],
+
   //-- (n)
   //----------------------------------------------------------------------------
   n: [
@@ -238,6 +249,10 @@ export const POETIC_RULES = compileRules({
   //-- (o)
   //----------------------------------------------------------------------------
   o: [
+
+    // Final "omme" or "onne" is pronounced "ɔm" or "ɔn" respectively
+    [/ommes?$/, 'ɔm'],
+    [/onnes?$/, 'ɔn'],
 
     // Final "oigt" is pronounced *wa*
     [/oigt$/, 'wa'],

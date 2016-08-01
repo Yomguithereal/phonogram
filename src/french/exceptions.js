@@ -6,20 +6,22 @@
  */
 import {compileExceptions} from '../helpers';
 
-export default compileExceptions({
-  bruxelles: 'br(u•y)(x•s)e(lles•l)',
+const EXCEPTIONS = compileExceptions({
+  auxerres: '(au•o)(x•s)ɛ(rres•r)',
+  bruxelles: 'br(u•y)(x•s)ɛ(lles•l)',
   femme: 'f(e•a)(mme•m)',
   villa: 'villa'
 });
 
+export default EXCEPTIONS;
 
-// bruxelles, auxerres
+// MULTI:
+// couvent, plus, est
+
 // mille, ville, tranquille, villa
 // outil, fusil, fils, ail
 // mes, tes, ses, est, plus
 // os
-// gnou
-// gnose
 // diazote
 // tabac
 // croc
@@ -30,6 +32,3 @@ export default compileExceptions({
 // ü û
 // accent boniment mentent mangent, filament, proclament
 // dévient devient
-// final lle?s? -> el
-
-// poubelle, truelle
