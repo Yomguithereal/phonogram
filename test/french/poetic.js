@@ -101,6 +101,8 @@ export default {
     ['deuil', 'døj'],
     ['dévorée', 'devore'],
     ['doigt', 'dwa'],
+    ['du', 'dy'],
+    ['dû', 'dy'],
 
     ['effet', 'efɛ'],
     ['effraie', 'efrɛ'],
