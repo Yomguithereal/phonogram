@@ -250,6 +250,9 @@ export const POETIC_RULES = compileRules({
     // "gn" before "ou" or "os" is pronounced *gn*
     [/gn(?=(?:ou$|os))/, 'gn'],
 
+    // "gua" is pronounced *gwa*
+    ['gua', 'gwa'],
+
     // "gu" is pronounced *g*
     ['gu', 'g'],
 
@@ -373,7 +376,7 @@ export const POETIC_RULES = compileRules({
     [/ops?$/, 'o', /(?:sal|syr|gal|tr)$/],
 
     // "o" is pronounced *ɔ* before a *k* sound
-    [/o?(?=(?:que|t?te)(?![rz])|ck|[cp]$)/, 'ɔ']
+    [/o?(?=(?:que|t?te)(?![rz])|ck|[ckp]$)/, 'ɔ']
   ],
 
   //-- (ô)
@@ -504,6 +507,10 @@ export const POETIC_RULES = compileRules({
     // "u" is generally pronounced *y*
     [null, 'y']
   ],
+
+  //-- (ü)
+  //----------------------------------------------------------------------------
+  ü: 'y',
 
   //-- (v)
   //----------------------------------------------------------------------------

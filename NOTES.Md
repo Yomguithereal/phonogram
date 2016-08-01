@@ -20,15 +20,12 @@ Compiling some cases to handle for target languages.
 * primesautier
 * charisme
 * chiroubles
-* Cruel
 * Incognito
 * Hauteville
 * Axolotl
 * Engrosser
 * Dengue
 * Benzène
-* Güise
-* Guatémala
 * Sortie
 * Picpus
 * Chorégraphie
