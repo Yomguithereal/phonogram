@@ -2,6 +2,7 @@ node_modules
 .gitignore
 .npmignore
 *.yml
+*.log
 build
 src
 test

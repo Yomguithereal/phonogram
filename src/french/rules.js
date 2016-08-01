@@ -83,8 +83,8 @@ export const POETIC_RULES = compileRules({
     // "am" before "b" or "p" is pronounced *ã*
     [/am(?=[bp])/, 'ã'],
 
-    // "ai" or "ay" are generally pronounced *ɛ*
-    [`a[iy](?=[^${VOWELS}])`, 'ɛ'],
+    // "ai" or "ay" are generally pronounced *ɛ*, also covers final "aie"
+    [`a[iy](?=[^${VOWELS}]|es?$)`, 'ɛ'],
 
     // "ay" before some posterior vowels is pronounced *ɛj*
     [/ay(?=[ao]n|e)/, 'ɛj'],
@@ -206,10 +206,14 @@ export const POETIC_RULES = compileRules({
     [/es?$/],
 
     // "e" as second letter between two consonants is pronounced *ø*
+    // NOTE: this feels clunky & could probably merged with the last rule
     [/e(?!(\w)\1|$)/, 'ø', /^(?:ch|[fr])$/],
 
     // "e" before some letters is pronounced *ɛ* if no vowel comes after
-    [`e(?=[clmnrz](?![${VOWELS}])|s(?![${VOWELS}s]))`, 'ɛ']
+    [`e(?=[clmnrz](?![${VOWELS}])|s(?![${VOWELS}s]))`, 'ɛ'],
+
+    // "e" between some letters is pronounced *ø*
+    [/e(?=r)/, 'ø', /[csz]/]
   ],
 
   //-- (é)

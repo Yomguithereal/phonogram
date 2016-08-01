@@ -30,8 +30,8 @@ Compiling some cases to handle for target languages.
 * ennui
 * Abbaye
 * Papaye
+* Pommeraye
 * Haye
-* Effraie
 
 **Multi**
 

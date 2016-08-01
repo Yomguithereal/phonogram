@@ -35,6 +35,7 @@ export default {
     ['ayez', 'ɛje'],
 
     ['Bach', 'bak'],
+    ['baie', 'bɛ'],
     ['baignoire', 'bɛnwar'],
     ['barbecue', 'barbøkju'],
     ['beauvillaine', 'bovilɛn'],
@@ -60,6 +61,7 @@ export default {
     ['cartes', 'kart'],
     ['cases', 'kaz'],
     ['cerf', 'sɛr'],
+    ['ceriseraies', 'sørizørɛ'],
     ['chaire', 'ʃɛr'],
     ['chateau', 'ʃato'],
     ['chateaux', 'ʃato'],
@@ -88,6 +90,7 @@ export default {
     ['contestation', 'kõtɛstasjõ'],
     ['coucou', 'kuku'],
     ['couille', 'kuj'],
+    ['craie', 'krɛ'],
     ['cruel', 'kryɛl'],
     ['cul', 'ky'],
 
@@ -100,6 +103,7 @@ export default {
     ['doigt', 'dwa'],
 
     ['effet', 'efɛ'],
+    ['effraie', 'efrɛ'],
     ['élection', 'elɛksjõ'],
     ['emmerder', 'ãmɛrde'],
     ['empâtement', 'ãpatømã'],
@@ -330,6 +334,7 @@ export default {
     ['villa', 'villa'],
     ['villain', 'vilẽ'],
     ['vos', 'vo'],
+    ['vraie', 'vrɛ'],
 
     ['wagon', 'vagõ'],
     ['wapiti', 'wapiti'],
