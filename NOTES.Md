@@ -4,7 +4,7 @@ Compiling some cases to handle for target languages.
 
 ## French
 
-* Rut But Chut =/= Chahut Bahut =/= qu'il plût, il lut
+* Rut But Chut =/= Chahut Bahut =/= qu'il plût, il lut, Azimut
 * Squat
 * Pneu
 * Homosexuel
