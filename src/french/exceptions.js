@@ -11,17 +11,19 @@ const EXCEPTIONS = compileExceptions({
   barbecue: 'barb(e•ø)(cue•kju)',
   bruxelles: 'br(u•y)(x•s)ɛ(lles•l)',
   femme: 'f(e•a)(mme•m)',
+  mes: 'm(es•ɛ)',
+  ses: 's(es•ɛ)',
+  tes: 't(es•ɛ)',
   villa: 'villa'
 });
 
 export default EXCEPTIONS;
 
 // MULTI:
-// couvent, plus, est
+// couvent, plus, est, os, dessein
 
 // mille, ville, tranquille, villa
 // outil, fusil, fils, ail
-// mes, tes, ses, est, plus
 // os
 // diazote
 // tabac

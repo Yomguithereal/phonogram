@@ -73,11 +73,11 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   c: [
 
-    // Words finishing by "clef" pronounce it "klé"
-    [/clef$/, 'klé'],
+    // Words finishing by "clef" pronounce it "kle"
+    [/clef$/, 'kle'],
 
-    // "cae" is pronounced *sé*
-    ['c(?:æ|ae)', 'sé'],
+    // "cae" is pronounced *se*
+    ['c(?:æ|ae)', 'se'],
 
     // "ck" is pronounced *k*
     ['ck', 'k'],
@@ -145,22 +145,29 @@ export const POETIC_RULES = compileRules({
     // "eu" is pronounced *ø*
     [/eux?/, 'ø'],
 
-    // Final "er" & "ez" is pronounced "é"
-    [/e[rz]$/, 'é'],
+    // Final "er" & "ez" is pronounced "e"
+    [/e[rz]$/, 'e'],
 
     // Final "e" is not pronounced
-    [/es?$/]
+    [/es?$/],
+
+    // "e" before "l", "m", "n", "r" & "s" is pronounced *ɛ* if no vowel comes
+    // after
+    [`e(?=[lmnr](?![${VOWELS}])|s(?![${VOWELS}s]))`, 'ɛ']
   ],
 
   //-- (é)
   //----------------------------------------------------------------------------
   é: [
 
-    // Final "ément" is pronounced "émã"
-    [/ément$/, 'émã'],
+    // Final "ément" is pronounced "emã"
+    [/ément$/, 'emã'],
 
-    // Final "ée" is pronounced "é"
-    [/ée$/, 'é']
+    // Final "ée" is pronounced "e"
+    [/ée$/, 'e'],
+
+    // "é" is pronounced *e*
+    [null, 'e']
   ],
 
   //-- (è)

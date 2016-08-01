@@ -3,15 +3,13 @@
  * =============================
  */
 
-// NOTE: é will soon disappear
-
 /**
  * Listing all the letters present in Phonogram's fuzzy IPA.
  */
 export default {
   vowels: [
     'a',
-    'e', 'é', 'ɛ', 'ø',
+    'e', 'ɛ', 'ø',
     'i',
     'o', 'ɔ',
     'u', 'ʌ', 'y',
@@ -40,7 +38,7 @@ export default {
  * Useful sonority hierarchy one might use to syllabify phonogram codes.
  */
 export const hierarchy = [
-  'aeéɛøoɔiuʌyãẽõ',
+  'aeɛøoɔiuʌyãẽõ',
   'jwɥh',
   'rl',
   'mn',
