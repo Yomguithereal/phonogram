@@ -271,6 +271,8 @@ export default {
     ['quoi', 'kwa'],
 
     ['rach', 'rak'],
+    ['rappelle', 'rapɛl'],
+    ['rappelez', 'rapøle'],
     ['rat', 'ra'],
     ['rayon', 'rɛjõ'],
     ['rayoner', 'rɛjone'],

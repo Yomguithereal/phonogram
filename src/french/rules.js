@@ -213,7 +213,8 @@ export const POETIC_RULES = compileRules({
     [`e(?=[clmnrz](?![${VOWELS}])|s(?![${VOWELS}s]))`, 'ɛ'],
 
     // "e" between some letters is pronounced *ø*
-    [/e(?=r)/, 'ø', /[csz]/]
+    [/e(?=l)/, 'ø', /p$/],
+    [/e(?=r)/, 'ø', /[csz]$/]
   ],
 
   //-- (é)
@@ -412,6 +413,9 @@ export const POETIC_RULES = compileRules({
   //-- (p)
   //----------------------------------------------------------------------------
   p: [
+
+    // "pp" is squeezed
+    ['pp', 'p'],
 
     // "ph" is pronounced *f*
     ['ph', 'f']

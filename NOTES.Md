@@ -32,6 +32,8 @@ Compiling some cases to handle for target languages.
 * Papaye
 * Pommeraye
 * Haye
+* que, queue
+* î vîmes
 
 **Multi**
 
