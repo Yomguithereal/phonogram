@@ -31,25 +31,16 @@ Compiling some cases to handle for target languages.
 * Guatémala
 * Sortie
 * Picpus
-* Gleyre
-* Bretzel
 * Chorégraphie
-* Chorizo
-* es/ès
 * Agen
-* Jeun
-* Abidjan
 * Doisneau
 * Onion/Oignon
-* Mesclun
 * Gazole
-* Van Gogh
 * Election
 * Nuit
 * Annuité
 * ennui
-* toque
-* cloque
+* Abbaye
 
 **Multi**:
 couvent, plus, est, os, dessein

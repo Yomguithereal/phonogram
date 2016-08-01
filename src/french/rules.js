@@ -188,6 +188,9 @@ export const POETIC_RULES = compileRules({
     // "eu" is pronounced *ø*
     [/eux?/, 'ø'],
 
+    // "ei" is pronounced *ɛ*
+    [`e[iy](?![${VOWELS}])`, 'ɛ'],
+
     // Final "er" & "ez" is pronounced "e"
     [/e[rz]s?$/, 'e'],
 
@@ -337,7 +340,7 @@ export const POETIC_RULES = compileRules({
     [/oin[gt]s?$/, 'wẽ'],
 
     // "oi" is pronounced *wa*
-    [/oix?/, 'wa'],
+    [/(?:oix?|oy$)/, 'wa'],
 
     // Final "onc" is prononced *õ*
     [/onc$/, 'õ'],

@@ -21,6 +21,7 @@ export default {
     ['ceviche', 'sevitʃe'],
     ['cero', 'sero'],
     ['chachapoyas', 'tʃatʃapojas'],
+    ['chorizo', 'tʃoriso'],
     ['churros', 'tʃurros'],
     ['coatlicue', 'koatlikwe'],
     ['cuexca', 'kweska'],
