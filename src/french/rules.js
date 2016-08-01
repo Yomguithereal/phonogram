@@ -484,8 +484,8 @@ export const POETIC_RULES = compileRules({
     // "ti" before "on" is pronounced *sj*
     ['ti(?=on)', 'sj'],
 
-    // Final "tie" is pronounced *si*
-    [/tie$/, 'si'],
+    // Final "tie" is pronounced *si* if after a vowel.
+    [/tie$/, 'si', `[${VOWELS}]$`],
 
     // Final "t" is rarely pronounced
     [/t$/, '', /[^ï]$/]
