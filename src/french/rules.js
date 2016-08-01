@@ -168,7 +168,9 @@ export const POETIC_RULES = compileRules({
     [/em(?=[bp])/, 'ã'],
 
     // "en" before a not final "t" or "s" is pronounced *ã*
-    [/en(?=[st].)/, 'ã'],
+    // NOTE: this can probably be generalized further before a not final
+    // consonant.
+    [/en(?=[gst].)/, 'ã'],
 
     // "eill" is pronounced *ɛj*
     ['eill', 'ɛj'],
@@ -204,7 +206,7 @@ export const POETIC_RULES = compileRules({
     [/e(?!(\w)\1|$)/, 'ø', /^(?:ch|[fr])$/],
 
     // "e" before some letters is pronounced *ɛ* if no vowel comes after
-    [`e(?=[lmnrz](?![${VOWELS}])|s(?![${VOWELS}s]))`, 'ɛ']
+    [`e(?=[clmnrz](?![${VOWELS}])|s(?![${VOWELS}s]))`, 'ɛ']
   ],
 
   //-- (é)
@@ -376,7 +378,7 @@ export const POETIC_RULES = compileRules({
     [/ops?$/, 'o', /(?:sal|syr|gal|tr)$/],
 
     // "o" is pronounced *ɔ* before a *k* sound
-    [/o?(?=(?:que|t?te)(?![rz])|ck|[ckp]$)/, 'ɔ']
+    [/o?(?=(?:que|t?te|l?le)(?![rz])|ck|[ckp]$)/, 'ɔ']
   ],
 
   //-- (ô)
@@ -527,8 +529,8 @@ export const POETIC_RULES = compileRules({
     // "xc" simplifies to *ks* before "e", "i" & "y"
     [`xc(?=[${E + I + Y}])`, 'ks'],
 
-    // Before a "u", "x" is pronounced *ks* if not after an initial "e"
-    [/x(?=u)/, 'ks', /^e$/, NEGATIVE],
+    // Before a "u" or a "o", "x" is pronounced *ks* if not after an initial "e"
+    [/x(?=[ou])/, 'ks', /^e$/, NEGATIVE],
 
     // Before a "i", "x" is pronounced *ks*
     [/x(?=i)/, 'ks'],

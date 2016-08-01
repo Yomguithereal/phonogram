@@ -22,8 +22,6 @@ Compiling some cases to handle for target languages.
 * chiroubles
 * Incognito
 * Hauteville
-* Axolotl
-* Engrosser
 * Dengue
 * Benzène
 * Sortie
@@ -32,8 +30,6 @@ Compiling some cases to handle for target languages.
 * Agen
 * Doisneau
 * Onion/Oignon
-* Gazole
-* Election
 * Nuit
 * Annuité
 * ennui
