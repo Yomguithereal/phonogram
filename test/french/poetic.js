@@ -116,6 +116,8 @@ export default {
     ['gaufres', 'gofr'],
     ['genoux', 'ʒenu'],
     ['gérard', 'ʒerar'],
+    ['gout', 'gu'],
+    ['goût', 'gu'],
     ['gnaquer', 'njake'],
     ['gnognotte', 'njonjot'],
     ['gnon', 'njõ'],

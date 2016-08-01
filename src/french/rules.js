@@ -326,7 +326,7 @@ export const POETIC_RULES = compileRules({
     [/oy(?=[a])/, 'waj', /.+/],
 
     // "ou" is generally pronounced *u*
-    [/o[uù]x?/, 'u'],
+    [/o[uùû]x?/, 'u'],
 
     // "oo" is generally pronounced *u*
     [/oo/, 'u', /(?:[^z]|^)$/],
