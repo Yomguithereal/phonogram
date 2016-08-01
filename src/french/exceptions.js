@@ -6,11 +6,9 @@
  */
 import {compileExceptions} from '../helpers';
 
-const EXCEPTIONS = compileExceptions({
+const EXCEPTIONS = {
   aigüe: '(ai•ɛ)(güe•gy)',
   aiguë: '(ai•ɛ)(guë•gy)',
-  aigües: '(ai•ɛ)(güe•gy)(s•)',
-  aiguës: '(ai•ɛ)(guë•gy)(s•)',
   ail: 'a(il•j)',
   almanach: 'almana(ch•)',
   auxerres: '(au•o)(x•s)ɛ(rres•r)',
@@ -18,19 +16,31 @@ const EXCEPTIONS = compileExceptions({
   bruxelles: 'br(u•y)(x•s)ɛ(lles•l)',
   et: 'e(t•)',
   femme: 'f(e•a)(mme•m)',
-  femmes: 'f(e•a)(mme•m)(s•)',
+  gageure: 'ga(g•ʒ)(eu•y)r(e•)',
   mes: 'm(es•ɛ)',
   munster: 'm(un•ẽ)st(e•ɛ)r',
   münster: 'm(ün•ẽ)st(e•ɛ)r',
   ses: 's(es•ɛ)',
   tes: 't(es•ɛ)',
   villa: 'villa',
-  villas: 'villa(s•)',
-  wagon: '(w•v)ag(on•õ)',
-  wagons: '(w•v)ag(on•õ)(s•)'
+  wagon: '(w•v)ag(on•õ)'
+};
+
+const plurals = [
+  'aigüe',
+  'aiguë',
+  'femme',
+  'gageure',
+  'villa',
+  'wagon'
+];
+
+plurals.forEach(word => {
+  const plural = word + 's';
+  EXCEPTIONS[plural] = EXCEPTIONS[word] + '(s•)';
 });
 
-export default EXCEPTIONS;
+export default compileExceptions(EXCEPTIONS);
 
 // MULTI:
 // couvent, plus, est, os, dessein
