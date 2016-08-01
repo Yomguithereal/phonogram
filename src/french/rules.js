@@ -162,6 +162,9 @@ export const POETIC_RULES = compileRules({
     // Final "e" is not pronounced
     [/es?$/],
 
+    // "e" as second letter between two consonants is pronounced *ø*
+    [`e(?!(\w)\\1|$)`, 'ø', `^(?:r|f|ch)$`],
+
     // "e" before some letters is pronounced *ɛ* if no vowel comes after
     [`e(?=[lmnrz](?![${VOWELS}])|s(?![${VOWELS}s]))`, 'ɛ']
   ],
@@ -278,6 +281,9 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   o: [
 
+    // "ouill" is pronounced "uj"
+    [/(?:ouill|ouils?$)/, 'uj'],
+
     // Final "omme" or "onne" is pronounced "ɔm" or "ɔn" respectively
     [/ommes?$/, 'ɔm'],
     [/onnes?$/, 'ɔn'],
@@ -359,9 +365,6 @@ export const POETIC_RULES = compileRules({
   //-- (r)
   //----------------------------------------------------------------------------
   r: [
-
-    // Initial "re" is pronounced *rø*
-    [/re(?!(\w)\1)/, 'rø', INITIAL],
 
     // "rr" is squeezed
     ['rr', 'r'],
