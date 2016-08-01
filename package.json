@@ -3,9 +3,13 @@
   "version": "0.0.1",
   "description": "Collection of phonetic algorithms targeting a variety of European languages.",
   "main": "index.js",
+  "bin": {
+    "phonogram": "./cli.js"
+  },
   "scripts": {
     "check": "npm test && npm run lint",
     "clean": "rimraf $npm_package_phonogram_folders",
+    "cli": "babel-node ./src/cli.js",
     "dist": "npm run clean && babel src --out-dir ./",
     "lint": "eslint src test",
     "prepublish": "npm run dist",
@@ -56,5 +60,8 @@
   },
   "eslintConfig": {
     "extends": "@yomguithereal/eslint-config/es6"
+  },
+  "dependencies": {
+    "yargs": "^4.8.1"
   }
 }
