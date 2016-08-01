@@ -7,6 +7,10 @@
 import {compileExceptions} from '../helpers';
 
 const EXCEPTIONS = compileExceptions({
+  aigüe: '(ai•ɛ)(güe•gy)',
+  aiguë: '(ai•ɛ)(guë•gy)',
+  aigües: '(ai•ɛ)(güe•gy)(s•)',
+  aiguës: '(ai•ɛ)(guë•gy)(s•)',
   almanach: 'almana(ch•)',
   auxerres: '(au•o)(x•s)ɛ(rres•r)',
   barbecue: 'barb(e•ø)(cue•kju)',
@@ -18,7 +22,7 @@ const EXCEPTIONS = compileExceptions({
   ses: 's(es•ɛ)',
   tes: 't(es•ɛ)',
   villa: 'villa',
-  villa: 'villa(s•)',
+  villas: 'villa(s•)',
   wagon: '(w•v)ag(on•õ)',
   wagons: '(w•v)ag(on•õ)(s•)'
 });

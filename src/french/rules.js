@@ -54,8 +54,8 @@ export const POETIC_RULES = compileRules({
     // "am" before "b" or "p" is pronounced *ã*
     [/am(?=[bp])/, 'ã'],
 
-    // "ai" is generally pronounced *ɛ*
-    ['ai', 'ɛ'],
+    // "ai" or "ay" are generally pronounced *ɛ*
+    [`a[iy](?=[^${VOWELS}])`, 'ɛ'],
 
     // "ay" before some posterior vowels is pronounced *ɛj*
     [/ay(?=[ao]n|e)/, 'ɛj'],
@@ -77,6 +77,9 @@ export const POETIC_RULES = compileRules({
 
     // Words finishing by "clef" pronounce it "kle"
     [/clef$/, 'kle'],
+
+    // Words finishing by "cul" pronounced it "ky"
+    [/cul$/, 'ky'],
 
     // "cae" is pronounced *se*
     ['c(?:æ|ae)', 'se'],
@@ -118,6 +121,9 @@ export const POETIC_RULES = compileRules({
     // Final "ement" is pronounced *øment*
     [/ement$/, 'ømã'],
 
+    // Final "ents" is pronounced *ã*
+    [/ents$/, 'ã'],
+
     // Final "erf" after "c", "n" or "s" is pronounced *ɛr*
     [/erf$/, 'ɛr', /[cns]$/],
 
@@ -148,7 +154,7 @@ export const POETIC_RULES = compileRules({
     [/eux?/, 'ø'],
 
     // Final "er" & "ez" is pronounced "e"
-    [/e[rz]$/, 'e'],
+    [/e[rz]s?$/, 'e'],
 
     // Final "et" is pronounced "ɛ"
     [/ets?$/, 'ɛ'],
@@ -156,17 +162,8 @@ export const POETIC_RULES = compileRules({
     // Final "e" is not pronounced
     [/es?$/],
 
-    // "e" before "l", "m", "n", "r" & "s" is pronounced *ɛ* if no vowel comes
-    // after
-    [`e(?=[lmnr](?![${VOWELS}])|s(?![${VOWELS}s]))`, 'ɛ']
-  ],
-
-  //-- (f)
-  //----------------------------------------------------------------------------
-  f: [
-
-    // Handling "faisan" and the verb "faire"
-    [`fais(?=[${A + E + I + O}])`, 'føz']
+    // "e" before some letters is pronounced *ɛ* if no vowel comes after
+    [`e(?=[lmnrz](?![${VOWELS}])|s(?![${VOWELS}s]))`, 'ɛ']
   ],
 
   //-- (é)
@@ -190,6 +187,17 @@ export const POETIC_RULES = compileRules({
   //-- (ê)
   //----------------------------------------------------------------------------
   ê: 'ɛ',
+
+  //-- (f)
+  //----------------------------------------------------------------------------
+  f: [
+
+    // Handling "faisan" and the verb "faire"
+    [`fais(?=[${A + E + I + O}])`, 'føz'],
+
+    // 'ff' is squeezed
+    ['ff', 'f']
+  ],
 
   //-- (g)
   //----------------------------------------------------------------------------
@@ -225,11 +233,14 @@ export const POETIC_RULES = compileRules({
     // "in" before a consonant which is not "n" or final is pronounced *ẽ*
     [`i([mn])(?=$|[^${VOWELS}\\1])`, 'ẽ'],
 
-    // Final "ie" is pronounced *i*
-    [/ie$/, 'i'],
-
     // "ien" is pronounced *jẽ*
     ['ien', 'jẽ'],
+
+    // Final "iement" is pronounced *imã*
+    [/iements?$/, 'imã'],
+
+    // Final "ie" is pronounced *i*
+    [/ie$/, 'i'],
 
     // "i" before some vowels is pronounced *j*
     [`i(?=[${A + E + O + U}])`, 'j']
@@ -349,6 +360,9 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   r: [
 
+    // Initial "re" is pronounced *rø*
+    [/re(?!(\w)\1)/, 'rø', INITIAL],
+
     // "rr" is squeezed
     ['rr', 'r'],
 
@@ -379,6 +393,9 @@ export const POETIC_RULES = compileRules({
   //-- (t)
   //----------------------------------------------------------------------------
   t: [
+
+    // "tape" is pronounced *tap*
+    ['tape', 'tap'],
 
     // "tch" is pronounced *tʃ*
     ['tch', 'tʃ'],
@@ -450,5 +467,13 @@ export const POETIC_RULES = compileRules({
 
     // "y" is generally pronounced *i*
     [null, 'i']
+  ],
+
+  //-- (z)
+  //----------------------------------------------------------------------------
+  z: [
+
+    // "zz" is pronounced *dz*
+    ['zz', 'dz']
   ]
 });
