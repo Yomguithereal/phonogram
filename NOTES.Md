@@ -7,7 +7,7 @@ Compiling some cases to handle for target languages.
 * Rut But Chut =/= Chahut Bahut =/= qu'il plût, il lut, Azimut
 * Squat
 * mille, ville, tranquille
-* outil, fusil, fils
+* outil, fusil, persil, gentil
 * diazote
 * tabac
 * croc
@@ -26,15 +26,16 @@ Compiling some cases to handle for target languages.
 * Chorégraphie
 * Agen
 * Doisneau
-* Onion/Oignon
-* Nuit
 * Annuité
 * ennui
 * Abbaye
+* Papaye
+* Haye
+* Effraie
 
 **Multi**
 
-couvent, plus, est, os, dessein, fils
+couvent, plus, est, os, dessein, fils, persil, goupil
 
 ## English
 

@@ -11,6 +11,10 @@ const EXCEPTIONS = {
   aiguë: '(ai•ɛ)(guë•gy)',
   ail: 'a(il•j)',
   almanach: 'almana(ch•)',
+  août: '(aoû•u)t',
+  aout: '(aou•u)t',
+  aoûtat: 'a(oû•u)ta(t•)',
+  aoutat: 'a(oû•u)ta(t•)',
   auxerres: '(au•o)(x•s)ɛ(rres•r)',
   barbecue: 'barb(e•ø)(cue•kju)',
   bruxelles: 'br(u•y)(x•s)ɛ(lles•l)',
@@ -18,6 +22,7 @@ const EXCEPTIONS = {
   est: '(est•ɛ)',
   et: 'e(t•)',
   femme: 'f(e•a)(mme•m)',
+  fils: 'fi(ls•s)',
   gageure: 'ga(g•ʒ)(eu•y)r(e•)',
   jeun: '(j•ʒ)(eun•ẽ)',
   les: 'l(es•ɛ)',
@@ -26,6 +31,7 @@ const EXCEPTIONS = {
   monsieur: 'm(on•ø)s(ieur•jø)',
   munster: 'm(un•ẽ)st(e•ɛ)r',
   münster: 'm(ün•ẽ)st(e•ɛ)r',
+  oignon: '(oi•o)(gn•nj)(on•õ)',
   ses: 's(es•ɛ)',
   tes: 't(es•ɛ)',
   villa: 'villa',
@@ -33,11 +39,16 @@ const EXCEPTIONS = {
 };
 
 const plurals = [
+  'août',
+  'aout',
+  'aoûtat',
+  'aoutat',
   'aigüe',
   'aiguë',
   'femme',
   'gageure',
   'monsieur',
+  'oignon',
   'villa',
   'wagon'
 ];
