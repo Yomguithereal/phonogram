@@ -358,6 +358,9 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   q: [
 
+    // In "quadr" & "quartz", "qua" is pronounced *kwa*
+    [/qua(?=rtz|dr)/, 'kwa'],
+
     // "qu" is pronounced *k*
     ['qu', 'k']
   ],
@@ -376,6 +379,9 @@ export const POETIC_RULES = compileRules({
   //-- (s)
   //----------------------------------------------------------------------------
   s: [
+
+    // Initial "squa" is pronounced *skwa*
+    ['squa', 'skwa', INITIAL],
 
     // "ss" is squeezed
     ['ss', 's'],
@@ -405,6 +411,9 @@ export const POETIC_RULES = compileRules({
 
     // "tt" is squeezed
     ['tt', 't'],
+
+    // "tz" is pronounced *ts*
+    ['tz', 'ts'],
 
     // "th" is pronounced *t*
     ['th', 't'],
