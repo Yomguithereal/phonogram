@@ -4,7 +4,7 @@ Compiling some cases to handle for target languages.
 
 ## French
 
-* Rut
+* Rut But Chut =/= Chahut Bahut =/= qu'il plût
 * Squat
 * Pneu
 * Homosexuel
@@ -20,3 +20,7 @@ Compiling some cases to handle for target languages.
 ## Syllabification
 
 * Every consonant should be squeezed but syllabification should handle the case on its own to get back to the original word.
+
+## General simplification rules
+
+* pn -> n
