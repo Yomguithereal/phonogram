@@ -74,6 +74,8 @@ export default {
     ['sushi', 'suʃi'],
 
     ['Tenochtitlan', 'tenoʃtitlan'],
+    ['tequeño', 'tekenjo'],
+    ['Texas', 'texas'],
     ['Tlaxcala', 'tlaskala'],
     ['totomochtle', 'totomoʃtle'],
     ['trashojar', 'trashoxar'],

@@ -13,12 +13,12 @@
  * @return {boolean}
  */
 const JOTA_X_WORDS = new Set([
+  'texas',
   'xavier'
 ]);
 
 const MEXICO_REGEX = /^mexi(?:co|quen)/,
       OAXACA_REGEX = /^oaxa(?:ca|quen)/,
-      TEXAS_REGEX = /^te(?:xas|quen[oa])/,
       XALAPA_REGEX = /^xalap(?:a$|en)/;
 
 export function isJotaX(word) {
@@ -29,7 +29,6 @@ export function isJotaX(word) {
     JOTA_X_WORDS.has(fingerprint) ||
     MEXICO_REGEX.test(fingerprint) ||
     OAXACA_REGEX.test(fingerprint) ||
-    TEXAS_REGEX.test(fingerprint) ||
     XALAPA_REGEX.test(fingerprint)
   );
 }

@@ -17,7 +17,6 @@ describe('heuristics', function() {
         'oaxaca',
         'oaxaqueña',
         'texas',
-        'tequeños',
         'xalapeno',
         'xalapa',
         'xavier'
