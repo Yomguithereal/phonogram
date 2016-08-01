@@ -19,6 +19,7 @@ export default {
     ['amphétamine', 'ãfetamin'],
     ['an', 'ã'],
     ['antagoniste', 'ãtagonist'],
+    ['antisocial', 'ãtisosjal'],
     ['aplomb', 'aplõ'],
     ['arabesque', 'arabɛsk'],
     ['arhe', 'ar'],
@@ -117,6 +118,7 @@ export default {
     ['forêt', 'forɛ'],
     ['fouine', 'fuin'],
 
+    ['gageure', 'gaʒyr'],
     ['galop', 'galo'],
     ['gaufres', 'gofr'],
     ['genoux', 'ʒenu'],
@@ -217,6 +219,7 @@ export default {
     ['remerciements', 'rømɛrsimã'],
     ['renne', 'rɛn'],
     ['requartzifier', 'røkwartsifje'],
+    ['resurgir', 'røsyrʒir'],
     ['rhume', 'rym'],
 
     ['salop', 'salo'],
@@ -235,6 +238,7 @@ export default {
     ['souhaites', 'suɛt'],
     ['squale', 'skwal'],
     ['Staël', 'stɛl'],
+    ['susurrer', 'sysyre'],
     ['synthèse', 'sẽtɛz'],
     ['synthétique', 'sẽtetik'],
     ['syrop', 'siro'],

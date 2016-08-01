@@ -6,11 +6,22 @@ Compiling some cases to handle for target languages.
 
 * Rut But Chut =/= Chahut Bahut =/= qu'il plût, il lut, Azimut
 * Squat
-* Pneu
 * Homosexuel
 * Pigeon
 * Plongeoir
 * Mangeant
+* mille, ville, tranquille
+* outil, fusil, fils
+* diazote
+* tabac
+* croc
+* rhésus us$, us & coutumes
+* joliet
+* accent boniment mentent mangent, filament, proclament
+* primesautier
+
+**Multi**:
+couvent, plus, est, os, dessein
 
 ## English
 

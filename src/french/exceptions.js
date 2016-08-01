@@ -17,6 +17,7 @@ const EXCEPTIONS = {
   et: 'e(t•)',
   femme: 'f(e•a)(mme•m)',
   gageure: 'ga(g•ʒ)(eu•y)r(e•)',
+  les: 'l(es•ɛ)',
   mes: 'm(es•ɛ)',
   munster: 'm(un•ẽ)st(e•ɛ)r',
   münster: 'm(ün•ẽ)st(e•ɛ)r',
@@ -41,21 +42,3 @@ plurals.forEach(word => {
 });
 
 export default compileExceptions(EXCEPTIONS);
-
-// MULTI:
-// couvent, plus, est, os, dessein
-
-// mille, ville, tranquille, villa
-// outil, fusil, fils, ail
-// os
-// diazote
-// tabac
-// croc
-// rhésus us$, us & coutumes
-// joliet
-
-// couvent, plus, est, +ment$
-
-// ü û
-// accent boniment mentent mangent, filament, proclament
-// dévient devient

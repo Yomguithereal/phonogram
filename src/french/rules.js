@@ -19,6 +19,31 @@ export const Y = 'y';
 export const VOWELS = A + E + I + O + U + Y;
 
 /**
+ * List of common prefixes.
+ */
+const PREFIXES = [
+  // 'a',
+  // NOTE: there, we'll need a heuristics to check some patterns
+  'anti',
+  'bio',
+  'dé',
+  'dys',
+  'hétéro',
+  'homo',
+  'hyper',
+  'hypo',
+  'iso',
+  're',
+  'nano',
+  'para',
+  'poly',
+  'tétra',
+  'ultra'
+];
+
+const PREFIXES_LOOKBEHIND = new RegExp(`^(?:${PREFIXES.join('|')})$`);
+
+/**
  * Most precise ruleset.
  */
 export const POETIC_RULES = compileRules({
@@ -172,7 +197,7 @@ export const POETIC_RULES = compileRules({
     [/es?$/],
 
     // "e" as second letter between two consonants is pronounced *ø*
-    [/e(?!(\w)\1|$)/, 'ø', /^(?:r|f|ch)$/],
+    [/e(?!(\w)\1|$)/, 'ø', /^(?:ch|[fr])$/],
 
     // "e" before some letters is pronounced *ɛ* if no vowel comes after
     [`e(?=[lmnrz](?![${VOWELS}])|s(?![${VOWELS}s]))`, 'ɛ']
@@ -396,6 +421,9 @@ export const POETIC_RULES = compileRules({
     // Initial "squa" is pronounced *skwa*
     ['squa', 'skwa', INITIAL],
 
+    // "susur" is always pronounced *sysyr*
+    [/susu(?=r)/, 'sysy'],
+
     // "ss" is squeezed
     ['ss', 's'],
 
@@ -407,6 +435,12 @@ export const POETIC_RULES = compileRules({
 
     // Final "s" is not pronounced, except before a "è"
     [/s$/, '', /[^è]$/],
+
+    // "sol" is always pronounced *sol*
+    ['sol', 'sol'],
+
+    // "s" after some prefixes remain *s*
+    [`s(?=[${VOWELS}])`, 's', PREFIXES_LOOKBEHIND],
 
     // "s" between two vowels is pronounced *z*
     [`s(?=[${VOWELS}])`, 'z', `[${VOWELS}]$`],
