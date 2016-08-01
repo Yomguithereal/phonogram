@@ -264,6 +264,9 @@ export const POETIC_RULES = compileRules({
     // "gn" is pronounced *nj*
     ['gn', 'nj'],
 
+    // "g" before "a" or "o" is pronounced *ʒ*
+    [/ge(?=[ao])/, 'ʒ'],
+
     // "g" before "e", "i" or "y" is pronounced *ʒ*
     [`g(?=[${E + I + Y}])`, 'ʒ']
   ],

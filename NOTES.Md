@@ -6,9 +6,6 @@ Compiling some cases to handle for target languages.
 
 * Rut But Chut =/= Chahut Bahut =/= qu'il plût, il lut, Azimut
 * Squat
-* Pigeon
-* Plongeoir
-* Mangeant
 * mille, ville, tranquille
 * outil, fusil, fils
 * diazote
@@ -35,8 +32,9 @@ Compiling some cases to handle for target languages.
 * ennui
 * Abbaye
 
-**Multi**:
-couvent, plus, est, os, dessein
+**Multi**
+
+couvent, plus, est, os, dessein, fils
 
 ## English
 
