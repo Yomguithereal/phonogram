@@ -28,8 +28,10 @@ export const POETIC_RULES = compileRules({
   a: [
 
     // Final "amment" is prononced *ã*
-    // NOTE: in some rare case, we have a verb plural form
     [/amment$/, 'amã'],
+
+    // Generally, final "ach" is pronounced *ak*
+    [/ach$/, 'ak'],
 
     // "aing" & "ain" are pronounced *ẽ*
     [/aing?$/, 'ẽ'],
@@ -148,12 +150,23 @@ export const POETIC_RULES = compileRules({
     // Final "er" & "ez" is pronounced "e"
     [/e[rz]$/, 'e'],
 
+    // Final "et" is pronounced "ɛ"
+    [/ets?$/, 'ɛ'],
+
     // Final "e" is not pronounced
     [/es?$/],
 
     // "e" before "l", "m", "n", "r" & "s" is pronounced *ɛ* if no vowel comes
     // after
     [`e(?=[lmnr](?![${VOWELS}])|s(?![${VOWELS}s]))`, 'ɛ']
+  ],
+
+  //-- (f)
+  //----------------------------------------------------------------------------
+  f: [
+
+    // Handling "faisan" and the verb "faire"
+    [`fais(?=[${A + E + I + O}])`, 'føz']
   ],
 
   //-- (é)
@@ -210,10 +223,7 @@ export const POETIC_RULES = compileRules({
     [/ill(?=[^i])/, 'ij', `[^${VOWELS}]`],
 
     // "in" before a consonant which is not "n" or final is pronounced *ẽ*
-    [`in(?=$|[^${VOWELS}n])`, 'ẽ'],
-
-    // Final "iet" is pronounced *jɛ*
-    [/iet$/, 'jɛ'],
+    [`i([mn])(?=$|[^${VOWELS}\\1])`, 'ẽ'],
 
     // Final "ie" is pronounced *i*
     [/ie$/, 'i'],

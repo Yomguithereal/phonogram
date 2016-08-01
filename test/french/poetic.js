@@ -7,7 +7,9 @@ import {poetic} from '../../src/french';
 export default {
   fn: poetic,
   cases: [
+    ['abasourdie', 'abazurdi'],
     ['abeille', 'abɛj'],
+    ['almanach', 'almana'],
     ['accentuation', 'aksãtyasjõ'],
     ['âme', 'am'],
     ['ambiance', 'ãbjãs'],
@@ -24,6 +26,7 @@ export default {
     ['ayatollah', 'ajatola'],
     ['ayez', 'ɛje'],
 
+    ['Bach', 'bak'],
     ['baignoire', 'bɛnwar'],
     ['barbecue', 'barbøkju'],
     ['beauvillaine', 'bovilɛn'],
@@ -71,15 +74,20 @@ export default {
 
     ['emmerder', 'ãmɛrde'],
     ['essaim', 'esẽ'],
+    ['et', 'e'],
     ['euphorie', 'øfori'],
     ['eux', 'ø'],
     ['excalibur', 'ekskalibyr'],
     ['exception', 'eksepsjõ'],
 
+    ['faisan', 'føzã'],
+    ['faisons', 'føzõ'],
+    ['faisiez', 'føzje'],
     ['faon', 'fã'],
     ['femme', 'fam'],
     ['fête', 'fɛt'],
     ['finaux', 'fino'],
+    ['fluet', 'flyɛ'],
 
     ['genoux', 'ʒenu'],
     ['gérard', 'ʒerar'],
@@ -94,6 +102,7 @@ export default {
     ['horrible', 'oribl'],
 
     ['illégal', 'illegal'],
+    ['imbu', 'ẽby'],
     ['inquiet', 'ẽkjɛ'],
     ['inquisition', 'ẽkizisjõ'],
 
@@ -101,6 +110,7 @@ export default {
     ['jeu', 'ʒø'],
     ['julie', 'ʒyli'],
 
+    ['laitue', 'lɛty'],
     ['lapin', 'lapẽ'],
     ['lyncher', 'lẽʃe'],
 
@@ -113,6 +123,7 @@ export default {
     ['motclef', 'mokle'],
 
     ['nerf', 'nɛr'],
+    ['nimbée', 'nẽbe'],
     ['noir', 'nwar'],
     ['nos', 'no'],
     ['noyau', 'nwajo'],
@@ -150,6 +161,7 @@ export default {
 
     ['quidam', 'kidam'],
 
+    ['rach', 'rak'],
     ['rayon', 'rɛjõ'],
     ['rayonner', 'rɛjone'],
     ['renne', 'rɛn'],

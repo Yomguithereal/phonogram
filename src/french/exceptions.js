@@ -7,14 +7,18 @@
 import {compileExceptions} from '../helpers';
 
 const EXCEPTIONS = compileExceptions({
+  almanach: 'almana(ch•)',
   auxerres: '(au•o)(x•s)ɛ(rres•r)',
   barbecue: 'barb(e•ø)(cue•kju)',
   bruxelles: 'br(u•y)(x•s)ɛ(lles•l)',
+  et: 'e(t•)',
   femme: 'f(e•a)(mme•m)',
+  femmes: 'f(e•a)(mme•m)(s•)',
   mes: 'm(es•ɛ)',
   ses: 's(es•ɛ)',
   tes: 't(es•ɛ)',
-  villa: 'villa'
+  villa: 'villa',
+  villa: 'villa(s•)'
 });
 
 export default EXCEPTIONS;
@@ -29,6 +33,7 @@ export default EXCEPTIONS;
 // tabac
 // croc
 // rhésus us$, us & coutumes
+// joliet
 
 // couvent, plus, est, +ment$
 
