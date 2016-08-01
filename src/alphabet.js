@@ -2,6 +2,12 @@
  * Phonogram Alphabet Reference
  * =============================
  */
+
+// NOTE: é will soon disappear
+
+/**
+ * Listing all the letters present in Phonogram's fuzzy IPA.
+ */
 export default {
   vowels: [
     'a',
@@ -29,3 +35,17 @@ export default {
     'x'
   ]
 };
+
+/**
+ * Useful sonority hierarchy one might use to syllabify phonogram codes.
+ */
+export const hierarchy = [
+  'aeéɛøoɔiuʌyãẽõ',
+  'jwɥh',
+  'rl',
+  'mn',
+  'zvðʒ',
+  'sfθʃ',
+  'bdg',
+  'ptkx'
+];

@@ -9,7 +9,7 @@ export default {
   cases: [
     ['abeille', 'abɛj'],
     // ['accent', 'aksã'],
-    // ['accentuation', 'aksãtyasjõ'],
+    ['accentuation', 'aksãtyasjõ'],
     ['âme', 'am'],
     ['ambiance', 'ãbjãs'],
     ['amphétamine', 'ãfétamin'],
@@ -31,6 +31,8 @@ export default {
     ['bœuf', 'bøf'],
     ['bonbon', 'bõbõ'],
     // ['boniment', 'bonimã'],
+    ['Bruxelles', 'brysel'],
+    ['buisson', 'bɥisõ'],
 
     ['caecum', 'sékʌm'],
     ['cæcal', 'sékal'],
@@ -70,11 +72,13 @@ export default {
     ['exception', 'eksepsjõ'],
 
     ['faon', 'fã'],
+    ['femme', 'fam'],
     ['fête', 'fɛt'],
     ['finaux', 'fino'],
 
     ['genoux', 'ʒenu'],
     ['gérard', 'ʒérar'],
+    ['gnaquer', 'njaké'],
     ['gnognotte', 'njonjot'],
     ['gnon', 'njõ'],
     ['gnosticisme', 'gnostisism'],
@@ -132,7 +136,7 @@ export default {
     ['poix', 'pwa'],
     ['posément', 'pozémã'],
     ['poux', 'pu'],
-    // ['puissamment', 'pwi']
+    ['puissamment', 'pɥisamã'],
 
     ['quidam', 'kidam'],
 

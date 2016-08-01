@@ -51,6 +51,50 @@ export function compileRules(rules) {
 }
 
 /**
+ * Function used to compile rule the exceptions into proper mappings.
+ *
+ * @param  {object} exceptions - Exceptions to compile.
+ * @return {object}            - Compiled exceptions.
+ */
+const EXCEPTION_REGEX = /\(([^•]*)•([^)])\)/;
+
+export function compileExceptions(exceptions) {
+  const compiled = {};
+
+  for (const word in exceptions) {
+    const string = exceptions[word],
+          mapping = new Array(word.length);
+
+    let mappingIndex = 0;
+
+    for (let i = 0, l = string.length; i < l; i++) {
+      const character = string[i];
+
+      if (character === '(') {
+        const [, pattern, replacement] = string
+          .slice(i)
+          .match(EXCEPTION_REGEX);
+
+        let j, m;
+
+        for (j = 0, m = pattern.length; j < m; j++)
+          mapping[mappingIndex++] = [pattern[j], !j ? replacement : ''];
+
+        i += j + 3;
+
+        continue;
+      }
+
+      mapping[mappingIndex++] = [character, character];
+    }
+
+    compiled[word] = mapping;
+  }
+
+  return compiled;
+}
+
+/**
  * Simple regex used sometimes as lookbehind to check if the search string
  * is initial or not.
  */

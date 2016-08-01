@@ -27,6 +27,10 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   a: [
 
+    // Final "amment" is prononced *ã*
+    // NOTE: in some rare case, we have a verb plural form
+    [/amment$/, 'amã'],
+
     // "aing" & "ain" are pronounced *ẽ*
     [/aing?$/, 'ẽ'],
 
@@ -119,6 +123,9 @@ export const POETIC_RULES = compileRules({
     // "enn" is pronounced *ɛnn*
     [/enne$/, 'ɛn'],
     ['enn', 'ɛnn'],
+
+    // "en" before a not final "t" is pronounced *ã*
+    [/en(?=t.)/, 'ã'],
 
     // "eill" is pronounced *ɛj*
     ['eill', 'ɛj'],
@@ -357,6 +364,9 @@ export const POETIC_RULES = compileRules({
 
     // Final "um" is pronounced *ʌm*
     [/um$/, 'ʌm'],
+
+    // "u" before "i" is pronounced *ɥ*
+    [/u(?=i)/, 'ɥ'],
 
     // "u" is generally pronounced *y*
     [null, 'y']

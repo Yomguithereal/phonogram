@@ -4,9 +4,13 @@
  *
  * Gathering every found word that could not be solved by generic rules alone.
  */
-export default {
-  villa: [['v', 'v'], ['i', 'i'], ['l', 'l'], ['l', 'l'], ['a', 'a']]
-};
+import {compileExceptions} from '../helpers';
+
+export default compileExceptions({
+  bruxelles: 'br(u•y)(x•s)e(lles•l)',
+  femme: 'f(e•a)(mme•m)',
+  villa: 'villa'
+});
 
 
 // bruxelles, auxerres
@@ -26,3 +30,6 @@ export default {
 // ü û
 // accent boniment mentent mangent, filament, proclament
 // dévient devient
+// final lle?s? -> el
+
+// poubelle, truelle
