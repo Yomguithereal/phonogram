@@ -45,9 +45,11 @@ export default {
     ['Bruxelles', 'brysɛl'],
     ['buisson', 'bɥisõ'],
 
+    ['cacochyme', 'kakoʃim'],
     ['caecum', 'sekʌm'],
     ['cæcal', 'sekal'],
     ['calmement', 'kalmømã'],
+    ['camembert', 'kamãbɛr'],
     ['cartes', 'kart'],
     ['cases', 'kaz'],
     ['cerf', 'sɛr'],
@@ -85,6 +87,7 @@ export default {
 
     ['effet', 'efɛ'],
     ['emmerder', 'ãmɛrde'],
+    ['empâtement', 'ãpatømã'],
     ['essaim', 'esẽ'],
     ['et', 'e'],
     ['euphorie', 'øfori'],
@@ -133,6 +136,7 @@ export default {
     ['laitue', 'lɛty'],
     ['lapin', 'lapẽ'],
     ['litigieuse', 'litiʒjøz'],
+    ['Livaro', 'livaro'],
     ['lyncher', 'lẽʃe'],
 
     ['manger', 'mãʒe'],
