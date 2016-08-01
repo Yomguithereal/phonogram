@@ -63,6 +63,9 @@ export const POETIC_RULES = compileRules({
     // Final "aux" is pronounced *o*
     [/aux$/, 'o'],
 
+    // "aë" is pronounced *ɛ*
+    [/aë/, 'ɛ'],
+
     // "au" is generally pronounced *o*
     ['au', 'o']
   ],
@@ -135,8 +138,8 @@ export const POETIC_RULES = compileRules({
     [/enne$/, 'ɛn'],
     ['enn', 'ɛnn'],
 
-    // "en" before a not final "t" is pronounced *ã*
-    [/en(?=t.)/, 'ã'],
+    // "en" before a not final "t" or "s" is pronounced *ã*
+    [/en(?=[st].)/, 'ã'],
 
     // "eill" is pronounced *ɛj*
     ['eill', 'ɛj'],
@@ -163,7 +166,7 @@ export const POETIC_RULES = compileRules({
     [/es?$/],
 
     // "e" as second letter between two consonants is pronounced *ø*
-    [`e(?!(\w)\\1|$)`, 'ø', `^(?:r|f|ch)$`],
+    [/e(?!(\w)\1|$)/, 'ø', /^(?:r|f|ch)$/],
 
     // "e" before some letters is pronounced *ɛ* if no vowel comes after
     [`e(?=[lmnrz](?![${VOWELS}])|s(?![${VOWELS}s]))`, 'ɛ']
@@ -418,8 +421,11 @@ export const POETIC_RULES = compileRules({
     // "th" is pronounced *t*
     ['th', 't'],
 
-    // "tion" is pronounced *sjõ*
-    ['tion', 'sjõ'],
+    // "tiel" is pronounced *sjɛl
+    [/tiell?/, 'sjɛl'],
+
+    // "ti" before "on" is pronounced *sj*
+    ['ti(?=on)', 'sj'],
 
     // Final "tie" is pronounced *si*
     [/tie$/, 'si'],
