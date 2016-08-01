@@ -56,7 +56,7 @@ export function compileRules(rules) {
  * @param  {object} exceptions - Exceptions to compile.
  * @return {object}            - Compiled exceptions.
  */
-const EXCEPTION_REGEX = /\(([^•]*)•([^)])\)/;
+const EXCEPTION_REGEX = /\(([^•]*)•([^)]*)\)/;
 
 export function compileExceptions(exceptions) {
   const compiled = {};
@@ -75,12 +75,10 @@ export function compileExceptions(exceptions) {
           .slice(i)
           .match(EXCEPTION_REGEX);
 
-        let j, m;
-
-        for (j = 0, m = pattern.length; j < m; j++)
+        for (let j = 0, m = pattern.length; j < m; j++)
           mapping[mappingIndex++] = [pattern[j], !j ? replacement : ''];
 
-        i += j + 3;
+        i += pattern.length + replacement.length + 2;
 
         continue;
       }

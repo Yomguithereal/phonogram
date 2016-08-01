@@ -8,6 +8,7 @@ import {compileExceptions} from '../helpers';
 
 const EXCEPTIONS = compileExceptions({
   auxerres: '(au•o)(x•s)ɛ(rres•r)',
+  barbecue: 'barb(e•ø)(cue•kju)',
   bruxelles: 'br(u•y)(x•s)ɛ(lles•l)',
   femme: 'f(e•a)(mme•m)',
   villa: 'villa'

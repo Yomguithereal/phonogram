@@ -25,6 +25,7 @@ export default {
     ['ayez', 'ɛjé'],
 
     ['baignoire', 'bɛnwar'],
+    ['barbecue', 'barbøkju'],
     ['beauvillaine', 'bovilɛn'],
     ['belle', 'bel'],
     ['belles', 'bel'],
