@@ -301,11 +301,17 @@ export const POETIC_RULES = compileRules({
     // "ou" is generally pronounced *u*
     [/o[uù]x?/, 'u'],
 
+    // "oo" is generally pronounced *u*
+    [/oo/, 'u', /(?:[^z]|^)$/],
+
     // "oe" is generally pronounced *ø*
     [/oeu?/, 'ø'],
 
     // Final "ot" is pronounced *o*, also before a "c" but not "ch"
-    [/ot(?:$|(?=c(?!h)))/, 'o']
+    [/ot(?:$|(?=c(?!h)))/, 'o'],
+
+    // Final "op" is pronounced *o* is some rare cases
+    [/ops?$/, 'o', /(?:sal|syr|gal|tr)$/]
   ],
 
   //-- (ô)
@@ -387,7 +393,10 @@ export const POETIC_RULES = compileRules({
     ['tion', 'sjõ'],
 
     // Final "tie" is pronounced *si*
-    [/tie$/, 'si']
+    [/tie$/, 'si'],
+
+    // Final "t" is rarely pronounced
+    [/t$/, '']
   ],
 
   //-- (u)

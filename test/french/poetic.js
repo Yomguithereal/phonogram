@@ -36,6 +36,7 @@ export default {
     ['bibelot', 'bibelo'],
     ['blanc', 'blã'],
     ['bœuf', 'bøf'],
+    ['bogoss', 'bogos'],
     ['bonbon', 'bõbõ'],
     ['Bruxelles', 'brysɛl'],
     ['buisson', 'bɥisõ'],
@@ -59,6 +60,7 @@ export default {
     ['cœlacanthe', 'kølakãt'],
     ['coing', 'kwẽ'],
     ['coings', 'kwẽ'],
+    ['cool', 'kul'],
     ['conne', 'kɔn'],
     ['constitution', 'kõstitysjõ'],
     ['contestation', 'kõtɛstasjõ'],
@@ -87,8 +89,12 @@ export default {
     ['femme', 'fam'],
     ['fête', 'fɛt'],
     ['finaux', 'fino'],
+    ['flop', 'flop'],
     ['fluet', 'flyɛ'],
+    ['forestier', 'forɛstje'],
+    ['forêt', 'forɛ'],
 
+    ['galop', 'galo'],
     ['genoux', 'ʒenu'],
     ['gérard', 'ʒerar'],
     ['gnaquer', 'njake'],
@@ -167,6 +173,7 @@ export default {
     ['renne', 'rɛn'],
     ['rhume', 'rym'],
 
+    ['salop', 'salo'],
     ['sagement', 'saʒømã'],
     ['savon', 'savõ'],
     ['sashimi', 'saʃimi'],
@@ -178,13 +185,16 @@ export default {
     ['shawarma', 'ʃawarma'],
     ['synthèse', 'sẽtɛz'],
     ['synthétique', 'sẽtetik'],
+    ['syrop', 'siro'],
 
     ['terrain', 'tɛrrẽ'],
     ['tes', 'tɛ'],
     ['thérapie', 'terapi'],
     ['tiare', 'tjar'],
+    ['top', 'top'],
     ['toutou', 'tutu'],
     ['tronc', 'trõ'],
+    ['trop', 'tro'],
     ['truelle', 'tryɛl'],
 
     ['vademecum', 'vademekʌm'],
@@ -194,12 +204,17 @@ export default {
     ['villain', 'vilẽ'],
     ['vos', 'vo'],
 
+    ['wagon', 'vagõ'],
+    ['wapiti', 'wapiti'],
+
     ['xylophone', 'gzilofon'],
 
     ['yannick', 'janik'],
     ['yeux', 'jø'],
 
     ['zèbre', 'zɛbr'],
+    ['zoo', 'zoo'],
+    ['zoologie', 'zooloʒi'],
     ['zyeuter', 'zjøte']
   ]
 };

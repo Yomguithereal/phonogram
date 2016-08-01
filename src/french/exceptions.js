@@ -18,7 +18,9 @@ const EXCEPTIONS = compileExceptions({
   ses: 's(es•ɛ)',
   tes: 't(es•ɛ)',
   villa: 'villa',
-  villa: 'villa(s•)'
+  villa: 'villa(s•)',
+  wagon: '(w•v)ag(on•õ)',
+  wagons: '(w•v)ag(on•õ)(s•)'
 });
 
 export default EXCEPTIONS;
