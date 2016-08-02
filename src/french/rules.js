@@ -389,11 +389,14 @@ export const POETIC_RULES = compileRules({
     // Final "op" is pronounced *o* is some rare cases
     [/ops?$/, 'o', /(?:sal|syr|gal|tr)$/],
 
+    // Else, final "ops" is pronounced *ɔps*
+    [/ops$/, 'ɔps'],
+
     // "o" before a "l" with no subsequent vowel is pronounced *ɔ*
     [/o(?=l)/, 'ɔ'],
 
     // "o" is pronounced *ɔ* before a *k* or *t* sound
-    [/o?(?=(?:que|t?te)(?![rz])|ck|[ckp]$)/, 'ɔ']
+    [/o(?=(?:que|t?te|b?be)(?![rz])|ck|[bckp]$)/, 'ɔ']
   ],
 
   //-- (ô)
@@ -437,6 +440,10 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   r: [
 
+    // Initial "re" is pronounced *rø* if not before vowel or two duplicate
+    // consonants
+    [`re(?![${VOWELS}]|(\\w)\\1)`, 'rø', INITIAL],
+
     // "rr" is squeezed
     ['rr', 'r'],
 
@@ -456,6 +463,9 @@ export const POETIC_RULES = compileRules({
 
     // Like in german, "sch" is pronounced "ʃ"
     ['sch', 'ʃ'],
+
+    // Non-initial "sn" is pronounced *n* if the consecutive letter is "e"
+    [/sn(?=e)/, 'n', INITIAL, NEGATIVE],
 
     // "ss" is squeezed
     ['ss', 's'],

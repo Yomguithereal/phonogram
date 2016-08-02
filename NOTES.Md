@@ -25,7 +25,6 @@ Compiling some cases to handle for target languages.
 * Picpus
 * Chorégraphie
 * Agen
-* Doisneau
 * Annuité
 * ennui
 * Abbaye
@@ -34,6 +33,13 @@ Compiling some cases to handle for target languages.
 * Haye
 * queue, bue, eue, due, moue, noue
 * anus, adjectifs en u, tissu au pluriel
+* boa
+* trouver liste mots étrangers
+* saoul cacao saoudite
+* soubresaut eso
+* apophis sarapis gratis =/= semis souris =/= jaunisse (o?)
+* zoulous
+* teub teubé
 
 **Multi**
 
