@@ -6,7 +6,6 @@ Compiling some cases to handle for target languages.
 
 * Rut But Chut =/= Chahut Bahut =/= qu'il plût, il lut, Azimut
 * Squat
-* mille, ville, tranquille
 * outil, fusil, persil, gentil
 * diazote
 * tabac

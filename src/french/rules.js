@@ -329,6 +329,9 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   m: [
 
+    // Initial "mille" is pronounced *mil* if not before a "t"
+    [/mille(?!t)/, 'mil', INITIAL],
+
     // "m" is squeezed
     ['mm', 'm', /.{2,}/]
   ],
