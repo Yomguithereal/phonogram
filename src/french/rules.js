@@ -234,7 +234,7 @@ export const POETIC_RULES = compileRules({
 
     // "e" between some letters is pronounced *ø*
     [/e(?=mi)/, 'ø', INITIAL, NEGATIVE],
-    [/e(?=l)/, 'ø', /p$/],
+    [/e(?=l)/, 'ø', /[dp]$/],
     [/e(?=d)/, 'ø', /r$/],
     [/e(?=r)/, 'ø', /[cvsz]$/],
     [/e(?!(\w)\1|$)/, 'ø', /^(?:ch|[fr])$/]

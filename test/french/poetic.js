@@ -50,6 +50,7 @@ export default {
     ['baie', 'bɛ'],
     ['baignoire', 'bɛnwar'],
     ['barbecue', 'barbøkju'],
+    ['Baudelaire', 'bodølɛr'],
     ['beauvillaine', 'bovilɛn'],
     ['bel', 'bɛl'],
     ['belle', 'bɛl'],
