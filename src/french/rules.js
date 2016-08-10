@@ -73,8 +73,9 @@ export const POETIC_RULES = compileRules({
     // "aing" & "ain" are pronounced *ẽ*
     [/aing?$/, 'ẽ'],
 
-    // Final "aim" is pronounced *ẽ*
-    [/aim$/, 'ẽ'],
+    // "aim" or "ain" is pronounced *ẽ* when final or not before the same
+    // consonant or vowel.
+    [`(?:ai[mn]s?$|ai[mn](?![${VOWELS}mn]))`, 'ẽ'],
 
     // "aill" is pronounced *aj*
     [/aill/, 'aj'],
@@ -352,7 +353,7 @@ export const POETIC_RULES = compileRules({
   l: [
 
     // "ll" is squeezed
-    ['ll', 'l', /.{2,}/]
+    ['ll', 'l']
   ],
 
   //-- (m)
