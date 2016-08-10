@@ -224,6 +224,7 @@ export const POETIC_RULES = compileRules({
     [`e(?=[clmnrz](?![${VOWELS}])|s(?![${VOWELS}s]))`, 'ɛ'],
 
     // "e" between some letters is pronounced *ø*
+    [/e(?=mi)/, 'ø', INITIAL, NEGATIVE],
     [/e(?=l)/, 'ø', /p$/],
     [/e(?=d)/, 'ø', /r$/],
     [/e(?=r)/, 'ø', /[csz]$/],
@@ -377,8 +378,8 @@ export const POETIC_RULES = compileRules({
     // Final "oeil" is pronounced *øj*
     [/oeil$/, 'ʌj'],
 
-    // Final "oing" or "oint" is pronounced *wẽ*
-    [/oin[gt]s?$/, 'wẽ'],
+    // "oing" or "oint" or "oin" is pronounced *wẽ* if not followed by vowel
+    [`oin[gt]?(?![${VOWELS}])`, 'wẽ'],
 
     // "oi" is pronounced *wa*
     [/(?:oix?|oy$)/, 'wa'],
@@ -432,7 +433,7 @@ export const POETIC_RULES = compileRules({
     [/ocr/, 'ɔkr', INITIAL],
 
     // "o" before "qu" or some "ch" is pronounced *ɔ*
-    [/o(?=qu|c?k|ch(?![iy]))/, 'ɔ'],
+    [/o(?=bl|c?k|ch(?![iy])|qu)/, 'ɔ'],
 
     // "o" before "mme" & "nne" is pronounced *ɔ*
     [/ommes?$/, 'ɔm'],

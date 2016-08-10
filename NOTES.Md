@@ -34,12 +34,7 @@ Compiling some cases to handle for target languages.
 * brosse, gosse =/= grosse, fosse
 * cas de la brioche
 * cointerne
-
-* demi, semi
-* même
-* meme
-* coin
-* ignoble
+* estomac, tabac
 
 *Liaisions*
 
