@@ -34,6 +34,10 @@ Compiling some cases to handle for target languages.
 * brosse, gosse =/= grosse, fosse
 * cas de la brioche
 
+* Trans
+* Turlutte
+* Insitut
+
 *Liaisions*
 
 * Et caetera
@@ -52,6 +56,9 @@ Lister les mots étrangers
 * Randell
 * Clue
 * Cruel
+* Doth
+* Dost
+* Thou
 
 * Genitives
 

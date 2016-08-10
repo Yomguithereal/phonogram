@@ -64,6 +64,12 @@ export const POETIC_RULES = compileRules({
     // Generally, final "ach" is pronounced *ak*
     [/ach$/, 'ak'],
 
+    // Final "ault" is pronounced *o*
+    [/aults?$/, 'o'],
+
+    // Final "aud" is pronounced *o*
+    [/auds?$/, 'o'],
+
     // "aing" & "ain" are pronounced *ẽ*
     [/aing?$/, 'ẽ'],
 
@@ -164,14 +170,8 @@ export const POETIC_RULES = compileRules({
     // Final "erf" after "c", "n" or "s" is pronounced *ɛr*
     [/erf$/, 'ɛr', /[cns]$/],
 
-    // "err" is prononounced *ɛr*
-    [/err/, 'ɛr'],
-
-    // "enn" is pronounced *ɛn*
-    [/enn/, 'ɛn'],
-
-    // "epp" is pronounced *ɛp*
-    [/epp/, 'ɛp'],
+    // "e" before two doubled consonants is pronounced *ɛ*
+    [`e(?=([rnpt])\\1)`, 'ɛ'],
 
     // "em" before "b" or "p" is pronounced *ã*
     [/em(?=[bp])/, 'ã'],
@@ -378,10 +378,13 @@ export const POETIC_RULES = compileRules({
     [/onc$/, 'õ'],
 
     // "on" is prononced *õ*
-    [`on(?=[^${VOWELS}n]|$)`, 'õ'],
+    [`on(?=[^${VOWELS}nh]|$)`, 'õ'],
 
     // Final "omb" is pronounced *õ*
     [/omb$/, 'õ'],
+
+    // Final "oult" is pronounced *u*
+    [/oults?$/, 'u'],
 
     // "om" before "b" or "p" is pronounced *õ*
     [/om(?=[bp])/, 'õ'],
