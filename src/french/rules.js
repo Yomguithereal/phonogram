@@ -76,6 +76,9 @@ export const POETIC_RULES = compileRules({
     // Final "aim" is pronounced *ẽ*
     [/aim$/, 'ẽ'],
 
+    // "aill" is pronounced *aj*
+    [/aill/, 'aj'],
+
     // "aon" is always pronounced *ã*
     ['aon', 'ã'],
 
@@ -118,6 +121,12 @@ export const POETIC_RULES = compileRules({
   //-- (c)
   //----------------------------------------------------------------------------
   c: [
+
+    // "cc" before a "e" is pronounced *ks*
+    [/cc(?=[eé])/, 'ks'],
+
+    // "cc" is squeezed
+    ['cc', 'k'],
 
     // Words finishing by "clef" pronounce it "kle"
     [/clef$/, 'kle'],

@@ -17,6 +17,8 @@ export default {
     ['alcoolisé', 'alkɔlize'],
     ['Aleppes', 'alɛp'],
     ['almanach', 'almana'],
+    ['accable', 'akabl'],
+    ['accélérer', 'akselere'],
     ['accentuation', 'aksãtyasjõ'],
     ['âme', 'am'],
     ['ambiance', 'ãbjãs'],
@@ -234,6 +236,7 @@ export default {
     ['inquisition', 'ẽkizisjõ'],
     ['institut', 'ẽstity'],
 
+    ['jaillir', 'ʒajir'],
     ['jaunisse', 'ʒonis'],
     ['javelot', 'ʒavelo'],
     ['je', 'ʒø'],
