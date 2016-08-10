@@ -18,7 +18,7 @@ Compiling some cases to handle for target languages.
 * Hauteville
 * Dengue
 * Benzène
-* Picpus
+* Picpus Abus
 * Chorégraphie
 * Agen
 * Annuité
@@ -33,10 +33,6 @@ Compiling some cases to handle for target languages.
 * boeuf boeufs oeuf oeufs
 * brosse, gosse =/= grosse, fosse
 * cas de la brioche
-
-* Trans
-* Turlutte
-* Insitut
 
 *Liaisions*
 

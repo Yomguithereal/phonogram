@@ -42,6 +42,7 @@ const EXCEPTIONS = {
   ses: 's(es•ɛ)',
   tes: 't(es•ɛ)',
   tranquille: 'tr(an•ã)(qu•k)i(lle•l)',
+  trans: 'tr(an•ã)s',
   vos: 'v(os•o)',
   wagon: '(w•v)ag(on•õ)'
 };

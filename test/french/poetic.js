@@ -205,6 +205,7 @@ export default {
     ['imbu', 'ẽby'],
     ['inquiet', 'ẽkjɛ'],
     ['inquisition', 'ẽkizisjõ'],
+    ['institut', 'ẽstity'],
 
     ['jaunisse', 'ʒonis'],
     ['javelot', 'ʒavelo'],
@@ -394,6 +395,7 @@ export default {
     ['toquer', 'tɔke'],
     ['toutou', 'tutu'],
     ['tranquille', 'trãkil'],
+    ['trans', 'trãs'],
     ['trappes', 'trap'],
     ['tricératops', 'triseratɔps'],
     ['troène', 'troɛn'],
@@ -401,6 +403,7 @@ export default {
     ['trop', 'tro'],
     ['truelle', 'tryɛl'],
     ['tunnel', 'tynɛl'],
+    ['turlutte', 'tyrlyt'],
 
     ['un', 'ẽ'],
     ['unitaire', 'ynitɛr'],
