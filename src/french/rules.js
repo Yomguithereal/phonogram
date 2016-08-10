@@ -281,20 +281,25 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   i: [
 
+    // "illi" before certain vowels is pronounced *ilj*
+    [`illi(?=[${A + E + I + O}])`, 'ilj'],
+
     // "ill" after a vowel and not before a "i" is pronounced *ij*
-    [/ill(?=[^i])/, 'ij', `[^${VOWELS}]`],
+    [/ill/, 'ij', `[^${VOWELS}]`],
 
     // "in" before a consonant which is not "n" or final is pronounced *ẽ*
     [`i([mn])(?=$|[^${VOWELS}\\1])`, 'ẽ'],
 
-    // "ien" is pronounced *jẽ*
-    ['ien', 'jẽ'],
+    // Final "ie" is pronounced *i*
+    [/ie$/, 'i'],
+
+    // "ian", "ien" & "ion" are pronounced *j*
+    [/ian/, 'jã'],
+    [/ien/, 'jẽ'],
+    [/ion/, 'jõ'],
 
     // Final "iement" is pronounced *imã*
     [/iements?$/, 'imã'],
-
-    // Final "ie" is pronounced *i*
-    [/ie$/, 'i'],
 
     // "i" before some vowels is pronounced *j*
     [`i(?=[${A + E + O + U}])`, 'j']
@@ -343,15 +348,11 @@ export const POETIC_RULES = compileRules({
     // "ouill" is pronounced "uj"
     [/(?:ouill|ouils?$)/, 'uj'],
 
-    // Final "omme" or "onne" is pronounced "ɔm" or "ɔn" respectively
-    [/ommes?$/, 'ɔm'],
-    [/onnes?$/, 'ɔn'],
-
     // Final "oigt" is pronounced *wa*
     [/oigt$/, 'wa'],
 
     // Final "oeil" is pronounced *øj*
-    [/oeil$/, 'øj'],
+    [/oeil$/, 'ʌj'],
 
     // Final "oing" or "oint" is pronounced *wẽ*
     [/oin[gt]s?$/, 'wẽ'],
@@ -380,23 +381,39 @@ export const POETIC_RULES = compileRules({
     // "oo" is generally pronounced *u*
     [/oo/, 'u'],
 
-    // "oe" is generally pronounced *ø*
-    [/oeu?/, 'ø'],
+    // "oeu" is generally pronounced *ʌ*
+    [/oeu/, 'ʌ'],
 
-    // Final "ot" is pronounced *o*, also before a "c" but not "ch"
-    [/ot(?:$|(?=c(?!h)))/, 'o'],
+    // "oe" is pronounced *ø*
+    [/oe/, 'ø'],
+
+    // Final "ot" or "o" is pronounced *o*
+    [/(?:o|ots?)$/, 'o'],
 
     // Final "op" is pronounced *o* is some rare cases
     [/ops?$/, 'o', /(?:sal|syr|gal|tr)$/],
 
-    // Else, final "ops" is pronounced *ɔps*
+    // Else it is pronounced "ops"
     [/ops$/, 'ɔps'],
 
-    // "o" before a "l" with no subsequent vowel is pronounced *ɔ*
-    [/o(?=l)/, 'ɔ'],
+    // "o" before a "z" sound is pronounced *o*
+    [`o(?=s[${VOWELS}]|z)`, 'o'],
 
-    // "o" is pronounced *ɔ* before a *k* or *t* sound
-    [/o(?=(?:que|t?te|b?be)(?![rz])|ck|[bckp]$)/, 'ɔ']
+    // Initial "ocr" is pronounced *ɔkr*
+    [/ocr/, 'ɔkr', INITIAL],
+
+    // "o" before "qu" or some "ch" is pronounced *ɔ*
+    [/o(?=qu|c?k|ch(?![iy]))/, 'ɔ'],
+
+    // "o" before "mme" & "nne" is pronounced *ɔ*
+    [/ommes?$/, 'ɔm'],
+    [/onnes?$/, 'ɔn'],
+
+    // "o" before some doubled consonants is pronounced *ɔ*
+    [/o(?=ll|tt|ss)/, 'ɔ'],
+
+    // Final "o" before a single consonant is pronounced *ɔ*
+    [`o(?=[^${VOWELS}](?:es?|s?)$)`, 'ɔ']
   ],
 
   //-- (ô)
@@ -407,11 +424,14 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   œ: [
 
-    // Final "œil" is pronounced *œj*
-    [/œil$/, 'øj'],
+    // Final "œil" is pronounced *ʌj*
+    [/œil$/, 'ʌj'],
 
-    // "œu" is pronounced *ø*
-    [/œu?/, 'ø']
+    // "œu" is pronounced *ʌ*
+    [/œu/, 'ʌ'],
+
+    // "œ" is pronounced *ø*
+    [/œ/, 'ø']
   ],
 
   //-- (p)
@@ -518,7 +538,7 @@ export const POETIC_RULES = compileRules({
     [/tie$/, 'si', `[${VOWELS}]$`],
 
     // Final "t" is rarely pronounced
-    [/t$/, '', /[^ï]$/]
+    [/ts?$/, '', /[^ï]$/]
   ],
 
   //-- (u)

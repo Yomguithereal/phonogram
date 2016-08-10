@@ -31,11 +31,13 @@ const EXCEPTIONS = {
   monsieur: 'm(on•ø)s(ieur•jø)',
   munster: 'm(un•ẽ)st(e•ɛ)r',
   münster: 'm(ün•ẽ)st(e•ɛ)r',
+  nos: 'n(os•o)',
   oignon: '(oi•o)(gn•nj)(on•õ)',
   que: '(qu•k)(e•ø)',
   ses: 's(es•ɛ)',
   tes: 't(es•ɛ)',
   villa: 'villa',
+  vos: 'v(os•o)',
   wagon: '(w•v)ag(on•õ)'
 };
 

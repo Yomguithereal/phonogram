@@ -40,6 +40,9 @@ Compiling some cases to handle for target languages.
 * apophis sarapis gratis =/= semis souris =/= jaunisse (o?)
 * zoulous
 * teub teubé
+* nos, vos etc.
+* boeuf boeufs oeuf oeufs
+* brosse, gosse =/= grosse, fosse
 
 **Multi**
 
