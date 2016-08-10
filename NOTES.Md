@@ -13,13 +13,11 @@ Compiling some cases to handle for target languages.
 * rhésus us$, us & coutumes
 * joliet
 * accent boniment mentent mangent, filament, proclament
-* primesautier
 * charisme
 * Incognito
 * Hauteville
 * Dengue
 * Benzène
-* Sortie
 * Picpus
 * Chorégraphie
 * Agen
@@ -31,14 +29,7 @@ Compiling some cases to handle for target languages.
 * Haye
 * queue, bue, eue, due, moue, noue
 * anus, adjectifs en u, tissu au pluriel
-* boa
-* trouver liste mots étrangers
-* saoul cacao saoudite
-* soubresaut eso
-* apophis sarapis gratis =/= semis souris =/= jaunisse (o?)
-* zoulous
-* teub teubé
-* nos, vos etc.
+* apophis sarapis gratis =/= semis souriss
 * boeuf boeufs oeuf oeufs
 * brosse, gosse =/= grosse, fosse
 * cas de la brioche
@@ -46,6 +37,8 @@ Compiling some cases to handle for target languages.
 **Multi**
 
 couvent, plus, est, os, dessein, fils, persil, goupil
+
+Lister les mots étrangers
 
 ## English
 

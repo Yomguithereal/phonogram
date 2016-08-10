@@ -22,9 +22,6 @@ export const VOWELS = A + E + I + O + U + Y;
  * List of common prefixes.
  */
 const PREFIXES = [
-  // 'a',
-  // NOTE: there, we'll need a heuristics to check some patterns
-  // NOTE: could also use this to figure out the diphtongue cases
   'anti',
   'bio',
   'dé',
@@ -43,6 +40,11 @@ const PREFIXES = [
 ];
 
 const PREFIXES_LOOKBEHIND = new RegExp(`^(?:${PREFIXES.join('|')})$`);
+
+const GREEK_CH = [
+  'charism',
+  'chiro'
+];
 
 /**
  * Most precise ruleset.
@@ -171,8 +173,6 @@ export const POETIC_RULES = compileRules({
     [/em(?=[bp])/, 'ã'],
 
     // "en" before a not final "t" or "s" is pronounced *ã*
-    // NOTE: this can probably be generalized further before a not final
-    // consonant.
     [/en(?=[gst].)/, 'ã'],
 
     // "eill" is pronounced *ɛj*
@@ -190,7 +190,10 @@ export const POETIC_RULES = compileRules({
     // Initial "eu" is pronounced *u* alone or before "s" & "t"
     [/e[uû](?=t?$|ss)/, 'y', INITIAL],
 
-    // "eu" is pronounced *ø*
+    // "eu" before final "r", final "b" or "rre" is pronounced *ʌ*
+    [/eu(?=r$|b$|rres?$)/, 'ʌ'],
+
+    // Final "eu" is pronounced *ø*
     [/eux?/, 'ø'],
 
     // "ei" is pronounced *ɛ*
@@ -483,6 +486,13 @@ export const POETIC_RULES = compileRules({
 
     // "susur" is always pronounced *sysyr*
     [/susu(?=r)/, 'sysy'],
+
+    // "saoul" is always pronounced *su*
+    [/sao[uû]l$/, 'su'],
+    [/sao[uû]l/, 'sul'],
+
+    // "saut" is always pronounced *so*
+    [/sau(?=t)/, 'so'],
 
     // Like in german, "sch" is pronounced "ʃ"
     ['sch', 'ʃ'],
