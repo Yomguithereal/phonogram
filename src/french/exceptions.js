@@ -36,7 +36,6 @@ const EXCEPTIONS = {
   que: '(qu•k)(e•ø)',
   ses: 's(es•ɛ)',
   tes: 't(es•ɛ)',
-  villa: 'villa',
   vos: 'v(os•o)',
   wagon: '(w•v)ag(on•õ)'
 };

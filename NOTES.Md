@@ -16,7 +16,6 @@ Compiling some cases to handle for target languages.
 * accent boniment mentent mangent, filament, proclament
 * primesautier
 * charisme
-* chiroubles
 * Incognito
 * Hauteville
 * Dengue
@@ -43,6 +42,7 @@ Compiling some cases to handle for target languages.
 * nos, vos etc.
 * boeuf boeufs oeuf oeufs
 * brosse, gosse =/= grosse, fosse
+* cas de la brioche
 
 **Multi**
 
