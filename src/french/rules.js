@@ -203,7 +203,7 @@ export const POETIC_RULES = compileRules({
     [/e[uû](?=t?$|ss)/, 'y', INITIAL],
 
     // "eu" before final "r", final "b" or "rre" is pronounced *ʌ*
-    [/eu(?=r$|b$|rres?$)/, 'ʌ'],
+    [/eu(?=r[st]?$|b$|rres?$)/, 'ʌ'],
 
     // Final "eu" is pronounced *ø*
     [/eux?/, 'ø'],

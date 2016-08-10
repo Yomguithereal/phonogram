@@ -2,6 +2,18 @@
 
 Compiling some cases to handle for target languages.
 
+## Benefits
+
+* Multiple languages
+* Multiple levels
+* Liaisons
+* SMS
+* Genitives
+* Abbreviations
+* Multiple choices
+* Combinations
+* Syllabification
+
 ## French
 
 * Rut But Chut =/= Chahut Bahut =/= qu'il plût, il lut, Azimut
@@ -15,7 +27,7 @@ Compiling some cases to handle for target languages.
 * accent boniment mentent mangent, filament, proclament
 * charisme
 * Incognito
-* Hauteville
+* Hauteville, Fronteval
 * Dengue
 * Benzène
 * Picpus Abus
@@ -29,11 +41,12 @@ Compiling some cases to handle for target languages.
 * Haye
 * queue, bue, eue, due, moue, noue
 * anus, adjectifs en u, tissu au pluriel
-* apophis sarapis gratis =/= semis souriss
+* apophis sarapis gratis =/= semis souris gris batis
 * boeuf boeufs oeuf oeufs
 * brosse, gosse =/= grosse, fosse
 * cas de la brioche
 * cointerne
+* ch grec
 
 *Liaisions*
 
@@ -41,7 +54,7 @@ Compiling some cases to handle for target languages.
 
 **Multi**
 
-couvent, plus, est, os, dessein, fils, persil, goupil
+couvent, plus, est, os, dessein, fils, persil, goupil, ch grec
 
 Lister les mots étrangers
 
@@ -62,6 +75,8 @@ Lister les mots étrangers
 ## German
 
 * Dirndl
+* Nietzsche
+* Schwimm
 
 ## Syllabification
 
