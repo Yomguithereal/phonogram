@@ -33,6 +33,14 @@ Compiling some cases to handle for target languages.
 * boeuf boeufs oeuf oeufs
 * brosse, gosse =/= grosse, fosse
 * cas de la brioche
+* cointerne
+
+* demi, semi
+* emmerder
+* même
+* meme
+* coin
+* ignoble
 
 *Liaisions*
 

@@ -19,6 +19,7 @@ const EXCEPTIONS = {
   auxerres: '(au•o)(x•s)ɛ(rres•r)',
   barbecue: 'barb(e•ø)(cue•kju)',
   bruxelles: 'br(u•y)(x•s)ɛ(lles•l)',
+  ceci: '(c•s)(e•ø)(c•s)i',
   es: '(es•ɛ)',
   est: '(est•ɛ)',
   et: 'e(t•)',

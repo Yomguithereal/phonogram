@@ -107,6 +107,10 @@ export const POETIC_RULES = compileRules({
     ['au', 'o']
   ],
 
+  //-- (à)
+  //----------------------------------------------------------------------------
+  à: 'a',
+
   //-- (â)
   //----------------------------------------------------------------------------
   â: 'a',
@@ -139,6 +143,10 @@ export const POETIC_RULES = compileRules({
     // "c" before anything else is pronounced *k*
     [null, 'k']
   ],
+
+  //-- (ç)
+  //----------------------------------------------------------------------------
+  ç: 's',
 
   //-- (d)
   //----------------------------------------------------------------------------
@@ -177,7 +185,7 @@ export const POETIC_RULES = compileRules({
     [/em(?=[bp])/, 'ã'],
 
     // "en" before a not final "t" or "s" is pronounced *ã*
-    [/en(?=[gst].)/, 'ã'],
+    [/en(?=[çgst].)/, 'ã'],
 
     // "eill" is pronounced *ɛj*
     ['eill', 'ɛj'],
@@ -217,6 +225,7 @@ export const POETIC_RULES = compileRules({
 
     // "e" between some letters is pronounced *ø*
     [/e(?=l)/, 'ø', /p$/],
+    [/e(?=d)/, 'ø', /r$/],
     [/e(?=r)/, 'ø', /[csz]$/],
     [/e(?!(\w)\1|$)/, 'ø', /^(?:ch|[fr])$/]
   ],
@@ -433,7 +442,7 @@ export const POETIC_RULES = compileRules({
     [/o(?=ll|tt|ss)/, 'ɔ'],
 
     // Final "o" before a single consonant is pronounced *ɔ*
-    [`o(?=[^${VOWELS}](?:es?|s?)$)`, 'ɔ']
+    [`o(?=[^${VOWELS}](?:es?|s?)$|rts?$)`, 'ɔ']
   ],
 
   //-- (ô)
@@ -601,7 +610,10 @@ export const POETIC_RULES = compileRules({
   v: [
 
     // Handling some exceptions related to "ville" & "villain-"
-    [/vill(?=ain|[ae])/, 'vil']
+    [/vill(?=ain|[ae])/, 'vil'],
+
+    // "voi" is pronounced *wa*
+    ['voi', 'wa']
   ],
 
   //-- (x)
