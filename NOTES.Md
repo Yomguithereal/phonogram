@@ -6,7 +6,7 @@ Compiling some cases to handle for target languages.
 
 * Multiple languages
 * Multiple levels
-* Liaisons
+* Liaisons (poetic & casual)
 * SMS
 * Genitives
 * Abbreviations

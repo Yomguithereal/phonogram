@@ -188,6 +188,9 @@ export const POETIC_RULES = compileRules({
     // Final "erf" after "c", "n" or "s" is pronounced *ɛr*
     [/erf$/, 'ɛr', /[cns]$/],
 
+    // Final "ert" or "ers" is pronounced *ɛr*
+    [/(?:erts?$|ers$)/, 'ɛr', /[^i]$/],
+
     // "e" before two doubled consonants is pronounced *ɛ*
     ['e(?=([rnpt])\\1)', 'ɛ'],
 
@@ -195,7 +198,7 @@ export const POETIC_RULES = compileRules({
     [/em(?=[bp])/, 'ã'],
 
     // "en" before a not final "t" or "s" is pronounced *ã*
-    [/en(?=[çgst].)/, 'ã'],
+    [/en(?=[çdgst].)/, 'ã'],
 
     // "eill" is pronounced *ɛj*
     ['eill', 'ɛj'],
