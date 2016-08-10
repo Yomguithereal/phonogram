@@ -34,6 +34,10 @@ Compiling some cases to handle for target languages.
 * brosse, gosse =/= grosse, fosse
 * cas de la brioche
 
+*Liaisions*
+
+* Et caetera
+
 **Multi**
 
 couvent, plus, est, os, dessein, fils, persil, goupil
@@ -48,6 +52,8 @@ Lister les mots étrangers
 * Randell
 * Clue
 * Cruel
+
+* Genitives
 
 ## German
 

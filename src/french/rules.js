@@ -146,6 +146,9 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   e: [
 
+    // If "e" is the last letter of a two-letters words
+    [/e$/, 'ø', /^.$/],
+
     // Initial "emm" is pronounced *ã*
     [/em(?=m)/, 'ã', INITIAL],
 
@@ -161,13 +164,14 @@ export const POETIC_RULES = compileRules({
     // Final "erf" after "c", "n" or "s" is pronounced *ɛr*
     [/erf$/, 'ɛr', /[cns]$/],
 
-    // "err" is prononounced *ɛrr*
-    [/erre$/, 'ɛr'],
-    ['err', 'ɛrr'],
+    // "err" is prononounced *ɛr*
+    [/err/, 'ɛr'],
 
-    // "enn" is pronounced *ɛnn*
-    [/enne$/, 'ɛn'],
-    ['enn', 'ɛnn'],
+    // "enn" is pronounced *ɛn*
+    [/enn/, 'ɛn'],
+
+    // "epp" is pronounced *ɛp*
+    [/epp/, 'ɛp'],
 
     // "em" before "b" or "p" is pronounced *ã*
     [/em(?=[bp])/, 'ã'],
@@ -238,6 +242,10 @@ export const POETIC_RULES = compileRules({
   //-- (ê)
   //----------------------------------------------------------------------------
   ê: 'ɛ',
+
+  //-- (ë)
+  //----------------------------------------------------------------------------
+  ë: 'ɛ',
 
   //-- (f)
   //----------------------------------------------------------------------------
@@ -381,6 +389,9 @@ export const POETIC_RULES = compileRules({
     // "oy" is pronounced *waj* before a and if the wor
     [/oy(?=[a])/, 'waj', /.+/],
 
+    // "ou" before some vowels is pronounced *w*
+    [/ou(?=[ai])/, 'w'],
+
     // "ou" is generally pronounced *u*
     [/o[uùû]x?/, 'u'],
 
@@ -443,6 +454,9 @@ export const POETIC_RULES = compileRules({
   //-- (p)
   //----------------------------------------------------------------------------
   p: [
+
+    // "patien" is pronounced *pasjã*
+    ['patien', 'pasjã'],
 
     // "pp" is squeezed
     ['pp', 'p'],
