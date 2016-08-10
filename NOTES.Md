@@ -36,7 +36,6 @@ Compiling some cases to handle for target languages.
 * cointerne
 
 * demi, semi
-* emmerder
 * même
 * meme
 * coin
