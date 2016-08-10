@@ -18,8 +18,10 @@ const EXCEPTIONS = {
   aulx: '(aulx•o)',
   auxerres: '(au•o)(x•s)ɛ(rres•r)',
   barbecue: 'barb(e•ø)(cue•kju)',
+  broc: 'br(oc•o)',
   bruxelles: 'br(u•y)(x•s)ɛ(lles•l)',
   ceci: '(c•s)(e•ø)(c•s)i',
+  croc: '(c•k)r(oc•o)',
   es: '(es•ɛ)',
   est: '(est•ɛ)',
   estomac: '(e•ɛ)stom(ac•a)',
@@ -47,6 +49,7 @@ const EXCEPTIONS = {
   tranquille: 'tr(an•ã)(qu•k)i(lle•l)',
   trans: 'tr(an•ã)s',
   vos: 'v(os•o)',
+  yaourt: '(y•j)a(ou•u)rt',
   wagon: '(w•v)ag(on•õ)'
 };
 
@@ -57,6 +60,8 @@ const plurals = [
   'aoutat',
   'aigüe',
   'aiguë',
+  'broc',
+  'croc',
   'estomac',
   'femme',
   'gageure',
@@ -66,6 +71,7 @@ const plurals = [
   'oignon',
   'tabac',
   'villa',
+  'yaourt',
   'wagon'
 ];
 

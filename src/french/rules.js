@@ -179,7 +179,7 @@ export const POETIC_RULES = compileRules({
     [/erf$/, 'ɛr', /[cns]$/],
 
     // "e" before two doubled consonants is pronounced *ɛ*
-    [`e(?=([rnpt])\\1)`, 'ɛ'],
+    ['e(?=([rnpt])\\1)', 'ɛ'],
 
     // "em" before "b" or "p" is pronounced *ã*
     [/em(?=[bp])/, 'ã'],
@@ -227,7 +227,7 @@ export const POETIC_RULES = compileRules({
     [/e(?=mi)/, 'ø', INITIAL, NEGATIVE],
     [/e(?=l)/, 'ø', /p$/],
     [/e(?=d)/, 'ø', /r$/],
-    [/e(?=r)/, 'ø', /[csz]$/],
+    [/e(?=r)/, 'ø', /[cvsz]$/],
     [/e(?!(\w)\1|$)/, 'ø', /^(?:ch|[fr])$/]
   ],
 
@@ -375,17 +375,23 @@ export const POETIC_RULES = compileRules({
     // Final "oigt" is pronounced *wa*
     [/oigt$/, 'wa'],
 
+    // Final "oubs" is pronounced *u*
+    [/oubs$/, 'u'],
+
     // Final "oeil" is pronounced *øj*
     [/oeil$/, 'ʌj'],
 
-    // "oing" or "oint" or "oin" is pronounced *wẽ* if not followed by vowel
-    [`oin[gt]?(?![${VOWELS}])`, 'wẽ'],
+    // "ooing", oing", "oint" or "oin" are pronounced *wẽ*
+    [`o?oin[gt]?(?![${VOWELS}])`, 'wẽ'],
 
     // "oi" is pronounced *wa*
     [/(?:oix?|oy$)/, 'wa'],
 
     // Final "onc" is prononced *õ*
     [/onc$/, 'õ'],
+
+    // "ont" is pronounced *õ* before some letters
+    [/ont(?=j)/, 'õ'],
 
     // "on" is prononced *õ*
     [`on(?=[^${VOWELS}nh]|$)`, 'õ'],
