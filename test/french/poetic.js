@@ -62,6 +62,7 @@ export default {
     ['beau', 'bo'],
     ['Bengal', 'bẽgal'],
     ['Benjamin', 'bẽʒamẽ'],
+    ['Benoît', 'bønwa'],
     ['Benzène', 'bẽzɛn'],
     ['beur', 'bʌr'],
     ['beurre', 'bʌr'],

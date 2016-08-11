@@ -252,6 +252,7 @@ export const POETIC_RULES = compileRules({
     // "e" between some letters is pronounced *ø*
     [/e(?=mi)/, 'ø', INITIAL, NEGATIVE],
     [/e(?=l)/, 'ø', /[dp]$/],
+    [/e(?=n)/, 'ø', /[bp]$/],
     [/e(?=d)/, 'ø', /r$/],
     [/e(?=r)/, 'ø', /[cmvsz]$/],
     [/e(?!(\w)\1|$)/, 'ø', /^(?:ch|[fr])$/]
@@ -414,7 +415,7 @@ export const POETIC_RULES = compileRules({
     [`o?oin[gt]?(?![${VOWELS}])`, 'wẽ'],
 
     // "oi" is pronounced *wa*
-    [/(?:oix?|oy$)/, 'wa'],
+    [/(?:o[iî]x?|oy$)/, 'wa'],
 
     // Final "onc" is prononced *õ*
     [/onc$/, 'õ'],
