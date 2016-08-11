@@ -53,6 +53,7 @@ export default {
     ['badauds', 'bado'],
     ['baie', 'bɛ'],
     ['baignoire', 'bɛnwar'],
+    ['bâillement', 'bajømã'],
     ['barbecue', 'barbøkju'],
     ['Baudelaire', 'bodølɛr'],
     ['beauvillaine', 'bovilɛn'],
