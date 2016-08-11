@@ -42,8 +42,6 @@ Lister les mots étrangers
 * Li
 * Duchess
 * Randell
-* Clue
-* Cruel
 * Doth
 * Dost
 * Thou

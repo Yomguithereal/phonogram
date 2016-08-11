@@ -28,16 +28,36 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   a: [
 
-    // Before a wall, "a" is pronounced *a*
-    [`a(?=${WALL})`, 'a'],
+    // "ate" is pronounced *ɛjt*
+    ['ate', 'ɛjt']
+  ],
 
-    // Free, "a" is pronounced *ɛj*
-    [null, 'ɛj']
+  //-- (c)
+  //----------------------------------------------------------------------------
+  c: [
+
+    // "cious" is pronounced *ʃʌs*
+    ['cious', 'ʃʌs'],
+
+    // "ch" is pronounced *tʃ*
+    ['ch', 'tʃ'],
+
+    // Else it's pronounced *k*
+    [null, 'k']
   ],
 
   //-- (e)
   //----------------------------------------------------------------------------
   e: [
+
+    // "ea" before "s" is pronounced *ɛ*
+    [/ea(?=s)/, 'ɛ'],
+
+    // Else it is pronounced *i*
+    [/ea/, 'i'],
+
+    // "ee" is pronounced *i*
+    [/ee/, 'i'],
 
     // Final "e" is seldom pronounced
     [/e$/, ''],
@@ -56,6 +76,39 @@ export const POETIC_RULES = compileRules({
 
     // "oo" is pronounced *u*
     ['oo', 'u']
+  ],
+
+  //-- (p)
+  //----------------------------------------------------------------------------
+  p: [
+
+    // "ph" is pronounced *f*
+    ['ph', 'f']
+  ],
+
+  //-- (s)
+  //----------------------------------------------------------------------------
+  s: [
+
+    // Initial "s" is pronounced *s*
+    ['s', 's', INITIAL],
+
+    // "s" after a vowel & before a "u" is pronounced *ʒ*
+    [/s(?=u)/, 'ʒ', `[${VOWELS}]$`],
+
+    // "s" between two vowel is pronounced *z*
+    [`s(?=[${VOWELS}])`, 'z', `[${VOWELS}]$`]
+  ],
+
+  //-- (u)
+  //----------------------------------------------------------------------------
+  u: [
+
+    // "u" before a "r" or "s" is pronounced *ʌ*
+    [/u(?=[rs])/, 'ʌ'],
+
+    // "ue" is pronounced *u*
+    ['ue', 'u']
   ],
 
   //-- (z)
