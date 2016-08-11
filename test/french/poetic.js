@@ -257,6 +257,7 @@ export default {
     ['je', 'ʒø'],
     ['jeu', 'ʒø'],
     ['jeun', 'ʒẽ'],
+    ['joliet', 'ʒoljɛ'],
     ['julie', 'ʒyli'],
 
     ['laitue', 'lɛty'],

@@ -18,7 +18,6 @@ Compiling some cases to handle for target languages.
 
 * Squat
 * diazote
-* joliet
 * accent boniment mentent mangent, filament, proclament
 * Incognito
 * Hauteville, Fronteval
