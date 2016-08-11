@@ -41,21 +41,6 @@ const PREFIXES = [
 
 const PREFIXES_LOOKBEHIND = new RegExp(`^(?:${PREFIXES.join('|')})$`);
 
-const GREEK_CH = [
-  'arché',
-  'archo',
-  'chalc',
-  'chald',
-  'chalqu',
-  'charism',
-  'chiro',
-  'chor',
-  'lichen',
-  'tricho',
-  'stocha',
-  'varech'
-];
-
 /**
  * Most precise ruleset.
  */
@@ -164,6 +149,8 @@ export const POETIC_RULES = compileRules({
     [null, 'k']
   ],
 
+  greekCh: 'k',
+
   //-- (ç)
   //----------------------------------------------------------------------------
   ç: 's',
@@ -260,6 +247,9 @@ export const POETIC_RULES = compileRules({
 
     // Final "ément" is pronounced "emã"
     [/ément$/, 'emã'],
+
+    // Final "éen" is pronounced *eẽ*
+    [/éen$/, 'eẽ'],
 
     // Final "ée" is pronounced "e"
     [/ée$/, 'e'],
