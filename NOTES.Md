@@ -21,7 +21,7 @@ Compiling some cases to handle for target languages.
 * accent boniment mentent mangent, filament, proclament
 * Incognito
 * Picpus Abus
-* apophis sarapis gratis =/= semis souris gris batis
+* apophis sarapis gratis =/= semis souris gris batis suis
 * brosse, gosse =/= grosse, fosse
 * cas de la brioche
 * cointerne

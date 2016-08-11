@@ -26,6 +26,10 @@ describe('abstract', function() {
   require('./PhonogramCode.js');
 });
 
+describe('english', function() {
+  test('poetic', './english/poetic.js');
+});
+
 describe('french', function() {
   test('poetic', './french/poetic.js');
 });
