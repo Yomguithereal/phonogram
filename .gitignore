@@ -6,13 +6,14 @@ build
 TODO.md
 
 # Transpiled files
-alphabet.js
-cli.js
-factories.js
-helpers.js
-index.js
-PhonogramCode.js
+./alphabet.js
+./cli.js
+./factories.js
+./helpers.js
+./index.js
+./PhonogramCode.js
 
 # Transpiled directories
+./english
 ./french
 ./spanish
