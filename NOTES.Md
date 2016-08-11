@@ -17,7 +17,6 @@ Compiling some cases to handle for target languages.
 ## French
 
 * Squat
-* outil, fusil, persil, gentil
 * diazote
 * joliet
 * accent boniment mentent mangent, filament, proclament

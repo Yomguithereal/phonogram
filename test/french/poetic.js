@@ -329,6 +329,7 @@ export default {
     ['oui', 'wi'],
     ['ouïgour', 'uigur'],
     ['ouistiti', 'wistiti'],
+    ['outil', 'uti'],
     ['Ouzbékistan', 'uzbekistã'],
     ['oyez', 'oje'],
 
