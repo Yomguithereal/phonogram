@@ -221,7 +221,7 @@ export const POETIC_RULES = compileRules({
     [/end$/, 'ã'],
 
     // "en" before a not final "t" or "s" is pronounced *ã*
-    [/en(?=[çdgst].)/, 'ã'],
+    [/en(?=[cçdgst].)/, 'ã'],
 
     // "eill" is pronounced *ɛj*
     ['eill', 'ɛj'],
@@ -255,6 +255,9 @@ export const POETIC_RULES = compileRules({
 
     // Final "e" is not pronounced
     [/es?$/],
+
+    // "e" before "x" is pronounced *ɛ*
+    [/e(?=x)/, 'ɛ'],
 
     // "e" before some letters is pronounced *ɛ* if no vowel comes after
     [`e(?=[clmnrz](?![${VOWELS}])|s(?![${VOWELS}s]))`, 'ɛ'],
@@ -426,7 +429,7 @@ export const POETIC_RULES = compileRules({
     [`o?oin[gt]?(?![${VOWELS}])`, 'wẽ'],
 
     // "oi" is pronounced *wa*
-    [/(?:o[iî]x?|oy$)/, 'wa'],
+    [/(?:oids?|o[iî]x?|oy$)/, 'wa'],
 
     // Final "onc" is prononced *õ*
     [/onc$/, 'õ'],
@@ -670,8 +673,8 @@ export const POETIC_RULES = compileRules({
     // Before a "u" or a "o", "x" is pronounced *ks* if not after an initial "e"
     [/x(?=[ou])/, 'ks', /^e$/, NEGATIVE],
 
-    // Before a "i", "x" is pronounced *ks*
-    [/x(?=i)/, 'ks'],
+    // Before a "i", "x" is sometimes pronounced *ks*
+    [/x(?=i(?:ll|e))/, 'ks'],
 
     // Before another vowel, "x" is pronounced *gz*
     [`x(?=[${VOWELS}])`, 'gz'],
