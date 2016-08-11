@@ -42,8 +42,18 @@ const PREFIXES = [
 const PREFIXES_LOOKBEHIND = new RegExp(`^(?:${PREFIXES.join('|')})$`);
 
 const GREEK_CH = [
+  'arché',
+  'archo',
+  'chalc',
+  'chald',
+  'chalqu',
   'charism',
-  'chiro'
+  'chiro',
+  'chor',
+  'lichen',
+  'tricho',
+  'stocha',
+  'varech'
 ];
 
 /**

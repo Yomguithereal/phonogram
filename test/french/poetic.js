@@ -44,6 +44,7 @@ export default {
     ['ayant', 'ɛjã'],
     ['ayatollah', 'ajatɔla'],
     ['ayez', 'ɛje'],
+    ['azimut', 'azimyt'],
 
     ['Bach', 'bak'],
     ['badaud', 'bado'],
@@ -75,6 +76,7 @@ export default {
     ['broc', 'bro'],
     ['Bruxelles', 'brysɛl'],
     ['buisson', 'bɥisõ'],
+    ['but', 'byt'],
 
     ['cacao', 'kakao'],
     ['cacochyme', 'kakoʃim'],
@@ -89,6 +91,7 @@ export default {
     ['ceci', 'søsi'],
     ['cerf', 'sɛr'],
     ['ceriseraies', 'sørizørɛ'],
+    ['chahut', 'ʃay'],
     ['chaire', 'ʃɛr'],
     ['charmille', 'ʃarmij'],
     ['chateau', 'ʃato'],
@@ -101,6 +104,7 @@ export default {
     ['chorizo', 'ʃorizo'],
     ['chrysanthème', 'krizãtɛm'],
     ['chtonien', 'ktonjẽ'],
+    ['chut', 'ʃyt'],
     ['citroën', 'sitroɛn'],
     ['claymore', 'klɛmɔr'],
     ['clef', 'kle'],
@@ -259,6 +263,7 @@ export default {
     ['Livaro', 'livaro'],
     ['lobe', 'lɔb'],
     ['lunaire', 'lynɛr'],
+    ['lut', 'ly'],
     ['lyncher', 'lẽʃe'],
 
     ['mangeant', 'mãʒã'],
@@ -350,6 +355,7 @@ export default {
     ['plomb', 'plõ'],
     ['plombes', 'plõb'],
     ['plongeoir', 'plõʒwar'],
+    ['plût', 'ply'],
     ['pneu', 'pnø'],
     ['poing', 'pwẽ'],
     ['point', 'pwẽ'],
@@ -397,6 +403,7 @@ export default {
     ['rote', 'rɔt'],
     ['roter', 'rote'],
     ['roy', 'rwa'],
+    ['rut', 'ryt'],
 
     ['salop', 'salo'],
     ['salut', 'saly'],
@@ -470,6 +477,7 @@ export default {
 
     ['un', 'ẽ'],
     ['unitaire', 'ynitɛr'],
+    ['uppercut', 'ypɛrkyt'],
 
     ['vademecum', 'vademekʌm'],
     ['vair', 'vɛr'],

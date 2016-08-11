@@ -16,13 +16,9 @@ Compiling some cases to handle for target languages.
 
 ## French
 
-* Rut But Chut =/= Chahut Bahut =/= qu'il plût, il lut, Azimut
 * Squat
 * outil, fusil, persil, gentil
 * diazote
-* tabac
-* croc
-* rhésus us$, us & coutumes
 * joliet
 * accent boniment mentent mangent, filament, proclament
 * charisme
@@ -54,7 +50,7 @@ Compiling some cases to handle for target languages.
 
 **Multi**
 
-couvent, plus, est, os, dessein, fils, persil, goupil, ch grec
+couvent, plus, est, os, dessein, fils, persil, goupil, ch grec, mots finissant pas us
 
 Lister les mots étrangers
 
