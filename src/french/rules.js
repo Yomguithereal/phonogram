@@ -236,7 +236,7 @@ export const POETIC_RULES = compileRules({
     [/euil$/, 'øj'],
 
     // Initial "eu" is pronounced *u* alone or before "s" & "t"
-    [/e[uû](?=t?$|ss)/, 'y', INITIAL],
+    [/e[uû](?=t?$|e$|ss)/, 'y', INITIAL],
 
     // "eu" before final "r", final "b" or "rre" is pronounced *ʌ*
     [/eu(?=r[st]?$|b$|rres?$)/, 'ʌ'],
@@ -261,6 +261,7 @@ export const POETIC_RULES = compileRules({
 
     // "e" between some letters is pronounced *ø*
     [/e(?=mi)/, 'ø', INITIAL, NEGATIVE],
+    [/e(?=v)/, 'ø', /t$/],
     [/e(?=l)/, 'ø', /[dp]$/],
     [/e(?=n)/, 'ø', /[bp]$/],
     [/e(?=d)/, 'ø', /r$/],

@@ -20,10 +20,7 @@ Compiling some cases to handle for target languages.
 * diazote
 * accent boniment mentent mangent, filament, proclament
 * Incognito
-* Hauteville, Fronteval
 * Picpus Abus
-* Agen
-* queue, bue, eue, due, moue, noue
 * apophis sarapis gratis =/= semis souris gris batis
 * brosse, gosse =/= grosse, fosse
 * cas de la brioche
