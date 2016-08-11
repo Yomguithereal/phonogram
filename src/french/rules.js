@@ -88,7 +88,7 @@ export const POETIC_RULES = compileRules({
     [`an(?=[^${VOWELS}n]|$)`, 'ã'],
 
     // "am" before "b" or "p" is pronounced *ã*
-    [/am(?=[bp])/, 'ã'],
+    [/(?:amps?$|am(?=[bp]))/, 'ã'],
 
     // Final "aye"
     [/aye$/, 'ɛi', /abb$/],
@@ -227,7 +227,7 @@ export const POETIC_RULES = compileRules({
     ['eill', 'ɛj'],
 
     // Final "ein" is pronounced *ẽ*
-    [/ein$/, 'ẽ'],
+    [/eins?$/, 'ẽ'],
 
     // "eau" is pronounced *o*
     [/eaux?/, 'o'],
