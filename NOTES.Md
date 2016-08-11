@@ -20,28 +20,17 @@ Compiling some cases to handle for target languages.
 * diazote
 * joliet
 * accent boniment mentent mangent, filament, proclament
-* charisme
 * Incognito
 * Hauteville, Fronteval
 * Dengue
 * Benzène
 * Picpus Abus
-* Chorégraphie
 * Agen
-* Annuité
-* ennui
-* Abbaye
-* Papaye
-* Pommeraye
-* Haye
 * queue, bue, eue, due, moue, noue
-* anus, adjectifs en u, tissu au pluriel
 * apophis sarapis gratis =/= semis souris gris batis
-* boeuf boeufs oeuf oeufs
 * brosse, gosse =/= grosse, fosse
 * cas de la brioche
 * cointerne
-* ch grec
 
 *Liaisions*
 

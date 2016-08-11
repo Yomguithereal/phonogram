@@ -90,6 +90,11 @@ export const POETIC_RULES = compileRules({
     // "am" before "b" or "p" is pronounced *ã*
     [/am(?=[bp])/, 'ã'],
 
+    // Final "aye"
+    [/aye$/, 'ɛi', /abb$/],
+    [/aye$/, 'ɛ', /.{3,}/],
+    [/aye$/, 'ɛj'],
+
     // "ai" or "ay" are generally pronounced *ɛ*, also covers final "aie"
     [`a[iy](?=[^${VOWELS}]|es?$)`, 'ɛ'],
 
@@ -113,6 +118,14 @@ export const POETIC_RULES = compileRules({
   //-- (â)
   //----------------------------------------------------------------------------
   â: 'a',
+
+  //-- (b)
+  //----------------------------------------------------------------------------
+  b: [
+
+    // "bb" is squeezed
+    ['bb', 'b']
+  ],
 
   //-- (c)
   //----------------------------------------------------------------------------
@@ -170,8 +183,8 @@ export const POETIC_RULES = compileRules({
     // If "e" is the last letter of a two-letters words
     [/e$/, 'ø', /^.$/],
 
-    // Initial "emm" is pronounced *ã*
-    [/em(?=m)/, 'ã', INITIAL],
+    // Initial "emm" or "enn" is pronounced *ã*
+    [/e([mn])(?=\1)/, 'ã', INITIAL],
 
     // Final "emment" is pronounced *amã*
     [/emment$/, 'amã'],
@@ -237,7 +250,7 @@ export const POETIC_RULES = compileRules({
     [/e(?=mi)/, 'ø', INITIAL, NEGATIVE],
     [/e(?=l)/, 'ø', /[dp]$/],
     [/e(?=d)/, 'ø', /r$/],
-    [/e(?=r)/, 'ø', /[cvsz]$/],
+    [/e(?=r)/, 'ø', /[cmvsz]$/],
     [/e(?!(\w)\1|$)/, 'ø', /^(?:ch|[fr])$/]
   ],
 
@@ -454,12 +467,8 @@ export const POETIC_RULES = compileRules({
     // "o" before "qu" or some "ch" is pronounced *ɔ*
     [/o(?=bl|c?k|ch(?![iy])|qu)/, 'ɔ'],
 
-    // "o" before "mme" & "nne" is pronounced *ɔ*
-    [/ommes?$/, 'ɔm'],
-    [/onnes?$/, 'ɔn'],
-
     // "o" before some doubled consonants is pronounced *ɔ*
-    [/o(?=ll|tt|ss)/, 'ɔ'],
+    [/o(?=ll|mm|nn|tt|ss)/, 'ɔ'],
 
     // Final "o" before a single consonant is pronounced *ɔ*
     [`o(?=[^${VOWELS}](?:es?|s?)$|rts?$)`, 'ɔ']
