@@ -25,6 +25,7 @@ const EXCEPTIONS = {
   ceci: '(c•s)(e•ø)(c•s)i',
   chut: '(ch•ʃ)(u•y)t',
   croc: '(c•k)r(oc•o)',
+  en: '(en•ã)',
   es: '(es•ɛ)',
   est: '(est•ɛ)',
   estomac: '(e•ɛ)stom(ac•a)',
