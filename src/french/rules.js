@@ -186,6 +186,9 @@ export const POETIC_RULES = compileRules({
     // Initial "emm" or "enn" is pronounced *ã*
     [/e([mn])(?=\1)/, 'ã', INITIAL],
 
+    // "en" after "d" or "b" and before "g", "j" or "z" is pronounced *ẽ*
+    [/en(?=[gjz])/, 'ẽ', /[bd]$/],
+
     // Final "emment" is pronounced *amã*
     [/emment$/, 'amã'],
 

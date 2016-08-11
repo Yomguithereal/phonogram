@@ -21,8 +21,6 @@ Compiling some cases to handle for target languages.
 * accent boniment mentent mangent, filament, proclament
 * Incognito
 * Hauteville, Fronteval
-* Dengue
-* Benzène
 * Picpus Abus
 * Agen
 * queue, bue, eue, due, moue, noue
