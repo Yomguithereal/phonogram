@@ -5,7 +5,7 @@
  * Collecting the various rules used to produce a phonetic representation
  * of English words.
  */
-import {compileRules, INITIAL, NEGATIVE} from '../helpers';
+import {compileRules, INITIAL} from '../helpers';
 
 /**
  * Vowel definitions.

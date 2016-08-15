@@ -25,6 +25,11 @@ Compiling some cases to handle for target languages.
 * brosse, gosse =/= grosse, fosse
 * cas de la brioche
 * cointerne
+* prix, perdrix, alix, quinquempoix, dix
+* mas
+* maud
+* raz, ras,
+* Feuilleton
 
 *Liaisions*
 
