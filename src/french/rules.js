@@ -138,6 +138,9 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   c: [
 
+    // "cq" & "cqu" are squeezed
+    [/cqu?/, 'k'],
+
     // "cc" before a "e" is pronounced *ks*
     [/cc(?=[eé])/, 'ks'],
 

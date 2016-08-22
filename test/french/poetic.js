@@ -241,6 +241,7 @@ export default {
     ['gourd', 'gur'],
     ['gourre', 'gur'],
     ['gourrer', 'gure'],
+    ['Gracq', 'grak'],
     ['Grimault', 'grimo'],
     ['grue', 'gry'],
     ['guacamole', 'gwakamɔl'],
