@@ -21,7 +21,7 @@
     "url": "git+https://github.com/yomguithereal/phonogram.git"
   },
   "phonogram": {
-    "folders": "./*.js french spanish"
+    "folders": "./*.js english french spanish"
   },
   "keywords": [
     "phonetic"
