@@ -30,6 +30,8 @@ Compiling some cases to handle for target languages.
 * maud
 * raz, ras,
 * Feuilleton
+* Crescendo
+* Oestrogène, Phoenix, Phoenicien, Phoebus, Phoebe
 
 *Liaisions*
 

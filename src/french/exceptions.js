@@ -37,6 +37,7 @@ const EXCEPTIONS = {
   gageure: 'ga(g•ʒ)(eu•y)r(e•)',
   gentil: '(g•ʒ)(en•ã)t(il•i)',
   impatiemment: '(im•ẽ)pa(tiemment•sjamã)',
+  keus: 'k(eu•ø)s',
   jeun: '(j•ʒ)(eun•ẽ)',
   les: 'l(es•ɛ)',
   mes: 'm(es•ɛ)',
@@ -63,7 +64,8 @@ const EXCEPTIONS = {
   uppercut: '(u•y)(pp•p)(e•ɛ)r(c•k)(u•y)t',
   vos: 'v(os•o)',
   yaourt: '(y•j)a(ou•u)rt',
-  wagon: '(w•v)ag(on•õ)'
+  wagon: '(w•v)ag(on•õ)',
+  zeus: '(z•dz)(eu•ø)s'
 };
 
 const plurals = [
