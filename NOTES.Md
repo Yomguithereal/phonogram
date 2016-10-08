@@ -32,6 +32,14 @@ Compiling some cases to handle for target languages.
 * Feuilleton
 * Crescendo
 * Oestrogène, Phoenix, Phoenicien, Phoebus, Phoebe
+* Paysage, Payn, Pays
+* Houellebecq
+* Dunkerque
+* Praslin
+* Tuyau
+* Poêle
+* Occitane
+* Faïence
 
 *Liaisions*
 
@@ -52,6 +60,8 @@ Lister les mots étrangers
 * Doth
 * Dost
 * Thou
+* Wrestle
+* Ex aequo
 
 * Genitives
 
@@ -60,6 +70,10 @@ Lister les mots étrangers
 * Dirndl
 * Nietzsche
 * Schwimm
+
+## Spanish
+
+* Caudal
 
 ## Syllabification
 

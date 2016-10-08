@@ -17,6 +17,7 @@ export default {
 
     ['brechtiano', 'breʃtjano'],
 
+    ['caudal', 'kaʊdal'],
     ['capacñan', 'kapaknjan'],
     ['ceviche', 'sevitʃe'],
     ['cero', 'sero'],

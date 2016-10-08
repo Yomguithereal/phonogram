@@ -534,6 +534,9 @@ export const POETIC_RULES = compileRules({
     // In "quadr" & "quartz", "qua" is pronounced *kwa*
     [/qua(?=rtz|dr)/, 'kwa'],
 
+    // q followed by û is pronounced *ky*
+    ['qû', 'ky'],
+
     // "qu" is pronounced *k*
     ['qu', 'k']
   ],
@@ -574,7 +577,7 @@ export const POETIC_RULES = compileRules({
     ['sch', 'ʃ'],
 
     // Non-initial "sn" is pronounced *n* if the consecutive letter is "e"
-    [/sn(?=e)/, 'n', INITIAL, NEGATIVE],
+    [/sn(?=e|il)/, 'n', INITIAL, NEGATIVE],
 
     // "ss" is squeezed
     ['ss', 's'],

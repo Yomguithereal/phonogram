@@ -18,7 +18,8 @@ export default {
   semiVowels: [
     'j',
     'w', 'ɥ',
-    'h'
+    'h',
+    'ʊ'
   ],
   consonants: [
     'b', 'p',

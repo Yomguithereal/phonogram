@@ -8,6 +8,7 @@ import {compileExceptions} from '../helpers';
 
 const EXCEPTIONS = {
   agen: 'a(g•ʒ)(en•ẽ)',
+  aïe: 'a(ïe•j)',
   aigüe: '(ai•ɛ)(güe•gy)',
   aiguë: '(ai•ɛ)(guë•gy)',
   ail: 'a(il•j)',
