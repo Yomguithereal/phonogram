@@ -17,7 +17,6 @@ export const O = 'o';
 export const U = 'u';
 export const Y = 'y';
 export const VOWELS = A + E + I + O + U + Y;
-export const WALL = `[^${VOWELS}]{2}`;
 
 /**
  * Most precise ruleset.
@@ -50,19 +49,41 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   e: [
 
+    // "eight" is pronounced *ɛjt*
+    ['eight', 'ɛjt'],
+
     // "ea" before "s" is pronounced *ɛ*
     [/ea(?=s)/, 'ɛ'],
 
     // Else it is pronounced *i*
     [/ea/, 'i'],
 
+    // "ew" is pronounced *ju*
+    [/ew/, 'ju'],
+
     // "ee" is pronounced *i*
     [/ee/, 'i'],
+
+    // Final "er" is pronounced *ə*
+    [/er$/, 'ə'],
 
     // Final "e" is seldom pronounced
     [/e$/, ''],
 
     // "e" is pronounced *i*
+    [null, 'i']
+  ],
+
+  //-- (i)
+  //----------------------------------------------------------------------------
+  i: [
+
+    // Final "ire" is pronounced *ajə*
+    [/ire$/, 'ajə'],
+
+    // "ie" is pronounced *i*
+    ['ie', 'i'],
+
     [null, 'i']
   ],
 
@@ -73,6 +94,9 @@ export const POETIC_RULES = compileRules({
   //-- (o)
   //----------------------------------------------------------------------------
   o: [
+
+    // "o" before "th" is pronounced *ʌ*
+    [/o(?=th)/, 'ʌ'],
 
     // "oo" is pronounced *u*
     ['oo', 'u']
@@ -100,16 +124,42 @@ export const POETIC_RULES = compileRules({
     [`s(?=[${VOWELS}])`, 'z', `[${VOWELS}]$`]
   ],
 
+  //-- (t)
+  //----------------------------------------------------------------------------
+  t: [
+
+    // "th" between two vowels is pronounced *ð*
+    [`th(?=[${VOWELS}])`, 'ð', `[${VOWELS}]$`],
+
+    // At the end of the word or before a consonant, "th" is pronounced *θ*
+    [`th(?=$|[^${VOWELS}])`, 'θ'],
+
+    // Else it is simply pronounced *t*
+    [null, 't']
+  ],
+
   //-- (u)
   //----------------------------------------------------------------------------
   u: [
 
-    // "u" before a "r" or "s" is pronounced *ʌ*
-    [/u(?=[rs])/, 'ʌ'],
-
     // "ue" is pronounced *u*
     ['ue', 'u']
   ],
+
+  //-- (w)
+  //----------------------------------------------------------------------------
+  w: [
+
+    // "wr" before a vowel is pronounced *r*
+    [`wr(?=[${VOWELS}])`, 'r'],
+
+    // "w" is pronounced *w*
+    [null, 'w']
+  ],
+
+  //-- (y)
+  //----------------------------------------------------------------------------
+  y: 'i',
 
   //-- (z)
   //----------------------------------------------------------------------------
