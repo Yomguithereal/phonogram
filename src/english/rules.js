@@ -38,11 +38,24 @@ export const POETIC_RULES = compileRules({
     // "cious" is pronounced *ʃʌs*
     ['cious', 'ʃʌs'],
 
+    // "c" before "e", "i" or "y" is pronounced "s"
+    [`c(?=[${E + I + Y}])`, 's'],
+
     // "ch" is pronounced *tʃ*
     ['ch', 'tʃ'],
 
     // Else it's pronounced *k*
     [null, 'k']
+  ],
+
+  //-- (d)
+  //----------------------------------------------------------------------------
+  d: [
+
+    // "dg" before a vowel is pronounced *dʒ*
+    [`dg(?=[${VOWELS}])`, 'dʒ'],
+
+    [null, 'd']
   ],
 
   //-- (e)
@@ -63,6 +76,9 @@ export const POETIC_RULES = compileRules({
 
     // "ee" is pronounced *i*
     [/ee/, 'i'],
+
+    // Final "ern" is pronounced *ən*
+    [/ern$/, 'ən'],
 
     // Final "er" is pronounced *ə*
     [/er$/, 'ə'],
@@ -108,6 +124,16 @@ export const POETIC_RULES = compileRules({
 
     // "ph" is pronounced *f*
     ['ph', 'f']
+  ],
+
+  //-- (r)
+  //----------------------------------------------------------------------------
+  r: [
+
+    // "rr" is squeezed
+    ['rr', 'r'],
+
+    [null, 'r']
   ],
 
   //-- (s)
@@ -169,3 +195,6 @@ export const POETIC_RULES = compileRules({
     ['zz', 'z']
   ]
 });
+
+// myths -> simplification
+// ə -> er for harmonization

@@ -714,3 +714,5 @@ export const POETIC_RULES = compileRules({
     ['zoo', 'zoo', INITIAL]
   ]
 });
+
+// long vowel should probably take a "n" for harmonization<

@@ -9,11 +9,14 @@ export default {
   cases: [
     ['bath', 'baθ'],
     ['bother', 'bʌðə'],
+    ['bridge', 'bridʒ'],
 
     ['cheating', 'tʃiting'],
     ['cheese', 'tʃiz'],
+    ['cistern', 'sistən'],
     ['clue', 'klu'],
     ['cruel', 'krul'],
+    ['cynic', 'sinik'],
 
     ['debate', 'dibɛjt'],
     ['dew', 'dju'],
@@ -33,6 +36,7 @@ export default {
 
     ['phone', 'fon'],
     ['pool', 'pul'],
+    ['porridge', 'poridʒ'],
 
     ['see', 'si'],
     ['sire', 'sajə'],
@@ -40,6 +44,8 @@ export default {
     ['tee', 'ti']
   ]
 };
+
+// germ -> make finer rule for er before n or m and potential s.
 
 // mother, bother, weather, bathe, etc
 
