@@ -49,6 +49,8 @@ export default {
 
 // mother, bother, weather, bathe, etc
 
+// rythm rithm
+
 // ghost (initial gh)
 // aghast, afghasnistan (egghead, bighorn)
 // hiccough
@@ -68,3 +70,5 @@ export default {
 
 // daughter, naughty, slaughter, laughter
 // laugh
+
+// receipt
