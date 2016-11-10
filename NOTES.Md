@@ -36,7 +36,7 @@ Compiling some cases to handle for target languages. Rule-based.
 
 **Multi**
 
-couvent, plus, est, os, dessein, fils, persil, goupil, ch grec, mots finissant pas us, par is
+couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots finissant pas us, par is
 
 ## English
 

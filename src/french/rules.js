@@ -203,7 +203,7 @@ export const POETIC_RULES = compileRules({
     [/emment$/, 'amã'],
 
     // Final "ement" is pronounced *øment*
-    [/ement$/, 'ømã'],
+    [/ements?$/, 'ømã'],
 
     // Final "ents" is pronounced *ã*
     [/ents$/, 'ã'],
@@ -230,7 +230,7 @@ export const POETIC_RULES = compileRules({
     ['eill', 'ɛj'],
 
     // "elle" is pronounced *ɛl*
-    ['elle', 'ɛl'],
+    ['ell(?=e)', 'ɛl'],
 
     // Final "ein" is pronounced *ẽ*
     [/eins?$/, 'ẽ'],
