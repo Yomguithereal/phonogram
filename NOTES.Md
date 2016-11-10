@@ -21,7 +21,6 @@ Compiling some cases to handle for target languages. Rule-based.
 * Squat
 * diazote
 * accent boniment mentent mangent, filament, proclament
-* Incognito
 * Picpus Abus
 * apophis sarapis gratis =/= semis souris gris batis suis
 * brosse, gosse =/= grosse, fosse
