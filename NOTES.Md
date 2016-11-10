@@ -26,7 +26,7 @@ Compiling some cases to handle for target languages. Rule-based.
 * brosse, gosse =/= grosse, fosse
 * cas de la brioche
 * cointerne
-* prix, perdrix, alix, quinquempoix, dix
+* quinquempoix
 * mas
 * maud
 * raz, ras,
