@@ -422,8 +422,8 @@ export const POETIC_RULES = compileRules({
     // Final "oigt" is pronounced *wa*
     [/oigt$/, 'wa'],
 
-    // Final "oubs" is pronounced *u*
-    [/oubs$/, 'u'],
+    // Final "oubs" & final "ous" is pronounced *u*
+    [/oub?s$/, 'u'],
 
     // Final "oeil" is pronounced *øj*
     [/oeil$/, 'ʌj'],
