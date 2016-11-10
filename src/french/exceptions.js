@@ -7,6 +7,7 @@
 import {compileExceptions} from '../helpers';
 
 const EXCEPTIONS = {
+  accent: 'a(cc•ks)(ent•ã)',
   agen: 'a(g•ʒ)(en•ẽ)',
   aïe: 'a(ïe•j)',
   aigüe: '(ai•ɛ)(güe•gy)',
@@ -21,12 +22,14 @@ const EXCEPTIONS = {
   auxerres: '(au•o)(x•s)ɛ(rres•r)',
   azimut: 'azim(u•y)t',
   barbecue: 'barb(e•ø)(cue•kju)',
+  boniment: 'bonim(ent•ã)',
   broc: 'br(oc•o)',
   bruxelles: 'br(u•y)(x•s)(e•ɛ)(lles•l)',
   but: 'b(u•y)t',
   ceci: '(c•s)(e•ø)(c•s)i',
   cet: '(c•s)(e•ɛ)t',
   chut: '(ch•ʃ)(u•y)t',
+  comment: 'co(mm•m)(ent•ã)',
   couscous: '(c•k)(ou•u)s(c•k)(ou•u)s',
   croc: '(c•k)r(oc•o)',
   des: 'd(e•ɛ)(s•)',
@@ -38,6 +41,7 @@ const EXCEPTIONS = {
   et: 'e(t•)',
   femme: 'f(e•a)(mme•m)',
   fez: 'f(e•ɛ)z',
+  filament: 'filam(ent•ã)',
   fils: 'fi(ls•s)',
   fusil: 'f(u•y)(s•z)(il•i)',
   gageure: 'ga(g•ʒ)(eu•y)r(e•)',
@@ -86,6 +90,7 @@ const EXCEPTIONS = {
 };
 
 const plurals = [
+  'accent',
   'aigüe',
   'aiguë',
   'août',
@@ -93,12 +98,14 @@ const plurals = [
   'aoûtat',
   'aoutat',
   'azimut',
+  'boniment',
   'broc',
   'but',
   'chut',
   'croc',
   'estomac',
   'femme',
+  'filament',
   'fusil',
   'gageure',
   'gentil',
@@ -112,6 +119,7 @@ const plurals = [
   'rut',
   'tabac',
   'uppercut',
+  'vent',
   'villa',
   'yaourt',
   'wagon'

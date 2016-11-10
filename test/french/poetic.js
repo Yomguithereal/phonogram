@@ -11,6 +11,8 @@ export default {
     ['abbaye', 'abɛi'],
     ['abeille', 'abɛj'],
     ['Abidjan', 'abidʒã'],
+    ['accent', 'aksã'],
+    ['accentuer', 'aksãtye'],
     ['Agen', 'aʒẽ'],
     ['aigüe', 'ɛgy'],
     ['aiguës', 'ɛgy'],

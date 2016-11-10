@@ -20,7 +20,6 @@ Compiling some cases to handle for target languages. Rule-based.
 
 * Squat
 * diazote
-* accent boniment mentent mangent, filament, proclament
 * Picpus Abus
 * apophis sarapis gratis =/= semis souris gris batis suis
 * brosse, gosse =/= grosse, fosse
@@ -31,9 +30,8 @@ Compiling some cases to handle for target languages. Rule-based.
 * Payn, Ayn
 * Dilemne, Automne, damné
 * Problème
-* Drop the -o distinction
+* Drop the -o distinction?
 * Emmanuel
-* prient, sent, ment, vent, client, patient, impatient, patientèle, chient
 
 *Liaisions*
 
