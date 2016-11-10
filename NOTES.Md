@@ -14,6 +14,7 @@ Compiling some cases to handle for target languages. Rule-based.
 * Combinations
 * Syllabification
 * Inexisting words (typos)
+* No dictionary (very much lighter)
 
 ## French
 
@@ -31,10 +32,10 @@ Compiling some cases to handle for target languages. Rule-based.
 * raz, ras
 * Crescendo
 * Oestrogène, Phoenix, Phoenicien, Phoebus, Phoebe
-* Houellebecq
 * Praslin
 * Payn, Ayn
 * Dilemne, Automne, damné
+* Problème
 
 *Liaisions*
 
@@ -65,10 +66,6 @@ couvent, plus, est, os, dessein, fils, persil, goupil, ch grec, mots finissant p
 * Dirndl
 * Nietzsche
 * Schwimm
-
-## Spanish
-
-* Caudal
 
 ## Syllabification
 

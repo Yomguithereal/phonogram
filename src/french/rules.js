@@ -229,6 +229,9 @@ export const POETIC_RULES = compileRules({
     // "eill" is pronounced *ɛj*
     ['eill', 'ɛj'],
 
+    // "elle" is pronounced *ɛl*
+    ['elle', 'ɛl'],
+
     // Final "ein" is pronounced *ẽ*
     [/eins?$/, 'ẽ'],
 
