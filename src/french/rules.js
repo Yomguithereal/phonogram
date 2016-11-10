@@ -289,7 +289,7 @@ export const POETIC_RULES = compileRules({
     [/e(?=l)/, 'ø', /[dp]$/],
     [/e(?=n)/, 'ø', /[bp]$/],
     [/e(?=[drt](?![sz]))/, 'ø', /[lr]$/],
-    [/e(?=r)/, 'ø', /[cmvsz]$/],
+    [/e(?=r)/, 'ø', /[cgmvsz]$/],
     [/e(?!(\w)\1|$)/, 'ø', /^(?:ch|[fr])$/]
   ],
 
@@ -689,6 +689,9 @@ export const POETIC_RULES = compileRules({
   //-- (u)
   //----------------------------------------------------------------------------
   u: [
+
+    // Final "fum" is pronounced *fẽ*
+    [/fums?$/, 'fẽ'],
 
     // Final "um" is pronounced *ʌm*
     [/um$/, 'ʌm'],

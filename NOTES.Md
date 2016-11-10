@@ -24,8 +24,8 @@ Compiling some cases to handle for target languages. Rule-based.
 * brosse, gosse =/= grosse, fosse
 * cas de la brioche
 * cointerne
-* Oestrogène, Phoenix, Phoenicien, Phoebus, Phoebe
-* Praslin
+* Phoenix, Phoenicien, Phoebus, Phoebe
+* Praslin, islam, slovaque, brusle
 * Payn, Ayn
 * Dilemne, Automne, damné
 * Emmanuel
