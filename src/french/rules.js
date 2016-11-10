@@ -517,6 +517,9 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   p: [
 
+    // "pay" before "sa" is pronounced *pɛi*
+    [/(?:^pays$|pay(?=sa))/, 'pɛi'],
+
     // "patien" is pronounced *pasjã*
     ['patien', 'pasjã'],
 
@@ -718,4 +721,4 @@ export const POETIC_RULES = compileRules({
   ]
 });
 
-// long vowel should probably take a "n" for harmonization<
+// long vowel should probably take a "n" for harmonization

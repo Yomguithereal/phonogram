@@ -380,6 +380,8 @@ export default {
     ['patience', 'pasjãs'],
     ['patronage', 'patronaʒ'],
     ['pause', 'poz'],
+    ['pays', 'pɛi'],
+    ['paysan', 'pɛizã'],
     ['pébroc', 'pebrɔk'],
     ['pelote', 'pølɔt'],
     ['perdrix', 'pɛrdri'],

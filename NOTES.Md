@@ -33,13 +33,13 @@ Compiling some cases to handle for target languages. Rule-based.
 * Feuilleton
 * Crescendo
 * Oestrogène, Phoenix, Phoenicien, Phoebus, Phoebe
-* Paysage, Payn, Pays
 * Houellebecq
 * Dunkerque
 * Praslin
 * Poêle
 * Occitane
 * Faïence
+* Payn, Ayn
 * Dilemne, Automne, damné
 
 *Liaisions*
