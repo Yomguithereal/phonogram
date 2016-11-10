@@ -35,12 +35,8 @@ Compiling some cases to handle for target languages. Rule-based.
 * Houellebecq
 * Praslin
 * Poêle
-* Occitane
-* Faïence
 * Payn, Ayn
 * Dilemne, Automne, damné
-* tous, couscous, hoummous, mahous, maous, burnous -> vous
-* avocat, patriarcat, factureriez, temps, client
 
 *Liaisions*
 

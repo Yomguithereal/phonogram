@@ -141,8 +141,8 @@ export const POETIC_RULES = compileRules({
     // "cq" & "cqu" are squeezed
     [/cqu?/, 'k'],
 
-    // "cc" before a "e" is pronounced *ks*
-    [/cc(?=[eé])/, 'ks'],
+    // "cc" before "e" or "i" is pronounced *ks*
+    [/cc(?=[eéi])/, 'ks'],
 
     // "cc" is squeezed
     ['cc', 'k'],
@@ -270,7 +270,7 @@ export const POETIC_RULES = compileRules({
     [/e(?=v)/, 'ø', /t$/],
     [/e(?=l)/, 'ø', /[dp]$/],
     [/e(?=n)/, 'ø', /[bp]$/],
-    [/e(?=d)/, 'ø', /r$/],
+    [/e(?=[drt](?![sz]))/, 'ø', /r$/],
     [/e(?=r)/, 'ø', /[cmvsz]$/],
     [/e(?!(\w)\1|$)/, 'ø', /^(?:ch|[fr])$/]
   ],
@@ -375,7 +375,12 @@ export const POETIC_RULES = compileRules({
 
   //-- (ï)
   //----------------------------------------------------------------------------
-  ï: 'i',
+  ï: [
+
+    [`ï(?=[${A + E}]n)`, 'j'],
+
+    [null, 'i']
+  ],
 
   //-- (î)
   //----------------------------------------------------------------------------
@@ -422,8 +427,8 @@ export const POETIC_RULES = compileRules({
     // Final "oigt" is pronounced *wa*
     [/oigt$/, 'wa'],
 
-    // Final "oubs" & final "ous" is pronounced *u*
-    [/oub?s$/, 'u'],
+    // Final "oubs" is pronounced *u*
+    [/oubs$/, 'u'],
 
     // Final "oeil" is pronounced *øj*
     [/oeil$/, 'ʌj'],
@@ -607,6 +612,9 @@ export const POETIC_RULES = compileRules({
   //-- (t)
   //----------------------------------------------------------------------------
   t: [
+
+    // Final "temps" is pronounced *tã*
+    [/temps$/, 'tã'],
 
     // "tape" is pronounced *tap*
     ['tape', 'tap'],
