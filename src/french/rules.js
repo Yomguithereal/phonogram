@@ -256,8 +256,14 @@ export const POETIC_RULES = compileRules({
     // "ei" is pronounced *ɛ*
     [`e[iy](?![${VOWELS}])`, 'ɛ'],
 
-    // Final "er" & "ez" is pronounced "e"
-    [/e[rz]s?$/, 'e'],
+    // Final "ez" is pronounced *e*
+    [/ez$/, 'e'],
+
+    // Final "er" is pronounced *ɛr* if the word is very short
+    [/ers?$/, 'ɛr', /^.$/],
+
+    // Final "er" is prounounced *e*
+    [/ers?$/, 'e'],
 
     // Final "et" is pronounced "ɛ"
     [/ets?$/, 'ɛ'],

@@ -14,6 +14,7 @@ const EXCEPTIONS = {
   aiguë: '(ai•ɛ)(guë•gy)',
   ail: 'a(il•j)',
   almanach: 'almana(ch•)',
+  amer: 'am(e•ɛ)r',
   août: '(aoû•u)t',
   aout: '(aou•u)t',
   aoûtat: 'a(oû•u)ta(t•)',
