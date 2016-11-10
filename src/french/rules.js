@@ -326,6 +326,9 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   f: [
 
+    // Final "fum" is pronounced *fẽ*
+    [/fums?$/, 'fẽ'],
+
     // Handling "faisan" and the verb "faire"
     [`fais(?=[${A + E + I + O}])`, 'føz'],
 
@@ -597,7 +600,7 @@ export const POETIC_RULES = compileRules({
 
     // Initial "re" is pronounced *rø* if not before vowel or two duplicate
     // consonants
-    [`re(?![${VOWELS}]|(\\w)\\1)`, 'rø', INITIAL],
+    [`re(?![${VOWELS}]|[^${VOWELS}s]{2})`, 'rø', INITIAL],
 
     // "rr" is squeezed
     ['rr', 'r'],
@@ -689,9 +692,6 @@ export const POETIC_RULES = compileRules({
   //-- (u)
   //----------------------------------------------------------------------------
   u: [
-
-    // Final "fum" is pronounced *fẽ*
-    [/fums?$/, 'fẽ'],
 
     // Final "um" is pronounced *ʌm*
     [/um$/, 'ʌm'],

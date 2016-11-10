@@ -474,6 +474,7 @@ export default {
     ['remerciements', 'rømɛrsimã'],
     ['renard', 'rønar'],
     ['renart', 'rønar'],
+    ['rendre', 'rãdr'],
     ['renne', 'rɛn'],
     ['requartzifier', 'røkwartsifje'],
     ['resnober', 'røsnobe'],
