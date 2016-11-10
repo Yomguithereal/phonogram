@@ -1,6 +1,6 @@
 # Notes
 
-Compiling some cases to handle for target languages.
+Compiling some cases to handle for target languages. Rule-based.
 
 ## Benefits
 
@@ -13,6 +13,7 @@ Compiling some cases to handle for target languages.
 * Multiple choices
 * Combinations
 * Syllabification
+* Inexisting words (typos)
 
 ## French
 
@@ -40,6 +41,7 @@ Compiling some cases to handle for target languages.
 * Poêle
 * Occitane
 * Faïence
+* Dilemne, Automne
 
 *Liaisions*
 
@@ -62,6 +64,8 @@ Lister les mots étrangers
 * Thou
 * Wrestle
 * Ex aequo
+* Mickey
+* Thom*
 
 * Genitives
 
