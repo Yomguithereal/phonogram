@@ -469,6 +469,9 @@ export const POETIC_RULES = compileRules({
     // "oi" is pronounced *wa*
     [/(?:oids?|o[iî]x?|oy$)/, 'wa'],
 
+    // Final "ond" is pronounced *õ*
+    [/onds?$/, 'õ'],
+
     // Final "onc" is prononced *õ*
     [/onc$/, 'õ'],
 
@@ -479,7 +482,7 @@ export const POETIC_RULES = compileRules({
     [`on(?=[^${VOWELS}nh]|$)`, 'õ'],
 
     // Final "omb" is pronounced *õ*
-    [/omb$/, 'õ'],
+    [/ombs?$/, 'õ'],
 
     // Final "oult" is pronounced *u*
     [/oults?$/, 'u'],

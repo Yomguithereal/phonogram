@@ -18,7 +18,6 @@ Compiling some cases to handle for target languages. Rule-based.
 
 ## French
 
-* Squat
 * diazote
 * Picpus Abus
 * apophis sarapis gratis =/= semis souris gris batis suis

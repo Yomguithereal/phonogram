@@ -475,6 +475,8 @@ export default {
     ['rets', 'rɛ'],
     ['rhume', 'rym'],
     ['roi', 'rwa'],
+    ['rond', 'rõ'],
+    ['ronds', 'rõ'],
     ['rose', 'roz'],
     ['rote', 'rɔt'],
     ['roter', 'rote'],
