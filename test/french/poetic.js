@@ -97,6 +97,7 @@ export default {
     ['cæcal', 'sekal'],
     ['calmement', 'kalmømã'],
     ['camembert', 'kamãbɛr'],
+    ['canevas', 'kanøva'],
     ['Carentan', 'karãtã'],
     ['cartes', 'kart'],
     ['cases', 'kaz'],
