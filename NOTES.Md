@@ -29,7 +29,6 @@ Compiling some cases to handle for target languages. Rule-based.
 * mas
 * maud
 * raz, ras
-* Feuilleton
 * Crescendo
 * Oestrogène, Phoenix, Phoenicien, Phoebus, Phoebe
 * Houellebecq
