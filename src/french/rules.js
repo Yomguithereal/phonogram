@@ -230,7 +230,7 @@ export const POETIC_RULES = compileRules({
     ['eill', 'ɛj'],
 
     // "elle" is pronounced *ɛl*
-    ['ell(?=e)', 'ɛl'],
+    ['elle', 'ɛl'],
 
     // Final "ein" is pronounced *ẽ*
     [/eins?$/, 'ẽ'],
@@ -437,6 +437,9 @@ export const POETIC_RULES = compileRules({
   //-- (m)
   //----------------------------------------------------------------------------
   m: [
+
+    // Final "ment" is pronounced *mã*
+    [/ments?$/, 'mã'],
 
     // Initial "mille" is pronounced *mil* if not before a "t"
     [/mille(?!t)/, 'mil', INITIAL],
