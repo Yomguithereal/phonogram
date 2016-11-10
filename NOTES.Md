@@ -32,6 +32,8 @@ Compiling some cases to handle for target languages. Rule-based.
 * Dilemne, Automne, damné
 * Problème
 * Drop the -o distinction
+* Emmanuel
+* prient, sent, ment, vent, client, patient, impatient, patientèle, chient
 
 *Liaisions*
 

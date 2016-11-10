@@ -244,6 +244,9 @@ export const POETIC_RULES = compileRules({
     // Initial "eu" is pronounced *u* alone or before "s" & "t"
     [/e[uû](?=t?$|e$|ss)/, 'y', INITIAL],
 
+    // Final "euf" is pronounced *ʌf*
+    [/eufs?/, 'ʌf'],
+
     // "eu" before final "r", final "b" or "rre" is pronounced *ʌ*
     [/eu(?=r[st]?$|b$|rres?$)/, 'ʌ'],
 
@@ -258,6 +261,12 @@ export const POETIC_RULES = compileRules({
 
     // Final "et" is pronounced "ɛ"
     [/ets?$/, 'ɛ'],
+
+    // Final "ents" is pronounced *ã*
+    [/ents$/, 'ã'],
+
+    // Final "ent" without "s" is silent
+    [/ent$/, ''],
 
     // Final "e" is not pronounced
     [/es?$/],
@@ -367,9 +376,14 @@ export const POETIC_RULES = compileRules({
     // Final "ie" is pronounced *i*
     [/ie$/, 'i'],
 
+    // Sometimes, "ient" is pronounced *iã*
+    [/ien(?=t)/, 'iã', /cl$/],
+
+    // Final "ient" is pronounced *i*
+    [/ient$/, 'i'],
+
     // "ian", "ien" & "ion" are pronounced *j*
     [/ian/, 'jã'],
-    [/ien(?=t)/, 'iã'],
     [/ien/, 'jẽ'],
     [/ion/, 'jõ'],
 
