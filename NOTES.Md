@@ -37,11 +37,10 @@ Compiling some cases to handle for target languages. Rule-based.
 * Houellebecq
 * Dunkerque
 * Praslin
-* Tuyau
 * Poêle
 * Occitane
 * Faïence
-* Dilemne, Automne
+* Dilemne, Automne, damné
 
 *Liaisions*
 
@@ -49,9 +48,7 @@ Compiling some cases to handle for target languages. Rule-based.
 
 **Multi**
 
-couvent, plus, est, os, dessein, fils, persil, goupil, ch grec, mots finissant pas us
-
-Lister les mots étrangers
+couvent, plus, est, os, dessein, fils, persil, goupil, ch grec, mots finissant pas us, par is
 
 ## English
 

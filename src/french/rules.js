@@ -643,6 +643,9 @@ export const POETIC_RULES = compileRules({
     // "un" not before "n" or a vowel is pronounced *ẽ*
     [`un(?=[^${VOWELS}n]|$)`, 'ẽ'],
 
+    // "uy" before a vowel is pronounced *ɥij*
+    [`uy(?=[${VOWELS}])`, 'ɥij'],
+
     // "u" before "i" is pronounced *ɥ*
     [/u(?=i)/, 'ɥ'],
 

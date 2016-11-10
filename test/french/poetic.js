@@ -171,6 +171,7 @@ export default {
     ['en', 'ã'],
     // ['engrosser', 'ãgrose'],
     ['ennui', 'ãnɥi'],
+    ['ennuyer', 'ãnɥije'],
     ['éphore', 'efɔr'],
     ['essaim', 'esẽ'],
     ['essaime', 'esɛm'],
@@ -220,6 +221,7 @@ export default {
     ['fresne', 'frɛn'],
     ['froc', 'frɔk'],
     ['Fronteval', 'frõtøval'],
+    ['fuyant', 'fɥijã'],
 
     ['gageure', 'gaʒyr'],
     ['galop', 'galo'],
@@ -517,6 +519,7 @@ export default {
     ['tuile', 'tɥil'],
     ['tunnel', 'tynɛl'],
     ['turlutte', 'tyrlyt'],
+    ['tuyau', 'tɥijo'],
 
     ['un', 'ẽ'],
     ['unitaire', 'ynitɛr'],
