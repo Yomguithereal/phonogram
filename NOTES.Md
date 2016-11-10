@@ -31,6 +31,7 @@ Compiling some cases to handle for target languages. Rule-based.
 * Payn, Ayn
 * Dilemne, Automne, damné
 * Problème
+* Drop the -o distinction
 
 *Liaisions*
 
