@@ -443,6 +443,7 @@ export default {
     ['prend', 'prã'],
     ['prient', 'pri'],
     ['prix', 'pri'],
+    ['problème', 'problɛm'],
     ['proc', 'prɔk'],
     ['provençal', 'provãsal'],
     ['puissamment', 'pɥisamã'],

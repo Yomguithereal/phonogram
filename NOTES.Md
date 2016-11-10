@@ -29,8 +29,6 @@ Compiling some cases to handle for target languages. Rule-based.
 * Praslin
 * Payn, Ayn
 * Dilemne, Automne, damné
-* Problème
-* Drop the -o distinction?
 * Emmanuel
 
 *Liaisions*

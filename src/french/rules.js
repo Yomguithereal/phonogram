@@ -524,7 +524,7 @@ export const POETIC_RULES = compileRules({
     [/ocr/, 'ɔkr', INITIAL],
 
     // "o" before "qu" or some "ch" is pronounced *ɔ*
-    [/o(?=bl|c?k|ch(?![iy])|qu)/, 'ɔ'],
+    [/o(?=ble|c?k|ch(?![iy])|qu)/, 'ɔ'],
 
     // "o" before some doubled consonants is pronounced *ɔ*
     [/o(?=ll|mm|nn|tt|ss)/, 'ɔ'],

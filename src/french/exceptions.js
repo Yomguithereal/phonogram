@@ -29,7 +29,7 @@ const EXCEPTIONS = {
   ceci: '(c•s)(e•ø)(c•s)i',
   cet: '(c•s)(e•ɛ)t',
   chut: '(ch•ʃ)(u•y)t',
-  comment: 'co(mm•m)(ent•ã)',
+  comment: 'c(o•ɔ)(mm•m)(ent•ã)',
   couscous: '(c•k)(ou•u)s(c•k)(ou•u)s',
   croc: '(c•k)r(oc•o)',
   des: 'd(e•ɛ)(s•)',
