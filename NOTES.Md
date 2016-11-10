@@ -34,7 +34,6 @@ Compiling some cases to handle for target languages. Rule-based.
 * Oestrogène, Phoenix, Phoenicien, Phoebus, Phoebe
 * Houellebecq
 * Praslin
-* Poêle
 * Payn, Ayn
 * Dilemne, Automne, damné
 

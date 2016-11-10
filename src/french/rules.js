@@ -363,6 +363,7 @@ export const POETIC_RULES = compileRules({
 
     // "ian", "ien" & "ion" are pronounced *j*
     [/ian/, 'jã'],
+    [/ien(?=t)/, 'iã'],
     [/ien/, 'jẽ'],
     [/ion/, 'jõ'],
 
@@ -404,6 +405,9 @@ export const POETIC_RULES = compileRules({
 
     // Initial "mille" is pronounced *mil* if not before a "t"
     [/mille(?!t)/, 'mil', INITIAL],
+
+    // "moell" is pronounced *mwal*
+    [/moell/, 'mwal'],
 
     // "m" is squeezed
     ['mm', 'm', /.{2,}/]
@@ -474,6 +478,9 @@ export const POETIC_RULES = compileRules({
 
     // "oe" is pronounced *ø*
     [/oe/, 'ø'],
+
+    // "oê" is pronounced *wa*
+    [/oê/, 'wa'],
 
     // Final "ot" or "o" is pronounced *o*
     [/(?:o|ots?)$/, 'o'],
