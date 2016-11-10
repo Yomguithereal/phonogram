@@ -26,10 +26,6 @@ Compiling some cases to handle for target languages. Rule-based.
 * brosse, gosse =/= grosse, fosse
 * cas de la brioche
 * cointerne
-* mas
-* maud
-* raz, ras
-* Crescendo
 * Oestrogène, Phoenix, Phoenicien, Phoebus, Phoebe
 * Praslin
 * Payn, Ayn
