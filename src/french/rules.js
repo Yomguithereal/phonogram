@@ -300,7 +300,7 @@ export const POETIC_RULES = compileRules({
     // "e" between some letters is pronounced *ø*
     [/e(?=mi)/, 'ø', INITIAL, NEGATIVE],
     [/e(?=c)/, 'ø', /r$/],
-    [/e(?=v)/, 'ø', /[nt]$/],
+    [/e(?=v)/, 'ø', /(?:ch|[nt])$/],
     [/e(?=l)/, 'ø', /[dp]$/],
     [/e(?=n)/, 'ø', /[bp]$/],
     [/e(?=[drt](?![sz]))/, 'ø', /[lr]$/],
@@ -401,6 +401,9 @@ export const POETIC_RULES = compileRules({
     // "ill" after a vowel and not before a "i" is pronounced *ij*
     [/ill/, 'ij', `[^${VOWELS}]`],
 
+    // Fnal "ingt" is pronounced *ẽ*
+    [/ingt$/, 'ẽ'],
+
     // "in" before a consonant which is not "n" or final is pronounced *ẽ*
     [`i([mn])(?=$|[^${VOWELS}\\1])`, 'ẽ'],
 
@@ -414,7 +417,7 @@ export const POETIC_RULES = compileRules({
     [/ien(?=t)/, 'iã', /cl$/],
 
     // Final "ient" is pronounced *i*
-    [/ient$/, 'i'],
+    [/ient$/, 'i', /[^t]$/],
 
     // "ian", "ien" & "ion" are pronounced *j*
     [/ian/, 'jã'],
