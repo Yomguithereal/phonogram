@@ -233,6 +233,9 @@ export const POETIC_RULES = compileRules({
     // "elle" is pronounced *ɛl*
     ['elle', 'ɛl'],
 
+    // Final "esse" is pronounced *ɛs*
+    [/esses?$/, 'ɛs'],
+
     // Final "ein" is pronounced *ẽ*
     [/eins?$/, 'ẽ'],
 
@@ -383,6 +386,9 @@ export const POETIC_RULES = compileRules({
     // "in" before a consonant which is not "n" or final is pronounced *ẽ*
     [`i([mn])(?=$|[^${VOWELS}\\1])`, 'ẽ'],
 
+    // Final "ied" is pronounced *je*
+    [/ieds?/, 'je'],
+
     // Final "ie" is pronounced *i*
     [/ie$/, 'i'],
 
@@ -501,8 +507,12 @@ export const POETIC_RULES = compileRules({
     // Final "oult" is pronounced *u*
     [/oults?$/, 'u'],
 
-    // "om" before "b" or "p" is pronounced *õ*
-    [/om(?=[bp])/, 'õ'],
+    // "ompt" is sometimes pronounced *õt*
+    [/ompt$/, 'õ'],
+    [/ompt/, 'õt', /(?:pr|d)$/, NEGATIVE],
+
+    // "om" before "b", "p" or "t" is pronounced *õ*
+    [/om(?=[bpt])/, 'õ'],
 
     // "oy" is pronounced *waj* before a and if the wor
     [/oy(?=[a])/, 'waj', /.+/],

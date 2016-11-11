@@ -30,6 +30,8 @@ Compiling some cases to handle for target languages. Rule-based.
 * Dilemne, Automne, damné
 * Grand
 * mens, encens
+* compte, corrompt promptement, dompter (if final or not after a "d" or "pr")
+* coup
 
 *Liaisions*
 
