@@ -84,6 +84,9 @@ export const POETIC_RULES = compileRules({
     // Final "ant" is pronounced *ã*
     [/ant$/, 'ã'],
 
+    // Final "and" is pronounced *ã*
+    [/ands?$/, 'ã', /[^l]$/],
+
     // "an" is pronounced *ã*
     [`an(?=[^${VOWELS}n]|$)`, 'ã'],
 
@@ -289,6 +292,7 @@ export const POETIC_RULES = compileRules({
 
     // "e" between some letters is pronounced *ø*
     [/e(?=mi)/, 'ø', INITIAL, NEGATIVE],
+    [/e(?=c)/, 'ø', /r$/],
     [/e(?=v)/, 'ø', /[nt]$/],
     [/e(?=l)/, 'ø', /[dp]$/],
     [/e(?=n)/, 'ø', /[bp]$/],
@@ -494,6 +498,9 @@ export const POETIC_RULES = compileRules({
 
     // Final "onc" is prononced *õ*
     [/onc$/, 'õ'],
+
+    // Final "oup" is sometimes pronounced *u*
+    [/oups?/, 'u', /[cl]$/],
 
     // "ont" is pronounced *õ* before some letters
     [/ont(?=j)/, 'õ'],

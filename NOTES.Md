@@ -28,10 +28,7 @@ Compiling some cases to handle for target languages. Rule-based.
 * Praslin, islam, slovaque, brusle
 * Payn, Ayn
 * Dilemne, Automne, damné
-* Grand
 * mens, encens
-* compte, corrompt promptement, dompter (if final or not after a "d" or "pr")
-* coup
 
 *Liaisions*
 
