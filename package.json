@@ -1,6 +1,6 @@
 {
   "name": "phonogram",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Collection of phonetic algorithms targeting a variety of European languages.",
   "main": "index.js",
   "bin": {
