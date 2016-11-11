@@ -29,9 +29,9 @@ Compiling some cases to handle for target languages. Rule-based.
 * Payn, Ayn
 * Dilemne, Automne, damné
 * mens, encens
-* détail
-* dessinera
 * seul, veule
+* expriment
+* orientations
 
 *Liaisions*
 

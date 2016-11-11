@@ -200,6 +200,9 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   e: [
 
+    // Final "ew" is pronounced like in English *u*
+    [/ews?$/, 'u'],
+
     // If "e" is the last letter of a two-letters words
     [/e$/, 'ø', /^.$/],
 

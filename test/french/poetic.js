@@ -305,6 +305,7 @@ export default {
     ['inquiet', 'ẽkjɛ'],
     ['inquisition', 'ẽkizisjõ'],
     ['institut', 'ẽstity'],
+    ['interview', 'ẽtɛrvju'],
     ['irakiennes', 'irakjɛn'],
 
     ['jaillir', 'ʒajir'],
