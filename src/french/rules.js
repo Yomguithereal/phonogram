@@ -16,7 +16,8 @@ export const I = 'iïî';
 export const O = 'oôùü';
 export const U = 'uü';
 export const Y = 'y';
-export const VOWELS = A + E + I + O + U + Y;
+export const LIGATURE = 'æœ';
+export const VOWELS = A + E + I + O + U + Y + LIGATURE;
 
 /**
  * List of common prefixes.
@@ -74,6 +75,9 @@ export const POETIC_RULES = compileRules({
     // "aim" or "ain" is pronounced *ẽ* when final or not before the same
     // consonant or vowel.
     [`(?:ai[mn]s?$|ai[mn](?![${VOWELS}mn]))`, 'ẽ'],
+
+    // Final "ail" is pronounced *aj*
+    [/ails?$/, 'aj'],
 
     // "aill" is pronounced *aj*
     [/aill/, 'aj'],
@@ -300,7 +304,7 @@ export const POETIC_RULES = compileRules({
     [/e(?=l)/, 'ø', /[dp]$/],
     [/e(?=n)/, 'ø', /[bp]$/],
     [/e(?=[drt](?![sz]))/, 'ø', /[lr]$/],
-    [/e(?=r)/, 'ø', /[cgmvsz]$/],
+    [/e(?=r)/, 'ø', /[cgmnvsz]$/],
     [/e(?!(\w)\1|$)/, 'ø', /^(?:ch|[fr])$/]
   ],
 
@@ -404,7 +408,7 @@ export const POETIC_RULES = compileRules({
     [/ieds?/, 'je'],
 
     // Final "ie" is pronounced *i*
-    [/ie$/, 'i'],
+    [/ies?$/, 'i'],
 
     // Sometimes, "ient" is pronounced *iã*
     [/ien(?=t)/, 'iã', /cl$/],

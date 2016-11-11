@@ -170,6 +170,8 @@ export default {
     ['dengue', 'dẽg'],
     ['dessein', 'desẽ'],
     ['deuil', 'dʌj'],
+    ['détail', 'detaj'],
+    ['détails', 'detaj'],
     ['dévorée', 'devore'],
     ['dieu', 'djø'],
     ['dix', 'dis'],
