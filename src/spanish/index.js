@@ -4,6 +4,7 @@
  *
  * The phonogram phonetic encoding algorithm for the Spanish language.
  */
+import exceptions from './exceptions';
 import {O, POETIC_RULES} from './rules';
 import {isJotaX, isNahuatl} from './heuristics';
 import {createPoetic} from '../factories';
@@ -27,6 +28,7 @@ const hasher = (index, letter, word) => {
 
 const poetic = createPoetic({
   rules: POETIC_RULES,
+  exceptions,
   hasher
 });
 
