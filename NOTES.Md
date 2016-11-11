@@ -28,12 +28,8 @@ Compiling some cases to handle for target languages. Rule-based.
 * Praslin, islam, slovaque, brusle
 * Payn, Ayn
 * Dilemne, Automne, damné
-* Emmanuel
-* Irakiennes
-* Blanc
 * Grand
-* Sang
-* mens
+* mens, encens
 
 *Liaisions*
 

@@ -194,7 +194,8 @@ export const POETIC_RULES = compileRules({
     [/e$/, 'ø', /^.$/],
 
     // Initial "emm" or "enn" is pronounced *ã*
-    [/e([mn])(?=\1)/, 'ã', INITIAL],
+    [/en(?=nu)/, 'ã', INITIAL],
+    [/em(?=me)/, 'ã', INITIAL],
 
     // "en" after "d" or "b" and before "g", "j" or "z" is pronounced *ẽ*
     [/en(?=[gjz])/, 'ẽ', /[bd]$/],
@@ -393,6 +394,7 @@ export const POETIC_RULES = compileRules({
 
     // "ian", "ien" & "ion" are pronounced *j*
     [/ian/, 'jã'],
+    [/ien(?=n)/, 'jɛ'],
     [/ien/, 'jẽ'],
     [/ion/, 'jõ'],
 
@@ -448,7 +450,7 @@ export const POETIC_RULES = compileRules({
     [/moell/, 'mwal'],
 
     // "m" is squeezed
-    ['mm', 'm', /.{2,}/]
+    ['mm', 'm']
   ],
 
   //-- (n)

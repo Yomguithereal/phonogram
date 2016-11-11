@@ -179,6 +179,7 @@ export default {
     ['égaye', 'egɛj'],
     ['élection', 'elɛksjõ'],
     ['elle', 'ɛl'],
+    ['Emmanuel', 'ɛmanyɛl'],
     ['emmerder', 'ãmɛrde'],
     ['empâtement', 'ãpatømã'],
     ['en', 'ã'],
@@ -290,6 +291,7 @@ export default {
     ['inquiet', 'ẽkjɛ'],
     ['inquisition', 'ẽkizisjõ'],
     ['institut', 'ẽstity'],
+    ['irakiennes', 'irakjɛn'],
 
     ['jaillir', 'ʒajir'],
     ['jaunisse', 'ʒonis'],
