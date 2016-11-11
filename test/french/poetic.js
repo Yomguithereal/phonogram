@@ -494,6 +494,7 @@ export default {
     ['salop', 'salo'],
     ['salut', 'saly'],
     ['sagement', 'saʒømã'],
+    ['sang', 'sã'],
     ['Saoudite', 'saudit'],
     ['saoul', 'su'],
     ['saoûler', 'sule'],

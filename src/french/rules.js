@@ -616,6 +616,9 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   s: [
 
+    // Final "sang" is pronounced *sã*
+    [/sangs?$/, 'sã'],
+
     // Initial "squa" is pronounced *skwa*
     ['squa', 'skwa', INITIAL],
 
