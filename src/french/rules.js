@@ -632,7 +632,7 @@ export const POETIC_RULES = compileRules({
 
     // Initial "re" is pronounced *rø* if not before vowel or two duplicate
     // consonants
-    [`re(?![${VOWELS}]|sp|[^${VOWELS}s]{2})`, 'rø', INITIAL],
+    [`re(?![${VOWELS}]|s[pt]|[^${VOWELS}s]{2})`, 'rø', INITIAL],
 
     // "rr" is squeezed
     ['rr', 'r'],
