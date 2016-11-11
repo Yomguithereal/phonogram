@@ -220,7 +220,7 @@ export const POETIC_RULES = compileRules({
     [/ents$/, 'ã'],
 
     // Final "erf" after "c", "n" or "s" is pronounced *ɛr*
-    [/erf$/, 'ɛr', /[cns]$/],
+    [/erfs?$/, 'ɛr', /[cns]$/],
 
     // Final "ert" or "ers" is pronounced *ɛr*
     [/(?:erts?$|ers$)/, 'ɛr', /[^i]$/],
@@ -721,8 +721,11 @@ export const POETIC_RULES = compileRules({
     // "tiel" is pronounced *sjɛl
     [/tiell?/, 'sjɛl'],
 
+    // "sti" before "on" is pronounced *stj*
+    [/ti(?=on)/, 'tj', /s$/],
+
     // "ti" before "on" is pronounced *sj*
-    ['ti(?=on)', 'sj'],
+    [/ti(?=on)/, 'sj'],
 
     // Final "tie" is pronounced *si* if after a vowel.
     [/tie$/, 'si', `[${VOWELS}]$`],

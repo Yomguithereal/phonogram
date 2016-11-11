@@ -31,6 +31,7 @@ Compiling some cases to handle for target languages. Rule-based.
 * mens, encens
 * détail
 * dessinera
+* seul, veule
 
 *Liaisions*
 

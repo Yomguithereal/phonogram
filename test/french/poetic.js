@@ -259,6 +259,8 @@ export default {
     ['gazole', 'gazɔl'],
     ['genoux', 'ʒenu'],
     ['gérard', 'ʒerar'],
+    ['gestion', 'ʒɛstjõ'],
+    ['gestionnaire', 'ʒɛstjɔnɛr'],
     ['gleyre', 'glɛr'],
     ['gout', 'gu'],
     ['goût', 'gu'],

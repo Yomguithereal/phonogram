@@ -28,6 +28,7 @@ const EXCEPTIONS = {
   bruxelles: 'br(u•y)(x•s)(e•ɛ)(lles•l)',
   but: 'b(u•y)t',
   ceci: '(c•s)(e•ø)(c•s)i',
+  ces: '(c•s)(es•ɛ)',
   cet: '(c•s)(e•ɛ)t',
   chut: '(ch•ʃ)(u•y)t',
   ciment: '(c•s)im(ent•ã)',
