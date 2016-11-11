@@ -29,6 +29,7 @@ Compiling some cases to handle for target languages. Rule-based.
 * Payn, Ayn
 * Dilemne, Automne, damné
 * mens, encens
+* auraient
 
 *Liaisions*
 

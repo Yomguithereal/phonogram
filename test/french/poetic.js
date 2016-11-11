@@ -176,6 +176,7 @@ export default {
     ['doigt', 'dwa'],
     ['Doisneau', 'dwano'],
     ['dompter', 'dõpte'],
+    ['donc', 'dõk'],
     ['Doubs', 'du'],
     ['du', 'dy'],
     ['dû', 'dy'],
@@ -311,6 +312,7 @@ export default {
     ['jeu', 'ʒø'],
     ['jeun', 'ʒẽ'],
     ['joliet', 'ʒoljɛ'],
+    ['joncs', 'ʒõ'],
     ['julie', 'ʒyli'],
 
     ['laitue', 'lɛty'],

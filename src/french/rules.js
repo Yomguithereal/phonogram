@@ -59,6 +59,9 @@ export const POETIC_RULES = compileRules({
     // Generally, final "ach" is pronounced *ak*
     [/ach$/, 'ak'],
 
+    // Final "aient" is pronounced *ɛ*
+    [/aient$/, 'ɛ'],
+
     // Final "ault" is pronounced *o*
     [/aults?$/, 'o'],
 
@@ -504,7 +507,7 @@ export const POETIC_RULES = compileRules({
     [/onds?$/, 'õ'],
 
     // Final "onc" is prononced *õ*
-    [/onc$/, 'õ'],
+    [/oncs?$/, 'õ', /[^d]$/],
 
     // Final "oup" is sometimes pronounced *u*
     [/oups?/, 'u', /[cl]$/],
@@ -629,7 +632,7 @@ export const POETIC_RULES = compileRules({
 
     // Initial "re" is pronounced *rø* if not before vowel or two duplicate
     // consonants
-    [`re(?![${VOWELS}]|[^${VOWELS}s]{2})`, 'rø', INITIAL],
+    [`re(?![${VOWELS}]|sp|[^${VOWELS}s]{2})`, 'rø', INITIAL],
 
     // "rr" is squeezed
     ['rr', 'r'],
