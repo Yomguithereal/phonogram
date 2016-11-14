@@ -584,7 +584,7 @@ export const POETIC_RULES = compileRules({
     [/o(?=ll|mm|nn|tt|ss)/, 'ɔ'],
 
     // Final "o" before a single consonant is pronounced *ɔ*
-    [`o(?=[^${VOWELS}](?:es?|s?)$|rts?$)`, 'ɔ']
+    [`o(?=[^${VOWELS}](?:es?|s?)$|r[dt]s?$)`, 'ɔ']
   ],
 
   //-- (ô)
@@ -648,7 +648,7 @@ export const POETIC_RULES = compileRules({
     ['rr', 'r'],
 
     // Final "rd" is pronounced *r*
-    [/rd$/, 'r']
+    [/rds?$/, 'r']
   ],
 
   //-- (s)

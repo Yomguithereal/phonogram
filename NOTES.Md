@@ -32,6 +32,7 @@ Compiling some cases to handle for target languages. Rule-based.
 * seul, veule
 * expriment
 * orientations
+* test, lest, est
 
 *Liaisions*
 
