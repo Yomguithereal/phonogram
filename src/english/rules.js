@@ -28,6 +28,12 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   a: [
 
+    // Before "ll", "a" is pronounced *ɔ*
+    [/a(?=ll)/, 'ɔ'],
+
+    // Before "ai" & "ay" is pronounced *ɛj*
+    [/a[iy]/, 'ɛj'],
+
     // Before a wall, "a" is pronounced *a*
     [`a(?=${WALL})`, 'a'],
 
@@ -49,12 +55,17 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   e: [
 
+    // Final "er" is pronounced *ə*
+    [/er$/, 'ə'],
+    [/ers$/, 'əz'],
+
     // Final "ern" is prounounced *ə*
     [/ern$/, 'ən'],
     [/erns$/, 'ənz'],
 
     // Final "e" is seldom pronounced
     [/e$/, ''],
+    [/es$/, 'z'],
 
     // "ee" is pronounced *i*
     ['ee', 'i'],
@@ -84,9 +95,22 @@ export const POETIC_RULES = compileRules({
     [null, 'aj']
   ],
 
+  //-- (l)
+  //----------------------------------------------------------------------------
+  l: [
+
+    // "ll" is squeezed
+    ['ll', 'l'],
+
+    [null, 'l']
+  ],
+
   //-- (o)
   //----------------------------------------------------------------------------
   o: [
+
+    // "oa" is pronounced *o*
+    ['oa', 'o'],
 
     // "oo" is pronounced *u*
     ['oo', 'u'],
@@ -98,7 +122,17 @@ export const POETIC_RULES = compileRules({
     [`o(?=${WALL})`, 'ɔ'],
 
     // Else, "o" is pronounced *oʊ*
-    [null, 'oʊ']
+    [null, 'o']
+  ],
+
+  //-- (p)
+  //----------------------------------------------------------------------------
+  p: [
+
+    // "ph" is pronounced *f*
+    ['ph', 'f'],
+
+    [null, 'p']
   ],
 
   //-- (q)
@@ -118,6 +152,12 @@ export const POETIC_RULES = compileRules({
     // "stle" is pronounced "søl"
     ['stle', 'søl'],
 
+    // "sh" is pronounced *ʃ*
+    ['sh', 'ʃ'],
+
+    // "between" two vowels, "s" is pronounced *z*
+    [`s(?=[${VOWELS}])`, 'z', `[${VOWELS}]$`],
+
     [null, 's']
   ],
 
@@ -128,7 +168,20 @@ export const POETIC_RULES = compileRules({
     // Leading "u" is pronounced *ju*
     ['u', 'ju', INITIAL],
 
+    // Before "m" or "n", "u" is pronounced *ʌ*
+    [/u(?=[mn])/, 'ʌ'],
+
     [null, 'u']
+  ],
+
+  //-- (w)
+  //----------------------------------------------------------------------------
+  w: [
+
+    // "wr" is pronounced *r*
+    ['wr', 'r'],
+
+    [null, 'w']
   ],
 
   //-- (y)

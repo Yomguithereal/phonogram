@@ -8,12 +8,15 @@ export default {
   fn: poetic,
   cases: [
     ['bit', 'bit'],
-    ['bone', 'boʊn'],
+    ['bone', 'bon'],
+    ['bones', 'bonz'],
     ['boy', 'bɔj'],
 
     ['castle', 'kasøl'],
     ['cistern', 'sistən'],
+    ['crumb', 'krʌmb'],
 
+    ['day', 'dɛj'],
     ['debate', 'dibɛjt'],
 
     ['fire', 'fajə'],
@@ -22,19 +25,26 @@ export default {
 
     ['mat', 'mat'],
     ['mine', 'majn'],
+    ['moat', 'mot'],
 
     ['pet', 'pɛt'],
     ['Pete', 'pit'],
+    ['philosophy', 'filɔzɔfi'],
     ['pity', 'piti'],
     ['pot', 'pɔt'],
 
+    ['shemale', 'ʃimɛjl'],
     ['sire', 'sajə'],
+    ['sister', 'sistə'],
 
+    ['tail', 'tɛjl'],
     ['tee', 'ti'],
 
     ['unique', 'junik'],
 
-    ['wood', 'wud']
+    ['wall', 'wɔl'],
+    ['wood', 'wud'],
+    ['wrist', 'rist']
   ]
 };
 
