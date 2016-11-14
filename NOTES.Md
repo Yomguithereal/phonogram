@@ -5,7 +5,7 @@ Compiling some cases to handle for target languages. Rule-based.
 ## Benefits
 
 * Multiple languages
-* Multiple levels
+* Multiple levels (poetic, harmonized, normal, fuzzy)
 * Liaisons (poetic & casual)
 * SMS
 * Genitives
@@ -25,7 +25,7 @@ Compiling some cases to handle for target languages. Rule-based.
 * cas de la brioche
 * cointerne
 * Phoenix, Phoenicien, Phoebus, Phoebe
-* Praslin, islam, slovaque, brusle
+* Praslin, islam, Islande, slovaque, brusle
 * Payn, Ayn
 * Dilemne, Automne, damné
 * mens, encens

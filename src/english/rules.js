@@ -5,7 +5,7 @@
  * Collecting the various rules used to produce a phonetic representation
  * of English words.
  */
-import {compileRules, INITIAL} from '../helpers';
+import {compileRules} from '../helpers';
 
 /**
  * Vowel definitions.
@@ -17,6 +17,7 @@ export const O = 'o';
 export const U = 'u';
 export const Y = 'y';
 export const VOWELS = A + E + I + O + U + Y;
+export const WALL = `(?:[^${VOWELS}][^${E}]|[^${VOWELS}]{2}|[^${VOWELS}]?$)`;
 
 /**
  * Most precise ruleset.
@@ -27,66 +28,27 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   a: [
 
-    // "ate" is pronounced *ɛjt*
-    ['ate', 'ɛjt']
-  ],
+    // Before a wall, "a" is pronounced *a*
+    [`a(?=${WALL})`, 'a'],
 
-  //-- (c)
-  //----------------------------------------------------------------------------
-  c: [
-
-    // "cious" is pronounced *ʃʌs*
-    ['cious', 'ʃʌs'],
-
-    // "c" before "e", "i" or "y" is pronounced "s"
-    [`c(?=[${E + I + Y}])`, 's'],
-
-    // "ch" is pronounced *tʃ*
-    ['ch', 'tʃ'],
-
-    // Else it's pronounced *k*
-    [null, 'k']
-  ],
-
-  //-- (d)
-  //----------------------------------------------------------------------------
-  d: [
-
-    // "dg" before a vowel is pronounced *dʒ*
-    [`dg(?=[${VOWELS}])`, 'dʒ'],
-
-    [null, 'd']
+    // Else, "a" is pronounced *ɛj*
+    [null, 'ɛj']
   ],
 
   //-- (e)
   //----------------------------------------------------------------------------
   e: [
 
-    // "eight" is pronounced *ɛjt*
-    ['eight', 'ɛjt'],
-
-    // "ea" before "s" is pronounced *ɛ*
-    [/ea(?=s)/, 'ɛ'],
-
-    // Else it is pronounced *i*
-    [/ea/, 'i'],
-
-    // "ew" is pronounced *ju*
-    [/ew/, 'ju'],
-
-    // "ee" is pronounced *i*
-    [/ee/, 'i'],
-
-    // Final "ern" is pronounced *ən*
-    [/ern$/, 'ən'],
-
-    // Final "er" is pronounced *ə*
-    [/er$/, 'ə'],
-
     // Final "e" is seldom pronounced
     [/e$/, ''],
 
-    // "e" is pronounced *i*
+    // Before a final "t", "e" is prounounced *ɛ*
+    [/e(?=ts?$)/, 'ɛ'],
+
+    // Before "tr", "e" is pronounced *e*
+    [/e(?=tr)/, 'e'],
+
+    // Else, "e" is pronounced *i*
     [null, 'i']
   ],
 
@@ -94,107 +56,33 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   i: [
 
-    // Final "ire" is pronounced *ajə*
-    [/ire$/, 'ajə'],
+    // Before a wall, "i" is pronounced *i*
+    [`i(?=${WALL})`, 'i'],
 
-    // "ie" is pronounced *i*
-    ['ie', 'i'],
-
-    [null, 'i']
+    // Else, "i" is pronounced *aj*
+    [null, 'aj']
   ],
-
-  //-- (j)
-  //----------------------------------------------------------------------------
-  j: 'dʒ',
 
   //-- (o)
   //----------------------------------------------------------------------------
   o: [
 
-    // "o" before "th" is pronounced *ʌ*
-    [/o(?=th)/, 'ʌ'],
+    // Before a wall, "o" is pronounced *ɔ*
+    [`o(?=${WALL})`, 'ɔ'],
 
-    // "oo" is pronounced *u*
-    ['oo', 'u']
-  ],
-
-  //-- (p)
-  //----------------------------------------------------------------------------
-  p: [
-
-    // "ph" is pronounced *f*
-    ['ph', 'f']
-  ],
-
-  //-- (r)
-  //----------------------------------------------------------------------------
-  r: [
-
-    // "rr" is squeezed
-    ['rr', 'r'],
-
-    [null, 'r']
-  ],
-
-  //-- (s)
-  //----------------------------------------------------------------------------
-  s: [
-
-    // Initial "s" is pronounced *s*
-    ['s', 's', INITIAL],
-
-    // "s" after a vowel & before a "u" is pronounced *ʒ*
-    [/s(?=u)/, 'ʒ', `[${VOWELS}]$`],
-
-    // "s" between two vowel is pronounced *z*
-    [`s(?=[${VOWELS}])`, 'z', `[${VOWELS}]$`]
-  ],
-
-  //-- (t)
-  //----------------------------------------------------------------------------
-  t: [
-
-    // "th" between two vowels is pronounced *ð*
-    [`th(?=[${VOWELS}])`, 'ð', `[${VOWELS}]$`],
-
-    // At the end of the word or before a consonant, "th" is pronounced *θ*
-    [`th(?=$|[^${VOWELS}])`, 'θ'],
-
-    // Else it is simply pronounced *t*
-    [null, 't']
-  ],
-
-  //-- (u)
-  //----------------------------------------------------------------------------
-  u: [
-
-    // "ue" is pronounced *u*
-    ['ue', 'u']
-  ],
-
-  //-- (w)
-  //----------------------------------------------------------------------------
-  w: [
-
-    // "wr" before a vowel is pronounced *r*
-    [`wr(?=[${VOWELS}])`, 'r'],
-
-    // "w" is pronounced *w*
-    [null, 'w']
+    // Else, "o" is pronounced *oʊ*
+    [null, 'oʊ']
   ],
 
   //-- (y)
   //----------------------------------------------------------------------------
-  y: 'i',
+  y: [
 
-  //-- (z)
-  //----------------------------------------------------------------------------
-  z: [
-
-    // "zz" is squeezed
-    ['zz', 'z']
+    // As a vowel, "y" is pronounced *i*
+    [null, 'i']
   ]
 });
 
 // myths -> simplification
 // ə -> er for harmonization
+// drop ʊ for harmonization

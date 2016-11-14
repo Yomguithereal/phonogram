@@ -7,41 +7,20 @@ import {poetic} from '../../src/english';
 export default {
   fn: poetic,
   cases: [
-    ['bath', 'baθ'],
-    ['bother', 'bʌðə'],
-    ['bridge', 'bridʒ'],
-
-    ['cheating', 'tʃiting'],
-    ['cheese', 'tʃiz'],
-    ['cistern', 'sistən'],
-    ['clue', 'klu'],
-    ['cruel', 'krul'],
-    ['cynic', 'sinik'],
+    ['bit', 'bit'],
+    ['bone', 'boʊn'],
 
     ['debate', 'dibɛjt'],
-    ['dew', 'dju'],
 
-    ['field', 'fild'],
-    ['fire', 'fajə'],
+    ['Italy', 'itali'],
 
-    ['grateful', 'grɛjtful'],
+    ['mat', 'mat'],
+    ['mine', 'majn'],
 
-    ['jazz', 'dʒaz'],
-
-    ['meet', 'mit'],
-    ['mother', 'mʌðə'],
-    ['myth', 'miθ'],
-
-    ['new', 'nju'],
-
-    ['phone', 'fon'],
-    ['pool', 'pul'],
-    ['porridge', 'poridʒ'],
-
-    ['see', 'si'],
-    ['sire', 'sajə'],
-
-    ['tee', 'ti']
+    ['pet', 'pɛt'],
+    ['Pete', 'pit'],
+    ['pity', 'piti'],
+    ['pot', 'pɔt']
   ]
 };
 
