@@ -169,7 +169,7 @@ export const POETIC_RULES = compileRules({
     ['tz', 'ts'],
 
     // Final "tl" is pronounced *tøl*
-    [/tl$/, 'tøl']
+    [/tl$/, 'tʌl']
   ],
 
   //-- (u)

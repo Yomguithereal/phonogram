@@ -43,7 +43,7 @@ export default {
     ['hijo', 'ixo'],
     ['huaca', 'waka'],
     ['huari', 'wari'],
-    ['Huehuecóyotl', 'wewekojotøl'],
+    ['Huehuecóyotl', 'wewekojotʌl'],
     ['Huitzilopochtli', 'witsilopoʃtli'],
 
     ['Jorje', 'xorxe'],
@@ -62,7 +62,7 @@ export default {
     ['pucllana', 'pukjana'],
 
     ['qhapaqñan', 'kapaknjan'],
-    ['Quetzalcoatl', 'ketsalkoatøl'],
+    ['Quetzalcoatl', 'ketsalkoatʌl'],
     ['quinientos', 'kinjentos'],
     ['Quito', 'kito'],
 
@@ -82,7 +82,7 @@ export default {
     ['totomochtle', 'totomoʃtle'],
     ['trashojar', 'trashoxar'],
 
-    ['Ueuecoyotl', 'wewekojotøl'],
+    ['Ueuecoyotl', 'wewekojotʌl'],
 
     ['vergüenza', 'vergwensa'],
 
@@ -93,7 +93,7 @@ export default {
     ['xilophono', 'silofono'],
     ['xolo', 'ʃolo'],
     ['xoloitzcuintli', 'ʃoloitskwintli'],
-    ['Xólotl', 'ʃolotøl'],
+    ['Xólotl', 'ʃolotʌl'],
 
     ['zanahoria', 'sanaorja']
   ]

@@ -150,7 +150,7 @@ export const POETIC_RULES = compileRules({
   s: [
 
     // "stle" is pronounced "søl"
-    ['stle', 'søl'],
+    ['stle', 'sʌl'],
 
     // "sh" is pronounced *ʃ*
     ['sh', 'ʃ'],

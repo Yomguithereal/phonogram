@@ -12,7 +12,7 @@ export default {
     ['bones', 'bonz'],
     ['boy', 'bɔj'],
 
-    ['castle', 'kasøl'],
+    ['castle', 'kasʌl'],
     ['cistern', 'sistən'],
     ['crumb', 'krʌmb'],
 

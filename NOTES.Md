@@ -58,6 +58,7 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * Celt
 * Warwick
 * Gloucester
+* fir
 
 * Genitives
 
