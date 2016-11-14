@@ -9,8 +9,14 @@ export default {
   cases: [
     ['bit', 'bit'],
     ['bone', 'boʊn'],
+    ['boy', 'bɔj'],
+
+    ['castle', 'kasøl'],
+    ['cistern', 'sistən'],
 
     ['debate', 'dibɛjt'],
+
+    ['fire', 'fajə'],
 
     ['Italy', 'itali'],
 
@@ -20,7 +26,15 @@ export default {
     ['pet', 'pɛt'],
     ['Pete', 'pit'],
     ['pity', 'piti'],
-    ['pot', 'pɔt']
+    ['pot', 'pɔt'],
+
+    ['sire', 'sajə'],
+
+    ['tee', 'ti'],
+
+    ['unique', 'junik'],
+
+    ['wood', 'wud']
   ]
 };
 
