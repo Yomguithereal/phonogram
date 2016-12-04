@@ -5,7 +5,8 @@ Compiling some cases to handle for target languages. Rule-based.
 ## Benefits
 
 * Multiple languages
-* Multiple levels (poetic, harmonized, normal, fuzzy)
+* Compound method
+* Multiple levels (poetic, harmonized, normal, fuzzy, no-vowels)
 * Liaisons (poetic & casual)
 * SMS
 * Genitives
@@ -15,6 +16,7 @@ Compiling some cases to handle for target languages. Rule-based.
 * Syllabification
 * Inexisting words (typos)
 * No dictionary (very much lighter)
+* Vocalization
 
 ## French
 
@@ -33,10 +35,13 @@ Compiling some cases to handle for target languages. Rule-based.
 * expriment
 * orientations
 * test, lest, est
+* deuxième
 
 *Liaisions*
 
 * Et caetera
+* tous
+* ce n'est pas un dictateur, c'est pas un dictateur
 
 **Multi**
 
@@ -59,6 +64,10 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * Warwick
 * Gloucester
 * fir
+* bye, rye
+* ryan
+* ulfric
+* cue, hue
 
 * Genitives
 

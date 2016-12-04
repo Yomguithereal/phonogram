@@ -14,11 +14,13 @@ export default {
 
     ['castle', 'kasʌl'],
     ['cistern', 'sistən'],
+    ['cruel', 'krul'],
     ['crumb', 'krʌmb'],
 
     ['day', 'dɛj'],
     ['debate', 'dibɛjt'],
 
+    ['five', 'fajv'],
     ['fire', 'fajə'],
 
     ['Italy', 'itali'],
@@ -32,6 +34,9 @@ export default {
     ['philosophy', 'filɔzɔfi'],
     ['pity', 'piti'],
     ['pot', 'pɔt'],
+
+    ['receive', 'risiv'],
+    ['riot', 'rajɔt'],
 
     ['shemale', 'ʃimɛjl'],
     ['sire', 'sajə'],

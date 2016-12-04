@@ -70,6 +70,9 @@ export const POETIC_RULES = compileRules({
     // "ee" is pronounced *i*
     ['ee', 'i'],
 
+    // "ei" is pronounced *i*
+    ['ei', 'i'],
+
     // Before a final "t", "e" is prounounced *ɛ*
     [/e(?=ts?$)/, 'ɛ'],
 
@@ -167,6 +170,9 @@ export const POETIC_RULES = compileRules({
 
     // Leading "u" is pronounced *ju*
     ['u', 'ju', INITIAL],
+
+    // "ue" is pronounced *ue*
+    ['ue', 'u'],
 
     // Before "m" or "n", "u" is pronounced *ʌ*
     [/u(?=[mn])/, 'ʌ'],

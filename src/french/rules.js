@@ -140,6 +140,9 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   b: [
 
+    // "bv" is pronounced *v*
+    ['bv', 'v'],
+
     // "bb" is squeezed
     ['bb', 'b']
   ],
@@ -147,6 +150,9 @@ export const POETIC_RULES = compileRules({
   //-- (c)
   //----------------------------------------------------------------------------
   c: [
+
+    // "corps" is pronounced *kɔr*
+    [/corps/, 'kɔr'],
 
     // "cq" & "cqu" are squeezed
     [/cqu?/, 'k'],
@@ -306,7 +312,7 @@ export const POETIC_RULES = compileRules({
     [/e(?=v)/, 'ø', /(?:ch|[nt])$/],
     [/e(?=l)/, 'ø', /[dp]$/],
     [/e(?=n)/, 'ø', /[bp]$/],
-    [/e(?=[drt](?![sz]))/, 'ø', /[lr]$/],
+    [/e(?=[dfrt](?![sz]))/, 'ø', /[lr]$/],
     [/e(?=r)/, 'ø', /[cgmnvsz]$/],
     [/e(?!(\w)\1|$)/, 'ø', /^(?:ch|[fr])$/]
   ],
