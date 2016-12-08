@@ -56,12 +56,12 @@ export const POETIC_RULES = compileRules({
   e: [
 
     // Final "er" is pronounced *ə*
-    [/er$/, 'ə'],
-    [/ers$/, 'əz'],
+    [/er$/, 'ʌr'],
+    [/ers$/, 'ʌz'],
 
     // Final "ern" is prounounced *ə*
-    [/ern$/, 'ən'],
-    [/erns$/, 'ənz'],
+    [/ern$/, 'ʌn'],
+    [/erns$/, 'ʌnz'],
 
     // Final "e" is seldom pronounced
     [/e$/, ''],
@@ -88,8 +88,8 @@ export const POETIC_RULES = compileRules({
   i: [
 
     // Final "ire" is pronounced *ajə*
-    [/ire$/, 'ajə'],
-    [/ires$/, 'ajəz'],
+    [/ire$/, 'ajʌr'],
+    [/ires$/, 'ajʌz'],
 
     // Before a wall, "i" is pronounced *i*
     [`i(?=${WALL})`, 'i'],

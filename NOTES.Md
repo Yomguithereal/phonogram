@@ -36,6 +36,7 @@ Compiling some cases to handle for target languages. Rule-based.
 * orientations
 * test, lest, est
 * deuxième
+* cinq
 
 *Liaisions*
 

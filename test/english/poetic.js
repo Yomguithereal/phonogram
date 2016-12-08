@@ -13,7 +13,7 @@ export default {
     ['boy', 'bɔj'],
 
     ['castle', 'kasʌl'],
-    ['cistern', 'sistən'],
+    ['cistern', 'sistʌn'],
     ['cruel', 'krul'],
     ['crumb', 'krʌmb'],
 
@@ -21,7 +21,7 @@ export default {
     ['debate', 'dibɛjt'],
 
     ['five', 'fajv'],
-    ['fire', 'fajə'],
+    ['fire', 'fajʌr'],
 
     ['Italy', 'itali'],
 
@@ -39,8 +39,8 @@ export default {
     ['riot', 'rajɔt'],
 
     ['shemale', 'ʃimɛjl'],
-    ['sire', 'sajə'],
-    ['sister', 'sistə'],
+    ['sire', 'sajʌr'],
+    ['sister', 'sistʌr'],
 
     ['tail', 'tɛjl'],
     ['tee', 'ti'],
