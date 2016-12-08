@@ -25,6 +25,8 @@ export default {
 
     ['Italy', 'itali'],
 
+    ['junk', 'djʌnk'],
+
     ['mat', 'mat'],
     ['mine', 'majn'],
     ['moat', 'mot'],
@@ -36,6 +38,7 @@ export default {
     ['pot', 'pɔt'],
 
     ['receive', 'risiv'],
+    ['ration', 'raʃʌn'],
     ['riot', 'rajɔt'],
 
     ['shemale', 'ʃimɛjl'],

@@ -37,8 +37,11 @@ export const POETIC_RULES = compileRules({
     // Before a wall, "a" is pronounced *a*
     [`a(?=${WALL})`, 'a'],
 
-    // Else, "a" is pronounced *ɛj*
-    [null, 'ɛj']
+    // Before a consonant & followed by a "e", "a" is pronounced *ɛj*
+    [`a(?=[lt][${VOWELS}])`, 'ɛj'],
+
+    // Else, "a" is pronounced *ɛ*
+    [null, 'ɛ']
   ],
 
   //-- (c)
@@ -97,6 +100,10 @@ export const POETIC_RULES = compileRules({
     // Else, "i" is pronounced *aj*
     [null, 'aj']
   ],
+
+  //-- (j)
+  //----------------------------------------------------------------------------
+  j: 'dj',
 
   //-- (l)
   //----------------------------------------------------------------------------
@@ -162,6 +169,16 @@ export const POETIC_RULES = compileRules({
     [`s(?=[${VOWELS}])`, 'z', `[${VOWELS}]$`],
 
     [null, 's']
+  ],
+
+  //-- (t)
+  //----------------------------------------------------------------------------
+  t: [
+
+    // "tion" is pronounced *ʃʌn*
+    ['tion', 'ʃʌn'],
+
+    [null, 't']
   ],
 
   //-- (u)

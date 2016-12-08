@@ -69,6 +69,8 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * ryan
 * ulfric
 * cue, hue
+* mishap
+* head, bead etc.
 
 * Genitives
 
