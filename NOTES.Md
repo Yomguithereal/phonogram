@@ -37,6 +37,11 @@ Compiling some cases to handle for target languages. Rule-based.
 * test, lest, est
 * deuxième
 * cinq
+* Reims, Heim Alzheimer, réimplanter, esseimer, seimes
+* gabegie
+* bourg
+* Laguiole
+* Us, Lys
 
 *Liaisions*
 
@@ -46,7 +51,7 @@ Compiling some cases to handle for target languages. Rule-based.
 
 **Multi**
 
-couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots finissant pas us, par is
+couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots finissant pas us, par is, pugnace, magnat
 
 ## English
 
