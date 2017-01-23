@@ -39,7 +39,7 @@ export default {
  * Useful sonority hierarchy one might use to syllabify phonogram codes.
  */
 export const hierarchy = [
-  'aeɛøəoɔiuʌyãẽõ',
+  'aeɛøoɔiuʌyãẽõ',
   'jwɥhʊ',
   'rl',
   'mn',

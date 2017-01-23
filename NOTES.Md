@@ -42,6 +42,19 @@ Compiling some cases to handle for target languages. Rule-based.
 * bourg
 * Laguiole
 * Us, Lys
+* Lisle, Isle
+* Brassens
+* Saint Saens
+* Tocsin
+* Succinct
+* Quadriceps
+* Jacquot
+* Clerc clercq
+* Vostre
+* Joug
+* Raout
+* Asthme
+* Oeufs boeufs
 
 *Liaisions*
 
