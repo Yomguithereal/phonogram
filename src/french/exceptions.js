@@ -58,6 +58,7 @@ const EXCEPTIONS = {
   mahous: 'ma(h•)(ou•u)s',
   maous: 'ma(ou•u)s',
   ment: 'm(ent•ã)',
+  merguez: 'm(e•ɛ)r(gu•g)(e•ɛ)z',
   mes: 'm(es•ɛ)',
   messieurs: 'me(ssieurs•sjø)',
   monsieur: 'm(on•ø)s(ieur•jø)',
