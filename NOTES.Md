@@ -55,6 +55,10 @@ Compiling some cases to handle for target languages. Rule-based.
 * Raout
 * Asthme
 * Oeufs boeufs
+* Aiguille
+* Geôles
+
+http://parler-francais.eklablog.com/vous-dites-a3737989
 
 *Liaisions*
 
