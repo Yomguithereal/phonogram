@@ -57,6 +57,7 @@ Compiling some cases to handle for target languages. Rule-based.
 * Oeufs boeufs
 * Aiguille
 * Geôles
+* Couette
 
 http://parler-francais.eklablog.com/vous-dites-a3737989
 
