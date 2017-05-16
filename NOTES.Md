@@ -58,6 +58,8 @@ Compiling some cases to handle for target languages. Rule-based.
 * Aiguille
 * Geôles
 * Couette
+* Caoutchouc
+* Caen
 
 http://parler-francais.eklablog.com/vous-dites-a3737989
 
