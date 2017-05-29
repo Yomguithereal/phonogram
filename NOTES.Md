@@ -6,6 +6,7 @@ Compiling some cases to handle for target languages. Rule-based.
 
 * Multiple languages
 * Compound method
+* Dictionary words
 * Multiple levels (poetic, harmonized, normal, fuzzy, no-vowels)
 * Liaisons (poetic & casual)
 * SMS
@@ -60,6 +61,7 @@ Compiling some cases to handle for target languages. Rule-based.
 * Couette
 * Caoutchouc
 * Caen
+* Chasles
 
 http://parler-francais.eklablog.com/vous-dites-a3737989
 
