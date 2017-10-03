@@ -63,7 +63,6 @@ Compiling some cases to handle for target languages. Rule-based.
 * Caen
 * Chasles
 * Cheville
-* brun
 
 http://parler-francais.eklablog.com/vous-dites-a3737989
 

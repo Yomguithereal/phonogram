@@ -806,6 +806,9 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   y: [
 
+    // "yg" before "d" is pronouncde *i*
+    [/yg(?=d)/, 'i'],
+
     // "yn" before a consonant different than "n" is pronounced *ẽ*
     [`yn(?=[^${VOWELS}n])`, 'ẽ'],
 

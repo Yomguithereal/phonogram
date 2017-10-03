@@ -33,6 +33,7 @@ export default {
     ['amer', 'amɛr'],
     ['amphétamine', 'ãfetamin'],
     ['amphore', 'ãfɔr'],
+    ['amygdales', 'amidal'],
     ['an', 'ã'],
     ['annuité', 'anɥite'],
     ['antagoniste', 'ãtagonist'],
