@@ -19,6 +19,8 @@ Compiling some cases to handle for target languages. Rule-based.
 * No dictionary (very much lighter)
 * Vocalization
 
+Appel à contributions
+
 ## French
 
 * diazote
@@ -63,6 +65,8 @@ Compiling some cases to handle for target languages. Rule-based.
 * Caen
 * Chasles
 * Cheville
+* Gwenaël
+* Entrelacs
 
 http://parler-francais.eklablog.com/vous-dites-a3737989
 
