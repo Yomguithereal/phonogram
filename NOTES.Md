@@ -51,7 +51,6 @@ Appel à contributions
 * Succinct
 * Quadriceps
 * Vostre
-* Joug
 * Raout
 * Asthme
 * Oeufs boeufs
