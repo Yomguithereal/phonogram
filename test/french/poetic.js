@@ -16,6 +16,7 @@ export default {
     ['Agen', 'aʒẽ'],
     ['aigüe', 'ɛgy'],
     ['aiguës', 'ɛgy'],
+    ['aiguilles', 'ɛgɥij'],
     ['ail', 'aj'],
     ['ainsi', 'ẽsi'],
     ['alcool', 'alkɔl'],

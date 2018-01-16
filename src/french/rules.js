@@ -51,6 +51,9 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   a: [
 
+    // "aiguill" is pronounced *ɛgɥij*
+    ['aiguill', 'ɛgɥij'],
+
     // "alcool" is pronounced *alkɔl*
     [/alcool/, 'alkɔl'],
 

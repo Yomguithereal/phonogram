@@ -53,7 +53,6 @@ Appel à contributions
 * Vostre
 * Raout
 * Oeufs boeufs
-* Aiguille
 * Geôles
 * Couette
 * Caoutchouc
@@ -63,7 +62,6 @@ Appel à contributions
 * Gwenaël
 * Entrelacs
 * Second, seconder
-* aiguille
 
 http://parler-francais.eklablog.com/vous-dites-a3737989
 
