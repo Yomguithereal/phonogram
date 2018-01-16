@@ -17,7 +17,7 @@
     "lint": "eslint src test",
     "prepublish": "npm run dist",
     "postpublish": "npm run clean",
-    "test": "mocha --compilers js:babel-core/register -R spec ./test/endpoint.js"
+    "test": "mocha --require babel-core/register -R spec ./test/endpoint.js"
   },
   "repository": {
     "type": "git",

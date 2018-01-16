@@ -42,7 +42,6 @@ Appel à contributions
 * cinq
 * Reims, Heim Alzheimer, réimplanter, esseimer, seimes
 * gabegie
-* bourg
 * Laguiole
 * Us, Lys
 * Lisle, Isle
@@ -68,6 +67,7 @@ Appel à contributions
 * Gwenaël
 * Entrelacs
 * Second, seconder
+* aiguille
 
 http://parler-francais.eklablog.com/vous-dites-a3737989
 

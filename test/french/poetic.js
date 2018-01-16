@@ -89,6 +89,7 @@ export default {
     ['bonbon', 'bõbõ'],
     ['bonheur', 'bonʌr'],
     ['boulgour', 'bulgur'],
+    ['bourg', 'bur'],
     ['bord', 'bɔr'],
     ['bretzel', 'bretsɛl'],
     ['brioche', 'brjɔʃ'],
@@ -293,6 +294,7 @@ export default {
     ['gwyneth', 'gwinet'],
     ['gypaète', 'ʒipaɛt'],
 
+    ['Hambourg', 'ãbur'],
     ['hasard', 'azar'],
     ['haschich', 'aʃiʃ'],
     ['hauteville', 'otøvil'],
