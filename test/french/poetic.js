@@ -105,6 +105,7 @@ export default {
     ['cacochyme', 'kakoʃim'],
     ['caecum', 'sekʌm'],
     ['cæcal', 'sekal'],
+    ['Caen', 'kã'],
     ['calmement', 'kalmømã'],
     ['camembert', 'kamãbɛr'],
     ['canevas', 'kanøva'],

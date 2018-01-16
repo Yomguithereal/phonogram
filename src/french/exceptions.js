@@ -27,6 +27,7 @@ const EXCEPTIONS = {
   broc: 'br(oc•o)',
   bruxelles: 'br(u•y)(x•s)(e•ɛ)(lles•l)',
   but: 'b(u•y)t',
+  caen: '(c•k)(aen•ã)',
   ceci: '(c•s)(e•ø)(c•s)i',
   ces: '(c•s)(es•ɛ)',
   cet: '(c•s)(e•ɛ)t',

@@ -56,7 +56,6 @@ Appel à contributions
 * Geôles
 * Couette
 * Caoutchouc
-* Caen
 * Chasles
 * Gwenaël
 * Entrelacs
