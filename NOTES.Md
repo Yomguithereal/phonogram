@@ -67,6 +67,7 @@ Appel à contributions
 * Cheville
 * Gwenaël
 * Entrelacs
+* Second, seconder
 
 http://parler-francais.eklablog.com/vous-dites-a3737989
 
