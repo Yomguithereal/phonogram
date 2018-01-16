@@ -52,7 +52,6 @@ Appel à contributions
 * Quadriceps
 * Vostre
 * Raout
-* Asthme
 * Oeufs boeufs
 * Aiguille
 * Geôles

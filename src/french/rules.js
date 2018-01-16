@@ -676,6 +676,9 @@ export const POETIC_RULES = compileRules({
     // "susur" is always pronounced *sysyr*
     [/susu(?=r)/, 'sysy'],
 
+    // "sthm" is pronounced *sm*
+    ['sthm', 'sm'],
+
     // "saoul" is always pronounced *su*
     [/sao[uû]l$/, 'su'],
     [/sao[uû]l/, 'sul'],

@@ -43,6 +43,7 @@ export default {
     ['aplomb', 'aplõ'],
     ['après', 'aprɛ'],
     ['apostat', 'aposta'],
+    ['asmathique', 'asmatik'],
     ['asphyxier', 'asfiksje'],
     ['arabesque', 'arabɛsk'],
     ['architecture', 'arʃitɛktyr'],
@@ -319,6 +320,7 @@ export default {
     ['institut', 'ẽstity'],
     ['interview', 'ẽtɛrvju'],
     ['irakiennes', 'irakjɛn'],
+    ['isthme', 'ism'],
 
     ['jaillir', 'ʒajir'],
     ['jaunisse', 'ʒonis'],
