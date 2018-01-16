@@ -58,7 +58,6 @@ Appel à contributions
 * Caoutchouc
 * Caen
 * Chasles
-* Cheville
 * Gwenaël
 * Entrelacs
 * Second, seconder

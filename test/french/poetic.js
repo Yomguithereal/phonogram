@@ -125,6 +125,7 @@ export default {
     ['chateau', 'ʃato'],
     ['chateaux', 'ʃato'],
     ['chemin', 'ʃømẽ'],
+    ['cheville', 'ʃøvij'],
     ['chevreuil', 'ʃøvrʌj'],
     ['chien', 'ʃjẽ'],
     ['chient', 'ʃi'],

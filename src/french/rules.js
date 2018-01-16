@@ -788,7 +788,7 @@ export const POETIC_RULES = compileRules({
   v: [
 
     // Handling some exceptions related to "ville" & "villain-"
-    [/vill(?=ain|[ae])/, 'vil'],
+    [/vill(?=ain|[ae])/, 'vil', /che/, NEGATIVE],
 
     // "voi" is pronounced *wa*
     ['voi', 'wa']
