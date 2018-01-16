@@ -211,6 +211,7 @@ export default {
     ['en', 'ã'],
     ['ennui', 'ãnɥi'],
     ['ennuyer', 'ãnɥije'],
+    ['entrelacs', 'ãtrøla'],
     ['éphore', 'efɔr'],
     ['essaim', 'esẽ'],
     ['essaime', 'esɛm'],
