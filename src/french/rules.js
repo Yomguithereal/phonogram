@@ -166,11 +166,14 @@ export const POETIC_RULES = compileRules({
     // "cc" is squeezed
     ['cc', 'k'],
 
-    // Words finishing by "clef" pronounce it "kle"
-    [/clef$/, 'kle'],
+    // Words finishing by "clerc" pronounce it "klɛr"
+    [/clercq?s?/, 'klɛr'],
 
-    // Words finishing by "cul" pronounced it "ky"
-    [/cul$/, 'ky'],
+    // Words finishing by "clef" pronounce it "kle"
+    [/clefs?$/, 'kle'],
+
+    // Words finishing by "cul" pronounce it "ky"
+    [/culs?$/, 'ky'],
 
     // "cae" is pronounced *se*
     ['c(?:æ|ae)', 'se'],

@@ -136,6 +136,10 @@ export default {
     ['citroën', 'sitroɛn'],
     ['claymore', 'klɛmɔr'],
     ['clef', 'kle'],
+    ['clefs', 'kle'],
+    ['clerc', 'klɛr'],
+    ['clercs', 'klɛr'],
+    ['clercq', 'klɛr'],
     ['client', 'kliã'],
     ['clientélisme', 'kliãtelism'],
     ['cloque', 'klɔk'],
@@ -168,6 +172,7 @@ export default {
     ['croc', 'kro'],
     ['cruel', 'kryɛl'],
     ['cul', 'ky'],
+    ['culs', 'ky'],
 
     ['daim', 'dẽ'],
     ['darmstadt', 'darmstat'],
@@ -329,6 +334,7 @@ export default {
 
     ['laitue', 'lɛty'],
     ['lapin', 'lapẽ'],
+    // ['Leclerc', 'løklɛr'],
     ['lavabo', 'lavabo'],
     ['le', 'lø'],
     ['Lefebvre', 'løfevr'],

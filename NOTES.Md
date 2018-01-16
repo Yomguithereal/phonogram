@@ -43,15 +43,13 @@ Appel à contributions
 * Reims, Heim Alzheimer, réimplanter, esseimer, seimes
 * gabegie
 * Laguiole
-* Us, Lys
+* Us, Lys, physalis
 * Lisle, Isle
 * Brassens
 * Saint Saens
 * Tocsin
 * Succinct
 * Quadriceps
-* Jacquot
-* Clerc clercq
 * Vostre
 * Joug
 * Raout
