@@ -55,7 +55,6 @@ Note => kinda french-based
 * Raout
 * Oeufs boeufs
 * Geôles
-* Caoutchouc
 * Gwenaël
 
 http://parler-francais.eklablog.com/vous-dites-a3737989

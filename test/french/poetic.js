@@ -110,6 +110,7 @@ export default {
     ['calmement', 'kalmømã'],
     ['camembert', 'kamãbɛr'],
     ['canevas', 'kanøva'],
+    ['caoutchouc', 'kautʃu'],
     ['Carentan', 'karãtã'],
     ['cartes', 'kart'],
     ['cases', 'kaz'],
