@@ -553,6 +553,8 @@ export default {
     ['sciemment', 'sjamã'],
     ['scotcher', 'skotʃe'],
     ['se', 'sø'],
+    ['second', 'søgõ'],
+    ['secondaire', 'søgõdɛr'],
     ['sel', 'sɛl'],
     ['semi', 'sømi'],
     ['semis', 'sømi'],

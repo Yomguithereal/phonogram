@@ -60,11 +60,6 @@ Note => kinda french-based
 * Caoutchouc
 * Chasles
 * Gwenaël
-* Second, seconder
-
-Drop the re, test seconde, Drop les exceptions, 2 char + le me te se etc. oupas (sinon silencieux)
-
-Rule for "re" should apply to any e in second or last place not followed by something. Concerning middle e as ø, I guess we can reverse the rule to default and simplify this.
 
 http://parler-francais.eklablog.com/vous-dites-a3737989
 

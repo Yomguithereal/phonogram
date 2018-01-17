@@ -672,6 +672,9 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   s: [
 
+    // "sec(ond)" is prounounced *søg*
+    [/sec(?=ond)/, 'søg'],
+
     // Final "sang" is pronounced *sã*
     [/sangs?$/, 'sã'],
 
