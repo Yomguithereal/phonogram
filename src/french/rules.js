@@ -75,6 +75,9 @@ export const POETIC_RULES = compileRules({
     // "aing" & "ain" are pronounced *ẽ*
     [/aing?$/, 'ẽ'],
 
+    // Final "aix" is generally pronounced *ɛ*
+    [/aix$/, 'ɛ', /.$/],
+
     // "aim" or "ain" is pronounced *ẽ* when final or not before the same
     // consonant or vowel.
     [`(?:ai[mn]s?$|ai[mn](?![${VOWELS}mn]))`, 'ẽ'],

@@ -19,6 +19,7 @@ export default {
     ['aiguilles', 'ɛgɥij'],
     ['ail', 'aj'],
     ['ainsi', 'ẽsi'],
+    ['Aix', 'ɛks'],
     ['alcool', 'alkɔl'],
     ['alcoolisé', 'alkɔlize'],
     ['Aleppes', 'alɛp'],
@@ -129,6 +130,7 @@ export default {
     ['chateau', 'ʃato'],
     ['chateaux', 'ʃato'],
     ['chemin', 'ʃømẽ'],
+    ['cherfaix', 'ʃɛrfɛ'],
     ['cheville', 'ʃøvij'],
     ['chevreuil', 'ʃøvrʌj'],
     ['chien', 'ʃjẽ'],
@@ -452,6 +454,7 @@ export default {
 
     ['paimpolaise', 'pẽpolɛz'],
     ['pain', 'pẽ'],
+    ['paix', 'pɛ'],
     ['paon', 'pã'],
     ['papaye', 'papaj'],
     ['papier', 'papje'],

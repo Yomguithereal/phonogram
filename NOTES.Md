@@ -41,8 +41,6 @@ Note => kinda french-based
 * test, lest, est
 * deuxième
 * Reims, Heim Alzheimer, réimplanter, esseimer, seimes
-* gabegie
-* Laguiole
 * Us, Lys, physalis
 * Lisle, Isle
 * Brassens
