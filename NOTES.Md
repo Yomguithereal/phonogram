@@ -36,7 +36,7 @@ Note => kinda french-based
 * Payn, Ayn
 * Dilemne, Automne, damné
 * seul, veule
-* expriment
+* expriment, ment
 * orientations
 * test, lest, est
 * deuxième
