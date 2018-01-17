@@ -439,6 +439,9 @@ export const POETIC_RULES = compileRules({
     // Final "ie" is pronounced *i*
     [/ies?$/, 'i'],
 
+    // "isle" is pronounced *il*
+    [/isl(?=e)/, 'il'],
+
     // Sometimes, "ient" is pronounced *iã*
     [/ien(?=t)/, 'iã', /cl$/],
 

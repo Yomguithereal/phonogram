@@ -360,6 +360,7 @@ export default {
     ['leur', 'lʌr'],
     ['leurre', 'lʌr'],
     ['litigieuse', 'litiʒjøz'],
+    ['Lisle', 'lil'],
     ['Livaro', 'livaro'],
     ['lobe', 'lɔb'],
     ['loup', 'lu'],

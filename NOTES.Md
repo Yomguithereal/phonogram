@@ -42,7 +42,6 @@ Note => kinda french-based
 * deuxième
 * Reims, Heim Alzheimer, réimplanter, esseimer, seimes
 * Us, Lys, physalis
-* Lisle, Isle
 * Brassens
 * Saint Saens
 * Tocsin
