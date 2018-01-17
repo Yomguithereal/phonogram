@@ -364,6 +364,7 @@ export default {
     ['Lisle', 'lil'],
     ['Livaro', 'livaro'],
     ['lobe', 'lɔb'],
+    ['lorient', 'lorjã'],
     ['loup', 'lu'],
     ['lunaire', 'lynɛr'],
     ['lut', 'ly'],
