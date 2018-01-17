@@ -309,21 +309,23 @@ export const POETIC_RULES = compileRules({
     // Final "e" is not pronounced
     [/es?$/],
 
+    // Final "eth" is pronounced *ɛt*
+    [/eths?$/, 'ɛt'],
+
     // "e" before "x" is pronounced *ɛ*
     [/e(?=x)/, 'ɛ'],
 
-    // "e" before some letters is pronounced *ɛ* if no vowel comes after
-    [`e(?=[clmnrz](?![${VOWELS}])|s(?![${VOWELS}s]))`, 'ɛ'],
+    // "e" before some doubled consonants is prounced *e*
+    [/e(?=ss|ff)/, 'e'],
 
-    // "e" between some letters is pronounced *ø*
-    [/e(?=mi)/, 'ø', INITIAL, NEGATIVE],
-    [/e(?=c)/, 'ø', /r$/],
-    [/e(?=v)/, 'ø', /(?:ch|[nt])$/],
-    [/e(?=l)/, 'ø', /[dp]$/],
-    [/e(?=n)/, 'ø', /[bp]$/],
-    [/e(?=[dfrt](?![sz]))/, 'ø', /[lr]$/],
-    [/e(?=r)/, 'ø', /[cgmnvsz]$/],
-    [/e(?!(\w)\1|$)/, 'ø', /^(?:ch|[fr])$/]
+    // "e" before some letters is pronounced *ɛ* if no vowel comes after
+    [`e(?=[clmnprz](?![${VOWELS}])|s(?![${VOWELS}s])|t[sz]|ll|tt|nn|bvr)`, 'ɛ'],
+
+    // In latin words, "e" is pronounced "e"
+    [/e(?=.+um$)/, 'e'],
+
+    // Else, "e" is generally pronounced *ø*
+    [null, 'ø']
   ],
 
   //-- (é)
@@ -714,7 +716,7 @@ export const POETIC_RULES = compileRules({
     [`s(?=[${VOWELS}])`, 's', PREFIXES_LOOKBEHIND],
 
     // "s" between two vowels is pronounced *z*
-    [`s(?=[${VOWELS}])`, 'z', `[${VOWELS}]$`],
+    [`s(?=[${VOWELS}])`, 'z', `[${VOWELS}r]$`],
   ],
 
   //-- (t)
@@ -733,7 +735,7 @@ export const POETIC_RULES = compileRules({
     // "tt" is squeezed
     ['tt', 't'],
 
-    // "tz" is pronounced *ts*
+    // "tz" is generally pronounced *ts* (exception: Bretzel)
     ['tz', 'ts'],
 
     // "th" is pronounced *t*
@@ -842,5 +844,3 @@ export const POETIC_RULES = compileRules({
     ['zoo', 'zoo', INITIAL]
   ]
 });
-
-// long vowel should probably take a "n" for harmonization
