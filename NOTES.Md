@@ -35,7 +35,6 @@ Note => kinda french-based
 * Praslin, islam, Islande, slovaque, brusle
 * Payn, Ayn
 * Dilemne, Automne, damné
-* mens, encens
 * seul, veule
 * expriment
 * orientations
@@ -53,9 +52,8 @@ Note => kinda french-based
 * Quadriceps, cleps, biceps, forceps
 * Raout
 * Oeufs boeufs
-* Geôles
 * Gwenaël
-* sens, encens, yens
+* sens, encens, yens, mens
 
 http://parler-francais.eklablog.com/vous-dites-a3737989
 

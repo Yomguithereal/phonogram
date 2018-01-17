@@ -282,6 +282,7 @@ export default {
     ['galop', 'galo'],
     ['gaufres', 'gofr'],
     ['gazole', 'gazɔl'],
+    ['geôles', 'ʒol'],
     ['genoux', 'ʒønu'],
     ['gérard', 'ʒerar'],
     ['gestion', 'ʒɛstjõ'],
