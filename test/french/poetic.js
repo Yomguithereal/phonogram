@@ -441,6 +441,8 @@ export default {
     ['oncques', 'õk'],
     ['onion', 'onjõ'],
     ['oreille', 'orɛj'],
+    ['orient', 'orjã'],
+    ['orientation', 'orjãtasjõ'],
     ['ornithorynque', 'ornitorẽk'],
     ['ôter', 'ote'],
     ['où', 'u'],

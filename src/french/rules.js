@@ -521,7 +521,10 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   o: [
 
-    // "ouill" is pronounced "uj"
+    // "orient" is pronounced *orjã*
+    [/orien(?=t)/, 'orjã'],
+
+    // "ouill" is pronounced *uj*
     [/(?:ouill|ouils?$)/, 'uj'],
 
     // Final "oigt" is pronounced *wa*

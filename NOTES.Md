@@ -37,7 +37,6 @@ Note => kinda french-based
 * Dilemne, Automne, damné
 * seul, veule
 * expriment, ment
-* orientations
 * test, lest, est
 * deuxième
 * Reims, Heim Alzheimer, réimplanter, esseimer, seimes
