@@ -140,6 +140,7 @@ export default {
     ['chrysanthème', 'krizãtɛm'],
     ['chtonien', 'ktonjẽ'],
     ['chut', 'ʃyt'],
+    ['cinq', 'sẽk'],
     ['citroën', 'sitroɛn'],
     ['claymore', 'klɛmɔr'],
     ['clef', 'kle'],

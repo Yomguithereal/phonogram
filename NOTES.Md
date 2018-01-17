@@ -41,7 +41,6 @@ Note => kinda french-based
 * orientations
 * test, lest, est
 * deuxième
-* cinq
 * Reims, Heim Alzheimer, réimplanter, esseimer, seimes
 * gabegie
 * Laguiole
@@ -56,6 +55,7 @@ Note => kinda french-based
 * Oeufs boeufs
 * Geôles
 * Gwenaël
+* sens, encens, yens
 
 http://parler-francais.eklablog.com/vous-dites-a3737989
 

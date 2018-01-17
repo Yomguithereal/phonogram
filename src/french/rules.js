@@ -652,8 +652,8 @@ export const POETIC_RULES = compileRules({
     // q followed by û is pronounced *ky*
     ['qû', 'ky'],
 
-    // "qu" is pronounced *k*
-    ['qu', 'k']
+    // "q(u)" is pronounced *k*
+    [/qu?/, 'k']
   ],
 
   //-- (r)
