@@ -52,11 +52,9 @@ Note => kinda french-based
 * Tocsin
 * Succinct, Distinct, Extinct, Instinct, Succincte vs. distincte
 * Quadriceps, cleps, biceps, forceps
-* Vostre
 * Raout
 * Oeufs boeufs
 * Geôles
-* Couette
 * Caoutchouc
 * Gwenaël
 

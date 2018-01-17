@@ -524,7 +524,7 @@ export const POETIC_RULES = compileRules({
     // Final "oubs" is pronounced *u*
     [/oubs$/, 'u'],
 
-    // Final "oeil" is pronounced *øj*
+    // Final "oeil" is pronounced *ʌj*
     [/oeil$/, 'ʌj'],
 
     // "ooing", oing", "oint" or "oin" are pronounced *wẽ*
@@ -565,7 +565,7 @@ export const POETIC_RULES = compileRules({
     [/oy(?=[a])/, 'waj', /.+/],
 
     // "ou" before some vowels is pronounced *w*
-    [/ou(?=[ai])/, 'w'],
+    [/ou(?=[ai]|e(?:ll|nn|tt))/, 'w'],
 
     // "ou" is generally pronounced *u*
     [/o[uùû]x?/, 'u'],
