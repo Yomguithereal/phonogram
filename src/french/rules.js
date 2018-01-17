@@ -325,7 +325,7 @@ export const POETIC_RULES = compileRules({
     [/e(?=ss|ff)/, 'e'],
 
     // "e" before some letters is pronounced *ɛ* if no vowel comes after
-    [`e(?=[clmnprz](?![${VOWELS}])|s(?![${VOWELS}s])|t[sz]|ll|tt|nn|bvr)`, 'ɛ'],
+    [`e(?=[lmnprz](?![${VOWELS}])|s(?![${VOWELS}s])|c(?![${VOWELS}l])|t[sz]|ll|tt|nn|bvr)`, 'ɛ'],
 
     // In latin words, "e" is pronounced "e"
     [/e(?=.+um$)/, 'e'],

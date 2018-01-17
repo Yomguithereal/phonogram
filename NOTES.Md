@@ -51,6 +51,7 @@ Note => kinda french-based
 * Oeufs boeufs
 * Gwenaël
 * sens, encens, yens, mens
+* strict
 
 http://parler-francais.eklablog.com/vous-dites-a3737989
 

@@ -353,9 +353,10 @@ export default {
 
     ['laitue', 'lɛty'],
     ['lapin', 'lapẽ'],
-    // ['Leclerc', 'løklɛr'],
     ['lavabo', 'lavabo'],
     ['le', 'lø'],
+    ['Leclerc', 'løklɛr'],
+    ['lecteurs', 'lɛktʌr'],
     ['Lefebvre', 'løfɛvr'],
     ['leur', 'lʌr'],
     ['leurre', 'lʌr'],
