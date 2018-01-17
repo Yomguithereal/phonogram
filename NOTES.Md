@@ -58,7 +58,6 @@ Note => kinda french-based
 * Geôles
 * Couette
 * Caoutchouc
-* Chasles
 * Gwenaël
 
 http://parler-francais.eklablog.com/vous-dites-a3737989

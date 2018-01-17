@@ -82,6 +82,9 @@ export const POETIC_RULES = compileRules({
     // Final "ail" is pronounced *aj*
     [/ails?$/, 'aj'],
 
+    // "asl" before "e" or "in" is pronounced *al*
+    [/asl(?=e|in)/, 'al'],
+
     // "aill" is pronounced *aj*
     [/aill/, 'aj'],
 
