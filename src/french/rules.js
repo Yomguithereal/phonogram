@@ -766,7 +766,7 @@ export const POETIC_RULES = compileRules({
     [/tie$/, 'si', `[${VOWELS}]$`],
 
     // Final "t" is rarely pronounced
-    [/ts?$/, '', /[^ï]$/]
+    [/ts?$/, '', /[^ïc]$/]
   ],
 
   //-- (u)

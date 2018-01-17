@@ -592,6 +592,7 @@ export default {
     ['squale', 'skwal'],
     ['Staël', 'stɛl'],
     ['stochastique', 'stɔkastik'],
+    ['strict', 'strikt'],
     ['sursaut', 'syrso'],
     ['sursauter', 'syrsote'],
     ['susurrer', 'sysyre'],
