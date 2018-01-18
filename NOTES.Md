@@ -46,7 +46,6 @@ Note => kinda french-based
 * Tocsin
 * Succinct, Distinct, Extinct, Instinct, Succincte vs. distincte
 * Quadriceps, cleps, biceps, forceps
-* Raout
 * Oeufs boeufs
 * Gwenaël
 * sens, encens, yens, mens
