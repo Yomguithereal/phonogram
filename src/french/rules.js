@@ -421,6 +421,9 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   i: [
 
+    // Final "ing" is pronounced *ing*
+    [/ing$/, 'ing'],
+
     // "illi" before certain vowels is pronounced *ilj*
     [`illi(?=[${A + E + I + O}])`, 'ilj'],
 
@@ -581,6 +584,9 @@ export const POETIC_RULES = compileRules({
 
     // "oo" is generally pronounced *u*
     [/oo/, 'u'],
+
+    // "ow" is pronounced *o*
+    [/ow/, 'o'],
 
     // "oeu" is generally pronounced *ʌ*
     [/oeu/, 'ʌ'],

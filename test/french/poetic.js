@@ -99,6 +99,7 @@ export default {
     ['bretzel', 'brɛtsɛl'],
     ['brioche', 'brjɔʃ'],
     ['broc', 'bro'],
+    ['browning', 'broning'],
     ['Bruxelles', 'brysɛl'],
     ['bue', 'by'],
     ['buisson', 'bɥisõ'],
@@ -317,6 +318,7 @@ export default {
     ['gwyneth', 'gwinɛt'],
     ['gypaète', 'ʒipaɛt'],
 
+    ['hacking', 'aking'],
     ['Hambourg', 'ãbur'],
     ['hapax', 'apaks'],
     ['hasard', 'azar'],
