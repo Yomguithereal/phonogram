@@ -30,6 +30,7 @@ const EXCEPTIONS = {
   caen: '(c•k)(aen•ã)',
   caoutchouc: '(c•k)a(ou•u)t(ch•ʃ)(ouc•u)',
   ceci: '(c•s)(e•ø)(c•s)i',
+  ceps: '(c•s)(e•ɛ)p(s•)',
   ces: '(c•s)(es•ɛ)',
   cet: '(c•s)(e•ɛ)t',
   chut: '(ch•ʃ)(u•y)t',

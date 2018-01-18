@@ -40,9 +40,7 @@ Note => kinda french-based
 * Us, Lys, physalis
 * Brassens
 * Saint Saens
-* Tocsin
 * Succinct, Distinct, Extinct, Instinct, Succincte vs. distincte
-* Quadriceps, cleps, biceps, forceps
 * Oeufs boeufs
 * Gwenaël
 * sens, encens, yens, mens
