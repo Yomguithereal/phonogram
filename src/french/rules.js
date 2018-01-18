@@ -540,7 +540,7 @@ export const POETIC_RULES = compileRules({
     [/(?:ouill|ouils?$)/, 'uj'],
 
     // Final "oigt" is pronounced *wa*
-    [/oigt$/, 'wa'],
+    [/oigts?$/, 'wa'],
 
     // Final "oubs" is pronounced *u*
     [/oubs$/, 'u'],

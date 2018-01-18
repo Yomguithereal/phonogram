@@ -206,6 +206,7 @@ export default {
     ['dieu', 'djø'],
     ['dix', 'dis'],
     ['doigt', 'dwa'],
+    ['doigts', 'dwa'],
     ['Doisneau', 'dwano'],
     ['Dombasle', 'dõbal'],
     ['dompter', 'dõpte'],
