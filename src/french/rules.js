@@ -825,7 +825,7 @@ export const POETIC_RULES = compileRules({
     [/x(?=i(?:ll|e))/, 'ks'],
 
     // Before another vowel, "x" is pronounced *gz*
-    [`x(?=[${VOWELS}])`, 'gz'],
+    [`x(?=[${VOWELS}])`, 'gz', /a/, NEGATIVE],
 
     // Else it is pronounced *ks*
     [null, 'ks']

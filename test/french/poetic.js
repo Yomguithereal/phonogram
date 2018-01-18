@@ -57,6 +57,7 @@ export default {
     ['Auxerres', 'osɛr'],
     ['aulx', 'o'],
     ['auxilliaire', 'oksiljɛr'],
+    ['Axel', 'aksɛl'],
     ['ayant', 'ɛjã'],
     ['ayatollah', 'ajatɔla'],
     ['ayez', 'ɛje'],
@@ -317,6 +318,7 @@ export default {
     ['gypaète', 'ʒipaɛt'],
 
     ['Hambourg', 'ãbur'],
+    ['hapax', 'apaks'],
     ['hasard', 'azar'],
     ['haschich', 'aʃiʃ'],
     ['hauteville', 'otøvil'],
@@ -463,6 +465,7 @@ export default {
     ['paon', 'pã'],
     ['papaye', 'papaj'],
     ['papier', 'papje'],
+    ['parataxe', 'parataks'],
     ['parfum', 'parfẽ'],
     ['parpaing', 'parpẽ'],
     ['parterre', 'partɛr'],
@@ -605,6 +608,7 @@ export default {
 
     ['tabac', 'taba'],
     ['tapecul', 'tapky'],
+    ['taxonomie', 'taksonomi'],
     ['téraflops', 'teraflɔps'],
     ['terrain', 'tɛrẽ'],
     ['te', 'tø'],
