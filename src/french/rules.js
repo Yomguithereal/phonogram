@@ -452,6 +452,10 @@ export const POETIC_RULES = compileRules({
     // Final "ing" is pronounced *ing*
     [/ing$/, 'ing'],
 
+    // Final "inct" is prononounced *ẽ*
+    [/incts?$/, 'ẽ'],
+    [/inc(?=te)/, 'ẽ', /succ/],
+
     // "illi" before certain vowels is pronounced *ilj*
     [`illi(?=[${A + E + I + O}])`, 'ilj'],
 

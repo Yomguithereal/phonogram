@@ -37,7 +37,6 @@ Note => kinda french-based
 * test, lest, est
 * Us, Lys, physalis
 * Brassens
-* Succinct, Distinct, Extinct, Instinct, Succincte vs. distincte
 * Oeufs boeufs
 * Gwenaël, Staël, Saint Saens
 * sens, encens, yens, mens
