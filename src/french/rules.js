@@ -227,6 +227,9 @@ export const POETIC_RULES = compileRules({
     // Final "eps" is generally pronounced *eps*
     [/eps$/, 'ɛps'],
 
+    // Final "eims" if pronounced *ẽs*
+    [/eims$/, 'ẽs'],
+
     // Final "ew" is pronounced like in English *u*
     [/ews?$/, 'u'],
 

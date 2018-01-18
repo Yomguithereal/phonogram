@@ -557,6 +557,7 @@ export default {
     ['raye', 'rɛj'],
     ['rayon', 'rɛjõ'],
     ['rayoner', 'rɛjone'],
+    ['Rheims', 'rẽs'],
     ['reine', 'rɛn'],
     ['remerciements', 'rømɛrsimã'],
     ['renard', 'rønar'],

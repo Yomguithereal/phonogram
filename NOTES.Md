@@ -32,11 +32,11 @@ Note => kinda french-based
 * cas de la brioche
 * cointerne
 * Phoenix, Phoenicien, Phoebus, Phoebe
-* Payn, Ayn
-* Dilemne, Automne, damné
+* Payn, Ayn, saynette
+* automne damné dilemne indemne dilemme calomnier omnium amniotique
 * expriment, ment
 * test, lest, est
-* Reims, Heim Alzheimer, réimplanter, esseimer, seimes
+* Heim Alzheimer, réimplanter, esseimer, seimes
 * Us, Lys, physalis
 * Brassens
 * Saint Saens
