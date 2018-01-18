@@ -34,7 +34,6 @@ Note => kinda french-based
 * Phoenix, Phoenicien, Phoebus, Phoebe
 * Payn, Ayn
 * Dilemne, Automne, damné
-* seul, veule
 * expriment, ment
 * test, lest, est
 * Reims, Heim Alzheimer, réimplanter, esseimer, seimes
