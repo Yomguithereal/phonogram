@@ -288,8 +288,11 @@ export const POETIC_RULES = compileRules({
     // "eu" before final "r", final "b" or "rre" is pronounced *ʌ*
     [/eu(?=r[st]?$|b$|rres?$)/, 'ʌ'],
 
-    // Final "eu" is pronounced *ø*
-    [/eux?/, 'ø'],
+    // Final "eux" is pronounced *ø*
+    [/eux$/, 'ø'],
+
+    // "eu" is pronounced *ø*
+    ['eu', 'ø'],
 
     // "ei" is pronounced *ɛ*
     [`e[iy](?![${VOWELS}])`, 'ɛ'],
@@ -821,6 +824,9 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   x: [
 
+    // "x" after "deu" and before "i" is pronounced *z*
+    [/x(?=i)/, 'z', 'deu'],
+
     // "xc" simplifies to *ks* before "e", "i" & "y"
     [`xc(?=[${E + I + Y}])`, 'ks'],
 
@@ -831,7 +837,7 @@ export const POETIC_RULES = compileRules({
     [/x(?=i(?:ll|e))/, 'ks'],
 
     // Before another vowel, "x" is pronounced *gz*
-    [`x(?=[${VOWELS}])`, 'gz', /a/, NEGATIVE],
+    [`x(?=[${VOWELS}])`, 'gz', /(?:a|eu)/, NEGATIVE],
 
     // Else it is pronounced *ks*
     [null, 'ks']

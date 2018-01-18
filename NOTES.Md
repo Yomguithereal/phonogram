@@ -38,7 +38,6 @@ Note => kinda french-based
 * seul, veule
 * expriment, ment
 * test, lest, est
-* deuxième
 * Reims, Heim Alzheimer, réimplanter, esseimer, seimes
 * Us, Lys, physalis
 * Brassens
