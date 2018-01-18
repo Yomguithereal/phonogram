@@ -32,16 +32,14 @@ Note => kinda french-based
 * cas de la brioche
 * cointerne
 * Phoenix, Phoenicien, Phoebus, Phoebe
-* Payn, Ayn, saynette
-* automne damné dilemne indemne dilemme calomnier omnium amniotique
+* Payn
 * expriment, ment
 * test, lest, est
 * Us, Lys, physalis
 * Brassens
-* Saint Saens
 * Succinct, Distinct, Extinct, Instinct, Succincte vs. distincte
 * Oeufs boeufs
-* Gwenaël
+* Gwenaël, Staël, Saint Saens
 * sens, encens, yens, mens
 
 http://parler-francais.eklablog.com/vous-dites-a3737989

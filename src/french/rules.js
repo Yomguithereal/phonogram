@@ -51,6 +51,9 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   a: [
 
+    // "automn" is pronounced *otɔn*
+    ['automn', 'otɔn'],
+
     // "aiguill" is pronounced *ɛgɥij*
     ['aiguill', 'ɛgɥij'],
 
@@ -215,6 +218,9 @@ export const POETIC_RULES = compileRules({
   //-- (d)
   //----------------------------------------------------------------------------
   d: [
+
+    // "damn" is pronounced *dan*
+    ['damn', 'dan'],
 
     // Final "dt" is pronounced *t*
     [/dt$/, 't']
