@@ -104,7 +104,7 @@ export const POETIC_RULES = compileRules({
     [/ands?$/, 'ã', /[^l]$/],
 
     // "an" is pronounced *ã*
-    [`an(?=[^${VOWELS}n]|$)`, 'ã'],
+    [`an(?=[^${VOWELS}hn]|$)`, 'ã'],
 
     // "am" before "b" or "p" is pronounced *ã*
     [/(?:amps?$|am(?=[bp]))/, 'ã'],
@@ -430,7 +430,14 @@ export const POETIC_RULES = compileRules({
 
   //-- (h)
   //----------------------------------------------------------------------------
-  h: '',
+  h: [
+
+    // "heim" is pronounced *ajm*
+    [/heim(?!s$)/, 'ajm'],
+
+    // In French, "h" is generally silent
+    [null, '']
+  ],
 
   //-- (i)
   //----------------------------------------------------------------------------

@@ -36,7 +36,6 @@ Note => kinda french-based
 * automne damné dilemne indemne dilemme calomnier omnium amniotique
 * expriment, ment
 * test, lest, est
-* Heim Alzheimer, réimplanter, esseimer, seimes
 * Us, Lys, physalis
 * Brassens
 * Saint Saens
