@@ -610,6 +610,7 @@ export default {
     ['schnoque', 'ʃnɔk'],
     ['sciemment', 'sjamã'],
     ['scotcher', 'skotʃe'],
+    ['sculpture', 'skyltyr'],
     ['se', 'sø'],
     ['second', 'søgõ'],
     ['secondaire', 'søgõdɛr'],

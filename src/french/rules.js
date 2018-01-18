@@ -519,6 +519,9 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   l: [
 
+    // "lpt" is pronounced *lt*
+    ['lpt', 'lt'],
+
     // "ll" is squeezed
     ['ll', 'l']
   ],
