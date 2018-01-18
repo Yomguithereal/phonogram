@@ -32,7 +32,6 @@ Note => kinda french-based
 * cas de la brioche
 * cointerne
 * Phoenix, Phoenicien, Phoebus, Phoebe
-* Praslin, islam, Islande, slovaque, brusle
 * Payn, Ayn
 * Dilemne, Automne, damné
 * seul, veule

@@ -149,6 +149,9 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   b: [
 
+    // "brusl" is pronounced *bryl*
+    ['brusl', 'bryl'],
+
     // In "bourg", the final "g" is silent
     [/bourgs?$/, 'bur'],
 
