@@ -40,7 +40,7 @@ Note => kinda french-based
 * Oeufs boeufs
 * Gwenaël, Staël, Saint Saens
 * sens, encens, yens, mens
-* adéquat
+* adéquat, squat, reliquat
 
 http://parler-francais.eklablog.com/vous-dites-a3737989
 

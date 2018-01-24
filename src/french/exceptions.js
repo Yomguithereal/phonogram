@@ -54,6 +54,7 @@ const EXCEPTIONS = {
   fusil: 'f(u•y)(s•z)(il•i)',
   gageure: 'ga(g•ʒ)(eu•y)r(e•)',
   gentil: '(g•ʒ)(en•ã)t(il•i)',
+  hier: '(h•)(ie•ijɛ)r',
   impatiemment: '(im•ẽ)pa(tiemment•sjamã)',
   keus: 'k(eu•ø)s',
   jeun: '(j•ʒ)(eun•ẽ)',
