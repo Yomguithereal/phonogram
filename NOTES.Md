@@ -41,6 +41,7 @@ Note => kinda french-based
 * Gwenaël, Staël, Saint Saens
 * sens, encens, yens, mens
 * adéquat, squat, reliquat
+* Arès, très, après, ès
 
 http://parler-francais.eklablog.com/vous-dites-a3737989
 

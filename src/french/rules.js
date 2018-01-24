@@ -363,7 +363,7 @@ export const POETIC_RULES = compileRules({
     [/ément$/, 'emã'],
 
     // Final "éen" is pronounced *eẽ*
-    [/éen$/, 'eẽ'],
+    [/éens?$/, 'eẽ'],
 
     // Final "ée" is pronounced "e"
     [/ée$/, 'e'],

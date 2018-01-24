@@ -411,6 +411,7 @@ export default {
     ['manteau', 'mãto'],
     ['mahous', 'maus'],
     ['maous', 'maus'],
+    ['marmoréens', 'marmoreẽ'],
     ['me', 'mø'],
     ['même', 'mɛm'],
     ['ménagerie', 'menaʒøri'],
