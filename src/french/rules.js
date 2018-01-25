@@ -775,7 +775,7 @@ export const POETIC_RULES = compileRules({
     [`s(?=[${VOWELS}])`, 's', PREFIXES_LOOKBEHIND],
 
     // "s" between two vowels is pronounced *z*
-    [`s(?=[${VOWELS}])`, 'z', `[${VOWELS}r]$`],
+    [`s(?=[${VOWELS}])`, 'z', `[${VOWELS}]$`],
   ],
 
   //-- (t)

@@ -247,7 +247,6 @@ export default {
     ['ennuyer', 'ãnɥije'],
     ['entrelacs', 'ãtrøla'],
     ['éphore', 'efɔr'],
-    ['ersatz', 'ɛrzats'],
     ['essaim', 'esẽ'],
     ['essaime', 'esɛm'],
     ['ès', 'ɛs'],
@@ -696,6 +695,7 @@ export default {
 
     ['un', 'ẽ'],
     ['unitaire', 'ynitɛr'],
+    ['universel', 'ynivɛrsɛl'],
     ['uppercut', 'ypɛrkyt'],
 
     ['vademecum', 'vademekʌm'],
