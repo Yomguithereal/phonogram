@@ -185,6 +185,7 @@ export default {
     ['contestation', 'kõtɛstasjõ'],
     ['contretemps', 'kõtrøtã'],
     ['corps', 'kɔr'],
+    ['cotoyer', 'kotwaje'],
     ['coucou', 'kuku'],
     ['couenne', 'kwɛn'],
     ['couette', 'kwɛt'],
@@ -227,6 +228,7 @@ export default {
     ['donc', 'dõk'],
     ['Doubs', 'du'],
     ['douelle', 'dwɛl'],
+    ['doyen', 'dwajẽ'],
     ['du', 'dy'],
     ['dû', 'dy'],
     ['due', 'dy'],
@@ -446,6 +448,7 @@ export default {
     ['moue', 'mu'],
     ['mouettes', 'mwɛt'],
     ['moult', 'mult'],
+    ['moyens', 'mwajẽ'],
     ['Munster', 'mẽstɛr'],
     ['Münster', 'mẽstɛr'],
 
@@ -713,6 +716,7 @@ export default {
     ['voiture', 'watyr'],
     ['vos', 'vo'],
     ['vous', 'vu'],
+    ['voyeur', 'wajʌr'],
     ['vraie', 'vrɛ'],
 
     ['wagon', 'vagõ'],

@@ -333,6 +333,9 @@ export const POETIC_RULES = compileRules({
     // Final "ent" without "s" is silent
     [/ent$/, ''],
 
+    // Final "en" after "oy" is prounounced *ẽ*
+    [/ens?$/, 'ẽ', 'oy'],
+
     // Final "e" is not pronounced
     [/es?$/],
 
@@ -608,8 +611,8 @@ export const POETIC_RULES = compileRules({
     // "om" before "b", "p" or "t" is pronounced *õ*
     [/om(?=[bpt])/, 'õ'],
 
-    // "oy" is pronounced *waj* before a and if the wor
-    [/oy(?=[a])/, 'waj', /.+/],
+    // "oy" is pronounced *waj* before a/e
+    [/oy(?=[ae])/, 'waj', /.+/],
 
     // "ou" before some vowels is pronounced *w*
     [/ou(?=[ai]|e(?:ll|nn|tt))/, 'w'],
@@ -847,6 +850,9 @@ export const POETIC_RULES = compileRules({
 
     // Handling some exceptions related to "ville" & "villain-"
     [/vill(?=ain|[ae])/, 'vil', /che/, NEGATIVE],
+
+    // "voy" is pronounced *waj*
+    ['voy', 'waj'],
 
     // "voi" is pronounced *wa*
     ['voi', 'wa']

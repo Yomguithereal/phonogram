@@ -67,7 +67,7 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * Wrestle
 * Ex aequo
 * Mickey
-* Thom*
+* Thom
 * Celt
 * Warwick
 * Gloucester
