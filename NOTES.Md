@@ -82,6 +82,7 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * Steven, Stephen
 * Shoe, canoe, tiptoe, toes
 * mouse, house
+* places, sites (plural)
 
 * Genitives
 

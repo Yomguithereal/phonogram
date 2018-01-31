@@ -55,6 +55,9 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   c: [
 
+    // "ck" is pronounced *k*
+    ['ck', 'k'],
+
     // Before some vowels, "c" is pronounced *s*
     [`c(?=[${E + I + Y}])`, 's'],
 
@@ -136,6 +139,12 @@ export const POETIC_RULES = compileRules({
     [/ire$/, 'ajʌr'],
     [/ires$/, 'ajʌrz'],
 
+    // "ight" is pronounced *ajt*
+    ['ight', 'ajt'],
+
+    // "ious" is pronounced *jus*
+    ['ious', 'jus'],
+
     // Before a consonant and a vowel, "i" is pronounced *aj*
     [`i(?=[^${VOWELS}]e|o(?!u))`, 'aj'],
 
@@ -174,6 +183,9 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   o: [
 
+    // "ous" is pronounced *us*
+    ['ous', 'us'],
+
     // "oa" is pronounced *o*
     ['oa', 'o'],
 
@@ -184,7 +196,7 @@ export const POETIC_RULES = compileRules({
     ['oy', 'ɔj'],
 
     // Before a wall, "o" is pronounced *ɔ*
-    [`o(?=${SOFT_WALL})`, 'ɔ'],
+    [`o(?=${SOFT_WALL}|r)`, 'ɔ'],
 
     // Else, "o" is pronounced *o*
     [null, 'o']
@@ -257,7 +269,7 @@ export const POETIC_RULES = compileRules({
     // Before "m" or "n", "u" is pronounced *ʌ*
     [/u(?=[mn])/, 'ʌ'],
 
-    [null, 'u']
+    [null, 'ʌ']
   ],
 
   //-- (w)

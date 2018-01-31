@@ -9,6 +9,7 @@ export default {
   cases: [
     ['bit', 'bit'],
     ['bite', 'bajt'],
+    ['blight', 'blajt'],
     ['bone', 'bon'],
     ['bones', 'bonz'],
     ['boy', 'bɔj'],
@@ -24,6 +25,7 @@ export default {
     ['dim', 'dim'],
     ['dime', 'dajm'],
     ['do', 'du'],
+    ['duck', 'dʌk'],
 
     ['eccentric', 'iksɛntrik'],
     ['energy', 'enɛrdʒi'],
@@ -56,6 +58,9 @@ export default {
     ['Moose', 'muz'],
 
     ['new', 'nju'],
+    ['night', 'najt'],
+    ['notorious', 'notɔrjus'],
+    ['notoriously', 'notɔrjusli'],
 
     ['off', 'ɔf'],
     ['offspring', 'ɔfspring'],
@@ -67,6 +72,7 @@ export default {
     ['pin', 'pin'],
     ['pine', 'pajn'],
     ['pity', 'piti'],
+    ['place', 'plɛjs'],
     ['pot', 'pɔt'],
 
     ['Quentin', 'kwɛntin'],
@@ -88,6 +94,7 @@ export default {
     ['tail', 'tɛjl'],
     ['tee', 'ti'],
     ['to', 'tu'],
+    ['twice', 'twajs'],
     ['two', 'tu'],
 
     ['unique', 'junik'],
