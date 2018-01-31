@@ -8,6 +8,7 @@ export default {
   fn: poetic,
   cases: [
     ['bit', 'bit'],
+    ['bite', 'bajt'],
     ['bone', 'bon'],
     ['bones', 'bonz'],
     ['boy', 'bɔj'],
@@ -20,6 +21,8 @@ export default {
     ['day', 'dɛ'],
     ['debate', 'dibɛjt'],
     ['dew', 'dju'],
+    ['dim', 'dim'],
+    ['dime', 'dajm'],
     ['do', 'du'],
 
     ['eccentric', 'iksɛntrik'],
@@ -34,6 +37,8 @@ export default {
     ['Italy', 'itali'],
 
     ['jews', 'dʒuz'],
+    ['jib', 'dʒib'],
+    ['jibe', 'dʒajb'],
     ['jive', 'dʒajv'],
     ['Jordan', 'dʒɔrdan'],
     ['junk', 'dʒʌnk'],
@@ -59,6 +64,8 @@ export default {
     ['Pete', 'pit'],
     ['Peter', 'pitʌr'],
     ['philosophy', 'filɔzɔfi'],
+    ['pin', 'pin'],
+    ['pine', 'pajn'],
     ['pity', 'piti'],
     ['pot', 'pɔt'],
 
@@ -75,6 +82,8 @@ export default {
     ['size', 'sajz'],
     ['sire', 'sajʌr'],
     ['sister', 'sistʌr'],
+    ['sit', 'sit'],
+    ['site', 'sajt'],
 
     ['tail', 'tɛjl'],
     ['tee', 'ti'],

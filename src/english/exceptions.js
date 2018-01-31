@@ -8,6 +8,7 @@ import {compileExceptions} from '../helpers';
 
 const EXCEPTIONS = {
   do: 'd(o•u)',
+  i: '(i•aj)',
   to: 't(o•u)',
   who: '(w•)h(o•u)',
   whom: '(w•)h(o•u)m',

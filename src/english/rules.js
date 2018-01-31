@@ -17,6 +17,11 @@ export const O = 'o';
 export const U = 'u';
 export const Y = 'y';
 export const VOWELS = A + E + I + O + U + Y;
+
+// The wall is either:
+//   1) a consonant followed by a non-e vowel
+//   2) two consonants
+//   3) the end of the word preceded by an optional vowel
 export const WALL = `(?:[^${VOWELS}][^${E}]|[^${VOWELS}]{2}|[^${VOWELS}]?$)`;
 
 /**
@@ -130,14 +135,14 @@ export const POETIC_RULES = compileRules({
     [/ire$/, 'ajʌr'],
     [/ires$/, 'ajʌrz'],
 
-    // Before a wall, "i" is pronounced *i*
-    [`i(?=${WALL})`, 'i'],
+    // Before a consonant and a vowel, "i" is pronounced *aj*
+    [`i(?=[^${VOWELS}]e|o(?!u))`, 'aj'],
 
     // "i" before some vowels is pronounced *j*
-    [`i(?=[a]|ou)`, 'j'],
+    [`i(?=a|ou)`, 'j'],
 
     // Else, "i" is pronounced *aj*
-    [null, 'aj']
+    [null, 'i']
   ],
 
   //-- (j)
