@@ -20,6 +20,9 @@ export default {
     ['day', 'dɛ'],
     ['debate', 'dibɛjt'],
 
+    ['eccentric', 'iksɛntrik'],
+    ['energy', 'enɛrdʒi'],
+
     ['five', 'fajv'],
     ['fire', 'fajʌr'],
 
@@ -28,6 +31,7 @@ export default {
     ['jive', 'djajv'],
     ['junk', 'djʌnk'],
 
+    ['make', 'mɛjk'],
     ['mat', 'mat'],
     ['mine', 'majn'],
     ['moat', 'mot'],
@@ -41,6 +45,8 @@ export default {
     ['Quentin', 'kwɛntin'],
 
     ['ration', 'raʃʌn'],
+    ['receipt', 'risit'],
+    ['receipts', 'risits'],
     ['receive', 'risiv'],
     ['retail', 'ritɛjl'],
     ['riot', 'rajɔt'],
