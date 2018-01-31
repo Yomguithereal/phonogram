@@ -39,7 +39,7 @@ export const POETIC_RULES = compileRules({
     [`a(?=${WALL})`, 'a'],
 
     // Before a consonant & followed by a "e", "a" is pronounced *ɛj*
-    [`a(?=[klt][${VOWELS}])`, 'ɛj'],
+    [`a(?=[cklt][${VOWELS}])`, 'ɛj'],
 
     // Else, "a" is pronounced *ɛ*
     [null, 'ɛ']
@@ -123,6 +123,9 @@ export const POETIC_RULES = compileRules({
     // Before a wall, "i" is pronounced *i*
     [`i(?=${WALL})`, 'i'],
 
+    // "ia" is pronounced *ja*
+    ['ia', 'ja'],
+
     // Else, "i" is pronounced *aj*
     [null, 'aj']
   ],
@@ -167,7 +170,7 @@ export const POETIC_RULES = compileRules({
     // Before a wall, "o" is pronounced *ɔ*
     [`o(?=${WALL})`, 'ɔ'],
 
-    // Else, "o" is pronounced *oʊ*
+    // Else, "o" is pronounced *o*
     [null, 'o']
   ],
 
@@ -206,7 +209,8 @@ export const POETIC_RULES = compileRules({
     ['sh', 'ʃ'],
 
     // "between" two vowels, "s" is pronounced *z*
-    [`s(?=[${VOWELS}]|$)`, 'z', `[${VOWELS}]w?$`],
+    [/s$/, 'z', `(?:[${VOWELS}n]|ew)$`],
+    [`s(?=[${VOWELS}])`, 'z', `[${VOWELS}]$`],
 
     [null, 's']
   ],

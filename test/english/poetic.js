@@ -29,20 +29,26 @@ export default {
     ['five', 'fajv'],
     ['fire', 'fajʌr'],
 
+    ['grace', 'grɛjs'],
+
     ['Italy', 'itali'],
 
     ['jews', 'dʒuz'],
     ['jive', 'dʒajv'],
+    ['Jordan', 'dʒɔrdan'],
     ['junk', 'dʒʌnk'],
 
     ['knew', 'nu'],
 
+    ['lion', 'lajɔn'],
+    ['lions', 'lajɔnz'],
     ['loo', 'lu'],
 
     ['make', 'mɛjk'],
     ['mat', 'mat'],
     ['mine', 'majn'],
     ['moat', 'mot'],
+    ['Moose', 'muz'],
 
     ['new', 'nju'],
 
@@ -79,6 +85,7 @@ export default {
     ['who', 'hu'],
     ['whom', 'hum'],
     ['whose', 'huz'],
+    ['William', 'wiljam'],
     ['wood', 'wud'],
     ['wrist', 'rist']
   ]
