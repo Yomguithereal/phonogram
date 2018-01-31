@@ -7,6 +7,8 @@ import {poetic} from '../../src/english';
 export default {
   fn: poetic,
   cases: [
+    ['awe', 'o'],
+
     ['bit', 'bit'],
     ['bite', 'bajt'],
     ['blight', 'blajt'],
@@ -18,6 +20,8 @@ export default {
     ['cistern', 'sistʌrn'],
     ['cruel', 'krul'],
     ['crumb', 'krʌmb'],
+    ['cue', 'kju'],
+    ['cute', 'kjut'],
 
     ['day', 'dɛ'],
     ['debate', 'dibɛjt'],
@@ -83,6 +87,7 @@ export default {
     ['receive', 'risiv'],
     ['retail', 'ritɛjl'],
     ['riot', 'rajɔt'],
+    ['raw', 'ro'],
 
     ['shemale', 'ʃimɛjl'],
     ['size', 'sajz'],

@@ -34,6 +34,9 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   a: [
 
+    // Before "w(e)", "a" is pronounced *o*
+    [/awe?/, 'o'],
+
     // Before "ll", "a" is pronounced *ɔ*
     [/a(?=ll)/, 'o'],
 
@@ -54,6 +57,9 @@ export const POETIC_RULES = compileRules({
   //-- (c)
   //----------------------------------------------------------------------------
   c: [
+
+    // Initial "cu" is pronounced *kju*
+    [/cu(?:e$)?/, 'kju'],
 
     // "ck" is pronounced *k*
     ['ck', 'k'],
@@ -185,6 +191,9 @@ export const POETIC_RULES = compileRules({
 
     // "ous" is pronounced *us*
     ['ous', 'us'],
+
+    // "ow" is pronounced *o*
+    ['ow', 'o'],
 
     // "oa" is pronounced *o*
     ['oa', 'o'],
