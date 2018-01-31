@@ -13,11 +13,11 @@ export default {
     ['boy', 'bɔj'],
 
     ['castle', 'kasʌl'],
-    ['cistern', 'sistʌn'],
+    ['cistern', 'sistʌrn'],
     ['cruel', 'krul'],
     ['crumb', 'krʌmb'],
 
-    ['day', 'dɛj'],
+    ['day', 'dɛ'],
     ['debate', 'dibɛjt'],
 
     ['five', 'fajv'],
@@ -25,6 +25,7 @@ export default {
 
     ['Italy', 'itali'],
 
+    ['jive', 'djajv'],
     ['junk', 'djʌnk'],
 
     ['mat', 'mat'],
@@ -37,11 +38,15 @@ export default {
     ['pity', 'piti'],
     ['pot', 'pɔt'],
 
-    ['receive', 'risiv'],
+    ['Quentin', 'kwɛntin'],
+
     ['ration', 'raʃʌn'],
+    ['receive', 'risiv'],
+    ['retail', 'ritɛjl'],
     ['riot', 'rajɔt'],
 
     ['shemale', 'ʃimɛjl'],
+    ['size', 'sajz'],
     ['sire', 'sajʌr'],
     ['sister', 'sistʌr'],
 
@@ -49,8 +54,10 @@ export default {
     ['tee', 'ti'],
 
     ['unique', 'junik'],
+    // ['university', 'junivʌrsiti'],
 
-    ['wall', 'wɔl'],
+    ['wall', 'wol'],
+    ['what', 'wat'],
     ['wood', 'wud'],
     ['wrist', 'rist']
   ]
@@ -63,7 +70,7 @@ export default {
 // rythm rithm
 
 // ghost (initial gh)
-// aghast, afghasnistan (egghead, bighorn)
+// aghast, afghanisthan (egghead, bighorn)
 // hiccough
 
 // high, sigh, thigh

@@ -29,9 +29,10 @@ export const POETIC_RULES = compileRules({
   a: [
 
     // Before "ll", "a" is pronounced *ɔ*
-    [/a(?=ll)/, 'ɔ'],
+    [/a(?=ll)/, 'o'],
 
     // Before "ai" & "ay" is pronounced *ɛj*
+    [/ay$/, 'ɛ'],
     [/a[iy]/, 'ɛj'],
 
     // Before a wall, "a" is pronounced *a*
@@ -58,13 +59,13 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   e: [
 
-    // Final "er" is pronounced *ə*
+    // Final "er" is pronounced *ʌr*
     [/er$/, 'ʌr'],
     [/ers$/, 'ʌz'],
 
-    // Final "ern" is prounounced *ə*
-    [/ern$/, 'ʌn'],
-    [/erns$/, 'ʌnz'],
+    // Final "ern" is prounounced *ʌrn*
+    [/ern$/, 'ʌrn'],
+    [/erns$/, 'ʌrnz'],
 
     // Final "e" is seldom pronounced
     [/e$/, ''],
@@ -82,6 +83,9 @@ export const POETIC_RULES = compileRules({
     // Before "tr", "e" is pronounced *e*
     [/e(?=tr)/, 'e'],
 
+    // Before "n" and some other consonants, "e" is pronounced *ɛ*
+    [/en(?=[dt])/, 'ɛn'],
+
     // Else, "e" is pronounced *i*
     [null, 'i']
   ],
@@ -90,9 +94,9 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   i: [
 
-    // Final "ire" is pronounced *ajə*
+    // Final "ire" is pronounced *ajʌr*
     [/ire$/, 'ajʌr'],
-    [/ires$/, 'ajʌz'],
+    [/ires$/, 'ajʌrz'],
 
     // Before a wall, "i" is pronounced *i*
     [`i(?=${WALL})`, 'i'],
@@ -149,9 +153,13 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   q: [
 
-    // "qu" is pronounced *k*
-    ['qu', 'k'],
+    // Final "que" is pronounced *k*
+    [/que$/, 'k'],
 
+    // "qu" is pronounced *kw*
+    ['qu', 'kw'],
+
+    // Else "q" is pronounced *k*
     [null, 'k']
   ],
 
@@ -185,8 +193,8 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   u: [
 
-    // Leading "u" is pronounced *ju*
-    ['u', 'ju', INITIAL],
+    // Leading "u" is sometimes pronounced *ju*
+    [/u(?=niqu|nivers)/, 'ju', INITIAL],
 
     // "ue" is pronounced *ue*
     ['ue', 'u'],
@@ -200,6 +208,9 @@ export const POETIC_RULES = compileRules({
   //-- (w)
   //----------------------------------------------------------------------------
   w: [
+
+    // "wh" is pronounced *w*
+    ['wh', 'w'],
 
     // "wr" is pronounced *r*
     ['wr', 'r'],
@@ -215,9 +226,3 @@ export const POETIC_RULES = compileRules({
     [null, 'i']
   ]
 });
-
-// myths -> simplification
-// ə -> er for harmonization
-// drop ʊ for harmonization
-// normalize diphtongs
-// make some r disappear for normal version

@@ -78,7 +78,8 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * cue, hue
 * mishap
 * head, bead etc.
-* Vaughn Vaughan
+* Vaughn Vaughan, maughan
+* Steven, Stephen
 
 * Genitives
 
