@@ -80,8 +80,35 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * head, bead etc.
 * Vaughn Vaughan, maughan
 * Steven, Stephen
+* Shoe, canoe, tiptoe, toes
 
 * Genitives
+
+germ -> make finer rule for er before n or m and potential s.
+
+mother, bother, weather, bathe, etc
+
+rythm rithm
+
+ghost (initial gh)
+aghast, afghanisthan (egghead, bighorn)
+hiccough
+
+high, sigh, thigh
+right, wright, blight
+
+freight, eight, weight
+height, sleight
+
+through
+cough, tough, enough
+dough, although
+bough
+borough, thorough
+bought, brought, fought, nought, ought, sought, wrought, thought
+
+daughter, naughty, slaughter, laughter
+laugh
 
 ## German
 
@@ -89,7 +116,7 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * Nietzsche
 * Schwimm
 
-## Syllabification
+## Syll abification
 
 * Every consonant should be squeezed but syllabification should handle the case on its own to get back to the original word.
 * Handle le ao

@@ -71,6 +71,10 @@ export const POETIC_RULES = compileRules({
     [/e$/, ''],
     [/es$/, 'z'],
 
+    // "ew" is pronounced *ju* or *u*
+    ['ew', 'ju', /(?:[^k]|^)[bdfmn]/],
+    ['ew', 'u'],
+
     // "ee" is pronounced *i*
     ['ee', 'i'],
 
@@ -125,7 +129,17 @@ export const POETIC_RULES = compileRules({
 
   //-- (j)
   //----------------------------------------------------------------------------
-  j: 'dj',
+  j: 'dʒ',
+
+  //-- (k)
+  //----------------------------------------------------------------------------
+  k: [
+
+    // "kn" is pronounced *n*
+    ['kn', 'n'],
+
+    [null, 'k']
+  ],
 
   //-- (l)
   //----------------------------------------------------------------------------
@@ -192,7 +206,7 @@ export const POETIC_RULES = compileRules({
     ['sh', 'ʃ'],
 
     // "between" two vowels, "s" is pronounced *z*
-    [`s(?=[${VOWELS}])`, 'z', `[${VOWELS}]$`],
+    [`s(?=[${VOWELS}]|$)`, 'z', `[${VOWELS}]w?$`],
 
     [null, 's']
   ],
@@ -200,6 +214,9 @@ export const POETIC_RULES = compileRules({
   //-- (t)
   //----------------------------------------------------------------------------
   t: [
+
+    // Final "two" is pronounced *tu*
+    [/two$/, 'tu'],
 
     // "tion" is pronounced *ʃʌn*
     ['tion', 'ʃʌn'],

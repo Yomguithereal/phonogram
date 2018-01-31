@@ -19,25 +19,36 @@ export default {
 
     ['day', 'dɛ'],
     ['debate', 'dibɛjt'],
+    ['dew', 'dju'],
+    ['do', 'du'],
 
     ['eccentric', 'iksɛntrik'],
     ['energy', 'enɛrdʒi'],
 
+    ['few', 'fju'],
     ['five', 'fajv'],
     ['fire', 'fajʌr'],
 
     ['Italy', 'itali'],
 
-    ['jive', 'djajv'],
-    ['junk', 'djʌnk'],
+    ['jews', 'dʒuz'],
+    ['jive', 'dʒajv'],
+    ['junk', 'dʒʌnk'],
+
+    ['knew', 'nu'],
+
+    ['loo', 'lu'],
 
     ['make', 'mɛjk'],
     ['mat', 'mat'],
     ['mine', 'majn'],
     ['moat', 'mot'],
 
+    ['new', 'nju'],
+
     ['pet', 'pɛt'],
     ['Pete', 'pit'],
+    ['Peter', 'pitʌr'],
     ['philosophy', 'filɔzɔfi'],
     ['pity', 'piti'],
     ['pot', 'pɔt'],
@@ -58,41 +69,17 @@ export default {
 
     ['tail', 'tɛjl'],
     ['tee', 'ti'],
+    ['to', 'tu'],
+    ['two', 'tu'],
 
     ['unique', 'junik'],
-    // ['university', 'junivʌrsiti'],
 
     ['wall', 'wol'],
     ['what', 'wat'],
+    ['who', 'hu'],
+    ['whom', 'hum'],
+    ['whose', 'huz'],
     ['wood', 'wud'],
     ['wrist', 'rist']
   ]
 };
-
-// germ -> make finer rule for er before n or m and potential s.
-
-// mother, bother, weather, bathe, etc
-
-// rythm rithm
-
-// ghost (initial gh)
-// aghast, afghanisthan (egghead, bighorn)
-// hiccough
-
-// high, sigh, thigh
-// right, wright, blight
-
-// freight, eight, weight
-// height, sleight
-
-// through
-// cough, tough, enough
-// dough, although
-// bough
-// borough, thorough
-// bought, brought, fought, nought, ought, sought, wrought, thought
-
-// daughter, naughty, slaughter, laughter
-// laugh
-
-// receipt
