@@ -292,7 +292,7 @@ export const POETIC_RULES = compileRules({
     [/eaux?/, 'o'],
 
     // "euil" & "euille" are pronounced *øj*
-    [/euil(?:le)?/, 'ʌj'],
+    [/euil(?:les?)?/, 'ʌj'],
 
     // Initial "eu" is pronounced *u* alone or before "s" & "t"
     [/e[uû](?=t?$|e$|ss)/, 'y', INITIAL],
@@ -819,6 +819,9 @@ export const POETIC_RULES = compileRules({
   //-- (u)
   //----------------------------------------------------------------------------
   u: [
+
+    // "ueil" is pronounced *ʌj*
+    [/ueil(?:l|s?$)/, 'ʌj'],
 
     // Final "um" is pronounced *ʌm*
     [/um$/, 'ʌm'],

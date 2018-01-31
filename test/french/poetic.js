@@ -13,6 +13,9 @@ export default {
     ['Abidjan', 'abidʒã'],
     ['accent', 'aksã'],
     ['accentuer', 'aksãtye'],
+    ['accueil', 'akʌj'],
+    ['accueils', 'akʌj'],
+    ['accueillir', 'akʌjir'],
     ['Agen', 'aʒẽ'],
     ['aigüe', 'ɛgy'],
     ['aiguës', 'ɛgy'],
@@ -141,6 +144,7 @@ export default {
     ['chateaux', 'ʃato'],
     ['chemin', 'ʃømẽ'],
     ['cherfaix', 'ʃɛrfɛ'],
+    ['cueillir', 'kʌjir'],
     ['cheville', 'ʃøvij'],
     ['chevreuil', 'ʃøvrʌj'],
     ['chien', 'ʃjẽ'],
@@ -233,6 +237,7 @@ export default {
     ['dû', 'dy'],
     ['due', 'dy'],
 
+    ['écureuil', 'ekyrʌj'],
     ['effet', 'efɛ'],
     ['effort', 'efɔr'],
     ['effraie', 'efrɛ'],
@@ -404,6 +409,7 @@ export default {
     ['lut', 'ly'],
     ['lyncher', 'lẽʃe'],
 
+    ['mariions', 'marijõ'],
     ['mangeant', 'mãʒã'],
     ['mangeoire', 'mãʒwar'],
     ['mangeoires', 'mãʒwar'],
