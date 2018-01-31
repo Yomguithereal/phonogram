@@ -52,6 +52,9 @@ export default {
 
     ['new', 'nju'],
 
+    ['off', 'ɔf'],
+    ['offspring', 'ɔfspring'],
+
     ['pet', 'pɛt'],
     ['Pete', 'pit'],
     ['Peter', 'pitʌr'],

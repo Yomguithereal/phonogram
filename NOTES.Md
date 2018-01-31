@@ -81,6 +81,7 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * Vaughn Vaughan, maughan
 * Steven, Stephen
 * Shoe, canoe, tiptoe, toes
+* mouse, house
 
 * Genitives
 

@@ -101,6 +101,16 @@ export const POETIC_RULES = compileRules({
     [null, 'i']
   ],
 
+  //-- (f)
+  //----------------------------------------------------------------------------
+  f: [
+
+    // "ff" is squeezed
+    ['ff', 'f'],
+
+    [null, 'f']
+  ],
+
   //-- (g)
   //----------------------------------------------------------------------------
   g: [
@@ -123,8 +133,8 @@ export const POETIC_RULES = compileRules({
     // Before a wall, "i" is pronounced *i*
     [`i(?=${WALL})`, 'i'],
 
-    // "ia" is pronounced *ja*
-    ['ia', 'ja'],
+    // "i" before some vowels is pronounced *j*
+    [`i(?=[a]|ou)`, 'j'],
 
     // Else, "i" is pronounced *aj*
     [null, 'aj']
@@ -168,6 +178,7 @@ export const POETIC_RULES = compileRules({
     ['oy', 'ɔj'],
 
     // Before a wall, "o" is pronounced *ɔ*
+    // TODO: something's off here
     [`o(?=${WALL})`, 'ɔ'],
 
     // Else, "o" is pronounced *o*
