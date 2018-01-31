@@ -23,6 +23,7 @@ export const VOWELS = A + E + I + O + U + Y;
 //   2) two consonants
 //   3) the end of the word preceded by an optional vowel
 export const WALL = `(?:[^${VOWELS}][^${E}]|[^${VOWELS}]{2}|[^${VOWELS}]?$)`;
+export const SOFT_WALL = `(?:[^${VOWELS}]{2}|[^${VOWELS}]?$)`;
 
 /**
  * Most precise ruleset.
@@ -183,8 +184,7 @@ export const POETIC_RULES = compileRules({
     ['oy', 'ɔj'],
 
     // Before a wall, "o" is pronounced *ɔ*
-    // TODO: something's off here
-    [`o(?=${WALL})`, 'ɔ'],
+    [`o(?=${SOFT_WALL})`, 'ɔ'],
 
     // Else, "o" is pronounced *o*
     [null, 'o']

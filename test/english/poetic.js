@@ -63,7 +63,7 @@ export default {
     ['pet', 'pɛt'],
     ['Pete', 'pit'],
     ['Peter', 'pitʌr'],
-    ['philosophy', 'filɔzɔfi'],
+    ['philosophy', 'filozɔfi'],
     ['pin', 'pin'],
     ['pine', 'pajn'],
     ['pity', 'piti'],
