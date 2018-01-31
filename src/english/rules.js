@@ -130,6 +130,9 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   g: [
 
+    // "gg" is pronounced *g*
+    ['gg', 'g'],
+
     // Before some vowels "g" is pronounced *dʒ*
     [/g(?=y)/, 'dʒ'],
 

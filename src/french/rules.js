@@ -424,6 +424,9 @@ export const POETIC_RULES = compileRules({
     // "gu" is pronounced *g*
     ['gu', 'g'],
 
+    // "gg" is pronounced *g*
+    ['gg', 'g'],
+
     // "gn" before "i" is pronounced *n*
     [/gn(?=i)/, 'n'],
 
