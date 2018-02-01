@@ -42,13 +42,14 @@ export const POETIC_RULES = compileRules({
 
     // Before "ai" & "ay" is pronounced *ɛj*
     [/ay$/, 'ɛ'],
+    [/ai(?=r)/, 'ɛ'],
     [/a[iy]/, 'ɛj'],
-
-    // Before a wall, "a" is pronounced *a*
-    [`a(?=${WALL})`, 'a'],
 
     // Before a consonant & followed by a "e", "a" is pronounced *ɛj*
     [`a(?=[cklmnpt]e)`, 'ɛj'],
+
+    // Before a wall, "a" is pronounced *a*
+    [`a(?=${WALL})`, 'a'],
 
     // Else, "a" is pronounced *ɛ*
     [null, 'ɛ']
@@ -79,11 +80,13 @@ export const POETIC_RULES = compileRules({
 
     // Final "er" is pronounced *ʌr*
     [/er$/, 'ʌr'],
-    [/ers$/, 'ʌz'],
+    [/ers$/, 'ʌrz'],
 
     // Final "ern" is prounounced *ʌrn*
     [/ern$/, 'ʌrn'],
     [/erns$/, 'ʌrnz'],
+    [/en$/, 'ʌn'],
+    [/ens$/, 'ʌnz'],
 
     // Final "e" is seldom pronounced
     [/e$/, ''],
@@ -161,6 +164,7 @@ export const POETIC_RULES = compileRules({
     ['ious', 'jus'],
 
     // Before a consonant and a vowel, "i" is pronounced *aj*
+    [/i(?=ves?$)/, 'i', /[lt]/],
     [`i(?=[^${VOWELS}]e|o(?!u))`, 'aj'],
 
     // "i" before some vowels is pronounced *j*

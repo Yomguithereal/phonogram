@@ -7,6 +7,9 @@ import {poetic} from '../../src/english';
 export default {
   fn: poetic,
   cases: [
+    ['actions', 'akʃʌnz'],
+    ['administrative', 'administrativ'],
+    ['air', 'ɛr'],
     ['at', 'at'],
     ['ate', 'ɛjt'],
     ['awe', 'o'],
@@ -23,6 +26,7 @@ export default {
     ['cap', 'kap'],
     ['cape', 'kɛjp'],
     ['castle', 'kasʌl'],
+    ['charity', 'tʃariti'],
     ['chores', 'tʃɔrz'],
     ['cistern', 'sistʌrn'],
     ['cruel', 'krul'],
@@ -44,7 +48,9 @@ export default {
     ['few', 'fju'],
     ['five', 'fajv'],
     ['fire', 'fajʌr'],
+    ['flair', 'flɛr'],
 
+    ['gladly', 'gladli'],
     ['grace', 'grɛjs'],
 
     ['hello', 'hɛlo'],
@@ -60,8 +66,11 @@ export default {
 
     ['knew', 'nu'],
 
+    ['leaders', 'lidʌrz'],
+    ['life', 'lajf'],
     ['lion', 'lajɔn'],
     ['lions', 'lajɔnz'],
+    ['live', 'liv'],
     ['loo', 'lu'],
 
     ['make', 'mɛjk'],
@@ -86,6 +95,7 @@ export default {
     ['pine', 'pajn'],
     ['pity', 'piti'],
     ['place', 'plɛjs'],
+    ['plaice', 'plɛjs'],
     ['plead', 'plid'],
     ['pot', 'pɔt'],
 
@@ -107,6 +117,9 @@ export default {
     ['sister', 'sistʌr'],
     ['sit', 'sit'],
     ['site', 'sajt'],
+    ['Stephen', 'stivʌn'],
+    ['Steven', 'stivʌn'],
+    ['still', 'stil'],
 
     ['tail', 'tɛjl'],
     ['tee', 'ti'],
