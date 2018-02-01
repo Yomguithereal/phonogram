@@ -10,16 +10,20 @@ export default {
     ['actions', 'akʃʌnz'],
     ['administrative', 'administrativ'],
     ['air', 'ɛr'],
+    ['and', 'ɛnd'],
+    ['arson', 'arsɔn'],
     ['at', 'at'],
     ['ate', 'ɛjt'],
     ['awe', 'o'],
 
+    ['Bateson', 'bɛjtsɔn'],
     ['bit', 'bit'],
     ['bite', 'bajt'],
     ['blight', 'blajt'],
     ['bone', 'bon'],
     ['bones', 'bonz'],
     ['boy', 'bɔj'],
+    ['Britain', 'britɛjn'],
 
     ['can', 'kan'],
     ['cane', 'kɛjn'],
@@ -40,9 +44,13 @@ export default {
     ['dim', 'dim'],
     ['dime', 'dajm'],
     ['do', 'du'],
+    ['door', 'dor'],
     ['duck', 'dʌk'],
 
     ['eccentric', 'iksɛntrik'],
+    ['equal', 'ikwol'],
+    ['end', 'ɛnd'],
+    ['endgame', 'ɛndgɛjm'],
     ['energy', 'enɛrdʒi'],
 
     ['few', 'fju'],
@@ -52,11 +60,13 @@ export default {
 
     ['gladly', 'gladli'],
     ['grace', 'grɛjs'],
+    ['greek', 'grik'],
 
     ['hello', 'hɛlo'],
 
     ['Italy', 'itali'],
 
+    ['Jameson', 'dʒɛjmsɔn'],
     ['jews', 'dʒuz'],
     ['jib', 'dʒib'],
     ['jibe', 'dʒajb'],
@@ -67,6 +77,7 @@ export default {
     ['knew', 'nu'],
 
     ['leaders', 'lidʌrz'],
+    ['lesson', 'lɛsɔn'],
     ['life', 'lajf'],
     ['lion', 'lajɔn'],
     ['lions', 'lajɔnz'],
@@ -97,6 +108,7 @@ export default {
     ['place', 'plɛjs'],
     ['plaice', 'plɛjs'],
     ['plead', 'plid'],
+    ['poor', 'pur'],
     ['pot', 'pɔt'],
 
     ['Quentin', 'kwɛntin'],
@@ -136,6 +148,7 @@ export default {
     ['whose', 'huz'],
     ['William', 'wiljam'],
     ['wood', 'wud'],
+    ['Worcester', 'wɔrstʌr'],
     ['wrist', 'rist']
   ]
 };

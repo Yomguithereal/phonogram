@@ -17,6 +17,7 @@ export const O = 'o';
 export const U = 'u';
 export const Y = 'y';
 export const VOWELS = A + E + I + O + U + Y;
+export const VOWELS_WITHOUT_E = A + I + O + U + Y;
 
 // The wall is either:
 //   1) a consonant followed by a non-e vowel
@@ -38,12 +39,15 @@ export const POETIC_RULES = compileRules({
     [/awe?/, 'o'],
 
     // Before "ll", "a" is pronounced *ɔ*
-    [/a(?=ll)/, 'o'],
+    [/a(?=ll|ls?$)/, 'o'],
 
     // Before "ai" & "ay" is pronounced *ɛj*
     [/ay$/, 'ɛ'],
     [/ai(?=r)/, 'ɛ'],
     [/a[iy]/, 'ɛj'],
+
+    // Before "nd", "a" is pronounced *ɛ*
+    [/a(?=nd)/, 'ɛ'],
 
     // Before a consonant & followed by a "e", "a" is pronounced *ɛj*
     [`a(?=[cklmnpt]e)`, 'ɛj'],
@@ -58,6 +62,9 @@ export const POETIC_RULES = compileRules({
   //-- (c)
   //----------------------------------------------------------------------------
   c: [
+
+    // "cester" is pronounced *stʌr*
+    ['cester', 'stʌr'],
 
     // Initial "cu" is pronounced *kju*
     [/cu(?:e$)?/, 'kju', INITIAL],
@@ -92,6 +99,9 @@ export const POETIC_RULES = compileRules({
     [/e$/, ''],
     [/es$/, 'z'],
 
+    // Sometimes, in the middle of a word, the "e" can be silent
+    [/e(?=s.)/, '', /[mt]/],
+
     // "ew" is pronounced *ju* or *u*
     ['ew', 'ju', /(?:[^k]|^)[bdfmn]/],
     ['ew', 'u'],
@@ -111,8 +121,11 @@ export const POETIC_RULES = compileRules({
     // Before a final "t", "e" is prounounced *ɛ*
     [/e(?=ts?$)/, 'ɛ'],
 
+    // Before doubled consonants, "e" is pronounced *ɛ*
+    [/e(?=ll|ss|tt)/, 'ɛ'],
+
     // Before some consonants, "e" is pronounced *ɛ* or *e*
-    [/e(?=n)/, 'e', INITIAL],
+    [`e(?=n[${VOWELS}])`, 'e', INITIAL],
     [/e(?=[lr])/, 'ɛ'],
 
     // Before "tr", "e" is pronounced *e*
@@ -152,6 +165,9 @@ export const POETIC_RULES = compileRules({
   //-- (i)
   //----------------------------------------------------------------------------
   i: [
+
+    // Initial "i" before some consonants is pronounced *i*
+    [/i(?=n)/, 'i', INITIAL],
 
     // Final "ire" is pronounced *ajʌr*
     [/ire$/, 'ajʌr'],
@@ -214,6 +230,9 @@ export const POETIC_RULES = compileRules({
     // "oa" is pronounced *o*
     ['oa', 'o'],
 
+    // "oo" is pronounced *o* if in "door" words
+    ['oo(?=r)', 'o', /^d/],
+
     // "oo" is pronounced *u*
     ['oo', 'u'],
 
@@ -255,15 +274,20 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   s: [
 
+    // Double "s" is squeezed
+    ['ss', 's'],
+
     // "stle" is pronounced "søl"
     ['stle', 'sʌl'],
 
     // "sh" is pronounced *ʃ*
     ['sh', 'ʃ'],
 
-    // "between" two vowels, "s" is pronounced *z*
+    // Plural "s" is sometimes pronounced *z*
     [/s$/, 'z', `(?:[${VOWELS}n]|ew)$`],
-    [`s(?=[${VOWELS}])`, 'z', `[${VOWELS}]$`],
+
+    // "between" two vowels, "s" is pronounced *z*
+    [`s(?=[${VOWELS}])`, 'z', `[${VOWELS_WITHOUT_E}]$`],
 
     [null, 's']
   ],
