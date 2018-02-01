@@ -42,6 +42,7 @@ Note => kinda french-based
 * sens, encens, yens, mens
 * adéquat, squat, reliquat
 * Arès, très, après, ès
+* greffe, leffe
 
 http://parler-francais.eklablog.com/vous-dites-a3737989
 
@@ -83,6 +84,10 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * Shoe, canoe, tiptoe, toes
 * mouse, house
 * places, sites (plural)
+* tomb, womb
+* door
+* women
+* phew
 
 * Genitives
 

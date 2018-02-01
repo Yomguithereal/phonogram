@@ -48,7 +48,7 @@ export const POETIC_RULES = compileRules({
     [`a(?=${WALL})`, 'a'],
 
     // Before a consonant & followed by a "e", "a" is pronounced *ɛj*
-    [`a(?=[cklt][${VOWELS}])`, 'ɛj'],
+    [`a(?=[cklmnpt]e)`, 'ɛj'],
 
     // Else, "a" is pronounced *ɛ*
     [null, 'ɛ']
@@ -59,7 +59,10 @@ export const POETIC_RULES = compileRules({
   c: [
 
     // Initial "cu" is pronounced *kju*
-    [/cu(?:e$)?/, 'kju'],
+    [/cu(?:e$)?/, 'kju', INITIAL],
+
+    // "ch" is pronounced *tʃ*
+    ['ch', 'tʃ'],
 
     // "ck" is pronounced *k*
     ['ck', 'k'],
@@ -93,6 +96,9 @@ export const POETIC_RULES = compileRules({
     // "ee" is pronounced *i*
     ['ee', 'i'],
 
+    // "ea" is pronounced *i*
+    ['ea', 'i'],
+
     // "eipt" is pronounced *it*
     ['eipt', 'it'],
 
@@ -104,7 +110,7 @@ export const POETIC_RULES = compileRules({
 
     // Before some consonants, "e" is pronounced *ɛ* or *e*
     [/e(?=n)/, 'e', INITIAL],
-    [/e(?=r)/, 'ɛ'],
+    [/e(?=[lr])/, 'ɛ'],
 
     // Before "tr", "e" is pronounced *e*
     [/e(?=tr)/, 'e'],
@@ -191,6 +197,9 @@ export const POETIC_RULES = compileRules({
   //-- (o)
   //----------------------------------------------------------------------------
   o: [
+
+    // Final "o" is pronounced *o*
+    [/o$/, 'o'],
 
     // "ous" is pronounced *us*
     ['ous', 'us'],
