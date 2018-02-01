@@ -53,7 +53,7 @@ export default {
     ['equal', 'ikwol'],
     ['end', 'ɛnd'],
     ['endgame', 'ɛndgɛjm'],
-    ['energy', 'enɛrdʒi'],
+    ['energy', 'ɛnʌrdʒi'],
 
     ['few', 'fju'],
     ['five', 'fajv'],
@@ -62,7 +62,7 @@ export default {
 
     ['geography', 'dʒiografi'],
     ['George', 'dʒɔrdʒ'],
-    ['Gerard', 'dʒɛrard'],
+    ['Gerard', 'dʒʌrard'],
     ['gladly', 'gladli'],
     ['gloomy', 'glumi'],
     ['grace', 'grɛjs'],
@@ -74,6 +74,7 @@ export default {
     ['Italy', 'itali'],
 
     ['Jameson', 'dʒɛjmsɔn'],
+    ['Jerry', 'dʒɛri'],
     ['jews', 'dʒuz'],
     ['jib', 'dʒib'],
     ['jibe', 'dʒajb'],

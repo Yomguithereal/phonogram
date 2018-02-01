@@ -132,16 +132,16 @@ export const POETIC_RULES = compileRules({
     [/e(?=ts?$)/, 'ɛ'],
 
     // Before doubled consonants, "e" is pronounced *ɛ*
-    [/e(?=ll|ss|tt)/, 'ɛ'],
+    [/e(?=ll|rr|ss|tt)/, 'ɛ'],
 
-    // Before some consonants, "e" is pronounced *ɛ* or *e*
-    [`e(?=n[${VOWELS}])`, 'e', INITIAL],
-    [/e(?=[lr])/, 'ɛ'],
+    // Before some consonants, "e" is pronounced *ɛ*
+    [/e(?=[ln])/, 'ɛ'],
 
-    // Before "tr", "e" is pronounced *e*
-    [/e(?=tr)/, 'e'],
+    // Before "r", "e" is pronounced *ʌ*
+    [/e(?=r)/, 'ʌ'],
 
     // Before "n" and some other consonants, "e" is pronounced *ɛ*
+    // TODO: valid?
     [/en(?=[dt])/, 'ɛn'],
 
     // Else, "e" is pronounced *i*
