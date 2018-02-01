@@ -131,4 +131,6 @@ laugh
 ## General simplification rules
 
 * pn -> n
-* ð -> θ
+* ð -> θ -> s
+* rn -> n
+* rd -> d

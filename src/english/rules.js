@@ -5,7 +5,7 @@
  * Collecting the various rules used to produce a phonetic representation
  * of English words.
  */
-import {compileRules, INITIAL} from '../helpers';
+import {compileRules, INITIAL, NEGATIVE} from '../helpers';
 
 /**
  * Vowel definitions.
@@ -50,7 +50,7 @@ export const POETIC_RULES = compileRules({
     [/a(?=nd)/, 'ɛ'],
 
     // Before a consonant & followed by a "e", "a" is pronounced *ɛj*
-    [`a(?=[cklmnpt]e)`, 'ɛj'],
+    [`a(?=[cgklmnpt]e)`, 'ɛj'],
 
     // Before a wall, "a" is pronounced *a*
     [`a(?=${WALL})`, 'a'],
@@ -156,7 +156,8 @@ export const POETIC_RULES = compileRules({
     ['gg', 'g'],
 
     // Before some vowels "g" is pronounced *dʒ*
-    [/g(?=y)/, 'dʒ'],
+    [/geo(?=r)/, 'dʒɔ'],
+    [/g(?=[ey])/, 'dʒ'],
 
     // Else "g" is pronounced *g*
     [null, 'g']
@@ -224,6 +225,9 @@ export const POETIC_RULES = compileRules({
     // "ous" is pronounced *us*
     ['ous', 'us'],
 
+    // "ou" before "n" is pronounced *ʌ*
+    [/ou(?=n)/, 'ʌ'],
+
     // "ow" is pronounced *o*
     ['ow', 'o'],
 
@@ -240,7 +244,7 @@ export const POETIC_RULES = compileRules({
     ['oy', 'ɔj'],
 
     // Before a wall, "o" is pronounced *ɔ*
-    [`o(?=${SOFT_WALL}|r)`, 'ɔ'],
+    [`o(?=${SOFT_WALL}|r)`, 'ɔ', /e$/, NEGATIVE],
 
     // Else, "o" is pronounced *o*
     [null, 'o']
@@ -268,6 +272,16 @@ export const POETIC_RULES = compileRules({
 
     // Else "q" is pronounced *k*
     [null, 'k']
+  ],
+
+  //-- (r)
+  //----------------------------------------------------------------------------
+  r: [
+
+    // Double "r" is squeezed
+    ['rr', 'r'],
+
+    [null, 'r']
   ],
 
   //-- (s)
@@ -337,6 +351,9 @@ export const POETIC_RULES = compileRules({
   //-- (y)
   //----------------------------------------------------------------------------
   y: [
+
+    // Before another vowel, "y" is pronounced *j*
+    [`y(?=[${VOWELS}])`, 'j'],
 
     // As a vowel, "y" is pronounced *i*
     [null, 'i']

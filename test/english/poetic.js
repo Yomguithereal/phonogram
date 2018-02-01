@@ -9,6 +9,7 @@ export default {
   cases: [
     ['actions', 'akʃʌnz'],
     ['administrative', 'administrativ'],
+    ['age', 'ɛjdʒ'],
     ['air', 'ɛr'],
     ['and', 'ɛnd'],
     ['arson', 'arsɔn'],
@@ -58,6 +59,9 @@ export default {
     ['fire', 'fajʌr'],
     ['flair', 'flɛr'],
 
+    ['geography', 'dʒiografi'],
+    ['George', 'dʒɔrdʒ'],
+    ['Gerard', 'dʒɛrard'],
     ['gladly', 'gladli'],
     ['grace', 'grɛjs'],
     ['greek', 'grik'],
@@ -140,6 +144,8 @@ export default {
     ['two', 'tu'],
 
     ['unique', 'junik'],
+
+    ['young', 'jʌng'],
 
     ['wall', 'wol'],
     ['what', 'wat'],
