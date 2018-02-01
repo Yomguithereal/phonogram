@@ -42,6 +42,7 @@ export default {
     ['day', 'dɛ'],
     ['debate', 'dibɛjt'],
     ['dew', 'dju'],
+    ['dictionary', 'dikʃʌnɛri'],
     ['dim', 'dim'],
     ['dime', 'dajm'],
     ['do', 'du'],
@@ -63,9 +64,11 @@ export default {
     ['George', 'dʒɔrdʒ'],
     ['Gerard', 'dʒɛrard'],
     ['gladly', 'gladli'],
+    ['gloomy', 'glumi'],
     ['grace', 'grɛjs'],
     ['greek', 'grik'],
 
+    ['Harry', 'hari'],
     ['hello', 'hɛlo'],
 
     ['Italy', 'itali'],
@@ -94,6 +97,7 @@ export default {
     ['moat', 'mot'],
     ['Moose', 'muz'],
 
+    ['nay', 'nɛ'],
     ['new', 'nju'],
     ['night', 'najt'],
     ['notorious', 'notɔrjus'],
@@ -114,6 +118,8 @@ export default {
     ['plead', 'plid'],
     ['poor', 'pur'],
     ['pot', 'pɔt'],
+    ['programmable', 'programabʌl'],
+    ['Putney', 'pʌtni'],
 
     ['Quentin', 'kwɛntin'],
 

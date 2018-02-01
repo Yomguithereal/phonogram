@@ -47,7 +47,7 @@ export const POETIC_RULES = compileRules({
     [/a[iy]/, 'ɛj'],
 
     // Before "nd", "a" is pronounced *ɛ*
-    [/a(?=nd)/, 'ɛ'],
+    [/a(?=nd|ry)/, 'ɛ'],
 
     // Before a consonant & followed by a "e", "a" is pronounced *ɛj*
     [`a(?=[cgklmnpt]e)`, 'ɛj'],
@@ -57,6 +57,16 @@ export const POETIC_RULES = compileRules({
 
     // Else, "a" is pronounced *ɛ*
     [null, 'ɛ']
+  ],
+
+  //-- (b)
+  //----------------------------------------------------------------------------
+  b: [
+
+    // Final "ble" is pronounced *bʌl*
+    [/bl(?=es?$)/, 'bʌl'],
+
+    [null, 'b']
   ],
 
   //-- (c)
@@ -109,8 +119,8 @@ export const POETIC_RULES = compileRules({
     // "ee" is pronounced *i*
     ['ee', 'i'],
 
-    // "ea" is pronounced *i*
-    ['ea', 'i'],
+    // "ea|ey" is pronounced *i*
+    [/e[ay]/, 'i'],
 
     // "eipt" is pronounced *it*
     ['eipt', 'it'],
@@ -215,6 +225,26 @@ export const POETIC_RULES = compileRules({
     [null, 'l']
   ],
 
+  //-- (m)
+  //----------------------------------------------------------------------------
+  m: [
+
+    // Double "m" is squeezed
+    ['mm', 'm'],
+
+    [null, 'm']
+  ],
+
+  //-- (n)
+  //----------------------------------------------------------------------------
+  n: [
+
+    // Double "n" is squeezed
+    ['nn', 'n'],
+
+    [null, 'n']
+  ],
+
   //-- (o)
   //----------------------------------------------------------------------------
   o: [
@@ -244,6 +274,7 @@ export const POETIC_RULES = compileRules({
     ['oy', 'ɔj'],
 
     // Before a wall, "o" is pronounced *ɔ*
+    [/o(?=gr)/, 'o'],
     [`o(?=${SOFT_WALL}|r)`, 'ɔ', /e$/, NEGATIVE],
 
     // Else, "o" is pronounced *o*
@@ -325,6 +356,9 @@ export const POETIC_RULES = compileRules({
 
     // Leading "u" is sometimes pronounced *ju*
     [/u(?=niqu|nivers)/, 'ju', INITIAL],
+
+    // "u" between some letters is pronounced *ju*
+    // TODO
 
     // "ue" is pronounced *ue*
     ['ue', 'u'],
