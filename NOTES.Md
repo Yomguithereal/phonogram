@@ -44,6 +44,7 @@ Note => kinda french-based
 * Arès, très, après, ès
 * greffe, leffe
 * Sept, Vingt
+* Benoist
 
 http://parler-francais.eklablog.com/vous-dites-a3737989
 
