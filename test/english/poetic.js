@@ -150,6 +150,7 @@ export default {
     ['twice', 'twajs'],
     ['two', 'tu'],
 
+    ['Ulfric', 'ʌlfrik'],
     ['unique', 'junik'],
 
     ['young', 'jʌng'],

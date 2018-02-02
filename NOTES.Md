@@ -43,6 +43,7 @@ Note => kinda french-based
 * adéquat, squat, reliquat
 * Arès, très, après, ès
 * greffe, leffe
+* Sept, Vingt
 
 http://parler-francais.eklablog.com/vous-dites-a3737989
 
@@ -73,9 +74,8 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * Warwick
 * Gloucester
 * fir
-* bye, rye
+* bye, rye, dye, aye, eye
 * ryan
-* ulfric
 * cue, hue
 * mishap
 * head, bead etc.
@@ -88,6 +88,12 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * door
 * women
 * phew
+* cloak
+* mind, blind
+* violence
+* regle obsolète du "er"
+* Raleigh
+* island
 
 * Genitives
 
