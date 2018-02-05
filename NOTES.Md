@@ -42,7 +42,6 @@ Note => kinda french-based
 * sens, encens, yens, mens
 * adéquat, squat, reliquat
 * Arès, très, après, ès
-* greffe, leffe
 * Sept, Vingt
 * Benoist
 

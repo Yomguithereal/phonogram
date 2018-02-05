@@ -285,6 +285,9 @@ export const POETIC_RULES = compileRules({
     // Final "esse" is pronounced *ɛs*
     [/esses?$/, 'ɛs'],
 
+    // Final "effe" is pronounced *ɛf*
+    [/effes?$/, 'ɛf'],
+
     // Final "ein" is pronounced *ẽ*
     [/eins?$/, 'ẽ'],
 
