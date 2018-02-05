@@ -68,16 +68,14 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * women
 * Raleigh, sleigh
 * island, islam, isle, aisle, misled, kislev
-* lease
 * lounge
-* anyone
 * ally, allies
 * friend, science, fiend
 * push, lush
 * meadow, steady
 * readopt readmit
 * Warwickshire => exception to rule
-* liver, live, life
+* liver, live, life, alive
 * how, row
 * heroin, heroine
 
@@ -108,7 +106,7 @@ laugh
 
 **Multi**
 
-read/read, lead/lead
+read/read, lead/lead, live/live
 
 ## German
 

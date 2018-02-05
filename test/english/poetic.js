@@ -14,6 +14,7 @@ export default {
     ['amish', 'amiʃ'],
     ['ancestry', 'ansɛstri'],
     ['and', 'ɛnd'],
+    ['anyone', 'ɛniwan'],
     ['arson', 'arsɔn'],
     ['at', 'at'],
     ['ate', 'ɛjt'],
@@ -22,6 +23,8 @@ export default {
 
     ['Bateson', 'bɛjtsɔn'],
     ['bind', 'bajnd'],
+    ['bird', 'bʌrd'],
+    ['birds', 'bʌrdz'],
     ['bit', 'bit'],
     ['bite', 'bajt'],
     ['blight', 'blajt'],
@@ -147,6 +150,7 @@ export default {
     ['leaders', 'lidʌrz'],
     ['lesson', 'lɛsɔn'],
     ['life', 'lajf'],
+    ['lives', 'livz'],
     ['lion', 'lajɔn'],
     ['lions', 'lajɔnz'],
     ['live', 'liv'],
@@ -177,6 +181,8 @@ export default {
     ['obbey', 'ɔbɛ'],
     ['off', 'ɔf'],
     ['offspring', 'ɔfspring'],
+    ['one', 'wan'],
+    ['oneself', 'wansɛlf'],
 
     ['pet', 'pɛt'],
     ['Pete', 'pit'],
@@ -265,6 +271,7 @@ export default {
     ['treadmill', 'trɛdmil'],
     ['try', 'traj'],
     ['trying', 'trajing'],
+    ['turd', 'tʌrd'],
     ['twice', 'twajs'],
     ['two', 'tu'],
 

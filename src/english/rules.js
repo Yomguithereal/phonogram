@@ -244,6 +244,9 @@ export const POETIC_RULES = compileRules({
     // "i" before some vowels is pronounced *j*
     [/i(?=a|ou)/, 'j'],
 
+    // "i" before "rd" is pronounced *ʌ*
+    [/i(?=rd)/, 'ʌ'],
+
     // "ie" is pronounced *i*
     ['ie', 'i'],
 
@@ -304,6 +307,9 @@ export const POETIC_RULES = compileRules({
 
     // Final "o" is pronounced *o*
     [/o$/, 'o'],
+
+    // "one" is sometimes pronounced *wan*
+    [/one/, 'wan', `(?:^$|[${VOWELS}]$)`],
 
     // "ouse" is pronounced *aʊs* sometimes
     [/ous(?=[ei])/, 'aʊs', /[hm]/],
