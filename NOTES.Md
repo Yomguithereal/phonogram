@@ -76,13 +76,13 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * places, sites (plural)
 * women
 * violence
-* regle obsolète du "er"
-* Raleigh
-* island
+* Raleigh, sleigh
+* island, islam, isle, aisle, misled, kislev
 * lease
 * lounge
 * anyone
-* my, thy, simplify, try, ally, flying, forestry, ancestry
+* convey, they, obbey, survey
+* ally, allies
 
 * Genitives
 

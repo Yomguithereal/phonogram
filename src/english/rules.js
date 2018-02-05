@@ -17,7 +17,6 @@ export const O = 'o';
 export const U = 'u';
 export const Y = 'y';
 export const VOWELS = A + E + I + O + U + Y;
-export const VOWELS_WITHOUT_E = A + I + O + U + Y;
 
 // The wall is either:
 //   1) a consonant followed by a non-e vowel
@@ -65,6 +64,9 @@ export const POETIC_RULES = compileRules({
   //-- (b)
   //----------------------------------------------------------------------------
   b: [
+
+    // Double "b" is squeezed
+    ['bb', 'b'],
 
     // Final "ble" is pronounced *bʌl*
     [/bl(?=es?$)/, 'bʌl'],
@@ -122,11 +124,17 @@ export const POETIC_RULES = compileRules({
     // "ee" is pronounced *i*
     ['ee', 'i'],
 
+    // Final "ey" is pronounced *ɛ* after some consonants
+    [/ey$/, 'ɛ', /(?:th|[bv])/],
+
     // "ea|ey" is pronounced *i*
     [/e[ay]/, 'i'],
 
     // "eipt" is pronounced *it*
     ['eipt', 'it'],
+
+    // "eir" is pronounced *ɛr*
+    ['eir', 'ɛr'],
 
     // "ei" is pronounced *i*
     ['ei', 'i'],
@@ -139,6 +147,7 @@ export const POETIC_RULES = compileRules({
 
     // Before some consonants, "e" is pronounced *ɛ*
     [/e(?=st|[ln])/, 'ɛ'],
+    [`e(?=m(?![${VOWELS}]))`, 'ɛ'],
 
     // Before "r", "e" is pronounced *ʌ*
     [/e(?=r)/, 'ʌ'],
@@ -185,6 +194,12 @@ export const POETIC_RULES = compileRules({
 
     // Initial "i" before some consonants is pronounced *i*
     [/i(?=n)/, 'i', INITIAL],
+
+    // Final "ify" is pronounced *ifaj*
+    [/ify$/, 'ifaj'],
+
+    // Final "ies" is pronounced *ajz*
+    [/ies$/, 'ajz'],
 
     // Final "ind" is pronounced *ajnd* after some consonants
     [/ind/, 'ajnd', /(?:bl|gr|[bfkm])$/],
@@ -347,7 +362,7 @@ export const POETIC_RULES = compileRules({
     [/s$/, 'z', `(?:[bdnr]|ew)$`],
 
     // "between" two vowels, "s" is pronounced *z*
-    [`s(?=[${VOWELS}])`, 'z', `[${VOWELS_WITHOUT_E}]$`],
+    [`s(?=[${VOWELS}])`, 'z', `[${A + I + O + U}]$`],
 
     [null, 's']
   ],
@@ -357,8 +372,8 @@ export const POETIC_RULES = compileRules({
   t: [
 
     // Initial "th" for various words
-    [/th(?=(?:is|at|ese|ose)$)/, 'ð', INITIAL],
-
+    [/th(?=(?:emselves|emself|yself|eirs?|ese|ine|ose|at|ee|em|ey|is|y)$)/, 'ð', INITIAL],
+// thou thee thy thine thyself they them their theirs themselves themself
     // Initial "thom"
     [/th(?=om)/, 't', INITIAL],
 
@@ -413,6 +428,9 @@ export const POETIC_RULES = compileRules({
   //-- (y)
   //----------------------------------------------------------------------------
   y: [
+
+    // In a three letters or less word, "y" is pronounced *aj*
+    ['y', 'aj', /^.{1,2}$/],
 
     // Before another vowel, "y" is pronounced *j*
     [`y(?=[${VOWELS}])`, 'j'],
