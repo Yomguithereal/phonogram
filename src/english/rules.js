@@ -280,7 +280,7 @@ export const POETIC_RULES = compileRules({
 
     // Before a wall, "o" is pronounced *ɔ*
     [/o(?=gr)/, 'o'],
-    [`o(?=${SOFT_WALL}|r)`, 'ɔ', /e$/, NEGATIVE],
+    [`o(?=${SOFT_WALL}|[mr])`, 'ɔ', /e$/, NEGATIVE],
 
     // Else, "o" is pronounced *o*
     [null, 'o']
@@ -338,7 +338,7 @@ export const POETIC_RULES = compileRules({
     ['sh', 'ʃ'],
 
     // Plural "s" is sometimes pronounced *z*
-    [/s$/, 'z', `(?:[${VOWELS}bdnr]|ew)$`],
+    [/s$/, 'z', `(?:[bdnr]|ew)$`],
 
     // "between" two vowels, "s" is pronounced *z*
     [`s(?=[${VOWELS}])`, 'z', `[${VOWELS_WITHOUT_E}]$`],
@@ -350,8 +350,17 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   t: [
 
+    // Initial "thom"
+    [/th(?=om)/, 't', INITIAL],
+
+    // Initial "th" is usually pronounced *θ*
+    [/th/, 'θ', INITIAL],
+
     // Final "two" is pronounced *tu*
     [/two$/, 'tu'],
+
+    // "tch" is pronounced *tʃ*
+    ['tch', 'tʃ'],
 
     // "tion" is pronounced *ʃʌn*
     ['tion', 'ʃʌn'],

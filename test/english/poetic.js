@@ -162,6 +162,9 @@ export default {
 
     ['tail', 'tɛjl'],
     ['tee', 'ti'],
+    ['Thatcher', 'θatʃʌr'],
+    ['Thom', 'tɔm'],
+    ['Thomas', 'tɔmas'],
     ['to', 'tu'],
     ['tomb', 'tumb'],
     ['twice', 'twajs'],
