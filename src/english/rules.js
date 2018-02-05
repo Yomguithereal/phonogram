@@ -40,9 +40,6 @@ export const POETIC_RULES = compileRules({
     // Final "augh(a)n" is pronounced *ɔn*
     [/augha?n$/, 'ɔn'],
 
-    // Final "asm" is pronounced *azʌm*
-    [/asm$/, 'azʌm'],
-
     // Before "w(e)", "a" is pronounced *o*
     [/awe?/, 'o'],
 
@@ -62,7 +59,7 @@ export const POETIC_RULES = compileRules({
     [/a(?=mi)/, 'ɛj', /./],
 
     // Before a wall, "a" is pronounced *a*
-    [`a(?=${WALL})`, 'a'],
+    [`a(?=${WALL}|o)`, 'a'],
 
     // Else, "a" is pronounced *ɛ*
     [null, 'ɛ']
@@ -390,6 +387,9 @@ export const POETIC_RULES = compileRules({
 
     // Final "shire" is pronounced *ʃʌr*
     [/shire$/, 'ʃʌr', /.$/],
+
+    // Final "sm" is pronounced *zʌm* after some vowels
+    [/sm$/, 'zʌm', /[ai]/],
 
     // "sc" before an "i" is pronounced *s*
     [/sc(?=i)/, 's'],

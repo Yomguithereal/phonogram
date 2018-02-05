@@ -45,6 +45,7 @@ Note => kinda french-based
 * Sept, Vingt
 * Compresser inutilement de *inytilømã* à *inytilmã*
 * Complexifier
+* fascisme
 
 http://parler-francais.eklablog.com/vous-dites-a3737989
 
@@ -75,9 +76,11 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * meadow, steady
 * readopt readmit
 * Warwickshire => exception to rule
-* liver, live, life, alive
+* liver, live, life, alive, giver, driver, silver, river, deliver, diver
 * how, row
 * heroin, heroine
+* hidden, gwen, eden, zen
+* fascism
 
 * Genitives
 

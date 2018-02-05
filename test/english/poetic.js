@@ -247,6 +247,7 @@ export default {
     ['symbols', 'simbɔlz'],
 
     ['tail', 'tɛjl'],
+    ['taoism', 'taoizʌm'],
     ['tee', 'ti'],
     ['that', 'ðat'],
     ['Thatcher', 'θatʃʌr'],
