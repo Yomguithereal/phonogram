@@ -108,7 +108,7 @@ export const POETIC_RULES = compileRules({
 
     // Final "ern" is prounounced *ʌrn*
     [/ern(?=s?$)/, 'ʌrn'],
-    [/en(?=s?$)/, 'ʌn'],
+    [/en(?=s?$)/, 'ʌn', 'v'],
 
     // Final "e" is seldom pronounced
     [/e$/, ''],
@@ -359,6 +359,9 @@ export const POETIC_RULES = compileRules({
     // Double "r" is squeezed
     ['rr', 'r'],
 
+    // In "rh", the "h" is silent
+    ['rh', 'r'],
+
     [null, 'r']
   ],
 
@@ -383,7 +386,7 @@ export const POETIC_RULES = compileRules({
     ['sh', 'ʃ'],
 
     // Plural "s" is sometimes pronounced *z*
-    [/s$/, 'z', /(?:eye|ew|[bdmnr])$/],
+    [/s$/, 'z', /(?:eye|ew|[bdlmnr])$/],
 
     // "between" two vowels, "s" is pronounced *z*
     [`s(?=[${VOWELS}])`, 'z', `[${A + I + O + U}]$`],
@@ -460,7 +463,7 @@ export const POETIC_RULES = compileRules({
     [/y$/, 'aj', /^.{1,2}$/],
 
     // Before another vowel, "y" is pronounced *j*
-    [/y(?=[ais])/, 'aj'],
+    [/y(?=m[aei]|[ais])/, 'aj'],
     [`y(?=[${VOWELS}])`, 'j'],
 
     // As a vowel, "y" is pronounced *i*

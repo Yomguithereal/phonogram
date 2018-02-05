@@ -7,6 +7,8 @@
  */
 import PhonogramCode from './PhonogramCode';
 
+// TODO: possibility to speed up when pattern is not a regular expression
+
 /**
  * Function factory returning the phonetic encoding function for poetic
  * rulesets.

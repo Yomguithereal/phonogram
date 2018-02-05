@@ -73,11 +73,11 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * anyone
 * ally, allies
 * friend, science, fiend
-* rhyme, lyme, styme, skyman, skymen, symbol, anonymous
 * push, lush
 * meadow, steady
 * readopt readmit
 * Warwickshire => exception to rule
+* liver, live, life
 
 * Genitives
 
