@@ -135,7 +135,7 @@ export const POETIC_RULES = compileRules({
     [/e(?=ll|rr|ss|tt)/, 'ɛ'],
 
     // Before some consonants, "e" is pronounced *ɛ*
-    [/e(?=[ln])/, 'ɛ'],
+    [/e(?=st|[ln])/, 'ɛ'],
 
     // Before "r", "e" is pronounced *ʌ*
     [/e(?=r)/, 'ʌ'],
@@ -330,8 +330,9 @@ export const POETIC_RULES = compileRules({
     // Double "s" is squeezed
     ['ss', 's'],
 
-    // "stle" is pronounced "søl"
-    ['stle', 'sʌl'],
+    // "stle" is pronounced "sʌl"
+    [/stle(?=s?$)/, 'sʌl'],
+    [/stl/, 'sl'],
 
     // "sh" is pronounced *ʃ*
     ['sh', 'ʃ'],

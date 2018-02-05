@@ -185,6 +185,9 @@ export default {
     ['wombs', 'wumbz'],
     ['wood', 'wud'],
     ['Worcester', 'wɔrstʌr'],
+    ['wrestle', 'rɛsʌl'],
+    ['wrestler', 'rɛslʌr'],
+    ['wrestling', 'rɛsling'],
     ['wrist', 'rist']
   ]
 };

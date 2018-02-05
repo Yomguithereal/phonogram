@@ -63,7 +63,6 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * Doth
 * Dost
 * Thou
-* Wrestle
 * Ex aequo
 * Mickey
 * Thom
