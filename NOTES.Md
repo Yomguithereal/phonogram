@@ -81,7 +81,7 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * Warwickshire => exception to rule
 * liver, live, life
 * how, row
-* heroin, joined, heroine, hero
+* heroin, heroine
 
 * Genitives
 

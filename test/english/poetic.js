@@ -117,6 +117,7 @@ export default {
     ['head', 'hɛd'],
     ['heads', 'hɛdz'],
     ['hello', 'hɛlo'],
+    ['hero', 'hiro'],
     ['house', 'haʊs'],
     ['housing', 'haʊsing'],
     ['hue', 'hju'],
@@ -131,6 +132,7 @@ export default {
     ['jibe', 'dʒajb'],
     ['jive', 'dʒajv'],
     ['join', 'dʒɔjn'],
+    ['joined', 'dʒɔjnd'],
     ['Jordan', 'dʒɔrdan'],
     ['junk', 'dʒʌnk'],
 
@@ -272,6 +274,7 @@ export default {
     ['young', 'jʌng'],
 
     ['wall', 'wol'],
+    ['wanted', 'wantid'],
     ['Warwick', 'worik'],
     ['what', 'wat'],
     ['who', 'hu'],
@@ -286,6 +289,8 @@ export default {
     ['wrestler', 'rɛslʌr'],
     ['wrestling', 'rɛsling'],
     ['wright', 'rajt'],
-    ['wrist', 'rist']
+    ['wrist', 'rist'],
+
+    ['zero', 'ziro'],
   ]
 };

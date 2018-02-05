@@ -123,6 +123,9 @@ export const POETIC_RULES = compileRules({
     [/es$/, 'iz', /[cs]$/],
     [/es$/, 'z'],
 
+    // Sometimes, final "ed" does not pronounced "e"
+    [/ed$/, 'd', /n$/],
+
     // Sometimes, in the middle of a word, the "e" can be silent
     [/e(?=s.)/, '', /[mt]/],
 
@@ -165,7 +168,7 @@ export const POETIC_RULES = compileRules({
     [`e(?=m(?![${VOWELS}]))`, 'ɛ'],
 
     // Before "r", "e" is pronounced *ʌ*
-    [/e(?=r)/, 'ʌ'],
+    [/e(?=r(?!o))/, 'ʌ'],
 
     // Before "n" and some other consonants, "e" is pronounced *ɛ*
     // TODO: valid?
