@@ -55,7 +55,7 @@ export const POETIC_RULES = compileRules({
     [/a[iy]/, 'ɛj'],
 
     // Before "nd", "a" is pronounced *ɛ*
-    [/a(?=nd|ry)/, 'ɛ'],
+    [/a(?=ry)/, 'ɛ'],
 
     // Before a consonant & followed by a "e", "a" is pronounced *ɛj*
     [/a(?=[cgklmnpt]e)/, 'ɛj'],

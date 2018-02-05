@@ -7,6 +7,7 @@
 import {compileExceptions} from '../helpers';
 
 const EXCEPTIONS = {
+  and: '(a•ɛ)nd',
   aye: 'a(ye•j)',
   do: 'd(o•u)',
   i: '(i•aj)',

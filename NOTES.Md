@@ -61,9 +61,7 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 ## English
 
 * Centre / Center
-* Randell
 * Doth
-* Dost
 * Ex aequo
 * mishap, misha, mishappen, unblemishable
 * Shoe, canoe, tiptoe, toes

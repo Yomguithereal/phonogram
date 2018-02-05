@@ -61,6 +61,7 @@ export default {
     ['dime', 'dajm'],
     ['do', 'du'],
     ['door', 'dɔr'],
+    ['dost', 'dɔst'],
     ['dreadful', 'drɛdful'],
     ['duchess', 'dʌtʃɛs'],
     ['duck', 'dʌk'],
@@ -123,6 +124,7 @@ export default {
     ['hue', 'hju'],
 
     ['imbue', 'imbju'],
+    ['Iran', 'iran'],
     ['Italy', 'itali'],
 
     ['Jameson', 'dʒɛjmsɔn'],
@@ -198,6 +200,8 @@ export default {
 
     ['Quentin', 'kwɛntin'],
 
+    ['ran', 'ran'],
+    ['Randell', 'randɛl'],
     ['ration', 'raʃʌn'],
     ['receipt', 'risit'],
     ['receipts', 'risits'],
