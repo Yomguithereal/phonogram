@@ -123,6 +123,9 @@ export const POETIC_RULES = compileRules({
     ['ew', 'ju', /(?:[^k]|^)(?:ph|[bdfmn])/],
     ['ew', 'u'],
 
+    // "eye" is pronounced *aj*
+    ['eye', 'aj'],
+
     // "ee" is pronounced *i*
     ['ee', 'i'],
 
@@ -376,7 +379,7 @@ export const POETIC_RULES = compileRules({
     ['sh', 'ʃ'],
 
     // Plural "s" is sometimes pronounced *z*
-    [/s$/, 'z', /(?:[bdmnr]|ew)$/],
+    [/s$/, 'z', /(?:eye|ew|[bdmnr])$/],
 
     // "between" two vowels, "s" is pronounced *z*
     [`s(?=[${VOWELS}])`, 'z', `[${A + I + O + U}]$`],

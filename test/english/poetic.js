@@ -17,6 +17,7 @@ export default {
     ['at', 'at'],
     ['ate', 'ɛjt'],
     ['awe', 'o'],
+    ['aye', 'aj'],
 
     ['Bateson', 'bɛjtsɔn'],
     ['bind', 'bajnd'],
@@ -31,6 +32,7 @@ export default {
     ['boy', 'bɔj'],
     ['bread', 'brɛd'],
     ['Britain', 'britɛjn'],
+    ['bye', 'baj'],
 
     ['can', 'kan'],
     ['cane', 'kɛjn'],
@@ -60,13 +62,19 @@ export default {
     ['dreadful', 'drɛdful'],
     ['duchess', 'dʌtʃɛs'],
     ['duck', 'dʌk'],
+    ['dull', 'dʌl'],
+    ['dye', 'daj'],
 
     ['eccentric', 'iksɛntrik'],
     ['egg', 'ɛg'],
+    ['egghead', 'ɛghɛd'],
     ['equal', 'ikwol'],
     ['end', 'ɛnd'],
     ['endgame', 'ɛndgɛjm'],
     ['energy', 'ɛnʌrdʒi'],
+    ['eye', 'aj'],
+    ['eyeglass', 'ajglas'],
+    ['eyes', 'ajz'],
 
     ['few', 'fju'],
     ['find', 'fajnd'],
@@ -117,6 +125,8 @@ export default {
     ['knew', 'nu'],
 
     ['language', 'langwɛjdʒ'],
+    ['lease', 'lis'],
+    ['leases', 'lisiz'],
     ['leaders', 'lidʌrz'],
     ['lesson', 'lɛsɔn'],
     ['life', 'lajf'],
@@ -128,6 +138,7 @@ export default {
 
     ['make', 'mɛjk'],
     ['mat', 'mat'],
+    ['mead', 'mid'],
     ['mice', 'majs'],
     ['mickey', 'miki'],
     ['mind', 'majnd'],
@@ -180,6 +191,7 @@ export default {
     ['riot', 'rajɔt'],
     ['raw', 'ro'],
     ['Ryan', 'rajan'],
+    ['rye', 'raj'],
 
     ['sea', 'si'],
     ['see', 'si'],

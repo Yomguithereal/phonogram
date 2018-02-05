@@ -64,7 +64,6 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * Dost
 * Ex aequo
 * Gloucester
-* bye, rye, dye, aye, eye
 * mishap, misha, mishappen, unblemishable
 * head, bead etc.
 * Shoe, canoe, tiptoe, toes
@@ -79,6 +78,7 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * rhyme
 * push, lush
 * meadow, steady
+* readopt readmit
 
 * Genitives
 
