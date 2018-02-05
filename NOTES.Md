@@ -64,7 +64,6 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * Dost
 * Ex aequo
 * mishap, misha, mishappen, unblemishable
-* head, bead etc.
 * Shoe, canoe, tiptoe, toes
 * women
 * Raleigh, sleigh

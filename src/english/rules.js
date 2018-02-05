@@ -366,6 +366,9 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   s: [
 
+    // Final "shire" is pronounced *ʃʌr*
+    [/shire$/, 'ʃʌr', /.$/],
+
     // "sc" before an "i" is pronounced *s*
     [/sc(?=i)/, 's'],
 
