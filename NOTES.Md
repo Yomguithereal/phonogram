@@ -80,6 +80,7 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * regle obsolète du "er"
 * Raleigh
 * island
+* lease
 
 * Genitives
 

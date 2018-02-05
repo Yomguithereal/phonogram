@@ -12,6 +12,7 @@ const EXCEPTIONS = {
   fir: 'f(i•ʌ)r',
   firs: 'f(i•ʌ)r(s•z)',
   stephen: 'st(e•i)(ph•v)(e•ʌ)n',
+  the: '(th•ð)(e•i)',
   to: 't(o•u)',
   warwick: 'w(a•o)r(w•)i(ck•k)',
   who: '(w•)h(o•u)',

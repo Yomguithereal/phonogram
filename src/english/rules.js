@@ -101,6 +101,9 @@ export const POETIC_RULES = compileRules({
     // Final "er" is pronounced *ʌr*
     [/er(?=s?$)/, 'ʌr'],
 
+    // Final "ese" is pronounced *iz*
+    [/ese$/, 'iz'],
+
     // Final "ern" is prounounced *ʌrn*
     [/ern(?=s?$)/, 'ʌrn'],
     [/en(?=s?$)/, 'ʌn'],
@@ -349,6 +352,9 @@ export const POETIC_RULES = compileRules({
   //-- (t)
   //----------------------------------------------------------------------------
   t: [
+
+    // Initial "th" for various words
+    [/th(?=(?:is|at|ese|ose)$)/, 'ð', INITIAL],
 
     // Initial "thom"
     [/th(?=om)/, 't', INITIAL],
