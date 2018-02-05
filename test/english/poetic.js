@@ -11,6 +11,7 @@ export default {
     ['administrative', 'administrativ'],
     ['age', 'ɛjdʒ'],
     ['air', 'ɛr'],
+    ['ambush', 'ambuʃ'],
     ['amish', 'amiʃ'],
     ['ancestry', 'ansɛstri'],
     ['and', 'ɛnd'],
@@ -54,6 +55,7 @@ export default {
     ['convey', 'kɔnvɛ'],
     ['cruel', 'krul'],
     ['crumb', 'krʌmb'],
+    ['crush', 'krʌʃ'],
     ['cue', 'kju'],
     ['cute', 'kjut'],
 
@@ -163,6 +165,7 @@ export default {
     ['loins', 'lɔjnz'],
     ['loo', 'lu'],
     ['lunch', 'lʌntʃ'],
+    ['lush', 'lʌʃ'],
     ['lyme', 'lajm'],
 
     ['make', 'mɛjk'],
@@ -210,6 +213,8 @@ export default {
     ['poor', 'pur'],
     ['pot', 'pɔt'],
     ['programmable', 'programabʌl'],
+    ['push', 'puʃ'],
+    ['pushes', 'puʃiz'],
     ['Putney', 'pʌtni'],
 
     ['Quentin', 'kwɛntin'],

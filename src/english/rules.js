@@ -117,7 +117,7 @@ export const POETIC_RULES = compileRules({
     // Final "e" is seldom pronounced
     [/e$/, ''],
     [/es$/, 's', /t$/],
-    [/es$/, 'iz', /[cs]$/],
+    [/es$/, 'iz', /(?:sh|[cs])$/],
     [/es$/, 'z'],
 
     // Sometimes, final "ed" does not pronounced "e"
@@ -448,8 +448,8 @@ export const POETIC_RULES = compileRules({
     // Leading "u" is sometimes pronounced *ju*
     [/u(?=niqu|nivers)/, 'ju', INITIAL],
 
-    // "u" between some letters is pronounced *ju*
-    // TODO
+    // "ush" after "b" and "p" is pronounced *u*
+    [/u(?=sh)/, 'u', /[bp]/],
 
     // "ue" is pronounced *u* or *ju*
     ['ue', 'ju', /[bch]$/],

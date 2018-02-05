@@ -66,14 +66,13 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * Doth
 * Ex aequo
 * mishap, misha, mishappen, unblemishable
-* Shoe, canoe, tiptoe, toes
+* Shoe, canoe, tiptoe, toes, foe, joe, poe, zoe (rule is *u*)
 * women
 * Raleigh, sleigh
 * island, islam, isle, aisle, misled, kislev
 * lounge
 * ally, allies
 * friend, science, fiend
-* push, lush
 * meadow, steady
 * readopt readmit
 * Warwickshire => exception to rule
@@ -102,11 +101,8 @@ freight, eight, weight
 height, sleight
 
 through
-cough, tough, enough
-dough, although
-bough
-borough, thorough
-hiccough
+cough, tough, enough, hiccough
+dough, although, bough, borough, thorough
 
 daughter, naughty, slaughter, laughter
 laugh
