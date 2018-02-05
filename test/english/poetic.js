@@ -59,6 +59,7 @@ export default {
     ['duck', 'dʌk'],
 
     ['eccentric', 'iksɛntrik'],
+    ['egg', 'ɛg'],
     ['equal', 'ikwol'],
     ['end', 'ɛnd'],
     ['endgame', 'ɛndgɛjm'],
@@ -81,6 +82,8 @@ export default {
     ['geography', 'dʒiografi'],
     ['George', 'dʒɔrdʒ'],
     ['Gerard', 'dʒʌrard'],
+    ['germ', 'dʒʌrm'],
+    ['germs', 'dʒʌrmz'],
     ['gladly', 'gladli'],
     ['gloomy', 'glumi'],
     ['grace', 'grɛjs'],
@@ -89,6 +92,8 @@ export default {
 
     ['Harry', 'hari'],
     ['hello', 'hɛlo'],
+    ['house', 'haʊs'],
+    ['housing', 'haʊsing'],
     ['hue', 'hju'],
 
     ['imbue', 'imbju'],
@@ -117,11 +122,14 @@ export default {
 
     ['make', 'mɛjk'],
     ['mat', 'mat'],
+    ['mice', 'majs'],
+    ['mickey', 'miki'],
     ['mind', 'majnd'],
     ['minds', 'majndz'],
     ['mine', 'majn'],
     ['moat', 'mot'],
     ['Moose', 'muz'],
+    ['mouse', 'maʊs'],
     ['my', 'maj'],
 
     ['nay', 'nɛ'],
@@ -158,8 +166,10 @@ export default {
     ['receive', 'risiv'],
     ['rescind', 'risind'],
     ['retail', 'ritɛjl'],
+    ['right', 'rajt'],
     ['riot', 'rajɔt'],
     ['raw', 'ro'],
+    ['Ryan', 'rajan'],
 
     ['sea', 'si'],
     ['see', 'si'],
@@ -208,6 +218,7 @@ export default {
 
     ['Vaughn', 'vɔn'],
     ['Vaughan', 'vɔn'],
+    ['violence', 'vajolɛns'],
 
     ['young', 'jʌng'],
 
@@ -224,6 +235,7 @@ export default {
     ['wrestle', 'rɛsʌl'],
     ['wrestler', 'rɛslʌr'],
     ['wrestling', 'rɛsling'],
+    ['wright', 'rajt'],
     ['wrist', 'rist']
   ]
 };

@@ -143,7 +143,7 @@ export const POETIC_RULES = compileRules({
     [/e(?=ts?$)/, 'ɛ'],
 
     // Before doubled consonants, "e" is pronounced *ɛ*
-    [/e(?=ll|rr|ss|tt)/, 'ɛ'],
+    [/e(?=gg|ll|rr|ss|tt)/, 'ɛ'],
 
     // Before some consonants, "e" is pronounced *ɛ*
     [/e(?=st|[ln])/, 'ɛ'],
@@ -278,6 +278,9 @@ export const POETIC_RULES = compileRules({
     // Final "o" is pronounced *o*
     [/o$/, 'o'],
 
+    // "ouse" is pronounced *aʊs* sometimes
+    [/ous(?=[ei])/, 'aʊs', /[hm]/],
+
     // "ous" is pronounced *ʌs*
     ['ous', 'ʌs'],
 
@@ -359,7 +362,7 @@ export const POETIC_RULES = compileRules({
     ['sh', 'ʃ'],
 
     // Plural "s" is sometimes pronounced *z*
-    [/s$/, 'z', `(?:[bdnr]|ew)$`],
+    [/s$/, 'z', /(?:[bdmnr]|ew)$/],
 
     // "between" two vowels, "s" is pronounced *z*
     [`s(?=[${VOWELS}])`, 'z', `[${A + I + O + U}]$`],
@@ -373,7 +376,7 @@ export const POETIC_RULES = compileRules({
 
     // Initial "th" for various words
     [/th(?=(?:emselves|emself|yself|eirs?|ese|ine|ose|at|ee|em|ey|is|y)$)/, 'ð', INITIAL],
-// thou thee thy thine thyself they them their theirs themselves themself
+
     // Initial "thom"
     [/th(?=om)/, 't', INITIAL],
 

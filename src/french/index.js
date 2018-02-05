@@ -28,6 +28,3 @@ const poetic = createPoetic({
 });
 
 export {poetic};
-
-// TODO: decide whether to use soft e for harmonization purposes?
-// TODO: throw out characters not know (use generic table somehow)

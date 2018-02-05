@@ -62,31 +62,24 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * Randell
 * Doth
 * Dost
-* Thou
 * Ex aequo
-* Mickey
-* Thom
 * Gloucester
 * bye, rye, dye, aye, eye
-* ryan
 * mishap, misha, mishappen, unblemishable
 * head, bead etc.
 * Shoe, canoe, tiptoe, toes
-* mouse, house
 * places, sites (plural)
 * women
-* violence
 * Raleigh, sleigh
 * island, islam, isle, aisle, misled, kislev
 * lease
 * lounge
 * anyone
-* convey, they, obbey, survey
 * ally, allies
+* friend, science, fiend
+* rhyme
 
 * Genitives
-
-germ -> make finer rule for er before n or m and potential s.
 
 mother, bother, weather, bathe, etc
 
@@ -97,7 +90,6 @@ aghast, afghanisthan (egghead, bighorn)
 hiccough
 
 high, sigh, thigh
-right, wright, blight
 
 freight, eight, weight
 height, sleight
@@ -128,5 +120,6 @@ laugh
 * pn -> n
 * ð -> θ -> s
 * rn -> n
+* rm -> m
 * rd -> d
 * nd -> d
