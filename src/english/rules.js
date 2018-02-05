@@ -222,6 +222,9 @@ export const POETIC_RULES = compileRules({
     // Final "ies" is pronounced *ajz*
     [/ies$/, 'ajz'],
 
+    // Final "igh" is pronounced *aj*
+    [/igh(?=s?$)/, 'aj'],
+
     // Final "ind" is pronounced *ajnd* after some consonants
     [/ind/, 'ajnd', /(?:bl|gr|[bfkm])$/],
 
@@ -408,7 +411,7 @@ export const POETIC_RULES = compileRules({
     ['sh', 'ʃ'],
 
     // Plural "s" is sometimes pronounced *z*
-    [/s$/, 'z', /(?:eye|ew|[bdlmnr])$/],
+    [/s$/, 'z', /(?:eye|ew|gh|[bdlmnr])$/],
 
     // "between" two vowels, "s" is pronounced *z*
     [`s(?=[${VOWELS}])`, 'z', `[${A + I + O + U}]$`],

@@ -73,7 +73,7 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * lounge
 * ally, allies
 * friend, science, fiend
-* meadow, steady
+* meadow, steady, ready
 * readopt readmit
 * Warwickshire => exception to rule
 * liver, live, life, alive, giver, driver, silver, river, deliver, diver
@@ -94,8 +94,6 @@ rythm rithm
 
 ghost (initial gh)
 aghast, afghanisthan (egghead, bighorn)
-
-high, sigh, thigh
 
 freight, eight, weight
 height, sleight
