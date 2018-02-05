@@ -9,8 +9,11 @@ import {compileExceptions} from '../helpers';
 const EXCEPTIONS = {
   do: 'd(o•u)',
   i: '(i•aj)',
+  fir: 'f(i•ʌ)r',
+  firs: 'f(i•ʌ)r(s•z)',
   stephen: 'st(e•i)(ph•v)(e•ʌ)n',
   to: 't(o•u)',
+  warwick: 'w(a•o)r(w•)i(ck•k)',
   who: '(w•)h(o•u)',
   whom: '(w•)h(o•u)m',
   whose: '(w•)h(o•u)(s•z)(e•)'

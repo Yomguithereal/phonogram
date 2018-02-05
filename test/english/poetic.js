@@ -47,6 +47,7 @@ export default {
     ['dime', 'dajm'],
     ['do', 'du'],
     ['door', 'dor'],
+    ['duchess', 'dʌtʃɛs'],
     ['duck', 'dʌk'],
 
     ['eccentric', 'iksɛntrik'],
@@ -57,6 +58,7 @@ export default {
 
     ['few', 'fju'],
     ['five', 'fajv'],
+    ['fir', 'fʌr'],
     ['fire', 'fajʌr'],
     ['flair', 'flɛr'],
 
@@ -153,9 +155,13 @@ export default {
     ['Ulfric', 'ʌlfrik'],
     ['unique', 'junik'],
 
+    ['Vaughn', 'vɔn'],
+    ['Vaughan', 'vɔn'],
+
     ['young', 'jʌng'],
 
     ['wall', 'wol'],
+    ['Warwick', 'worik'],
     ['what', 'wat'],
     ['who', 'hu'],
     ['whom', 'hum'],

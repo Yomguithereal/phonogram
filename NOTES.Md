@@ -59,8 +59,6 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 ## English
 
 * Centre / Center
-* Li
-* Duchess
 * Randell
 * Doth
 * Dost
@@ -70,16 +68,12 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * Mickey
 * Thom
 * Celt
-* Warwick
 * Gloucester
-* fir
 * bye, rye, dye, aye, eye
 * ryan
 * cue, hue
 * mishap
 * head, bead etc.
-* Vaughn Vaughan, maughan
-* Steven, Stephen
 * Shoe, canoe, tiptoe, toes
 * mouse, house
 * places, sites (plural)

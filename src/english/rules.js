@@ -35,6 +35,9 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   a: [
 
+    // Final "augh(a)n" is pronounced *ɔn*
+    [/augha?n$/, 'ɔn'],
+
     // Before "w(e)", "a" is pronounced *o*
     [/awe?/, 'o'],
 
