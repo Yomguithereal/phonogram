@@ -102,6 +102,7 @@ export default {
     ['grace', 'grɛjs'],
     ['greek', 'grik'],
     ['grinding', 'grajnding'],
+    ['gymnast', 'dʒimnast'],
 
     ['Harry', 'hari'],
     ['head', 'hɛd'],

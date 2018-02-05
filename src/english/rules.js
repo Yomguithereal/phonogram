@@ -453,10 +453,14 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   y: [
 
+    // Final "ye" is pronounced *aj*
+    [/ye$/, 'aj'],
+
     // In a three letters or less word, "y" is pronounced *aj*
-    ['y', 'aj', /^.{1,2}$/],
+    [/y$/, 'aj', /^.{1,2}$/],
 
     // Before another vowel, "y" is pronounced *j*
+    [/y(?=[ais])/, 'aj'],
     [`y(?=[${VOWELS}])`, 'j'],
 
     // As a vowel, "y" is pronounced *i*
