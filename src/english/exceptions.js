@@ -15,6 +15,7 @@ const EXCEPTIONS = {
   leases: 'l(ea•i)s(e•i)(s•z)',
   fir: 'f(i•ʌ)r',
   firs: 'f(i•ʌ)r(s•z)',
+  hi: 'h(i•aj)',
   stephen: 'st(e•i)(ph•v)(e•ʌ)n',
   the: '(th•ð)(e•i)',
   thou: '(th•ð)(ou•aʊ)',

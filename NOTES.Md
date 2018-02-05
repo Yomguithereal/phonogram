@@ -18,6 +18,7 @@ Compiling some cases to handle for target languages. Rule-based.
 * Inexisting words (typos)
 * No dictionary (very much lighter)
 * Vocalization
+* Not accurate because it's serves relative comparisons
 
 Appel à contributions
 
@@ -81,6 +82,10 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * heroin, heroine
 * hidden, gwen, eden, zen
 * fascism
+* have, behave, beehive
+* listen, glisten, fasten, moisten
+* often
+* proud
 
 * Genitives
 
@@ -102,14 +107,13 @@ dough, although
 bough
 borough, thorough
 hiccough
-bought, brought, fought, nought, ought, sought, wrought, thought
 
 daughter, naughty, slaughter, laughter
 laugh
 
 **Multi**
 
-read/read, lead/lead, live/live
+read/read, lead/lead, live/live, tear/tear
 
 ## German
 
@@ -131,5 +135,6 @@ read/read, lead/lead, live/live
 * rm -> m
 * rd -> d
 * nd -> d
+* stl -> sl
 * squeeze à la fin?
 * Garder la leading vowel?

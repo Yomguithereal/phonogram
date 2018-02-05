@@ -121,7 +121,7 @@ export const POETIC_RULES = compileRules({
     [/es$/, 'z'],
 
     // Sometimes, final "ed" does not pronounced "e"
-    [/ed$/, 'd', /n$/],
+    [/ed$/, 'd', /(ll|n)$/],
 
     // Sometimes, in the middle of a word, the "e" can be silent
     [/e(?=s.)/, '', /[mt]/],
@@ -137,10 +137,10 @@ export const POETIC_RULES = compileRules({
     ['ee', 'i'],
 
     // Final "ey" is pronounced *ɛ* after some consonants
-    [/ey$/, 'ɛ', /(?:th|[bv])/],
+    [/ey$/, 'ɛ', /(?:th|[bhv])/],
 
     // "ea" is sometimes pronounced *ɛ*
-    ['ea', 'ɛ', /(?:spr|[bdt]r|h)/],
+    ['ea', 'ɛ', /(?:spr|[bdt]r|[hw])/],
 
     // "ea|ey" is pronounced *i*
     [/e[ay]/, 'i'],
@@ -301,6 +301,9 @@ export const POETIC_RULES = compileRules({
 
     // Final "omb" is pronounced *umb* after some letters
     [/omb(?=s?$)/, 'umb', /[tw]/],
+
+    // Final "ought" is prounounced *ɔt*
+    [/ought(?=s?$)/, 'ɔt'],
 
     // Final "o" is pronounced *o*
     [/o$/, 'o'],

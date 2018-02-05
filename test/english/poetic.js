@@ -33,9 +33,11 @@ export default {
     ['bombs', 'bɔmbz'],
     ['bone', 'bon'],
     ['bones', 'bonz'],
+    ['bought', 'bɔt'],
     ['boy', 'bɔj'],
     ['bread', 'brɛd'],
     ['Britain', 'britɛjn'],
+    ['brought', 'brɔt'],
     ['bye', 'baj'],
 
     ['can', 'kan'],
@@ -94,6 +96,7 @@ export default {
     ['flies', 'flajz'],
     ['fly', 'flaj'],
     ['flying', 'flajing'],
+    ['fought', 'fɔt'],
     ['fries', 'frajz'],
     ['fry', 'fraj'],
     ['frying', 'frajing'],
@@ -121,7 +124,9 @@ export default {
     ['head', 'hɛd'],
     ['heads', 'hɛdz'],
     ['hello', 'hɛlo'],
+    ['hey', 'hɛ'],
     ['hero', 'hiro'],
+    ['hi', 'haj'],
     ['house', 'haʊs'],
     ['housing', 'haʊsing'],
     ['hue', 'hju'],
@@ -141,6 +146,7 @@ export default {
     ['Jordan', 'dʒɔrdan'],
     ['junk', 'dʒʌnk'],
 
+    ['killed', 'kild'],
     ['kind', 'kajnd'],
     ['knew', 'nu'],
 
@@ -175,6 +181,7 @@ export default {
     ['nay', 'nɛ'],
     ['new', 'nju'],
     ['night', 'najt'],
+    ['nought', 'nɔt'],
     ['notorious', 'notɔrjʌs'],
     ['notoriously', 'notɔrjʌsli'],
 
@@ -183,6 +190,7 @@ export default {
     ['offspring', 'ɔfspring'],
     ['one', 'wan'],
     ['oneself', 'wansɛlf'],
+    ['ought', 'ɔt'],
 
     ['pet', 'pɛt'],
     ['Pete', 'pit'],
@@ -237,6 +245,7 @@ export default {
     ['sky', 'skaj'],
     ['skyman', 'skajman'],
     ['skymen', 'skajmɛn'],
+    ['sought', 'sɔt'],
     ['spread', 'sprɛd'],
     ['Stephen', 'stivʌn'],
     ['Steven', 'stivʌn'],
@@ -263,6 +272,7 @@ export default {
     ['this', 'ðis'],
     ['those', 'ðoz'],
     ['thou', 'ðaʊ'],
+    ['thoughts', 'θɔts'],
     ['thy', 'ðaj'],
     ['thyself', 'ðajsɛlf'],
     ['Thom', 'tɔm'],
@@ -288,6 +298,7 @@ export default {
     ['wall', 'wol'],
     ['wanted', 'wantid'],
     ['Warwick', 'worik'],
+    ['wear', 'wɛr'],
     ['what', 'wat'],
     ['who', 'hu'],
     ['whom', 'hum'],
@@ -302,6 +313,7 @@ export default {
     ['wrestling', 'rɛsling'],
     ['wright', 'rajt'],
     ['wrist', 'rist'],
+    ['wrought', 'rɔt'],
 
     ['zero', 'ziro'],
   ]
