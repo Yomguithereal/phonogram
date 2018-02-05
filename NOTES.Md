@@ -78,6 +78,7 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * readopt readmit
 * Warwickshire => exception to rule
 * liver, live, life
+* how, row
 
 * Genitives
 
@@ -87,7 +88,6 @@ rythm rithm
 
 ghost (initial gh)
 aghast, afghanisthan (egghead, bighorn)
-hiccough
 
 high, sigh, thigh
 
@@ -99,6 +99,7 @@ cough, tough, enough
 dough, although
 bough
 borough, thorough
+hiccough
 bought, brought, fought, nought, ought, sought, wrought, thought
 
 daughter, naughty, slaughter, laughter

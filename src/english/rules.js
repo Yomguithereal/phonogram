@@ -34,8 +34,14 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   a: [
 
+    // Initial "any" is pronounced *ɛni*
+    [/any/, 'ɛni', INITIAL],
+
     // Final "augh(a)n" is pronounced *ɔn*
     [/augha?n$/, 'ɔn'],
+
+    // Final "asm" is pronounced *azʌm*
+    [/asm$/, 'azʌm'],
 
     // Before "w(e)", "a" is pronounced *o*
     [/awe?/, 'o'],
@@ -154,7 +160,7 @@ export const POETIC_RULES = compileRules({
     [/e(?=gg|ll|rr|ss|tt)/, 'ɛ'],
 
     // Before some consonants, "e" is pronounced *ɛ*
-    [/e(?=st|[ln])/, 'ɛ'],
+    [`e(?=qu(?!a)|st|[kln]|c[^${VOWELS}])`, 'ɛ'],
     [`e(?=m(?![${VOWELS}]))`, 'ɛ'],
 
     // Before "r", "e" is pronounced *ʌ*
