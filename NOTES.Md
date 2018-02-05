@@ -69,7 +69,6 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * Gloucester
 * bye, rye, dye, aye, eye
 * ryan
-* cue, hue
 * mishap, misha, mishappen, unblemishable
 * head, bead etc.
 * Shoe, canoe, tiptoe, toes
@@ -81,6 +80,9 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * Raleigh
 * island
 * lease
+* lounge
+* anyone
+* my, thy, simplify, try, ally, flying, forestry, ancestry
 
 * Genitives
 

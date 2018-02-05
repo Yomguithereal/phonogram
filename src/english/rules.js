@@ -168,6 +168,9 @@ export const POETIC_RULES = compileRules({
     // "gg" is pronounced *g*
     ['gg', 'g'],
 
+    // "gu" before some vowels
+    [/gu(?=a)/, 'gw'],
+
     // Before some vowels "g" is pronounced *dʒ*
     [/geo(?=r)/, 'dʒɔ'],
     [/g(?=[ey])/, 'dʒ'],
@@ -384,7 +387,8 @@ export const POETIC_RULES = compileRules({
     // "u" between some letters is pronounced *ju*
     // TODO
 
-    // "ue" is pronounced *ue*
+    // "ue" is pronounced *u* or *ju*
+    ['ue', 'ju', /[bch]$/],
     ['ue', 'u'],
 
     // Before "m" or "n", "u" is pronounced *ʌ*

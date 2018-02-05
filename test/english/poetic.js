@@ -80,7 +80,9 @@ export default {
 
     ['Harry', 'hari'],
     ['hello', 'hɛlo'],
+    ['hue', 'hju'],
 
+    ['imbue', 'imbju'],
     ['Italy', 'itali'],
 
     ['Jameson', 'dʒɛjmsɔn'],
@@ -95,6 +97,7 @@ export default {
     ['kind', 'kajnd'],
     ['knew', 'nu'],
 
+    ['language', 'langwɛjdʒ'],
     ['leaders', 'lidʌrz'],
     ['lesson', 'lɛsɔn'],
     ['life', 'lajf'],
