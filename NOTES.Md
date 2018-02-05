@@ -43,6 +43,8 @@ Note => kinda french-based
 * adéquat, squat, reliquat
 * Arès, très, après, ès
 * Sept, Vingt
+* Compresser inutilement de *inytilømã* à *inytilmã*
+* Complexifier
 
 http://parler-francais.eklablog.com/vous-dites-a3737989
 
@@ -79,6 +81,7 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * Warwickshire => exception to rule
 * liver, live, life
 * how, row
+* heroin, joined, heroine, hero
 
 * Genitives
 
@@ -122,9 +125,12 @@ read/read, lead/lead
 
 ## General simplification rules
 
+* drop h
 * pn -> n
 * ð -> θ -> s
 * rn -> n
 * rm -> m
 * rd -> d
 * nd -> d
+* squeeze à la fin?
+* Garder la leading vowel?

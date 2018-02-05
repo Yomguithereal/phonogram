@@ -59,6 +59,7 @@ export const POETIC_RULES = compileRules({
 
     // Before a consonant & followed by a "e", "a" is pronounced *ɛj*
     [/a(?=[cgklmnpt]e)/, 'ɛj'],
+    [/a(?=mi)/, 'ɛj', /./],
 
     // Before a wall, "a" is pronounced *a*
     [`a(?=${WALL})`, 'a'],
@@ -307,6 +308,9 @@ export const POETIC_RULES = compileRules({
     // "ous" is pronounced *ʌs*
     [/ous/, 'ʌs'],
     [/ou(?=ce)/, 'ɔ'],
+
+    // "oin" is generally pronounced *ɔjn*
+    [/oin(?!g)/, 'ɔjn', 'her', NEGATIVE],
 
     // "ou" before "n" is pronounced *ʌ*
     [/ou(?=n)/, 'ʌ'],
