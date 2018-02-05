@@ -53,7 +53,7 @@ export const POETIC_RULES = compileRules({
     [/a(?=nd|ry)/, 'ɛ'],
 
     // Before a consonant & followed by a "e", "a" is pronounced *ɛj*
-    [`a(?=[cgklmnpt]e)`, 'ɛj'],
+    [/a(?=[cgklmnpt]e)/, 'ɛj'],
 
     // Before a wall, "a" is pronounced *a*
     [`a(?=${WALL})`, 'a'],
@@ -116,7 +116,7 @@ export const POETIC_RULES = compileRules({
     [/e(?=s.)/, '', /[mt]/],
 
     // "ew" is pronounced *ju* or *u*
-    ['ew', 'ju', /(?:[^k]|^)[bdfmn]/],
+    ['ew', 'ju', /(?:[^k]|^)(?:ph|[bdfmn])/],
     ['ew', 'u'],
 
     // "ee" is pronounced *i*
@@ -183,22 +183,24 @@ export const POETIC_RULES = compileRules({
     // Initial "i" before some consonants is pronounced *i*
     [/i(?=n)/, 'i', INITIAL],
 
+    // Final "ind" is pronounced *ajnd* after some consonants
+    [/ind/, 'ajnd', /(?:bl|gr|[bfkm])$/],
+
     // Final "ire" is pronounced *ajʌr*
-    [/ire$/, 'ajʌr'],
-    [/ires$/, 'ajʌrz'],
+    [/ire(?=s?$)/, 'ajʌr'],
 
     // "ight" is pronounced *ajt*
     ['ight', 'ajt'],
 
-    // "ious" is pronounced *jus*
-    ['ious', 'jus'],
+    // "ious" is pronounced *jʌs*
+    ['ious', 'jʌs'],
 
     // Before a consonant and a vowel, "i" is pronounced *aj*
     [/i(?=ves?$)/, 'i', /[lt]/],
     [`i(?=[^${VOWELS}]e|o(?!u))`, 'aj'],
 
     // "i" before some vowels is pronounced *j*
-    [`i(?=a|ou)`, 'j'],
+    [/i(?=a|ou)/, 'j'],
 
     // Else, "i" is pronounced *aj*
     [null, 'i']
@@ -252,11 +254,14 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   o: [
 
+    // Final "omb" is pronounced *umb* after some letters
+    [/omb(?=s?$)/, 'umb', /[tw]/],
+
     // Final "o" is pronounced *o*
     [/o$/, 'o'],
 
-    // "ous" is pronounced *us*
-    ['ous', 'us'],
+    // "ous" is pronounced *ʌs*
+    ['ous', 'ʌs'],
 
     // "ou" before "n" is pronounced *ʌ*
     [/ou(?=n)/, 'ʌ'],
@@ -268,7 +273,7 @@ export const POETIC_RULES = compileRules({
     ['oa', 'o'],
 
     // "oo" is pronounced *o* if in "door" words
-    ['oo(?=r)', 'o', /^d/],
+    ['oo(?=r)', 'ɔ', /^d/],
 
     // "oo" is pronounced *u*
     ['oo', 'u'],
@@ -322,6 +327,9 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   s: [
 
+    // "sc" before an "i" is pronounced *s*
+    [/sc(?=i)/, 's'],
+
     // Double "s" is squeezed
     ['ss', 's'],
 
@@ -332,7 +340,7 @@ export const POETIC_RULES = compileRules({
     ['sh', 'ʃ'],
 
     // Plural "s" is sometimes pronounced *z*
-    [/s$/, 'z', `(?:[${VOWELS}n]|ew)$`],
+    [/s$/, 'z', `(?:[${VOWELS}bdnr]|ew)$`],
 
     // "between" two vowels, "s" is pronounced *z*
     [`s(?=[${VOWELS}])`, 'z', `[${VOWELS_WITHOUT_E}]$`],

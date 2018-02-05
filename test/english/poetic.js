@@ -18,9 +18,13 @@ export default {
     ['awe', 'o'],
 
     ['Bateson', 'bɛjtsɔn'],
+    ['bind', 'bajnd'],
     ['bit', 'bit'],
     ['bite', 'bajt'],
     ['blight', 'blajt'],
+    ['blind', 'blajnd'],
+    ['bomb', 'bɔmb'],
+    ['bombs', 'bɔmbz'],
     ['bone', 'bon'],
     ['bones', 'bonz'],
     ['boy', 'bɔj'],
@@ -34,6 +38,7 @@ export default {
     ['charity', 'tʃariti'],
     ['chores', 'tʃɔrz'],
     ['cistern', 'sistʌrn'],
+    ['cloakroom', 'klokrum'],
     ['cruel', 'krul'],
     ['crumb', 'krʌmb'],
     ['cue', 'kju'],
@@ -46,7 +51,7 @@ export default {
     ['dim', 'dim'],
     ['dime', 'dajm'],
     ['do', 'du'],
-    ['door', 'dor'],
+    ['door', 'dɔr'],
     ['duchess', 'dʌtʃɛs'],
     ['duck', 'dʌk'],
 
@@ -57,6 +62,7 @@ export default {
     ['energy', 'ɛnʌrdʒi'],
 
     ['few', 'fju'],
+    ['find', 'fajnd'],
     ['five', 'fajv'],
     ['fir', 'fʌr'],
     ['fire', 'fajʌr'],
@@ -69,6 +75,7 @@ export default {
     ['gloomy', 'glumi'],
     ['grace', 'grɛjs'],
     ['greek', 'grik'],
+    ['grinding', 'grajnding'],
 
     ['Harry', 'hari'],
     ['hello', 'hɛlo'],
@@ -84,6 +91,7 @@ export default {
     ['Jordan', 'dʒɔrdan'],
     ['junk', 'dʒʌnk'],
 
+    ['kind', 'kajnd'],
     ['knew', 'nu'],
 
     ['leaders', 'lidʌrz'],
@@ -96,6 +104,8 @@ export default {
 
     ['make', 'mɛjk'],
     ['mat', 'mat'],
+    ['mind', 'majnd'],
+    ['minds', 'majndz'],
     ['mine', 'majn'],
     ['moat', 'mot'],
     ['Moose', 'muz'],
@@ -103,8 +113,8 @@ export default {
     ['nay', 'nɛ'],
     ['new', 'nju'],
     ['night', 'najt'],
-    ['notorious', 'notɔrjus'],
-    ['notoriously', 'notɔrjusli'],
+    ['notorious', 'notɔrjʌs'],
+    ['notoriously', 'notɔrjʌsli'],
 
     ['off', 'ɔf'],
     ['offspring', 'ɔfspring'],
@@ -112,6 +122,7 @@ export default {
     ['pet', 'pɛt'],
     ['Pete', 'pit'],
     ['Peter', 'pitʌr'],
+    ['phew', 'fju'],
     ['philosophy', 'filozɔfi'],
     ['pin', 'pin'],
     ['pine', 'pajn'],
@@ -130,12 +141,14 @@ export default {
     ['receipt', 'risit'],
     ['receipts', 'risits'],
     ['receive', 'risiv'],
+    ['rescind', 'risind'],
     ['retail', 'ritɛjl'],
     ['riot', 'rajɔt'],
     ['raw', 'ro'],
 
     ['sea', 'si'],
     ['see', 'si'],
+    ['Shampoo', 'ʃampu'],
     ['shemale', 'ʃimɛjl'],
     ['size', 'sajz'],
     ['sire', 'sajʌr'],
@@ -149,6 +162,7 @@ export default {
     ['tail', 'tɛjl'],
     ['tee', 'ti'],
     ['to', 'tu'],
+    ['tomb', 'tumb'],
     ['twice', 'twajs'],
     ['two', 'tu'],
 
@@ -167,6 +181,7 @@ export default {
     ['whom', 'hum'],
     ['whose', 'huz'],
     ['William', 'wiljam'],
+    ['wombs', 'wumbz'],
     ['wood', 'wud'],
     ['Worcester', 'wɔrstʌr'],
     ['wrist', 'rist']

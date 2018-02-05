@@ -72,17 +72,12 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * bye, rye, dye, aye, eye
 * ryan
 * cue, hue
-* mishap
+* mishap, misha, mishappen, unblemishable
 * head, bead etc.
 * Shoe, canoe, tiptoe, toes
 * mouse, house
 * places, sites (plural)
-* tomb, womb
-* door
 * women
-* phew
-* cloak
-* mind, blind
 * violence
 * regle obsolète du "er"
 * Raleigh
@@ -133,3 +128,4 @@ laugh
 * ð -> θ -> s
 * rn -> n
 * rd -> d
+* nd -> d
