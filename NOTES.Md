@@ -78,6 +78,7 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * ally, allies
 * friend, science, fiend
 * rhyme
+* push, lush
 
 * Genitives
 

@@ -112,6 +112,7 @@ export const POETIC_RULES = compileRules({
 
     // Final "e" is seldom pronounced
     [/e$/, ''],
+    [/es$/, 'iz', /[cs]$/],
     [/es$/, 'z'],
 
     // Sometimes, in the middle of a word, the "e" can be silent
@@ -219,6 +220,9 @@ export const POETIC_RULES = compileRules({
 
     // "i" before some vowels is pronounced *j*
     [/i(?=a|ou)/, 'j'],
+
+    // "ie" is pronounced *i*
+    ['ie', 'i'],
 
     // Else, "i" is pronounced *aj*
     [null, 'i']

@@ -147,6 +147,8 @@ export default {
     ['Peter', 'pitʌr'],
     ['phew', 'fju'],
     ['philosophy', 'filozɔfi'],
+    ['piece', 'pis'],
+    ['pieces', 'pisiz'],
     ['pin', 'pin'],
     ['pine', 'pajn'],
     ['pity', 'piti'],
