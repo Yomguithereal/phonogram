@@ -299,7 +299,8 @@ export const POETIC_RULES = compileRules({
     [/ous(?=[ei])/, 'aʊs', /[hm]/],
 
     // "ous" is pronounced *ʌs*
-    ['ous', 'ʌs'],
+    [/ous/, 'ʌs'],
+    [/ou(?=ce)/, 'ɔ'],
 
     // "ou" before "n" is pronounced *ʌ*
     [/ou(?=n)/, 'ʌ'],
@@ -320,7 +321,7 @@ export const POETIC_RULES = compileRules({
     ['oy', 'ɔj'],
 
     // Before a wall, "o" is pronounced *ɔ*
-    [/o(?=gr|st)/, 'o'],
+    [/o(?=gr)/, 'o'],
     [`o(?=${SOFT_WALL}|[mr])`, 'ɔ', /e$/, NEGATIVE],
 
     // Else, "o" is pronounced *o*

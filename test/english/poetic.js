@@ -97,6 +97,8 @@ export default {
     ['germs', 'dʒʌrmz'],
     ['gladly', 'gladli'],
     ['gloomy', 'glumi'],
+    ['Gloster', 'glɔstʌr'],
+    ['Gloucester', 'glɔstʌr'],
     ['grace', 'grɛjs'],
     ['greek', 'grik'],
     ['grinding', 'grajnding'],

@@ -63,7 +63,6 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * Doth
 * Dost
 * Ex aequo
-* Gloucester
 * mishap, misha, mishappen, unblemishable
 * head, bead etc.
 * Shoe, canoe, tiptoe, toes
