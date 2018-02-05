@@ -130,7 +130,7 @@ laugh
 * Nietzsche
 * Schwimm
 
-## Syll abification
+## Syllabification
 
 * Every consonant should be squeezed but syllabification should handle the case on its own to get back to the original word.
 * Handle le ao

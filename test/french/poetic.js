@@ -158,6 +158,7 @@ export default {
     ['chut', 'ʃyt'],
     ['cinq', 'sẽk'],
     ['citroën', 'sitroɛn'],
+    ['claqué', 'klake'],
     ['claymore', 'klɛmɔr'],
     ['clef', 'kle'],
     ['clefs', 'kle'],
