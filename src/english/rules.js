@@ -112,6 +112,7 @@ export const POETIC_RULES = compileRules({
 
     // Final "e" is seldom pronounced
     [/e$/, ''],
+    [/es$/, 's', /t$/],
     [/es$/, 'iz', /[cs]$/],
     [/es$/, 'z'],
 
@@ -127,6 +128,9 @@ export const POETIC_RULES = compileRules({
 
     // Final "ey" is pronounced *ɛ* after some consonants
     [/ey$/, 'ɛ', /(?:th|[bv])/],
+
+    // "ea" is sometimes pronounced *ɛ*
+    ['ea', 'ɛ', /(?:spr|[bdt]r|h)/],
 
     // "ea|ey" is pronounced *i*
     [/e[ay]/, 'i'],
@@ -165,6 +169,9 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   f: [
 
+    // Final "ful" is pronounced *ful*
+    [/ful$/, 'ful'],
+
     // "ff" is squeezed
     ['ff', 'f'],
 
@@ -174,6 +181,9 @@ export const POETIC_RULES = compileRules({
   //-- (g)
   //----------------------------------------------------------------------------
   g: [
+
+    // "gh" is pronounced *g*
+    ['gh', 'g'],
 
     // "gg" is pronounced *g*
     ['gg', 'g'],
@@ -307,7 +317,7 @@ export const POETIC_RULES = compileRules({
     ['oy', 'ɔj'],
 
     // Before a wall, "o" is pronounced *ɔ*
-    [/o(?=gr)/, 'o'],
+    [/o(?=gr|st)/, 'o'],
     [`o(?=${SOFT_WALL}|[mr])`, 'ɔ', /e$/, NEGATIVE],
 
     // Else, "o" is pronounced *o*

@@ -68,7 +68,6 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * mishap, misha, mishappen, unblemishable
 * head, bead etc.
 * Shoe, canoe, tiptoe, toes
-* places, sites (plural)
 * women
 * Raleigh, sleigh
 * island, islam, isle, aisle, misled, kislev
@@ -79,6 +78,7 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * friend, science, fiend
 * rhyme
 * push, lush
+* meadow, steady
 
 * Genitives
 
@@ -104,6 +104,10 @@ bought, brought, fought, nought, ought, sought, wrought, thought
 
 daughter, naughty, slaughter, laughter
 laugh
+
+**Multi**
+
+read/read, lead/lead
 
 ## German
 
