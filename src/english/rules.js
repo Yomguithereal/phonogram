@@ -99,14 +99,11 @@ export const POETIC_RULES = compileRules({
   e: [
 
     // Final "er" is pronounced *ʌr*
-    [/er$/, 'ʌr'],
-    [/ers$/, 'ʌrz'],
+    [/er(?=s?$)/, 'ʌr'],
 
     // Final "ern" is prounounced *ʌrn*
-    [/ern$/, 'ʌrn'],
-    [/erns$/, 'ʌrnz'],
-    [/en$/, 'ʌn'],
-    [/ens$/, 'ʌnz'],
+    [/ern(?=s?$)/, 'ʌrn'],
+    [/en(?=s?$)/, 'ʌn'],
 
     // Final "e" is seldom pronounced
     [/e$/, ''],

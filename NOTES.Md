@@ -67,7 +67,6 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * Ex aequo
 * Mickey
 * Thom
-* Celt
 * Gloucester
 * bye, rye, dye, aye, eye
 * ryan

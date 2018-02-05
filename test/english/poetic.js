@@ -35,6 +35,7 @@ export default {
     ['cap', 'kap'],
     ['cape', 'kɛjp'],
     ['castle', 'kasʌl'],
+    ['celt', 'sɛlt'],
     ['charity', 'tʃariti'],
     ['chores', 'tʃɔrz'],
     ['cistern', 'sistʌrn'],
