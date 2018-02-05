@@ -587,7 +587,7 @@ export const POETIC_RULES = compileRules({
     [`o?oin[gt]?(?![${VOWELS}])`, 'wẽ'],
 
     // "oi" is pronounced *wa*
-    [/(?:oids?|o[iî]x?|oy$)/, 'wa'],
+    [/(?:oids?|oist$|o[iî]x?|oy$)/, 'wa'],
 
     // Final "ond" is pronounced *õ*
     [/onds?$/, 'õ'],

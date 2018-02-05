@@ -43,7 +43,6 @@ Note => kinda french-based
 * adéquat, squat, reliquat
 * Arès, très, après, ès
 * Sept, Vingt
-* Benoist
 
 http://parler-francais.eklablog.com/vous-dites-a3737989
 
