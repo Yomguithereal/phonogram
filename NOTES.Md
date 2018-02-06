@@ -47,6 +47,8 @@ Note => kinda french-based
 * Compresser inutilement de *inytilømã* à *inytilmã*
 * Complexifier
 * fascisme
+* shunter
+* tribun, tribune
 
 http://parler-francais.eklablog.com/vous-dites-a3737989
 
@@ -74,7 +76,7 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * ally, allies
 * friend, science, fiend
 * meadow, steady, ready
-* readopt readmit
+* readopt readmit 
 * Warwickshire => exception to rule
 * liver, live, life, alive, giver, driver, silver, river, deliver, diver
 * how, row
@@ -85,6 +87,14 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * listen, glisten, fasten, moisten
 * often
 * proud
+* route
+* pete
+* pussy
+* erasure, sure, sugar
+* ere, heir, are
+* Ogre
+* Middle
+* Shunt
 
 * Genitives
 

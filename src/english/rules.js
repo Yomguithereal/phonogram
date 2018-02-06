@@ -403,6 +403,9 @@ export const POETIC_RULES = compileRules({
     // Double "s" is squeezed
     ['ss', 's'],
 
+    // After some consonants, "s" is pronounced *z*
+    ['s', 'z', /g$/],
+
     // "stle" is pronounced "sʌl"
     [/stle(?=s?$)/, 'sʌl'],
     [/stl/, 'sl'],

@@ -149,6 +149,7 @@ export default {
     ['Jordan', 'dʒɔrdan'],
     ['junk', 'dʒʌnk'],
 
+    ['kingsman', 'kingzman'],
     ['killed', 'kild'],
     ['kind', 'kajnd'],
     ['knew', 'nu'],
