@@ -47,8 +47,6 @@ Note => kinda french-based
 * Compresser inutilement de *inytilømã* à *inytilmã*
 * Complexifier
 * fascisme
-* shunter
-* tribun, tribune
 
 http://parler-francais.eklablog.com/vous-dites-a3737989
 
