@@ -71,9 +71,8 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * women
 * Raleigh, sleigh
 * island, islam, isle, aisle, misled, kislev
-* lounge
 * ally, allies
-* friend, science, fiend
+* friend, science, fiend, hacienda
 * meadow, steady, ready
 * readopt readmit 
 * liver, live, life, alive, giver, driver, silver, river, deliver, diver
@@ -82,23 +81,17 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * fascism
 * have, behave, beehive
 * listen, glisten, fasten, moisten
-* often
 * cartouche, bouche, douche | aouch, couch, vouch, crouch, pouch, slouch | touch
-* pussy, wussy, fuss, fussy, russel, russia
-* computer
-* erasure, sure, sugar, supper, sued, suggest, russian, use
+* erasure, sure, sugar, supper, sued, use
 * ruse, rude
 * ere, heir, are
-* Middle
-* Shunt
 * Zoey, Goey, Body, suey
-* evil
 * charisma
-* nibble
 * gauge
 * devil
 * tyger tiger
 * bowel, camel, nobel
+* leicester, reism, deism, feist
 
 fingerprint words
 
@@ -150,6 +143,7 @@ read/read, lead/lead, live/live, tear/tear
 * rm -> m
 * rd -> d
 * nd -> d
+* ft -> f
 * stl -> sl
 * squeeze à la fin?
 * Garder la leading vowel?
