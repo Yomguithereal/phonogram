@@ -432,6 +432,12 @@ export const POETIC_RULES = compileRules({
     // Final "sm" is pronounced *zʌm* after some vowels
     [/sm$/, 'zʌm', /[ai]/],
 
+    // "sword" is pronounced *sɔrd*
+    ['sword', 'sɔrd'],
+
+    // "st(en)" is sometimes pronounced *s*
+    [/st(?=en)/, 's', /(?:g?li|moi|fa)/],
+
     // "sc" before an "i" is pronounced *s*
     [/sc(?=i)/, 's'],
 

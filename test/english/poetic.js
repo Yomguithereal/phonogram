@@ -103,6 +103,7 @@ export default {
     ['eyeglass', 'ajglas'],
     ['eyes', 'ajz'],
 
+    ['fasten', 'fasʌn'],
     ['few', 'fju'],
     ['filth', 'filθ'],
     ['find', 'fajnd'],
@@ -131,6 +132,7 @@ export default {
     ['germs', 'dʒʌrmz'],
     ['girth', 'gʌrθ'],
     ['gladly', 'gladli'],
+    ['glisten', 'glisʌn'],
     ['gloomy', 'glumi'],
     ['Gloster', 'glɔstʌr'],
     ['Gloucester', 'glɔstʌr'],
@@ -189,6 +191,7 @@ export default {
     ['lives', 'livz'],
     ['lion', 'lajɔn'],
     ['lions', 'lajɔnz'],
+    ['listen', 'lisʌn'],
     ['live', 'liv'],
     ['loins', 'lɔjnz'],
     ['loo', 'lu'],
@@ -310,6 +313,9 @@ export default {
     ['styme', 'stajm'],
     ['suggest', 'sʌdʒɛst'],
     ['survey', 'sʌrvɛ'],
+    ['swam', 'swam'],
+    ['sword', 'sɔrd'],
+    ['swordfish', 'sɔrdfiʃ'],
     ['symbol', 'simbɔl'],
     ['symbols', 'simbɔlz'],
 

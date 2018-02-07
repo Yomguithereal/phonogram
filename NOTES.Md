@@ -80,18 +80,19 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * heroin, heroine
 * fascism
 * have, behave, beehive
-* listen, glisten, fasten, moisten
+* hoist, moist, foist, pianoist
 * cartouche, bouche, douche | aouch, couch, vouch, crouch, pouch, slouch | touch
 * erasure, sure, sugar, supper, sued, use
 * ruse, rude
 * ere, heir, are
 * Zoey, Goey, Body, suey
-* charisma
 * gauge
 * devil
 * tyger tiger
-* bowel, camel, nobel
+* bowel, vowel, camel, nobel
 * leicester, reism, deism, feist
+* chafing
+* char(?=ac|is) k charm, charlie, charitable, charisma, character, chariot
 
 fingerprint words
 
@@ -145,5 +146,6 @@ read/read, lead/lead, live/live, tear/tear
 * nd -> d
 * ft -> f
 * stl -> sl
+* final rd -> d
 * squeeze à la fin?
 * Garder la leading vowel?
