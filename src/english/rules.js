@@ -88,6 +88,9 @@ export const POETIC_RULES = compileRules({
     // Initial "cu" is pronounced *kju*
     [/cu(?:e$)?/, 'kju', INITIAL],
 
+    // "ch" before a consonant is pronounced *k*
+    [`ch(?=[^${VOWELS}])`, 'k'],
+
     // "ch" is pronounced *tʃ*
     ['ch', 'tʃ'],
 
@@ -244,8 +247,8 @@ export const POETIC_RULES = compileRules({
     // "i" before some vowels is pronounced *j*
     [/i(?=a|ou)/, 'j'],
 
-    // "i" before "rd" is pronounced *ʌ*
-    [/i(?=rd)/, 'ʌ'],
+    // "i" before some consonants is pronounced *ʌ*
+    [/i(?=rst|rth|rd|r$)/, 'ʌ'],
 
     // "ie" is pronounced *i*
     ['ie', 'i'],
@@ -425,6 +428,9 @@ export const POETIC_RULES = compileRules({
   //-- (t)
   //----------------------------------------------------------------------------
   t: [
+
+    // Final "th" is pronounced *θ*
+    [/th$/, 'θ'],
 
     // Initial "th" for various words
     [/th(?=(?:emselves|emself|yself|eirs?|ese|ine|ose|at|ee|em|ey|is|y)$)/, 'ð', INITIAL],

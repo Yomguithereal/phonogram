@@ -47,6 +47,7 @@ Note => kinda french-based
 * Compresser inutilement de *inytilømã* à *inytilmã*
 * Complexifier
 * fascisme
+* donc, oncques
 
 http://parler-francais.eklablog.com/vous-dites-a3737989
 
@@ -93,6 +94,14 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * Ogre
 * Middle
 * Shunt
+* Zoey, Goey, Body
+* evil
+* charisma
+* bored
+* nibble
+* bosom
+
+fingerprint words
 
 * Genitives
 
@@ -116,6 +125,11 @@ laugh
 **Multi**
 
 read/read, lead/lead, live/live, tear/tear
+
+## Spanish
+
+* Güell
+* Handle better vocalization
 
 ## German
 
