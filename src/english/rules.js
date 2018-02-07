@@ -103,6 +103,16 @@ export const POETIC_RULES = compileRules({
     [null, 'k']
   ],
 
+  //-- (d)
+  //----------------------------------------------------------------------------
+  d: [
+
+    // "dd" is squeezed
+    ['dd', 'd'],
+
+    [null, 'd']
+  ],
+
   //-- (e)
   //----------------------------------------------------------------------------
   e: [
@@ -115,7 +125,7 @@ export const POETIC_RULES = compileRules({
 
     // Final "ern" is prounounced *ʌrn*
     [/ern(?=s?$)/, 'ʌrn'],
-    [/en(?=s?$)/, 'ʌn', 'v'],
+    [/en(?=s?$)/, 'ʌn', /[dtv]$/],
 
     // Final "e" is seldom pronounced
     [/e$/, ''],
@@ -171,7 +181,6 @@ export const POETIC_RULES = compileRules({
     [/e(?=r(?!o))/, 'ʌ'],
 
     // Before "n" and some other consonants, "e" is pronounced *ɛ*
-    // TODO: valid?
     [/en(?=[dt])/, 'ɛn'],
 
     // Else, "e" is pronounced *i*
@@ -197,6 +206,9 @@ export const POETIC_RULES = compileRules({
 
     // "gh" is pronounced *g*
     ['gh', 'g'],
+
+    // "gg" before "e" is pronounced *dʒ*
+    [/gg(?=e)/, 'dʒ'],
 
     // "gg" is pronounced *g*
     ['gg', 'g'],
@@ -476,6 +488,9 @@ export const POETIC_RULES = compileRules({
   //-- (w)
   //----------------------------------------------------------------------------
   w: [
+
+    // "warwick" is pronounced *worik*
+    ['warwick', 'worik'],
 
     // "wh" is pronounced *w*
     ['wh', 'w'],

@@ -18,7 +18,6 @@ const EXCEPTIONS = {
   the: '(th•ð)(e•i)',
   thou: '(th•ð)(ou•aʊ)',
   to: 't(o•u)',
-  warwick: 'w(a•o)r(w•)i(ck•k)',
   who: '(w•)h(o•u)',
   whom: '(w•)h(o•u)m',
   whose: '(w•)h(o•u)(s•z)(e•)'

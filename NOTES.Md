@@ -76,30 +76,30 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * friend, science, fiend
 * meadow, steady, ready
 * readopt readmit 
-* Warwickshire => exception to rule
 * liver, live, life, alive, giver, driver, silver, river, deliver, diver
 * how, row
 * heroin, heroine
-* hidden, gwen, eden, zen
 * fascism
 * have, behave, beehive
 * listen, glisten, fasten, moisten
 * often
 * proud
-* route
+* route, douche
 * pete
 * pussy
-* erasure, sure, sugar
+* erasure, sure, sugar, supper, sued, suggest, russian, use
+* ruse, rude
 * ere, heir, are
 * Ogre
 * Middle
 * Shunt
-* Zoey, Goey, Body
+* Zoey, Goey, Body, suey
 * evil
 * charisma
 * bored
 * nibble
 * bosom
+* greenwich
 
 fingerprint words
 

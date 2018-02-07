@@ -80,6 +80,7 @@ export default {
 
     ['eccentric', 'ɛksɛntrik'],
     ['ectoplasm', 'ɛktɔplazʌm'],
+    ['Eden', 'idʌn'],
     ['ektor', 'ɛktɔr'],
     ['egg', 'ɛg'],
     ['egghead', 'ɛghɛd'],
@@ -127,6 +128,7 @@ export default {
     ['greek', 'grik'],
     ['grinding', 'grajnding'],
     ['groin', 'grɔjn'],
+    ['Gwen', 'gwɛn'],
     ['gymnast', 'dʒimnast'],
 
     ['Harry', 'hari'],
@@ -136,6 +138,7 @@ export default {
     ['hey', 'hɛ'],
     ['hero', 'hiro'],
     ['hi', 'haj'],
+    ['hidden', 'hidʌn'],
     ['high', 'haj'],
     ['house', 'haʊs'],
     ['housing', 'haʊsing'],
@@ -147,6 +150,7 @@ export default {
 
     ['Jameson', 'dʒɛjmsɔn'],
     ['Jerry', 'dʒɛri'],
+    ['Jesus', 'dʒisʌs'],
     ['jews', 'dʒuz'],
     ['jib', 'dʒib'],
     ['jibe', 'dʒajb'],
@@ -268,6 +272,7 @@ export default {
     ['Steven', 'stivʌn'],
     ['still', 'stil'],
     ['styme', 'stajm'],
+    ['suggest', 'sʌdʒɛst'],
     ['survey', 'sʌrvɛ'],
     ['symbol', 'simbɔl'],
     ['symbols', 'simbɔlz'],
@@ -317,6 +322,7 @@ export default {
     ['wall', 'wol'],
     ['wanted', 'wantid'],
     ['Warwick', 'worik'],
+    ['Warwickshire', 'worikʃʌr'],
     ['wear', 'wɛr'],
     ['what', 'wat'],
     ['who', 'hu'],
@@ -334,6 +340,7 @@ export default {
     ['wrist', 'rist'],
     ['wrought', 'rɔt'],
 
+    ['zen', 'zɛn'],
     ['zero', 'ziro'],
   ]
 };
