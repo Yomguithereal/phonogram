@@ -7,9 +7,11 @@
 import {compileExceptions} from '../helpers';
 
 const EXCEPTIONS = {
+  a: '(a•ɛ)',
   and: '(a•ɛ)nd',
   aye: 'a(ye•j)',
   do: 'd(o•u)',
+  greenwich: 'gr(ee•i)n(w•)i(ch•tʃ)',
   i: '(i•aj)',
   lease: 'l(ea•i)s(e•)',
   leases: 'l(ea•i)s(e•i)(s•z)',

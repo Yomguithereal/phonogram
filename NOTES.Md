@@ -83,23 +83,22 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * have, behave, beehive
 * listen, glisten, fasten, moisten
 * often
-* proud
-* route, douche
-* pete
-* pussy
+* cartouche, bouche, douche | aouch, couch, vouch, crouch, pouch, slouch | touch
+* pussy, wussy, fuss, fussy, russel, russia
+* computer
 * erasure, sure, sugar, supper, sued, suggest, russian, use
 * ruse, rude
 * ere, heir, are
-* Ogre
 * Middle
 * Shunt
 * Zoey, Goey, Body, suey
 * evil
 * charisma
-* bored
 * nibble
-* bosom
-* greenwich
+* gauge
+* devil
+* tyger tiger
+* bowel, camel, nobel
 
 fingerprint words
 
