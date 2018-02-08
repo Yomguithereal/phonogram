@@ -54,6 +54,8 @@ Note => kinda french-based
 * donc, oncques
 * laetitia
 * test
+* michael
+* louis, deux voyelles
 
 http://parler-francais.eklablog.com/vous-dites-a3737989
 
@@ -151,6 +153,10 @@ Probably it's rarer to pronounce s *s* at the end (behind t and such) -> should 
 * love
 * son, sun
 * chorus
+* word, worm, wird, weird
+* attorney
+* Tezcatlipoca
+* home
 
 fingerprint words
 
