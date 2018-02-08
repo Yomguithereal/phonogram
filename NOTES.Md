@@ -53,6 +53,7 @@ Note => kinda french-based
 * fascisme
 * donc, oncques
 * laetitia
+* test
 
 http://parler-francais.eklablog.com/vous-dites-a3737989
 
