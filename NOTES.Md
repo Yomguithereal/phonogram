@@ -48,6 +48,7 @@ Note => kinda french-based
 * Complexifier
 * fascisme
 * donc, oncques
+* maître
 
 http://parler-francais.eklablog.com/vous-dites-a3737989
 
@@ -76,7 +77,7 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * meadow, steady, ready
 * readopt readmit 
 * liver, live, life, alive, giver, driver, silver, river, deliver, diver
-* how, row
+* how, row, now
 * heroin, heroine
 * fascism
 * have, behave, beehive
@@ -93,6 +94,36 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * leicester, reism, deism, feist
 * chafing
 * char(?=ac|is) k charm, charlie, charitable, charisma, character, chariot
+* school
+* our
+* answer + remak sword rule (o broken + silent)
+* veil
+* creator
+* rightly
+* whoever
+* town, townsfolk
+* yield
+* grew
+* dead, death, bear, thread
+* notice
+* satiate
+* accompany
+* buy
+* exam
+* ambiguity
+* behold
+* xanax
+* down, own
+* sanctuary
+* thanos
+* saw
+* shoudn'nt isn't
+* corps
+* struggle
+* mouth
+* mushy
+* mercenary
+* opener
 
 fingerprint words
 
