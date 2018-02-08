@@ -118,7 +118,7 @@ export const POETIC_RULES = compileRules({
     [/aye$/, 'ɛj'],
 
     // "ai" or "ay" are generally pronounced *ɛ*, also covers final "aie"
-    [`a[iy](?=[^${VOWELS}]|es?$)`, 'ɛ'],
+    [`a[iîy](?=[^${VOWELS}]|es?$)`, 'ɛ'],
 
     // "ay" before some posterior vowels is pronounced *ɛj*
     [/ay(?=[ao]n|e)/, 'ɛj'],
@@ -687,6 +687,9 @@ export const POETIC_RULES = compileRules({
   //-- (p)
   //----------------------------------------------------------------------------
   p: [
+
+    // Final "pect" is pronounced *pɛ*
+    [/pects?$/, 'pɛ'],
 
     // "pay" before "sa" is pronounced *pɛi*
     [/(?:^pays$|pay(?=sa))/, 'pɛi'],

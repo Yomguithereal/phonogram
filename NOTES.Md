@@ -45,10 +45,10 @@ Note => kinda french-based
 * Arès, très, après, ès
 * Sept, Vingt
 * Compresser inutilement de *inytilømã* à *inytilmã*
-* Complexifier
+* Complexifier -> règle du x. probablement rare d'avoir *gz*
 * fascisme
 * donc, oncques
-* maître
+* laetitia
 
 http://parler-francais.eklablog.com/vous-dites-a3737989
 
@@ -64,8 +64,9 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 
 ## English
 
+Probably it's rarer to pronounce s *s* at the end (behind t and such) -> should adapt the rule to ease computation
+
 * Centre / Center
-* Doth
 * Ex aequo
 * mishap, misha, mishappen, unblemishable
 * Shoe, canoe, tiptoe, toes, foe, joe, poe, zoe (rule is *u*)
@@ -90,40 +91,58 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * gauge
 * devil
 * tyger tiger
-* bowel, vowel, camel, nobel
+* bowel, vowel, camel
+* nobel, noble
 * leicester, reism, deism, feist
 * chafing
 * char(?=ac|is) k charm, charlie, charitable, charisma, character, chariot
 * school
 * our
-* answer + remak sword rule (o broken + silent)
+* answer + remake sword rule (o broken + silent)
 * veil
 * creator
-* rightly
-* whoever
+* whoever (drop exception on who)
 * town, townsfolk
 * yield
-* grew
-* dead, death, bear, thread
 * notice
 * satiate
-* accompany
-* buy
+* business
 * exam
-* ambiguity
-* behold
 * xanax
 * down, own
 * sanctuary
 * thanos
 * saw
 * shoudn'nt isn't
-* corps
-* struggle
 * mouth
-* mushy
 * mercenary
 * opener
+* Matthews? -> presque une exception
+* impromptu (final u)
+* Shoved
+* Course
+* Rehab
+* Xavier
+* Wade wilson
+* Future, fumes, fugitive, fujin, fuzzy, fuck, full, fun
+* creature
+* virtues
+* nature, natural
+* Joan
+* Psychological (cho -> mostly ko?)
+* Voices
+* Luke, lurk
+* Fruit, suit | jesuit, suite, ambiguity | quitting | circuit
+* able
+* pubes, puberty
+* anger, hunger, manger
+* Louis, Lewis
+* thane
+* liege
+* kincaid
+* axe, axel
+* acceleration
+* tokyo
 
 fingerprint words
 
@@ -143,8 +162,8 @@ through
 cough, tough, enough, hiccough
 dough, although, bough, borough, thorough
 
-daughter, naughty, slaughter, laughter
-laugh
+daughter, naughty, slaughter,
+laughter, laugh
 
 **Multi**
 
@@ -176,7 +195,9 @@ read/read, lead/lead, live/live, tear/tear
 * rd -> d
 * nd -> d
 * ft -> f
+* mb -> m
 * stl -> sl
 * final rd -> d
+* final rld -> ld
 * squeeze à la fin?
 * Garder la leading vowel?
