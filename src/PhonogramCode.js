@@ -21,7 +21,7 @@ export default class PhonogramCode {
 
     // Properties
     this.word = word;
-    this.normalizedWord = word.toLowerCase();
+    this.normalizedWord = word.toLowerCase().trim();
     this.mapping = [];
 
     for (let i = 0, l = this.normalizedWord.length; i < l; i++) {

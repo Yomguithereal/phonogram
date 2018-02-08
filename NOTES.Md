@@ -144,6 +144,7 @@ Probably it's rarer to pronounce s *s* at the end (behind t and such) -> should 
 * special
 * catastrophe, recipe, refugee
 * test
+* whatever
 
 fingerprint words
 
