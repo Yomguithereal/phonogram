@@ -22,6 +22,10 @@ Compiling some cases to handle for target languages. Rule-based.
 
 Appel à contributions
 
+## Contributors
+
+* Reward system :)
+
 Note => kinda french-based
 
 ## French
@@ -78,7 +82,7 @@ Probably it's rarer to pronounce s *s* at the end (behind t and such) -> should 
 * meadow, steady, ready
 * readopt readmit 
 * liver, live, life, alive, giver, driver, silver, river, deliver, diver
-* how, row, now
+* how, row, now | pow wow
 * heroin, heroine
 * fascism
 * have, behave, beehive
@@ -92,37 +96,31 @@ Probably it's rarer to pronounce s *s* at the end (behind t and such) -> should 
 * devil
 * tyger tiger
 * bowel, vowel, camel
+* power, flower
 * nobel, noble
 * leicester, reism, deism, feist
-* chafing
-* char(?=ac|is) k charm, charlie, charitable, charisma, character, chariot
-* school
-* our
+* chafing, chariot
+* schedule, school, schizo, kirsch, scholar, porsche, schneider, schtuck
+* our, hour, sour, scour, flour, dour | humour, glamour, labour, vigour
 * answer + remake sword rule (o broken + silent)
 * veil
 * creator
 * whoever (drop exception on who)
 * town, townsfolk
-* yield
 * notice
 * satiate
 * business
 * exam
-* xanax
 * down, own
 * sanctuary
 * thanos
-* saw
 * shoudn'nt isn't
 * mouth
 * mercenary
 * opener
 * Matthews? -> presque une exception
 * impromptu (final u)
-* Shoved
-* Course
-* Rehab
-* Xavier
+* Xavier, heavier
 * Wade wilson
 * Future, fumes, fugitive, fujin, fuzzy, fuck, full, fun
 * creature
@@ -138,11 +136,13 @@ Probably it's rarer to pronounce s *s* at the end (behind t and such) -> should 
 * anger, hunger, manger
 * Louis, Lewis
 * thane
-* liege
-* kincaid
+* liege -> exception
 * axe, axel
 * acceleration
 * tokyo
+* health
+* special
+* catastrophe, recipe, refugee
 
 fingerprint words
 
@@ -161,9 +161,6 @@ height, sleight
 through
 cough, tough, enough, hiccough
 dough, although, bough, borough, thorough
-
-daughter, naughty, slaughter,
-laughter, laugh
 
 **Multi**
 
@@ -199,5 +196,6 @@ read/read, lead/lead, live/live, tear/tear
 * stl -> sl
 * final rd -> d
 * final rld -> ld
+* ɛj -> ɛ
 * squeeze à la fin?
 * Garder la leading vowel?

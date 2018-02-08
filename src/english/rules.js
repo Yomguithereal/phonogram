@@ -40,6 +40,11 @@ export const POETIC_RULES = compileRules({
     // Final "augh(a)n" is pronounced *ɔn*
     [/augha?n$/, 'ɔn'],
 
+    // "aught" is pronounced *ot* or *aft?*
+    [/augh(?=[ei]|$)/, 'af', /^l$/],
+    [/aught/, 'aft', /^l$/],
+    [/aught/, 'ot'],
+
     // Before "w(e)", "a" is pronounced *o*
     [/awe?/, 'o'],
 
@@ -152,7 +157,7 @@ export const POETIC_RULES = compileRules({
     [/el(?=s?$)/, 'ʌl'],
 
     // Sometimes, final "ed" does not pronounced "e"
-    [/ed$/, 'd', /(ll|[kgnr])$/],
+    [/ed$/, 'd', /(ll|[kgnrv])$/],
 
     // Sometimes, in the middle of a word, the "e" can be silent
     [/e(?=s.)/, '', /[mt]/],
@@ -190,7 +195,7 @@ export const POETIC_RULES = compileRules({
     [`e(?=([^${VOWELS}])\\1)`, 'ɛ'],
 
     // Sometimes "e" is pronounced *ɛ*
-    [`e(?=qu(?!a)|st|[kln]|c[^${VOWELS}]|m(?![${VOWELS}])|ts?$)`, 'ɛ'],
+    [`e(?=qu(?!a)|rc|st|[kln]|c[^${VOWELS}]|m(?![${VOWELS}])|ts?$)`, 'ɛ'],
 
     // Before "r", "e" is pronounced *ʌ*
     [/e(?=r(?!o))/, 'ʌ'],
@@ -376,6 +381,9 @@ export const POETIC_RULES = compileRules({
     // "ound" is pronounced *aʊnd*
     ['ound', 'aʊnd'],
 
+    // "ou(rse)" is pronounced *ɔ*
+    [/ou(?=rse)/, 'ɔ'],
+
     // "ou" before "n" is pronounced *ʌ*
     [/ou(?=n)/, 'ʌ'],
 
@@ -383,6 +391,7 @@ export const POETIC_RULES = compileRules({
     ['ow', 'o'],
 
     // "oa" is pronounced *o*
+    [/oa(?=r)/, 'ɔ'],
     ['oa', 'o'],
 
     // "oo" is pronounced *o* if in "door" words
@@ -554,6 +563,16 @@ export const POETIC_RULES = compileRules({
     [null, 'w']
   ],
 
+  //-- (x)
+  //----------------------------------------------------------------------------
+  x: [
+
+    // Initial "x" before an "a" is pronounced *z*
+    [/x(?=a)/, 'z', INITIAL],
+
+    [null, 'ks']
+  ],
+
   //-- (y)
   //----------------------------------------------------------------------------
   y: [
@@ -565,6 +584,7 @@ export const POETIC_RULES = compileRules({
     [/y$/, 'aj', /^.{1,2}$/],
 
     // Before another vowel, "y" is pronounced *j*
+    [/yie/, 'ji'],
     [/y(?=m[aei]|[ais])/, 'aj'],
     [`y(?=[${VOWELS}])`, 'j'],
 
