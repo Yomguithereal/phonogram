@@ -1,6 +1,5 @@
 # Common
 node_modules
-build
 *.log
 .DS_Store
 TODO.md

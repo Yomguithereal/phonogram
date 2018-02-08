@@ -7,7 +7,7 @@
     "phonogram": "./cli.js"
   },
   "scripts": {
-    "build": "kotatsu build client --minify --no-sourcemaps --progress --es2015 --jsx ui.js -o site-build/bundle.js",
+    "build": "kotatsu build client --minify --no-sourcemaps --progress --es2015 --jsx ui.js -o build/site-bundle.js",
     "check": "npm test && npm run lint",
     "clean": "rimraf $npm_package_phonogram_folders",
     "cli": "babel-node ./src/cli.js",
@@ -19,7 +19,7 @@
     "prepublish": "npm run dist",
     "postpublish": "npm run clean",
     "test": "mocha --require babel-core/register -R spec ./test/endpoint.js",
-    "ui": "kotatsu serve --progress --es2015 --jsx --index index.html ui.js -o site-build/bundle.js"
+    "ui": "kotatsu serve --progress --es2015 --jsx --index index.html ui.js -o build/site-bundle.js"
   },
   "repository": {
     "type": "git",
