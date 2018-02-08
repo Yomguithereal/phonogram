@@ -145,6 +145,7 @@ Probably it's rarer to pronounce s *s* at the end (behind t and such) -> should 
 * catastrophe, recipe, refugee
 * test
 * whatever
+* musique
 
 fingerprint words
 
