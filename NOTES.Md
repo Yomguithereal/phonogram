@@ -143,6 +143,7 @@ Probably it's rarer to pronounce s *s* at the end (behind t and such) -> should 
 * health
 * special
 * catastrophe, recipe, refugee
+* test
 
 fingerprint words
 
