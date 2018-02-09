@@ -138,7 +138,6 @@ Probably it's rarer to pronounce s *s* at the end (behind t and such) -> should 
 * Luke, lurk
 * Fruit, suit | jesuit, suite, ambiguity | quitting | circuit
 * able
-* pubes, puberty
 * anger, hunger, manger
 * Louis, Lewis
 * thane
@@ -190,8 +189,7 @@ Probably it's rarer to pronounce s *s* at the end (behind t and such) -> should 
 * tower
 * united
 * bowser, wowser
-* puny
-* lied, died, defied
+* dyed
 * heard
 * await, alive (a initial)
 * mediterranean

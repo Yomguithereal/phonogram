@@ -198,7 +198,7 @@ export const POETIC_RULES = compileRules({
     [`e(?=([^${VOWELS}])\\1)`, 'ɛ'],
 
     // Sometimes "e" is pronounced *ɛ*
-    [`e(?=qu(?!a)|rc|st|[kln]|c[^${VOWELS}]|m(?![${VOWELS}])|ts?$)`, 'ɛ'],
+    [`e(?=qu(?!a)|rc|st|c[^${VOWELS}]|m(?![${VOWELS}])|[kln]|ts?$)`, 'ɛ'],
 
     // Before "r", "e" is pronounced *ʌ*
     [/e(?=r(?!o))/, 'ʌ'],
@@ -216,6 +216,9 @@ export const POETIC_RULES = compileRules({
 
     // Final "ful" is pronounced *ful*
     [/ful$/, 'ful'],
+
+    // Final "fied" is pronounced *fajd*
+    [/fied$/, 'fajd'],
 
     // "ff" is squeezed
     ['ff', 'f'],
@@ -272,7 +275,10 @@ export const POETIC_RULES = compileRules({
     [/i(?=n)/, 'i', INITIAL],
 
     // Final "ify" is pronounced *ifaj*
-    [/ify$/, 'ifaj'],
+    [/if[iy]$/, 'ifaj'],
+
+    // Final "ied" is sometimes pronounced *ajd*
+    [/ied$/, 'ajd', /[dlt]$/],
 
     // Final "il" is pronounced *ʌl* after "v"
     [/il$/, 'ʌl', 'v'],
@@ -555,6 +561,7 @@ export const POETIC_RULES = compileRules({
     ['ue', 'u'],
 
     // "u" is pronounced *ju* after a non-initial "p"
+    [/u(?=ny|be)/, 'ju', /^p$/],
     ['u', 'ju', /.p$/],
 
     // Before "m" or "n", "u" is pronounced *ʌ*
