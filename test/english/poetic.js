@@ -26,6 +26,7 @@ export default {
     ['awe', 'o'],
     ['aye', 'aj'],
 
+    ['barnacle', 'barnakʌl'],
     ['Bateson', 'bɛjtsɔn'],
     ['bath', 'baθ'],
     ['bear', 'bɛr'],
@@ -51,6 +52,7 @@ export default {
     ['brought', 'brɔt'],
     ['buy', 'baj'],
     ['buyers', 'bajʌrz'],
+    ['buzzard', 'bʌzard'],
     ['bye', 'baj'],
 
     ['can', 'kan'],
@@ -70,6 +72,8 @@ export default {
     ['Christopher', 'kristɔfʌr'],
     ['chtonian', 'ktonjan'],
     ['cistern', 'sistʌrn'],
+    ['climb', 'klajmb'],
+    ['climbing', 'klajmbing'],
     ['cloakroom', 'klokrum'],
     ['coarse', 'kɔrs'],
     ['coin', 'kɔjn'],
@@ -250,6 +254,7 @@ export default {
     ['minds', 'majndz'],
     ['mine', 'majn'],
     ['moat', 'mot'],
+    ['monocle', 'monɔkʌl'],
     ['Moose', 'muz'],
     ['mouse', 'maʊs'],
     ['mushrooms', 'mʌʃrumz'],
@@ -349,6 +354,7 @@ export default {
     ['site', 'sajt'],
     ['sites', 'sajts'],
     ['size', 'sajz'],
+    ['skew', 'skju'],
     ['sky', 'skaj'],
     ['skyman', 'skajman'],
     ['skymen', 'skajmɛn'],
@@ -402,6 +408,7 @@ export default {
     ['Thomas', 'tɔmas'],
     ['to', 'tu'],
     ['tomb', 'tumb'],
+    ['treachery', 'trɛtʃʌri'],
     ['treadmill', 'trɛdmil'],
     ['try', 'traj'],
     ['trying', 'trajing'],
@@ -421,6 +428,8 @@ export default {
 
     ['Xanax', 'zanaks'],
 
+    ['yeah', 'jɛ'],
+    ['Yeats', 'jɛts'],
     ['yield', 'jild'],
     ['young', 'jʌng'],
     ['younged', 'jʌngd'],

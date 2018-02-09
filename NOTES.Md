@@ -56,6 +56,9 @@ Note => kinda french-based
 * test
 * michael
 * louis, deux voyelles
+* moeurs
+* blanc seing
+* dessein, feint, feinte
 
 http://parler-francais.eklablog.com/vous-dites-a3737989
 
@@ -157,6 +160,42 @@ Probably it's rarer to pronounce s *s* at the end (behind t and such) -> should 
 * attorney
 * Tezcatlipoca
 * home
+* lieutenant
+* cyber
+* passion
+* clown
+* heavy
+* mechanism
+* ew
+* glimmers
+* rescue
+* maim
+* breathing, breath
+* doubt,
+* jewish
+* great
+* beauty
+* new sinew
+* shroud, shrew
+* faint
+* stirs
+* whisper
+* depth
+* sign, resign
+* jewels
+* fury
+* haze
+* wave
+* vial
+* tower
+* united
+* bowser, wowser
+* puny
+* lied, died, defied
+* heard
+* await, alive (a initial)
+* mediterranean
+* pizza
 
 fingerprint words
 
