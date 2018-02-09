@@ -115,13 +115,11 @@ Probably it's rarer to pronounce s *s* at the end (behind t and such) -> should 
 * town, townsfolk
 * notice
 * satiate
-* business
 * exam
 * down, own
 * sanctuary
 * thanos
-* shoudn'nt isn't
-* mouth
+* ghoul, gould
 * mercenary
 * opener
 * Matthews? -> presque une exception
@@ -132,7 +130,6 @@ Probably it's rarer to pronounce s *s* at the end (behind t and such) -> should 
 * creature
 * virtues
 * nature, natural
-* Joan
 * Psychological (cho -> mostly ko?)
 * Voices
 * Luke, lurk
@@ -142,11 +139,10 @@ Probably it's rarer to pronounce s *s* at the end (behind t and such) -> should 
 * Louis, Lewis
 * thane
 * liege -> exception
-* axe, axel
 * acceleration
 * tokyo
 * health
-* special
+* special, racial, social speciality
 * catastrophe, recipe, refugee
 * test
 * whatever
@@ -157,36 +153,30 @@ Probably it's rarer to pronounce s *s* at the end (behind t and such) -> should 
 * chorus
 * word, worm, wird, weird
 * attorney
-* Tezcatlipoca
 * home
 * lieutenant
-* cyber
-* passion
+* passionate
 * clown
-* heavy
+* to heave
 * mechanism
 * ew
-* glimmers
-* rescue
 * maim
 * breathing, breath
 * doubt,
 * jewish
-* great
-* beauty
-* new sinew
+* great, greet, grate
+* sinew
 * shroud, shrew
 * faint
-* stirs
-* whisper
 * depth
-* sign, resign
-* jewels
+* sign, resign, design
+* sewers
 * fury
 * haze
+* feign
 * wave
 * vial
-* tower
+* tower, power, bower, blower, lower
 * united
 * bowser, wowser
 * dyed
@@ -194,6 +184,9 @@ Probably it's rarer to pronounce s *s* at the end (behind t and such) -> should 
 * await, alive (a initial)
 * mediterranean
 * pizza
+* aorta
+* anarchy
+* amy, baby
 
 fingerprint words
 
@@ -243,6 +236,7 @@ read/read, lead/lead, live/live, tear/tear
 * rd -> d
 * nd -> d
 * ft -> f
+* rs/rz -> s/z
 * mb -> m
 * stl -> sl
 * final rd -> d

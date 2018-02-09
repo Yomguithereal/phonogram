@@ -10,6 +10,11 @@
  * string to syllabify it.
  */
 
+// TODO: there is room for optimization here
+//   * If we don't require alignement, simple substition would be better
+//   * Bunch of re-created regexes
+//   * Use pre-allocated array and join methods
+
 /**
  * Phonogram Code class.
  *
