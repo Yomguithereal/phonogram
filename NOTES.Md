@@ -121,7 +121,6 @@ ej to e? drop the finesse?
 * Matthews? -> presque une exception
 * impromptu (final u)
 * Xavier, heavier
-* Wade wilson
 * Future, fumes, fugitive, fujin, fuzzy, fuck, full, fun
 * virtues
 * nature, natural, creature
@@ -129,12 +128,15 @@ ej to e? drop the finesse?
 * Luke, lurk
 * Fruit, suit | jesuit, suite, ambiguity | quitting | circuit
 * able
-* anger, hunger, manger
+* war, warden
 * Louis, Lewis
-* thane
+* change, ranger, range, manger, granger
+* ginger, engine, vagina
+* pen, penis
 * liege -> exception
 * acceleration
 * tokyo
+* flandres
 * health
 * special, racial, social speciality
 * catastrophe, recipe, refugee
@@ -147,7 +149,6 @@ ej to e? drop the finesse?
 * home
 * lieutenant
 * passionate
-* clown
 * to heave, heard, hearth, hearth
 * heavier, applier, lier
 * breathing, breath
@@ -157,9 +158,9 @@ ej to e? drop the finesse?
 * sign, resign, design
 * sewers
 * preparation
-* fury
-* feign
+* fury, cure, furry, pure
 * vial
+* upgrade
 * tower, power, bower, flower | blower, lower, mower
 * await, alive (a initial)
 * mediterranean
@@ -174,7 +175,6 @@ ej to e? drop the finesse?
 * genuine
 * full, fulfill
 * cure
-* quine
 * anxiety
 * fuel
 * righteous
@@ -236,5 +236,6 @@ read/read, lead/lead, live/live, tear/tear
 * final rld -> ld
 * ɛj -> ɛ
 * rs -> s
+* lk -> k
 * squeeze à la fin?
 * Garder la leading vowel?

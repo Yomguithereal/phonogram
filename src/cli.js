@@ -37,6 +37,6 @@ const argv = yargs
 
 const words = argv._,
       fn = phonogram[argv.lang][argv.level],
-      codes = words.map(w => fn(w.replace(/[,;.|]/g, '')));
+      codes = words.map(w => fn(w.replace(/[,;.|\-]/g, '')));
 
 console.log(codes.join(' '));
