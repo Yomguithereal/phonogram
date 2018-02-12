@@ -157,7 +157,7 @@ export const POETIC_RULES = compileRules({
     // Final "e" is seldom pronounced
     [/e$/, ''],
     [/es$/, 's', /t$/],
-    [/es$/, 'iz', /(?:sh|[cs])$/],
+    [/es$/, 'iz', /(?:sh|[csz])$/],
     [/es$/, 'z'],
 
     // Final "el" is pronounced *ʌl*
@@ -165,6 +165,9 @@ export const POETIC_RULES = compileRules({
 
     // Sometimes, final "ed" does not pronounced "e"
     [/ed$/, 'd', /[gklnrv]$/],
+
+    // "ebt" is pronounced *ɛt*
+    ['ebt', 'ɛt'],
 
     // Sometimes, in the middle of a word, the "e" can be silent
     [/e(?=s.)/, '', /[mt]/],
@@ -527,6 +530,9 @@ export const POETIC_RULES = compileRules({
 
     // "sh" is pronounced *ʃ*
     ['sh', 'ʃ'],
+
+    // "s" after "oo" is usually pronounced *s*
+    [/s/, 's', /[^h]oo$/],
 
     // Plural "s" is sometimes pronounced *z*
     [/s$/, 'z', /(?:eye|ew|gh|[bdlmnry])$/],

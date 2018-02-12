@@ -194,11 +194,7 @@ ej to e? drop the finesse?
 * quine
 * anxiety
 * fuel
-* goose, noose, booze, ooze
 * righteous
-* debt
-* horse
-
 
 fingerprint words
 
@@ -255,5 +251,6 @@ read/read, lead/lead, live/live, tear/tear
 * final rd -> d
 * final rld -> ld
 * ɛj -> ɛ
+* rs -> s
 * squeeze à la fin?
 * Garder la leading vowel?
