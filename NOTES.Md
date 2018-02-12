@@ -19,6 +19,7 @@ Compiling some cases to handle for target languages. Rule-based.
 * No dictionary (very much lighter)
 * Vocalization
 * Not accurate because it's serves relative comparisons
+* Looks like done by a French guy.
 
 Appel à contributions
 
@@ -53,6 +54,7 @@ Note => kinda french-based
 * michael
 * rubens
 * nestlé
+* Holstein
 
 http://parler-francais.eklablog.com/vous-dites-a3737989
 
@@ -76,40 +78,38 @@ ej to e? drop the finesse?
 * Ex aequo
 * mishap, misha, mishappen, unblemishable
 * Shoe, canoe, tiptoe, toes, foe, joe, poe, zoe (rule is *u*)
-* women
 * Raleigh, sleigh
 * island, islam, isle, aisle, misled, kislev
 * ally, allies
 * friend, science, fiend, hacienda
-* meadow, steady, ready
 * readopt readmit 
 * liver, live, life, alive, giver, driver, silver, river, deliver, diver
 * how, row, now | pow wow
+* super, supper
 * heroin, heroine
 * fascism
 * have, behave, beehive
 * hoist, moist, foist, pianoist
+* holstein
 * cartouche, bouche, douche | aouch, couch, vouch, crouch, pouch, slouch | touch
 * erasure, sure, sugar, supper, sued, use
-* ruse, rude
 * ere, heir, are
 * Zoey, Goey, Body, suey
 * gauge
 * devil
 * tyger tiger
 * bowel, vowel, camel
-* power, flower
 * nobel, noble
 * leicester, reism, deism, feist
 * chafing, chariot
 * schedule, school, schizo, kirsch, scholar, porsche, schneider, schtuck
 * our, hour, sour, scour, flour, dour | humour, glamour, labour, vigour
-* answer + remake sword rule (o broken + silent)
+* answer
 * veil
 * creator
 * whoever (drop exception on who)
 * town, townsfolk
-* notice
+* notice, entice
 * satiate
 * exam
 * down, own
@@ -123,10 +123,8 @@ ej to e? drop the finesse?
 * Xavier, heavier
 * Wade wilson
 * Future, fumes, fugitive, fujin, fuzzy, fuck, full, fun
-* creature
 * virtues
-* nature, natural
-* Psychological (cho -> mostly ko?)
+* nature, natural, creature
 * Voices
 * Luke, lurk
 * Fruit, suit | jesuit, suite, ambiguity | quitting | circuit
@@ -140,51 +138,36 @@ ej to e? drop the finesse?
 * health
 * special, racial, social speciality
 * catastrophe, recipe, refugee
-* test
-* whatever
-* musique
+* whatever (ver => wall)
 * telephone
 * love
-* son, sun
 * chorus
-* word, worm, wird, weird
+* word, worm, ford, wyrm
 * attorney
 * home
 * lieutenant
 * passionate
 * clown
-* to heave
-* mechanism
-* ew
-* maim
+* to heave, heard, hearth, hearth
+* heavier, applier, lier
 * breathing, breath
-* doubt,
-* jewish
-* great, greet, grate
 * sinew
 * shroud, shrew
-* faint
 * depth
 * sign, resign, design
 * sewers
+* preparation
 * fury
-* haze
 * feign
-* wave
 * vial
-* tower, power, bower, blower, lower
-* united
-* bowser, wowser
-* dyed
-* heard
+* tower, power, bower, flower | blower, lower, mower
 * await, alive (a initial)
 * mediterranean
 * pizza
 * aorta
 * anarchy
 * amy, baby
-* point
-* oceans
+* oceans, crustacean
 * luxury
 * couple
 * michael
@@ -195,6 +178,7 @@ ej to e? drop the finesse?
 * anxiety
 * fuel
 * righteous
+* coward
 
 fingerprint words
 

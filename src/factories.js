@@ -8,6 +8,8 @@
 import PhonogramCode from './PhonogramCode';
 
 // TODO: possibility to speed up when pattern is not a regular expression
+// TODO: INITIAL can speed up
+// TODO: maybe run lookbehind before on last slice to boost and avoid more slice
 
 /**
  * Function factory returning the phonetic encoding function for poetic
