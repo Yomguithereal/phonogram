@@ -8,6 +8,8 @@ import {compileExceptions} from '../helpers';
 
 const EXCEPTIONS = {
   a: '(a•ɛ)',
+  angel: '(an•ɛjn)(g•dʒ)(e•ʌ)l',
+  angels: '(an•ɛjn)(g•dʒ)(e•ʌ)l(s•z)',
   aye: 'a(ye•j)',
   be: 'b(e•i)',
   canoe: '(c•k)(a•ʌ)n(oe•u)',

@@ -43,7 +43,6 @@ Note => kinda french-based
 * Us, Lys, physalis
 * Brassens
 * Oeufs boeufs
-* Gwenaël, Staël, Saint Saens
 * sens, encens, yens, mens
 * adéquat, squat, reliquat
 * Arès, très, après, ès
@@ -55,6 +54,20 @@ Note => kinda french-based
 * rubens
 * nestlé
 * Holstein
+* schiste
+* Stains
+* aïe
+* Laëtitia Lætitia, Gwenaël, Staël, Saint Saens
+* wagner, wagon, wag
+* montrouge
+* montrachet
+* heur, heurts
+* ichor
+* thorez
+* Lipovetsky
+* or
+* thor
+* cigue
 
 http://parler-francais.eklablog.com/vous-dites-a3737989
 
@@ -94,7 +107,6 @@ ej to e? drop the finesse?
 * erasure, sure, sugar, supper, sued, use
 * ere, heir, are
 * Zoey, Goey, Body, suey
-* gauge
 * devil
 * tyger tiger
 * bowel, vowel, camel
@@ -107,11 +119,8 @@ ej to e? drop the finesse?
 * veil
 * creator
 * whoever (drop exception on who)
-* town, townsfolk
 * notice, entice
 * satiate
-* exam
-* down, own
 * sanctuary
 * thanos
 * ghoul, gould
@@ -119,24 +128,23 @@ ej to e? drop the finesse?
 * opener
 * Matthews? -> presque une exception
 * impromptu (final u)
+* cutthroat
 * Xavier, heavier
 * Future, fumes, fugitive, fujin, fuzzy, fuck, full, fun
 * virtues
 * nature, natural, creature
 * Voices
 * Luke, lurk
-* Fruit, suit | jesuit, suite, ambiguity | quitting | circuit
+* Fruit, suit | jesuit, suite, ambiguity | quitting | circuit | genuine
 * able
 * war, warden
 * Louis, Lewis
-* change, ranger, range, manger, granger
-* ginger, engine, vagina
+* fingered
+* gin, ginger, engine, vagina
 * pen, penis
 * liege -> exception
 * acceleration
-* tokyo
 * flandres
-* health
 * special, racial, social speciality
 * catastrophe, recipe, refugee
 * whatever (ver => wall)
@@ -148,7 +156,10 @@ ej to e? drop the finesse?
 * home
 * lieutenant
 * passionate
-* to heave, heard, hearth, hearth
+* to heave, heard, hearth, hearth, health
+* carribean
+* sole soul
+* syko
 * heavier, applier, lier
 * breathing, breath
 * sinew
@@ -172,13 +183,18 @@ ej to e? drop the finesse?
 * luxury
 * couple
 * michael
-* genuine
-* full, fulfill
-* cure
 * anxiety
-* fuel
+* fuel, duel, samuel
 * righteous
 * coward
+* question
+* people
+* pneumo, deuce, feud
+* moussorgsky
+* lipovetsky
+* rhaegar, algae, aegis
+* poutine, ernestine
+* vaguely
 
 fingerprint words
 
