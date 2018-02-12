@@ -10,6 +10,7 @@ const EXCEPTIONS = {
   a: '(a•ɛ)',
   aye: 'a(ye•j)',
   be: 'b(e•i)',
+  canoe: '(c•k)(a•ʌ)n(oe•u)',
   corps: '(c•k)(o•ɔ)r(ps•)',
   do: 'd(o•u)',
   greenwich: 'gr(ee•i)n(w•)i(ch•tʃ)',

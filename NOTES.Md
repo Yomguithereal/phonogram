@@ -74,21 +74,20 @@ Probably it's rarer to pronounce s *s* at the end (behind t and such) -> should 
 
 ej to e? drop the finesse?
 
-* Centre / Center
 * Ex aequo
-* mishap, misha, mishappen, unblemishable
-* Shoe, canoe, tiptoe, toes, foe, joe, poe, zoe (rule is *u*)
-* Raleigh, sleigh
+* Raleigh Kaleigh ashleigh, ashley, caylee ; sleigh, leigh, neigh
+* crusoe
+* sleuth
 * island, islam, isle, aisle, misled, kislev
 * ally, allies
 * friend, science, fiend, hacienda
 * readopt readmit 
 * liver, live, life, alive, giver, driver, silver, river, deliver, diver
-* how, row, now | pow wow
-* super, supper
+* how, row, now, pow wow ; low
+* super, duper, supper
 * heroin, heroine
 * fascism
-* have, behave, beehive
+* have, having, haven
 * hoist, moist, foist, pianoist
 * holstein
 * cartouche, bouche, douche | aouch, couch, vouch, crouch, pouch, slouch | touch
@@ -153,6 +152,7 @@ ej to e? drop the finesse?
 * heavier, applier, lier
 * breathing, breath
 * sinew
+* Nathan
 * shroud, shrew
 * depth
 * sign, resign, design
@@ -237,5 +237,6 @@ read/read, lead/lead, live/live, tear/tear
 * ɛj -> ɛ
 * rs -> s
 * lk -> k
+* nt -> n
 * squeeze à la fin?
 * Garder la leading vowel?

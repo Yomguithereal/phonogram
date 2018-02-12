@@ -141,7 +141,7 @@ export const POETIC_RULES = compileRules({
     ['dd', 'd'],
 
     // "d" before a "g" and a vowel is useless
-    [`d(?=g[eiy])`, ''],
+    [/d(?=g[eiy])/, ''],
 
     [null, 'd']
   ],
@@ -158,7 +158,7 @@ export const POETIC_RULES = compileRules({
 
     // Final "ern" is prounounced *ʌrn*
     [/ern(?=s?$)/, 'ʌrn'],
-    [/en(?=s?$)/, 'ʌn', /[dtv]$/],
+    [/en(?=s?$)/, 'ʌn', /[dptv]$/],
 
     // Final "e" is seldom pronounced
     [/e$/, ''],
@@ -252,9 +252,6 @@ export const POETIC_RULES = compileRules({
 
     // "gh" is pronounced *g*
     ['gh', 'g'],
-
-    // "gr" before "e" is pronounced *gʌr*
-    [/gr(?=es?$)/, 'gʌr'],
 
     // "gg" before "e" is pronounced *dʒ*
     [/gg(?=e)/, 'dʒ'],
@@ -445,6 +442,9 @@ export const POETIC_RULES = compileRules({
     // "ou(rse)" is pronounced *ɔ*
     [/ou(?=rse)/, 'ɔ'],
 
+    // "oe" is pronounced *u* before "sh"
+    ['oe', 'u', /sh$/],
+
     // "ou" before "n" is pronounced *ʌ*
     [/ou(?=n)/, 'ʌ'],
 
@@ -482,6 +482,9 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   p: [
 
+    // "pp" is squeezed
+    ['pp', 'p'],
+
     // Initial "ps" is pronounced *s*
     ['ps', 's', INITIAL],
 
@@ -508,6 +511,9 @@ export const POETIC_RULES = compileRules({
   //-- (r)
   //----------------------------------------------------------------------------
   r: [
+
+    // After some letters, a final "re" is pronounced *ʌr*
+    [/re(?=s?$)/, 'ʌr', /[gt]$/],
 
     // Double "r" is squeezed
     ['rr', 'r'],
@@ -554,7 +560,7 @@ export const POETIC_RULES = compileRules({
     [/st(?=l)/, 's'],
 
     // "sh" is pronounced *ʃ*
-    ['sh', 'ʃ'],
+    [/sh(?!ap)/, 'ʃ'],
 
     // "s" after "oo" is usually pronounced *s*
     [/s/, 's', /[^h]oo$/],
