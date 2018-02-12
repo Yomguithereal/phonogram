@@ -83,17 +83,11 @@ export const POETIC_RULES = compileRules({
     // "beau" is pronounced *bju*
     [/beau(?=t)/, 'bju'],
 
-    // "bble" is pronounced *bʌl*
-    ['bble', 'bʌl'],
-
     // "buy" is pronounced *baj*
     ['buy', 'baj'],
 
     // Double "b" is squeezed
     ['bb', 'b'],
-
-    // Final "ble" is pronounced *bʌl*
-    [/bl(?=es?$)/, 'bʌl'],
 
     [null, 'b']
   ],
@@ -104,9 +98,6 @@ export const POETIC_RULES = compileRules({
 
     // Initial "cha" is sometimes pronounced *ka*
     [/cha(?=rac|ris)/, 'ka'],
-
-    // Final "cle" is pronounced *kʌl*
-    [/cle(?=s?$)/, 'kʌl'],
 
     // "cester" is pronounced *stʌr*
     ['cester', 'stʌr'],
@@ -142,9 +133,6 @@ export const POETIC_RULES = compileRules({
   //-- (d)
   //----------------------------------------------------------------------------
   d: [
-
-    // "ddle" is pronounced *dʌl*
-    ['ddle', 'dʌl'],
 
     // "dd" is squeezed
     ['dd', 'd'],
@@ -251,9 +239,6 @@ export const POETIC_RULES = compileRules({
 
     // "gr" before "e" is pronounced *gʌr*
     [/gr(?=es?$)/, 'gʌr'],
-
-    // "ggle" is pronounced *gʌl*
-    ['ggle', 'gʌl'],
 
     // "gg" before "e" is pronounced *dʒ*
     [/gg(?=e)/, 'dʒ'],
@@ -363,6 +348,9 @@ export const POETIC_RULES = compileRules({
   //-- (l)
   //----------------------------------------------------------------------------
   l: [
+
+    // Some consonant clusters + "le" are pronounced *ʌl*
+    [/le(?=s?$)/, 'ʌl', /(?:st|([bdgz])\1?|[cx])$/],
 
     // "ll" is squeezed
     ['ll', 'l'],
@@ -534,9 +522,8 @@ export const POETIC_RULES = compileRules({
     // After some consonants, "s" is pronounced *z*
     ['s', 'z', /g$/],
 
-    // "stle" is pronounced "sʌl"
-    [/stle(?=s?$)/, 'sʌl'],
-    [/stl/, 'sl'],
+    // "st(l)" is pronounced "s"
+    [/st(?=l)/, 's'],
 
     // "sh" is pronounced *ʃ*
     ['sh', 'ʃ'],
@@ -628,9 +615,6 @@ export const POETIC_RULES = compileRules({
     // Initial "x" before an "a" is pronounced *z*
     [/x(?=a)/, 'z', INITIAL],
 
-    // "xle" is pronounced *ksʌl*
-    ['xle', 'ksʌl'],
-
     [null, 'ks']
   ],
 
@@ -656,9 +640,6 @@ export const POETIC_RULES = compileRules({
   //-- (z)
   //----------------------------------------------------------------------------
   z: [
-
-    // "zzle" is prounced *zʌl*
-    ['zzle', 'zʌl'],
 
     // "zz" is squeezed
     ['zz', 'z'],

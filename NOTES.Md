@@ -52,6 +52,7 @@ Note => kinda french-based
 * laetitia
 * michael
 * rubens
+* nestlé
 
 http://parler-francais.eklablog.com/vous-dites-a3737989
 
@@ -186,8 +187,6 @@ ej to e? drop the finesse?
 * oceans
 * luxury
 * couple
-* simplifier la règle du zzle, ddle etc.
-* lice, lick
 * michael
 * genuine
 * full, fulfill

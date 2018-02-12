@@ -252,6 +252,8 @@ export default {
     ['leases', 'lisiz'],
     ['leaders', 'lidʌrz'],
     ['lesson', 'lɛsɔn'],
+    ['lice', 'lajs'],
+    ['lick', 'lik'],
     ['lied', 'lajd'],
     ['life', 'lajf'],
     ['liquified', 'likwifajd'],
