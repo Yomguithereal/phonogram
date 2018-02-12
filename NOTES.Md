@@ -39,7 +39,6 @@ Note => kinda french-based
 * Phoenix, Phoenicien, Phoebus, Phoebe
 * Payn
 * expriment, ment
-* test, lest, est
 * Us, Lys, physalis
 * Brassens
 * Oeufs boeufs
@@ -47,18 +46,12 @@ Note => kinda french-based
 * sens, encens, yens, mens
 * adéquat, squat, reliquat
 * Arès, très, après, ès
-* Sept, Vingt
-* Compresser inutilement de *inytilømã* à *inytilmã*
+* Compresser inutilement de *inytilømã* à *inytilmã*, mannequin
 * Complexifier -> règle du x. probablement rare d'avoir *gz*
 * fascisme
-* donc, oncques
 * laetitia
-* test
 * michael
-* louis, deux voyelles
-* moeurs
-* blanc seing
-* dessein, feint, feinte
+* rubens
 
 http://parler-francais.eklablog.com/vous-dites-a3737989
 
@@ -75,6 +68,8 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 ## English
 
 Probably it's rarer to pronounce s *s* at the end (behind t and such) -> should adapt the rule to ease computation
+
+ej to e? drop the finesse?
 
 * Centre / Center
 * Ex aequo
@@ -187,6 +182,24 @@ Probably it's rarer to pronounce s *s* at the end (behind t and such) -> should 
 * aorta
 * anarchy
 * amy, baby
+* point
+* oceans
+* luxury
+* couple
+* simplifier la règle du zzle, ddle etc.
+* lice, lick
+* michael
+* genuine
+* full, fulfill
+* cure
+* quine
+* anxiety
+* fuel
+* goose, noose, booze, ooze
+* righteous
+* debt
+* horse
+
 
 fingerprint words
 
@@ -239,6 +252,7 @@ read/read, lead/lead, live/live, tear/tear
 * rs/rz -> s/z
 * mb -> m
 * stl -> sl
+* horse -> hos
 * final rd -> d
 * final rld -> ld
 * ɛj -> ɛ

@@ -67,6 +67,11 @@ const EXCEPTIONS = {
   merguez: 'm(e•ɛ)r(gu•g)(e•ɛ)z',
   mes: 'm(es•ɛ)',
   messieurs: 'me(ssieurs•sjø)',
+  metz: 'm(e•ɛ)(tz•s)',
+  moeurs: 'm(oeu•ʌ)rs',
+
+  // TODO: should avoid this duplication
+  mœurs: 'm(oeu•ʌ)rs',
   monsieur: 'm(on•ø)s(ieur•jø)',
   moult: 'm(ou•u)lt',
   munster: 'm(un•ẽ)st(e•ɛ)r',
@@ -88,6 +93,7 @@ const EXCEPTIONS = {
   rets: 'r(ets•ɛ)',
   rut: 'r(u•y)t',
   sent: 's(ent•ã)',
+  sept: 's(e•ɛ)(p•)t',
   ses: 's(es•ɛ)',
   six: 'si(x•s)',
   tabac: 'tab(ac•a)',

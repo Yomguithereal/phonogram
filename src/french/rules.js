@@ -289,7 +289,8 @@ export const POETIC_RULES = compileRules({
     [/effes?$/, 'ɛf'],
 
     // Final "ein" is pronounced *ẽ*
-    [/eins?$/, 'ẽ'],
+    [/ein[gs]?$/, 'ẽ'],
+    [/ein(?=[dt])/, 'ẽ'],
 
     // "eau" is pronounced *o*
     [/eaux?/, 'o'],
@@ -621,6 +622,7 @@ export const POETIC_RULES = compileRules({
     [/oy(?=[ae])/, 'waj', /.+/],
 
     // "ou" before some vowels is pronounced *w*
+    [/ou(?=i)/, 'u', /(?:bl|n)$/],
     [/ou(?=[ai]|e(?:ll|nn|tt))/, 'w'],
 
     // "ou" is generally pronounced *u*
@@ -822,12 +824,15 @@ export const POETIC_RULES = compileRules({
     [/tie$/, 'si', `[${VOWELS}]$`],
 
     // Final "t" is rarely pronounced
-    [/ts?$/, '', /[^ïc]$/]
+    [/ts?$/, '', /[^ïcs]$/]
   ],
 
   //-- (u)
   //----------------------------------------------------------------------------
   u: [
+
+    // Final "urn" is pronounced *ʌrn*
+    [/urn$/, 'ʌrn'],
 
     // "ueil" is pronounced *ʌj*
     [/ueil(?:l|s?$)/, 'ʌj'],
