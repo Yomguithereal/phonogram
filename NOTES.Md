@@ -90,7 +90,6 @@ ej to e? drop the finesse?
 * Ex aequo
 * Raleigh Kaleigh ashleigh, ashley, caylee ; sleigh, leigh, neigh
 * crusoe
-* sleuth
 * island, islam, isle, aisle, misled, kislev
 * ally, allies
 * friend, science, fiend, hacienda
@@ -126,7 +125,6 @@ ej to e? drop the finesse?
 * ghoul, gould
 * mercenary
 * opener
-* Matthews? -> presque une exception
 * impromptu (final u)
 * cutthroat
 * Xavier, heavier
@@ -134,7 +132,6 @@ ej to e? drop the finesse?
 * virtues
 * nature, natural, creature
 * Voices
-* Luke, lurk
 * Fruit, suit | jesuit, suite, ambiguity | quitting | circuit | genuine
 * able
 * war, warden
@@ -152,11 +149,10 @@ ej to e? drop the finesse?
 * love
 * chorus
 * word, worm, ford, wyrm
-* attorney
 * home
 * lieutenant
 * passionate
-* to heave, heard, hearth, hearth, health
+* to heave, heard, hearth, hearth, earth
 * carribean
 * sole soul
 * syko
@@ -173,7 +169,7 @@ ej to e? drop the finesse?
 * vial
 * upgrade
 * tower, power, bower, flower | blower, lower, mower
-* await, alive (a initial)
+* attorney, await, alive (a initial)
 * mediterranean
 * pizza
 * aorta
@@ -185,11 +181,11 @@ ej to e? drop the finesse?
 * michael
 * anxiety
 * fuel, duel, samuel
-* righteous
-* coward
+* righteous, courteous, mighteous, dexterous
+* coward, howard (aʊʌrd)
 * question
-* people
-* pneumo, deuce, feud
+* people, meow, cameo, peon
+* pneumo, deuce, feud, sleuth
 * moussorgsky
 * lipovetsky
 * rhaegar, algae, aegis
@@ -254,5 +250,6 @@ read/read, lead/lead, live/live, tear/tear
 * rs -> s
 * lk -> k
 * nt -> n
+* ju -> u
 * squeeze à la fin?
 * Garder la leading vowel?

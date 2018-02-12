@@ -40,6 +40,9 @@ export const POETIC_RULES = compileRules({
     // Initial "a" is pronounced *a* before some consonants
     [/a(?=x)/, 'a', INITIAL],
 
+    // Sometimes initial "a" is pronounced *ʌ*
+    [/a(?=[b])/, 'ʌ', INITIAL],
+
     // "augh(a)n" is pronounced *ɔn*
     [/augha?n$/, 'ɔn'],
 
@@ -181,7 +184,7 @@ export const POETIC_RULES = compileRules({
     [`e(?=s[${VOWELS}])`, '', /[mt]/],
 
     // "ew" is pronounced *ju* or *u*
-    ['ew', 'ju', /(?:[^k]|^)(?:ph|sk|[bdfmn]|^)$/],
+    ['ew', 'ju', /(?:[^k]|^)(?:[pt]h|sk|[bdfmn]|^)$/],
     ['ew', 'u'],
 
     // "eye" is pronounced *aj*
@@ -589,6 +592,9 @@ export const POETIC_RULES = compileRules({
     // Final "th" is pronounced *θ*
     [/th$/, 'θ'],
 
+    // "tth" is sometimes pronounced *θ*
+    [/tth(?=ias|ew)/, 'θ'],
+
     // "tt" is squeezed
     ['tt', 't'],
 
@@ -628,6 +634,10 @@ export const POETIC_RULES = compileRules({
 
     // "u" is sometimes pronounced *ju* after a "c"
     [/u(?=[rt](?!t)e)/, 'ju', /c$/],
+
+    // "u" is pronounced *u* or *ju* before "ke"
+    [/u(?=ke)/, 'u', /l$/],
+    [/u(?=ke)/, 'ju'],
 
     // "ue" is pronounced *u* or *ju*
     ['ue', 'ju', /[bch]$/],
