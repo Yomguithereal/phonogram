@@ -114,6 +114,9 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   l: [
 
+    // Finall "ll" is squeezed
+    [/ll$/, 'l'],
+
     // "ll" is pronounced *j*
     ['ll', 'j']
   ],

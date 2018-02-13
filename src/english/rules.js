@@ -420,6 +420,9 @@ export const POETIC_RULES = compileRules({
     // Final "ought" is prounounced *ɔt*
     [/ought(?=s?$)/, 'ɔt'],
 
+    // "oward" is pronounced *aʊʌ*
+    [/owa(?=rd)/, 'aʊʌ'],
+
     // Final "o" is pronounced *o*
     [/o$/, 'o'],
 
@@ -651,7 +654,7 @@ export const POETIC_RULES = compileRules({
     [/u(?=ke)/, 'ju'],
 
     // "ue" is pronounced *u* or *ju*
-    ['ue', 'ju', /[bch]$/],
+    ['ue', 'ju', /[bcdfhm]$/],
     ['ue', 'u'],
 
     // "u" is sometimes pronounced *ju* after a "m"

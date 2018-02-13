@@ -45,7 +45,7 @@ Note => kinda french-based
 * oeuf Oeufs beouf boeufs voeu voeux
 * sens, encens, yens, mens
 * adéquat, squat, reliquat
-* Arès, très, après, ès
+* Arès, ès - grès, très, après
 * Compresser inutilement de *inytilømã* à *inytilmã*, mannequin, effectivement
 * Complexifier -> règle du x. probablement rare d'avoir *gz*
 * fascisme
@@ -166,9 +166,7 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * couple
 * michael
 * anxiety
-* fuel, duel, samuel
 * righteous, courteous, mighteous, dexterous
-* coward, howard (aʊʌrd)
 * question
 * people, meow, cameo, peon
 * pneumo, deuce, feud - sleuth, leukemia
@@ -180,10 +178,8 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * guire
 * adobe
 * colloquial
-* ethan
+* ethan, logan
 * yes
-* semper fi, hi
-* clawing
 * awry
 * straight
 * boi
@@ -203,6 +199,7 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * players
 * technique
 * society
+* pressure
 
 fingerprint words
 
@@ -228,7 +225,6 @@ read/read, lead/lead, live/live, tear/tear
 
 ## Spanish
 
-* Güell
 * Handle better vocalization
 
 ## German

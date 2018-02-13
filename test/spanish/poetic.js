@@ -37,6 +37,7 @@ export default {
 
     ['gato', 'gato'],
     ['Guadalajara', 'gwadalaxara'],
+    ['Güell', 'gwel'],
     ['guerrero', 'gerrero'],
     ['Guillermo', 'gijermo'],
 
