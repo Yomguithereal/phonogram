@@ -1,3 +1,4 @@
+/* eslint quote-props: 0 */
 /**
  * Phonogram English rules
  * ========================
@@ -29,6 +30,10 @@ export const SOFT_WALL = `(?:[^${VOWELS}]{2}|[^${VOWELS}]?$)`;
  * Most precise ruleset.
  */
 export const POETIC_RULES = compileRules({
+
+  //-- (')
+  //----------------------------------------------------------------------------
+  '\'': '',
 
   //-- (a)
   //----------------------------------------------------------------------------
@@ -220,7 +225,7 @@ export const POETIC_RULES = compileRules({
     [`e(?=([^${VOWELS}])\\1)`, 'ɛ'],
 
     // Sometimes "e" is pronounced *ɛ*
-    [`e(?=qu(?!a)|ck|rc|st|sc(?!i)|c[^${VOWELS}]|m(?![${VOWELS}])|[klnxz]|ts?$)`, 'ɛ'],
+    [`e(?=qu(?!a)|ck|rc|ft|st|sc(?!i)|c[^${VOWELS}]|m(?![${VOWELS}])|[klnxz]|ts?$)`, 'ɛ'],
 
     // Before "r", "e" is pronounced *ʌ*
     [/e(?=r(?!o))/, 'ʌ'],
@@ -371,7 +376,7 @@ export const POETIC_RULES = compileRules({
   l: [
 
     // Some consonant clusters + "le" are pronounced *ʌl*
-    [/le(?=s?$)/, 'ʌl', /(?:st|([bdgz])\1?|[cpx])$/],
+    [/le(?=s?$)/, 'ʌl', /(?:st|([bdgtz])\1?|[cpx])$/],
 
     // "ll" is squeezed
     ['ll', 'l'],
@@ -382,6 +387,9 @@ export const POETIC_RULES = compileRules({
   //-- (m)
   //----------------------------------------------------------------------------
   m: [
+
+    // Initial "mcc?" is pronounced *mak*
+    [/mcc?/, 'mak', INITIAL],
 
     // Double "m" is squeezed
     ['mm', 'm'],
@@ -396,8 +404,8 @@ export const POETIC_RULES = compileRules({
     // Double "n" is squeezed
     ['nn', 'n'],
 
-    // n't is pronounced *ʌnt*
-    ['n\'t', 'ʌnt'],
+    // n't is pronounced *ʌnt* after a consonant
+    ['n\'t', 'ʌnt', `[^${VOWELS}]$`],
 
     [null, 'n']
   ],
@@ -469,8 +477,8 @@ export const POETIC_RULES = compileRules({
     [/oa(?=r)/, 'ɔ'],
     ['oa', 'o'],
 
-    // "oo" is pronounced *o* if in "door" words
-    ['oo(?=r)', 'ɔ', /^d/],
+    // "oo" is pronounced *o* if in "door/floor" words
+    ['oo(?=r)', 'ɔ', /(?:^d|fl)$/],
 
     // "oo" is pronounced *u*
     ['oo', 'u'],

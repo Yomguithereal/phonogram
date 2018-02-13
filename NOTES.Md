@@ -56,8 +56,6 @@ Note => kinda french-based
 * Laëtitia Lætitia, Gwenaël, Staël, Saint Saens
 * thorez, rez
 * Lipovetsky
-* or
-* thor
 * technique
 * possibilité de simplifier la règle du effes et du elles
 
@@ -74,10 +72,6 @@ http://parler-francais.eklablog.com/vous-dites-a3737989
 couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots finissant pas us, par is, pugnace, magnat
 
 ## English
-
-Probably it's rarer to pronounce s *s* at the end (behind t and such) -> should adapt the rule to ease computation
-
-ej to e? drop the finesse?
 
 * Ex aequo
 * Raleigh Kaleigh ashleigh, ashley, caylee ; sleigh, leigh, neigh
@@ -107,7 +101,7 @@ ej to e? drop the finesse?
 * schedule, school, schizo, kirsch, scholar, porsche, schneider, schtuck
 * our, hour, sour, scour, flour, dour | humour, glamour, labour, vigour
 * answer
-* veil
+* ceil ceiling veil
 * creator
 * whoever (drop exception on who)
 * notice, entice
@@ -177,41 +171,32 @@ ej to e? drop the finesse?
 * coward, howard (aʊʌrd)
 * question
 * people, meow, cameo, peon
-* pneumo, deuce, feud, sleuth, leukemia
+* pneumo, deuce, feud - sleuth, leukemia
 * moussorgsky
 * lipovetsky
 * rhaegar, algae, aegis
 * poutine, ernestine
 * vaguely
 * guire, esquire
-* weapons
+* adobe
 * colloquial
 * ethan
 * yes
 * semper fi, hi
 * oxygen
 * clawing
-* attic
 * awry
 * straight
 * boi
 * deputy
-* mcdonald
 * randell
-* dwight, dwayne, pain
 * south
-* andrew
-* area
-* little
-* left
+* area (initial a, final ea)
 * belong (i)
 * truth
 * dylan, alan
 * iron irony
-* perfect
 * corrosion erosion
-* floor
-* can't
 * dewey lewey lewis
 * doesn't
 * eveline, evelyne, eve
@@ -219,10 +204,7 @@ ej to e? drop the finesse?
 * damn
 * players
 * technique
-* grief
-* qatar
 * society
-* Astley
 
 fingerprint words
 

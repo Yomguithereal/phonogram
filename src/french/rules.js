@@ -431,6 +431,9 @@ export const POETIC_RULES = compileRules({
     // "gu" is pronounced *g*
     ['gu', 'g'],
 
+    // "gge" is pronounced *
+    [/gg(?=[eéè])/, 'gʒ'],
+
     // "gg" is pronounced *g*
     ['gg', 'g'],
 
