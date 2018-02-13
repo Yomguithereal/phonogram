@@ -137,6 +137,7 @@ export default {
     ['cur', 'kʌr'],
     ['cure', 'kjur'],
     ['cute', 'kjut'],
+    ['cutthroat', 'kʌtθrot'],
     ['cyber', 'sajbʌr'],
 
     ['danger', 'dɛjndʒʌr'],
@@ -569,6 +570,7 @@ export default {
     ['Steven', 'stivʌn'],
     ['still', 'stil'],
     ['stirs', 'stʌrz'],
+    ['straight', 'strɛjt'],
     ['strange', 'strɛjndʒ'],
     ['stronger', 'strɔngʌr'],
     ['struggle', 'strʌgʌl'],

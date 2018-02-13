@@ -54,6 +54,9 @@ export const POETIC_RULES = compileRules({
     // "awn" if pronounced *ɔn*
     [/awn/, 'ɔn'],
 
+    // "aight" is pronounced *ɛjt*
+    ['aight', 'ɛjt'],
+
     // "aught" is pronounced *ot* or *aft?*
     [/augh(?=[ei]|$)/, 'af', /^l$/],
     [/aught/, 'aft', /^l$/],
@@ -608,6 +611,9 @@ export const POETIC_RULES = compileRules({
 
     // "tth" is sometimes pronounced *θ*
     [/tth(?=ias|ew)/, 'θ'],
+
+    // Else it clusters
+    [/tth(?=r)/, 'tθ'],
 
     // "tt" is squeezed
     ['tt', 't'],

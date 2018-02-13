@@ -112,7 +112,6 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * mercenary
 * opener
 * impromptu (final u)
-* cutthroat
 * Xavier, heavier
 * Future, fumes, fugitive, fujin, fuzzy, fuck, full, fun
 * virtues
@@ -124,7 +123,7 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * Louis, Lewis
 * fingered
 * gin, ginger, engine, vagina
-* pen, penis
+* pen glen gwen, penis
 * liege -> exception
 * acceleration
 * flandres
@@ -151,7 +150,7 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * sign, resign, design
 * sewers
 * preparation
-* fury, cure, furry, pure
+* fury, cure, pure, furry
 * vial
 * upgrade
 * tower, power, bower, flower | blower, lower, mower
@@ -181,7 +180,6 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * ethan, logan
 * yes
 * awry
-* straight
 * boi
 * deputy
 * randell
