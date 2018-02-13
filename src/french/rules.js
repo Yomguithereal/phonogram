@@ -271,7 +271,7 @@ export const POETIC_RULES = compileRules({
     [/em(?=[bp])/, 'ã'],
 
     // Final "end" is pronouned *ã*
-    [/end$/, 'ã'],
+    [/ends?$/, 'ã'],
 
     // "en" before a not final "t" or "s" is pronounced *ã*
     [/en(?=[cçdgst].)/, 'ã'],

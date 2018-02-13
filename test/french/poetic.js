@@ -731,6 +731,7 @@ export default {
     ['terrain', 'tɛrẽ'],
     ['te', 'tø'],
     ['temps', 'tã'],
+    ['tends', 'tã'],
     ['tes', 'tɛ'],
     ['test', 'tɛst'],
     ['teub', 'tʌb'],
