@@ -305,7 +305,7 @@ export const POETIC_RULES = compileRules({
     [/eufs?/, 'ʌf'],
 
     // "eu" before final "r", final "b" or "rre" is pronounced *ʌ*
-    [/eu(?=r[st]?$|b$|rres?$)/, 'ʌ'],
+    [/eu(?=rt?[st]?$|b$|rres?$|res?$)/, 'ʌ'],
 
     // Final "eul" is pronounced *ʌl*
     [/eule?s?$/, 'ʌl', /^[^mpv]/],
@@ -353,7 +353,7 @@ export const POETIC_RULES = compileRules({
     [/e(?=ss|ff)/, 'e'],
 
     // "e" before some letters is pronounced *ɛ* if no vowel comes after
-    [`e(?=[lmnprz](?![${VOWELS}])|s(?![${VOWELS}s])|c(?![${VOWELS}l])|t[sz]|ll|tt|nn|bvr)`, 'ɛ'],
+    [`e(?=[flmnprz](?![${VOWELS}])|s(?![${VOWELS}s])|c(?![${VOWELS}l])|t[sz]|ll|tt|nn|bvr)`, 'ɛ'],
 
     // In latin words, "e" is pronounced "e"
     [/e(?=.+um$)/, 'e'],
@@ -421,6 +421,9 @@ export const POETIC_RULES = compileRules({
 
     // "gn" before "ou" or "os" is pronounced *gn*
     [/gn(?=(?:ou$|os))/, 'gn'],
+
+    // "guë" and "güe" are pronounced *gy*
+    [/g(?:üe|uë)/, 'gy'],
 
     // "gua" is pronounced *gwa*
     ['gua', 'gwa'],
@@ -502,7 +505,8 @@ export const POETIC_RULES = compileRules({
     // Final "iement" is pronounced *imã*
     [/iements?$/, 'imã'],
 
-    // "i" before some vowels is pronounced *j*
+    // "i" before some vowels is pronounced *j* or *ij*
+    [/i(?=[eo])/, 'ij', `(?:^|[^${VOWELS}])r$`],
     [`i(?=[${A + E + O + U}])`, 'j']
   ],
 
@@ -543,6 +547,9 @@ export const POETIC_RULES = compileRules({
   //-- (m)
   //----------------------------------------------------------------------------
   m: [
+
+    // Sometimes, initial "mont" is pronounced *mõ*
+    [/mont(?=rach|ro(?!ns))/, 'mõ'],
 
     // Final "ment" is pronounced *mã*
     [/ments?$/, 'mã'],
@@ -767,6 +774,9 @@ export const POETIC_RULES = compileRules({
     // Non-initial "sn" is pronounced *n* if the consecutive letter is "e"
     [/sn(?=e|il)/, 'n', INITIAL, NEGATIVE],
 
+    // "stl" is pronounced *sl*
+    ['stl', 'sl'],
+
     // "ss" is squeezed
     ['ss', 's'],
 
@@ -873,6 +883,16 @@ export const POETIC_RULES = compileRules({
 
     // "voi" is pronounced *wa*
     ['voi', 'wa']
+  ],
+
+  //-- (w)
+  //----------------------------------------------------------------------------
+  w: [
+
+    // Starting "wag" is usually pronounced *vag*
+    ['wag', 'vag', INITIAL],
+
+    [null, 'w']
   ],
 
   //-- (x)

@@ -10,8 +10,6 @@ const EXCEPTIONS = {
   accent: 'a(cc•ks)(ent•ã)',
   agen: 'a(g•ʒ)(en•ẽ)',
   aïe: 'a(ïe•j)',
-  aigüe: '(ai•ɛ)(güe•gy)',
-  aiguë: '(ai•ɛ)(guë•gy)',
   ail: 'a(il•j)',
   almanach: 'almana(ch•)',
   amer: 'am(e•ɛ)r',
@@ -106,14 +104,11 @@ const EXCEPTIONS = {
   vent: 'v(ent•ã)',
   vos: 'v(os•o)',
   yaourt: '(y•j)a(ou•u)rt',
-  wagon: '(w•v)ag(on•õ)',
   zeus: '(z•dz)(eu•ø)s'
 };
 
 const plurals = [
   'accent',
-  'aigüe',
-  'aiguë',
   'août',
   'aout',
   'aoûtat',

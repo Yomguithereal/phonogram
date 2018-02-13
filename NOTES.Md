@@ -20,6 +20,7 @@ Compiling some cases to handle for target languages. Rule-based.
 * Vocalization
 * Not accurate because it's serves relative comparisons
 * Looks like done by a French guy.
+* copyleft
 
 Appel à contributions
 
@@ -35,39 +36,30 @@ Note => kinda french-based
 * Picpus Abus
 * apophis sarapis gratis =/= semis souris gris batis suis
 * brosse, gosse =/= grosse, fosse
-* cas de la brioche
 * cointerne
 * Phoenix, Phoenicien, Phoebus, Phoebe
 * Payn
 * expriment, ment
 * Us, Lys, physalis
 * Brassens
-* Oeufs boeufs
+* oeuf Oeufs beouf boeufs voeu voeux
 * sens, encens, yens, mens
 * adéquat, squat, reliquat
 * Arès, très, après, ès
-* Compresser inutilement de *inytilømã* à *inytilmã*, mannequin
+* Compresser inutilement de *inytilømã* à *inytilmã*, mannequin, effectivement
 * Complexifier -> règle du x. probablement rare d'avoir *gz*
 * fascisme
 * laetitia
 * michael
 * rubens
-* nestlé
 * Holstein
-* schiste
-* Stains
-* aïe
 * Laëtitia Lætitia, Gwenaël, Staël, Saint Saens
-* wagner, wagon, wag
-* montrouge
-* montrachet
-* heur, heurts
-* ichor
-* thorez
+* thorez, rez
 * Lipovetsky
 * or
 * thor
-* cigue
+* technique
+* possibilité de simplifier la règle du effes et du elles
 
 http://parler-francais.eklablog.com/vous-dites-a3737989
 
@@ -207,6 +199,30 @@ ej to e? drop the finesse?
 * mcdonald
 * randell
 * dwight, dwayne, pain
+* south
+* andrew
+* area
+* little
+* left
+* belong (i)
+* truth
+* dylan, alan
+* iron irony
+* perfect
+* corrosion erosion
+* floor
+* can't
+* dewey lewey lewis
+* doesn't
+* eveline, evelyne, eve
+* breathe
+* damn
+* players
+* technique
+* grief
+* qatar
+* society
+* Astley
 
 fingerprint words
 
