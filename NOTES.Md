@@ -185,12 +185,28 @@ ej to e? drop the finesse?
 * coward, howard (aʊʌrd)
 * question
 * people, meow, cameo, peon
-* pneumo, deuce, feud, sleuth
+* pneumo, deuce, feud, sleuth, leukemia
 * moussorgsky
 * lipovetsky
 * rhaegar, algae, aegis
 * poutine, ernestine
 * vaguely
+* guire, esquire
+* weapons
+* colloquial
+* ethan
+* yes
+* semper fi, hi
+* oxygen
+* clawing
+* attic
+* awry
+* straight
+* boi
+* deputy
+* mcdonald
+* randell
+* dwight, dwayne, pain
 
 fingerprint words
 
