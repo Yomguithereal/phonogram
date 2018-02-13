@@ -54,7 +54,7 @@ Note => kinda french-based
 * rubens
 * Holstein
 * Laëtitia Lætitia, Gwenaël, Staël, Saint Saens
-* thorez, rez
+* thorez
 * Lipovetsky
 * technique
 * possibilité de simplifier la règle du effes et du elles

@@ -89,6 +89,7 @@ const EXCEPTIONS = {
   raout: 'ra(ou•u)t',
   raz: 'ra(z•)',
   rets: 'r(ets•ɛ)',
+  rez: 're(z•)',
   rut: 'r(u•y)t',
   sent: 's(ent•ã)',
   sept: 's(e•ɛ)(p•)t',
