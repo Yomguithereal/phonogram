@@ -168,7 +168,7 @@ export const POETIC_RULES = compileRules({
 
     // Final "ern" is prounounced *ʌrn*
     [/ern(?=s?$)/, 'ʌrn'],
-    [/en(?=s?$)/, 'ʌn', /[dptv]$/],
+    [/en(?=s?$)/, 'ʌn', /[dgptv]$/],
 
     // Final "e" is seldom pronounced
     [/e$/, ''],
@@ -488,7 +488,7 @@ export const POETIC_RULES = compileRules({
 
     // Before a wall, "o" is pronounced *ɔ*
     [/o(?=gr)/, 'o'],
-    [`o(?=${SOFT_WALL}|[mr])`, 'ɔ', /e$/, NEGATIVE],
+    [`o(?=${SOFT_WALL}|[mrx])`, 'ɔ', /e$/, NEGATIVE],
 
     // Else, "o" is pronounced *o*
     [null, 'o']
@@ -559,6 +559,9 @@ export const POETIC_RULES = compileRules({
     // "ssi" is pronounced *ʃ* before some vowels
     [/ssi(?=a)/, 'ʃ'],
     [/ssion/, 'ʃʌn'],
+
+    // "sion" is pronounced *ʒʌn*
+    [/sion/, 'ʒʌn'],
 
     // "st(en)" is sometimes pronounced *s*
     [/st(?=en)/, 's', /(?:g?li|moi|fa)/],

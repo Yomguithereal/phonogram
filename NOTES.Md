@@ -177,13 +177,12 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * rhaegar, algae, aegis
 * poutine, ernestine
 * vaguely
-* guire, esquire
+* guire
 * adobe
 * colloquial
 * ethan
 * yes
 * semper fi, hi
-* oxygen
 * clawing
 * awry
 * straight
@@ -196,7 +195,6 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * truth
 * dylan, alan
 * iron irony
-* corrosion erosion
 * dewey lewey lewis
 * doesn't
 * eveline, evelyne, eve
