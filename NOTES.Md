@@ -36,18 +36,18 @@ Note => kinda french-based
 * apophis sarapis gratis =/= semis souris gris batis suis
 * brosse, gosse =/= grosse, fosse
 * cointerne
-* Phoenix, Phoenicien, Phoebus, Phoebe
+* Phoenix, Phoenicien, Phoebus, laetitia
+* laetitia, initiative
 * Payn
 * expriment, ment
 * Us, Lys, physalis
 * oeuf Oeufs beouf boeufs voeu voeux
 * sens, encens, yens, mens, Brassens, tremens
 * adéquat, squat, reliquat
-* Arès, ès - grès, très, après
-* Compresser inutilement de *inytilømã* à *inytilmã*, mannequin, effectivement
+* Arès, ès - grès, très, après, dès
+* Compresser inutilement de *inytilømã* à *inytilmã*, mannequin, effectivement, émeraude
 * Complexifier -> règle du x. probablement rare d'avoir *gz*
 * fascisme
-* laetitia
 * michael
 * rubens
 * Holstein
@@ -59,13 +59,7 @@ Note => kinda french-based
 * schizophrène
 * chiasme
 * possibilité de simplifier la règle du effes et du elles
-* wladimir
-* émeraude
-* emmental
 * discutions tion stions
-* Thiers
-* Descamps
-* Moelle
 
 http://parler-francais.eklablog.com/vous-dites-a3737989
 
@@ -91,6 +85,7 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * crusoe
 * island, islam, isle, aisle, misled, kislev
 * ally, allies
+* Phoebe
 * friend, science, fiend, hacienda
 * readopt readmit 
 * liver, live, life, alive, giver, driver, silver, river, deliver, diver

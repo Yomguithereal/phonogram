@@ -222,6 +222,9 @@ export const POETIC_RULES = compileRules({
     // "damn" is pronounced *dan*
     ['damn', 'dan'],
 
+    // "desca" is pronounced *dek*
+    [/desc(?=a)/, 'dek'],
+
     // Final "dt" is pronounced *t*
     [/dt$/, 't']
   ],
@@ -895,6 +898,9 @@ export const POETIC_RULES = compileRules({
 
     // Starting "wag" is usually pronounced *vag*
     ['wag', 'vag', INITIAL],
+
+    // "wl" is pronounced *vl*
+    [/wl(?!$)/, 'vl'],
 
     [null, 'w']
   ],
