@@ -311,7 +311,7 @@ export const POETIC_RULES = compileRules({
     [/eule?s?$/, 'ʌl', /^[^mpv]/],
 
     // Final "eux" is pronounced *ø*
-    [/eux$/, 'ø'],
+    [/eu[cx]$/, 'ø'],
 
     // "eu" is pronounced *ø*
     ['eu', 'ø'],
@@ -552,7 +552,7 @@ export const POETIC_RULES = compileRules({
   m: [
 
     // Sometimes, initial "mont" is pronounced *mõ*
-    [/mont(?=rach|ro(?!ns))/, 'mõ'],
+    [/mont(?=rach|ro(?!ns)|b)/, 'mõ'],
 
     // Final "ment" is pronounced *mã*
     [/ments?$/, 'mã'],
@@ -561,7 +561,7 @@ export const POETIC_RULES = compileRules({
     [/mille(?!t)/, 'mil', INITIAL],
 
     // "moell" is pronounced *mwal*
-    [/moell/, 'mwal'],
+    [/m(?:o[eë]|œ)ll/, 'mwal'],
 
     // "m" is squeezed
     ['mm', 'm']
@@ -598,6 +598,7 @@ export const POETIC_RULES = compileRules({
     [`o?oin[gt]?(?![${VOWELS}])`, 'wẽ'],
 
     // "oi" is pronounced *wa*
+    [`oi(?=d[${VOWELS}])`, 'wa'],
     [/(?:oids?|oist$|o[iî]x?|oy$)/, 'wa'],
 
     // Final "ond" is pronounced *õ*
@@ -736,7 +737,7 @@ export const POETIC_RULES = compileRules({
 
     // Initial "re" is pronounced *rø* if not before vowel or two duplicate
     // consonants
-    [`re(?![${VOWELS}]|s[pt]|[^${VOWELS}s]{2})`, 'rø', INITIAL],
+    [`re(?![${VOWELS}]|s[pt]|[^${VOWELS}fs]{2})`, 'rø', INITIAL],
 
     // "rr" is squeezed
     ['rr', 'r'],

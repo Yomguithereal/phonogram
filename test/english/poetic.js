@@ -187,6 +187,7 @@ export default {
     ['dyed', 'dajd'],
 
     ['ear', 'ir'],
+    ['ebb', 'ɛb'],
     ['eccentric', 'ɛksɛntrik'],
     ['ectoplasm', 'ɛktɔplazʌm'],
     ['Eden', 'idʌn'],
@@ -343,6 +344,7 @@ export default {
     ['laugh', 'laf'],
     ['laughing', 'lafing'],
     ['laughter', 'laftʌr'],
+    ['leaf', 'lif'],
     ['lease', 'lis'],
     ['leases', 'lisiz'],
     ['leaders', 'lidʌrz'],

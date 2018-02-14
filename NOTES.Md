@@ -41,9 +41,8 @@ Note => kinda french-based
 * Payn
 * expriment, ment
 * Us, Lys, physalis
-* Brassens
 * oeuf Oeufs beouf boeufs voeu voeux
-* sens, encens, yens, mens
+* sens, encens, yens, mens, Brassens, tremens
 * adéquat, squat, reliquat
 * Arès, ès - grès, très, après
 * Compresser inutilement de *inytilømã* à *inytilmã*, mannequin, effectivement
@@ -57,7 +56,17 @@ Note => kinda french-based
 * thorez
 * Lipovetsky
 * technique
+* Kislev
+* schizophrène
+* chiasme
 * possibilité de simplifier la règle du effes et du elles
+* wladimir
+* émeraude
+* emmental
+* discutions tion stions
+* Thiers
+* Descamps
+* Moelle
 
 http://parler-francais.eklablog.com/vous-dites-a3737989
 
@@ -69,11 +78,16 @@ http://parler-francais.eklablog.com/vous-dites-a3737989
 
 **Multi**
 
-couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots finissant pas us, par is, pugnace, magnat
+couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots finissant par us, par is, pugnace, magnat, rations
 
 ## English
 
 * Ex aequo
+* excite
+* ape, apron
+* czapka
+* émeraude
+* board o creux devant un r sinon o eau quand road
 * Raleigh Kaleigh ashleigh, ashley, caylee ; sleigh, leigh, neigh
 * crusoe
 * island, islam, isle, aisle, misled, kislev
@@ -91,14 +105,17 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * cartouche, bouche, douche | aouch, couch, vouch, crouch, pouch, slouch | touch
 * erasure, sure, sugar, supper, sued, use
 * ere, heir, are
-* Zoey, Goey, Body, suey
+* Zoey, Gooey, Body, suey
 * devil
+* charge
 * tyger tiger
 * bowel, vowel, camel
 * nobel, noble
 * leicester, reism, deism, feist
 * chafing, chariot
-* schedule, school, schizo, kirsch, scholar, porsche, schneider, schtuck
+* schedule, school, schizo, kirsch, scholar, porsche, schneider, schtuck, mischievious
+* cereal
+* grievious
 * our, hour, sour, scour, flour, dour | humour, glamour, labour, vigour
 * answer
 * ceil ceiling veil
@@ -111,6 +128,7 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * ghoul, gould
 * mercenary
 * opener
+* townswoman
 * impromptu (final u)
 * Xavier, heavier
 * Future, fumes, fugitive, fujin, fuzzy, fuck, full, fun
@@ -198,6 +216,14 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * technique
 * society
 * pressure
+* road, abroad
+* January
+* idea
+* intellectual
+* wladimir
+* pear pheasant peasant pleasant
+* to do you tonight
+* lawrence laughrie
 
 fingerprint words
 
@@ -214,7 +240,7 @@ freight, eight, weight
 height, sleight
 
 through
-cough, tough, enough, hiccough
+cough, tough, enough, hiccough (nuff)
 dough, although, bough, borough, thorough
 
 **Multi**
@@ -255,6 +281,8 @@ read/read, lead/lead, live/live, tear/tear
 * ɛj -> ɛ
 * rs -> s
 * lk -> k
+* ld -> d
+* drop final s or z
 * nt -> n
 * ju -> u
 * squeeze à la fin?
