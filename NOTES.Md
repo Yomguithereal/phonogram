@@ -20,7 +20,6 @@ Compiling some cases to handle for target languages. Rule-based.
 * Vocalization
 * Not accurate because it's serves relative comparisons
 * Looks like done by a French guy.
-* copyleft
 
 Appel à contributions
 
