@@ -60,6 +60,9 @@ Note => kinda french-based
 * chiasme
 * possibilité de simplifier la règle du effes et du elles
 * discutions tion stions
+* ouaip
+* Satie, satiété
+* Ex aequo
 
 http://parler-francais.eklablog.com/vous-dites-a3737989
 
@@ -75,13 +78,14 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 
 ## English
 
-* Ex aequo
 * ape, apron
 * czapka
 * Raleigh Kaleigh ashleigh, ashley, caylee, leigh ; sleigh, neigh, weigh
 * crusoe
-* island, islam, isle, aisle, misled, kislev
 * ally, allies
+* cache, zach, ache
+* ressource
+* evacuation
 * Phoebe
 * readopt readmit 
 * liver, live, life, alive, giver, driver, silver, river, deliver, diver
@@ -106,7 +110,6 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * chafing, chariot
 * schedule, school, schizo, kirsch, scholar, porsche, schneider, schtuck, mischievious
 * cereal
-* grievious
 * our, hour, sour, scour, flour, dour | humour, glamour, labour, vigour
 * answer
 * ceil ceiling veil
@@ -126,7 +129,7 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * virtues
 * nature, natural, creature
 * Voices
-* Fruit, suit | jesuit, suite, ambiguity | quitting | circuit | genuine
+* Fruit, suit, pursuit - jesuit, suite, ambiguity - quitting - circuit - genuine
 * able
 * war, warden
 * Louis, Lewis
@@ -146,7 +149,7 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * home
 * lieutenant
 * passionate
-* to heave, heard, hearth, hearth, earth
+* to heave
 * carribean
 * sole soul
 * syko
@@ -182,7 +185,6 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * lipovetsky
 * rhaegar, algae, aegis
 * poutine, ernestine
-* vaguely
 * guire
 * adobe
 * colloquial
@@ -200,80 +202,42 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * doesn't
 * eveline, evelyne, eve
 * breathe
-* players
+* players, prayers
 * appreciate
-* society
 * precious, precocious
 * idea
 * intellectual
 * pheasant peasant ant
 * to do you tonight
-* cleanse
 * family
 * hideous
 * pour proud shroud loud lousy aroused devour
-* tumblr grindr
-* harvard
-* throne, thror, thrown
-* haunt
-* helped
+* harvard, wizard
 * existential crucial
-* lawyer
-* meant
-* mount mound
-* paranoid, void
 * stupid
-* above, jove
+* above, jove, proving, prove, drove
 * aren't shouldn't
-* visual
+* equation
+* piety, society
 * husband
-* hubs
-* moira
-* dennis
-* die tie pie cookie sophie
-* believe
+* moira, choir, noir, memoir, coir
+* die tie pie lie vie - cookie sophie sweetie
 * skewer
-* fashion
-* proving
 * marceus thaddeus
-* eve
-* aquatube
-* frightened heightened
 * exhaust exhaustion
-* epicke
 * neurotic neutral
-* marge margie maggie
-* hampshire
-* faerie
-* heaven
-* ear
-* heard
-* scion
+* scion, zion
 * religion
-* screwed
-* udder utter otter
-* magician
-* quiet
 * get
-* break
 * guidance
-* pulverize
-* priest preacher
-* bechdel
-* stealth
 * goes does
-* tactically
-* partnered
-* pursuit
-* human
+* para (pareunoid)
 
 fingerprint words
 
 * Genitives
 
 mother, bother, weather, bathe, etc
-
-freight, eight, weight ; height, sleight
 
 **Multi**
 
