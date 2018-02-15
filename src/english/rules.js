@@ -95,6 +95,9 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   b: [
 
+    // Initial "be" before a consonant is pronounced *bi*
+    [`be(?=[^${VOWELS}])`, 'bi', INITIAL],
+
     // "business" is pronounced *biznɛs*
     ['business', 'biznɛs'],
 
@@ -163,6 +166,9 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   e: [
 
+    // Before an "m" an initial "e" is prononced *ɛ*
+    [/e(?=m)/, 'ɛ', INITIAL],
+
     // Final "er" is pronounced *ʌr*
     [/er(?=s?$)/, 'ʌr'],
 
@@ -189,7 +195,7 @@ export const POETIC_RULES = compileRules({
     ['ebt', 'ɛt'],
 
     // Sometimes, in the middle of a word, the "e" can be silent
-    [`e(?=s[${VOWELS}])`, '', /[mt]/],
+    [`e(?=[rs][${VOWELS}])`, '', /[mt]$/],
 
     // "ew" is pronounced *ju* or *u*
     ['ew', 'ju', /(?:[^k]|^)(?:[pt]h|sk|[bdfmn]|^)$/],
@@ -205,8 +211,8 @@ export const POETIC_RULES = compileRules({
     [/ey$/, 'ɛ', /(?:th|[bhv])/],
 
     // "ea" is sometimes pronounced *ɛ*
-    ['ea', 'ɛ', /(?:thr|[bdgpt]r|[bhwy])$/],
-    [/ea(?=d(?:ow|y))/, 'ɛ', /(?:st|[mr])$/],
+    ['ea', 'ɛ', /(?:thr|[bdgpt]r|ph|[bhpwy])$/],
+    [/ea(?=d(?:ow|y)|san)/, 'ɛ', /(?:st|pl|[mr])$/],
     [/ea(?=th|d)/, 'ɛ', /d$/],
 
     // "ea|ey" is pronounced *i*
@@ -228,7 +234,7 @@ export const POETIC_RULES = compileRules({
     [`e(?=([^${VOWELS}])\\1)`, 'ɛ'],
 
     // Sometimes "e" is pronounced *ɛ*
-    [`e(?=qu(?!a)|ck|rc|ft|st|sc(?!i)|c[^${VOWELS}]|m(?![${VOWELS}])|[klnxz]|ts?$)`, 'ɛ'],
+    [`e(?=qu(?!a)|ck|rc|ft|s(?:k|qu|t)|sc(?!i)|c[^${VOWELS}]|m(?![${VOWELS}])|[klnxz]|ts?$)`, 'ɛ'],
 
     // Before "r", "e" is pronounced *ʌ*
     [/e(?=r(?!o))/, 'ʌ'],
@@ -249,6 +255,12 @@ export const POETIC_RULES = compileRules({
 
     // Final "fied" is pronounced *fajd*
     [/fied$/, 'fajd'],
+
+    // "friend" is pronounced *frɛnd*
+    ['friend', 'frɛnd'],
+
+    // "fiend" is pronounced *find*
+    ['fiend', 'find'],
 
     // "ff" is squeezed
     ['ff', 'f'],
@@ -394,6 +406,9 @@ export const POETIC_RULES = compileRules({
     // Initial "mcc?" is pronounced *mak*
     [/mcc?/, 'mak', INITIAL],
 
+    // Final "mn" is pronounced *m*
+    [/mn$/, 'm'],
+
     // Double "m" is squeezed
     ['mm', 'm'],
 
@@ -422,6 +437,11 @@ export const POETIC_RULES = compileRules({
 
     // Final "ought" is prounounced *ɔt*
     [/ought(?=s?$)/, 'ɔt'],
+
+    // "ough" is pronounced *u*, *o* or *ʌf*
+    [/ough/, 'u', /thr$/],
+    [/ough/, 'ʌf', /[cnt]$/],
+    [/ough/, 'o'],
 
     // "oward" is pronounced *aʊʌ*
     [/owa(?=rd)/, 'aʊʌ'],
@@ -494,7 +514,8 @@ export const POETIC_RULES = compileRules({
 
     // Before a wall, "o" is pronounced *ɔ*
     [/o(?=gr)/, 'o'],
-    [`o(?=${SOFT_WALL}|[mrx])`, 'ɔ', /e$/, NEGATIVE],
+    [/o(?=r[ns])/, 'ɔ'],
+    [`o(?=${SOFT_WALL}|lu|[mrx])`, 'ɔ', /(?:(?:[^ct]|^)h|e)$/, NEGATIVE],
 
     // Else, "o" is pronounced *o*
     [null, 'o']
@@ -565,6 +586,7 @@ export const POETIC_RULES = compileRules({
     // "ssi" is pronounced *ʃ* before some vowels
     [/ssi(?=a)/, 'ʃ'],
     [/ssion/, 'ʃʌn'],
+    [/ssu(?=r)/, 'ʃʌ'],
 
     // "sion" is pronounced *ʒʌn*
     [/sion/, 'ʒʌn'],
@@ -609,6 +631,9 @@ export const POETIC_RULES = compileRules({
     // Final "th" is pronounced *θ*
     [/th$/, 'θ'],
 
+    // Final "thm" is pronounced *ðʌm*
+    [/thm(?=s?$)/, 'ðʌm'],
+
     // "tth" is sometimes pronounced *θ*
     [/tth(?=ias|ew)/, 'θ'],
 
@@ -626,6 +651,9 @@ export const POETIC_RULES = compileRules({
 
     // Initial "th" is usually pronounced *θ*
     [/th/, 'θ', INITIAL],
+
+    // After some letters, "th" is always pronounced *t*
+    [/th/, 't', /s$/],
 
     // Final "two" is pronounced *tu*
     [/two$/, 'tu'],
@@ -673,6 +701,9 @@ export const POETIC_RULES = compileRules({
     [/u(?=ny|be)/, 'ju', /^p$/],
     ['u', 'ju', /.p$/],
 
+    // Before an "a", "u" is pronounced *ju*
+    [/u(?=a)/, 'ju'],
+
     // Before "m" or "n", "u" is pronounced *ʌ*
     [/u(?=[mn])/, 'ʌ'],
 
@@ -704,6 +735,9 @@ export const POETIC_RULES = compileRules({
 
     // Initial "x" before an "a" is pronounced *z*
     [/x(?=a)/, 'z', INITIAL],
+
+    // "xc" is pronounced *ks*
+    ['xc', 'ks'],
 
     // Between some letters, "x" is pronounced *gz*
     [/x(?=a)/, 'gz', /e$/],

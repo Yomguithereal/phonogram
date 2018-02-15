@@ -280,7 +280,7 @@ export const POETIC_RULES = compileRules({
     [/en(?=[cçdgst].)/, 'ã'],
 
     // "eill" is pronounced *ɛj*
-    ['eill', 'ɛj'],
+    [/eil(?:l|s?$)/, 'ɛj'],
 
     // "elle" is pronounced *ɛl*
     ['elle', 'ɛl'],
@@ -803,7 +803,7 @@ export const POETIC_RULES = compileRules({
     [`s(?=[${VOWELS}])`, 's', PREFIXES_LOOKBEHIND],
 
     // "s" between two vowels is pronounced *z*
-    [`s(?=[${VOWELS}])`, 'z', `[${VOWELS}]$`],
+    [`s(?!au)(?=[${VOWELS}])`, 'z', `[${VOWELS}]$`],
   ],
 
   //-- (t)
@@ -922,7 +922,7 @@ export const POETIC_RULES = compileRules({
     [/x(?=i(?:ll|e))/, 'ks'],
 
     // Before another vowel, "x" is pronounced *gz*
-    [`x(?=[${VOWELS}])`, 'gz', /(?:a|eu)/, NEGATIVE],
+    [`x(?=h?[${VOWELS}])`, 'gz', /(?:a|eu)/, NEGATIVE],
 
     // Else it is pronounced *ks*
     [null, 'ks']

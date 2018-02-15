@@ -76,23 +76,20 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 ## English
 
 * Ex aequo
-* excite
 * ape, apron
 * czapka
-* émeraude
-* board o creux devant un r sinon o eau quand road
-* Raleigh Kaleigh ashleigh, ashley, caylee ; sleigh, leigh, neigh
+* Raleigh Kaleigh ashleigh, ashley, caylee, leigh ; sleigh, neigh, weigh
 * crusoe
 * island, islam, isle, aisle, misled, kislev
 * ally, allies
 * Phoebe
-* friend, science, fiend, hacienda
 * readopt readmit 
 * liver, live, life, alive, giver, driver, silver, river, deliver, diver
 * how, row, now, pow wow ; low
 * super, duper, supper
 * heroin, heroine
 * fascism
+* science, experience, ambience
 * have, having, haven
 * hoist, moist, foist, pianoist
 * holstein
@@ -194,10 +191,8 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * awry
 * boi
 * deputy
-* randell
-* south
+* randell, ayn rand
 * area (initial a, final ea)
-* belong (i)
 * truth
 * dylan, alan
 * iron irony
@@ -205,19 +200,72 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * doesn't
 * eveline, evelyne, eve
 * breathe
-* damn
 * players
-* technique
+* appreciate
 * society
-* pressure
-* road, abroad
-* January
+* precious, precocious
 * idea
 * intellectual
-* wladimir
-* pear pheasant peasant pleasant
+* pheasant peasant ant
 * to do you tonight
-* lawrence laughrie
+* cleanse
+* family
+* hideous
+* pour proud shroud loud lousy aroused devour
+* tumblr grindr
+* harvard
+* throne, thror, thrown
+* haunt
+* helped
+* existential crucial
+* lawyer
+* meant
+* mount mound
+* paranoid, void
+* stupid
+* above, jove
+* aren't shouldn't
+* visual
+* husband
+* hubs
+* moira
+* dennis
+* die tie pie cookie sophie
+* believe
+* skewer
+* fashion
+* proving
+* marceus thaddeus
+* eve
+* aquatube
+* frightened heightened
+* exhaust exhaustion
+* epicke
+* neurotic neutral
+* marge margie maggie
+* hampshire
+* faerie
+* heaven
+* ear
+* heard
+* scion
+* religion
+* screwed
+* udder utter otter
+* magician
+* quiet
+* get
+* break
+* guidance
+* pulverize
+* priest preacher
+* bechdel
+* stealth
+* goes does
+* tactically
+* partnered
+* pursuit
+* human
 
 fingerprint words
 
@@ -225,17 +273,7 @@ fingerprint words
 
 mother, bother, weather, bathe, etc
 
-rythm rithm
-
-ghost (initial gh)
-aghast, afghanisthan (egghead, bighorn)
-
-freight, eight, weight
-height, sleight
-
-through
-cough, tough, enough, hiccough (nuff)
-dough, although, bough, borough, thorough
+freight, eight, weight ; height, sleight
 
 **Multi**
 
@@ -244,6 +282,10 @@ read/read, lead/lead, live/live, tear/tear
 ## Spanish
 
 * Handle better vocalization
+
+## Italian
+
+* Prosciutto
 
 ## German
 
@@ -275,9 +317,12 @@ read/read, lead/lead, live/live, tear/tear
 * ɛj -> ɛ
 * rs -> s
 * lk -> k
+* rk -> k
 * ld -> d
+* final ar -> r
 * drop final s or z
 * nt -> n
 * ju -> u
 * squeeze à la fin?
+* keep initial j
 * Garder la leading vowel?

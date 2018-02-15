@@ -17,6 +17,7 @@ const EXCEPTIONS = {
   do: 'd(o•u)',
   fi: 'f(i•aj)',
   greenwich: 'gr(ee•i)n(w•)i(ch•tʃ)',
+  hugh: 'h(u•ju)(gh•)',
   i: '(i•aj)',
   lease: 'l(ea•i)s(e•)',
   leases: 'l(ea•i)s(e•i)(s•z)',
