@@ -78,14 +78,16 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 
 ## English
 
-* ape, apron
+Maybe re-introduce the schwa to avoid all those *ʌ*
+
 * czapka
+* Lippschitz
 * Raleigh Kaleigh ashleigh, ashley, caylee, leigh ; sleigh, neigh, weigh
 * crusoe
 * ally, allies
 * cache, zach, ache
-* ressource
-* evacuation
+* rationale
+* evacuation, ratio, ration
 * Phoebe
 * readopt readmit 
 * liver, live, life, alive, giver, driver, silver, river, deliver, diver
@@ -94,7 +96,6 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * heroin, heroine
 * fascism
 * science, experience, ambience
-* have, having, haven
 * hoist, moist, foist, pianoist
 * holstein
 * cartouche, bouche, douche | aouch, couch, vouch, crouch, pouch, slouch | touch
@@ -102,19 +103,14 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * ere, heir, are
 * Zoey, Gooey, Body, suey
 * devil
-* charge
 * tyger tiger
 * bowel, vowel, camel
-* nobel, noble
-* leicester, reism, deism, feist
-* chafing, chariot
+* atheist
 * schedule, school, schizo, kirsch, scholar, porsche, schneider, schtuck, mischievious
 * cereal
 * our, hour, sour, scour, flour, dour | humour, glamour, labour, vigour
-* answer
-* ceil ceiling veil
 * creator
-* whoever (drop exception on who)
+* whoever (drop exception on who), ver should be in the wall
 * notice, entice
 * satiate
 * sanctuary
@@ -125,46 +121,33 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * townswoman
 * impromptu (final u)
 * Xavier, heavier
-* Future, fumes, fugitive, fujin, fuzzy, fuck, full, fun
 * virtues
-* nature, natural, creature
-* Voices
+* nature, natural, creature nate nathan mature nation
 * Fruit, suit, pursuit - jesuit, suite, ambiguity - quitting - circuit - genuine
 * able
 * war, warden
 * Louis, Lewis
-* fingered
-* gin, ginger, engine, vagina
+* engine, vagina
 * pen glen gwen, penis
 * liege -> exception
-* acceleration
 * flandres
 * special, racial, social speciality
-* catastrophe, recipe, refugee
+* catastrophe, recipe, adobe
 * whatever (ver => wall)
 * telephone
 * love
 * chorus
 * word, worm, ford, wyrm
-* home
-* lieutenant
-* passionate
-* to heave
-* carribean
+* machine
+* keanu
 * sole soul
 * syko
 * heavier, applier, lier
-* breathing, breath
 * sinew
-* Nathan
-* shroud, shrew
-* depth
-* sign, resign, design
-* sewers
+* assign
+* sewers, skewer - sew
+* reside designate
 * preparation
-* fury, cure, pure, furry
-* vial
-* upgrade
 * tower, power, bower, flower | blower, lower, mower
 * attorney, await, alive (a initial)
 * mediterranean
@@ -173,7 +156,6 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * anarchy
 * amy, baby
 * oceans, crustacean
-* luxury
 * couple
 * michael
 * anxiety
@@ -183,10 +165,10 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * pneumo, deuce, feud - sleuth, leukemia
 * moussorgsky
 * lipovetsky
-* rhaegar, algae, aegis
+* algae, aegis
 * poutine, ernestine
 * guire
-* adobe
+* disguise
 * colloquial
 * ethan, logan
 * yes
@@ -195,40 +177,38 @@ couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots
 * deputy
 * randell, ayn rand
 * area (initial a, final ea)
-* truth
-* dylan, alan
+* dylan, alan, logan, nolan
 * iron irony
 * dewey lewey lewis
 * doesn't
 * eveline, evelyne, eve
-* breathe
 * players, prayers
 * appreciate
 * precious, precocious
 * idea
 * intellectual
-* pheasant peasant ant
-* to do you tonight
+* you, yourself
+* tonight together
 * family
 * hideous
 * pour proud shroud loud lousy aroused devour
 * harvard, wizard
 * existential crucial
 * stupid
+* steward stuart, stew
 * above, jove, proving, prove, drove
 * aren't shouldn't
+* societies niceties
+* jules juliettes july
 * equation
-* piety, society
 * husband
 * moira, choir, noir, memoir, coir
 * die tie pie lie vie - cookie sophie sweetie
-* skewer
 * marceus thaddeus
 * exhaust exhaustion
 * neurotic neutral
 * scion, zion
 * religion
-* get
 * guidance
 * goes does
 * para (pareunoid)
