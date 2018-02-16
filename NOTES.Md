@@ -101,22 +101,24 @@ Maybe re-introduce the schwa to avoid all those *ʌ*
 * rationale, finale
 * evacuation, ratio, ration
 * Phoebe
-* readopt readmit 
-* liver, live, life, alive, giver, driver, silver, river, deliver, diver
+* readopt readmit
+* driver, diver
+* liver, live, life, alive, giver, silver, river, deliver, diver, driven
 * heroin, heroine
 * fascism
-* science, experience, ambience
 * hoist, moist, foist, pianoist
 * holstein
 * cartouche, bouche, douche | aouch, couch, vouch, crouch, pouch, slouch | touch
+* pour proud shroud loud lousy aroused devour
 * erasure, sure, sugar, supper, sued, use
 * ere, heir, are
 * Zoey, Gooey, Body, suey
-* devil
+* devil, developer
+* scholar (o)
 * tyger tiger
 * bowel, vowel, camel
 * atheist
-* schedule, school, schizo, kirsch, scholar, porsche, schneider, schtuck, mischievious
+* schedule, mischievious, schizo
 * cereal
 * creator
 * whoever (drop exception on who), ver should be in the wall
@@ -124,21 +126,18 @@ Maybe re-introduce the schwa to avoid all those *ʌ*
 * satiate
 * thanos
 * ghoul, gould
-* opener
+* opener, ravener
 * townswoman
 * impromptu (final u)
 * Xavier, heavier
-* virtues
 * nature, natural, creature nate nathan mature nation
 * Fruit, suit, pursuit build - jesuit, suite, ambiguity - quitting - circuit - genuine
 * able
 * war, warden
 * Louis, Lewis
-* engine, vagina
-* pen glen gwen, penis
-* liege -> exception
+* vagina
+* penis
 * flandres
-* special, racial, social speciality
 * catastrophe, recipe, adobe
 * whatever (ver => wall)
 * telephone
@@ -147,16 +146,13 @@ Maybe re-introduce the schwa to avoid all those *ʌ*
 * word, worm, ford, wyrm
 * machine
 * keanu
-* sole soul
 * syko
 * heavier, applier, lier
-* sinew
-* assign
 * sewers, skewer - sew
 * reside designate
 * preparation
-* tower, power, bower, flower | blower, lower, mower
-* attorney, await, alive (a initial)
+* tower, power, bower, flower ; blower, lower, mower
+* attorney, await, alive, award (a initial)
 * mediterranean
 * pizza
 * aorta
@@ -165,16 +161,12 @@ Maybe re-introduce the schwa to avoid all those *ʌ*
 * oceans, crustacean
 * couple
 * michael
-* anxiety
-* question, exhaustion
 * people, meow, cameo, peon
 * pneumo, deuce, feud - sleuth, leukemia
 * moussorgsky
 * algae, aegis
 * poutine, ernestine
 * guire guidance guile guilty disguise
-* ethan, logan
-* awry
 * boi
 * deputy
 * randell, ayn rand
@@ -184,8 +176,6 @@ Maybe re-introduce the schwa to avoid all those *ʌ*
 * idea, area
 * tonight together
 * family
-* pour proud shroud loud lousy aroused devour
-* harvard, wizard, hard
 * stupid tuned
 * steward stuart, stew
 * above, jove, proving, prove, drove
