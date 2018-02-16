@@ -25,6 +25,7 @@ const EXCEPTIONS = {
   hugh: 'h(u•ju)(gh•)',
   i: '(i•aj)',
   july: '(j•dʒ)ul(y•aj)',
+  keanu: 'k(e•i)anu',
   lease: 'l(ea•i)s(e•)',
   leases: 'l(ea•i)s(e•i)(s•z)',
   liege: 'l(ie•i)(g•ʒ)(e•)',
@@ -39,6 +40,7 @@ const EXCEPTIONS = {
   who: '(w•)h(o•u)',
   whom: '(w•)h(o•u)m',
   whose: '(w•)h(o•u)(s•z)(e•)',
+  ye: '(y•j)(e•i)',
   yes: '(y•j)(e•ɛ)s',
   you: '(y•j)(ou•u)'
 };

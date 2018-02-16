@@ -45,7 +45,7 @@ Note => kinda french-based
 * sens, encens, yens, mens, Brassens, tremens
 * adéquat, squat, reliquat
 * Arès, ès - grès, très, après, dès
-* Compresser inutilement de *inytilømã* à *inytilmã*, mannequin, effectivement, émeraude
+* Compresser inutilement de *inytilømã* à *inytilmã*, mannequin, effectivement, émeraude, coquelicot
 * Complexifier -> règle du x. probablement rare d'avoir *gz*
 * fascisme
 * michael
@@ -75,6 +75,7 @@ Note => kinda french-based
 * Lucquiaud
 * Foenkinos
 * Tacchini
+* fichtre
 
 http://parler-francais.eklablog.com/vous-dites-a3737989
 
@@ -99,8 +100,6 @@ Maybe re-introduce the schwa to avoid all those *ʌ*
 * ally, allies
 * cache, zach, ache
 * rationale, finale
-* evacuation, ratio, ration
-* Phoebe
 * readopt readmit
 * driver, diver
 * liver, live, life, alive, giver, silver, river, deliver, diver, driven
@@ -114,7 +113,6 @@ Maybe re-introduce the schwa to avoid all those *ʌ*
 * ere, heir, are
 * Zoey, Gooey, Body, suey
 * devil, developer
-* scholar (o)
 * tyger tiger
 * bowel, vowel, camel
 * atheist
@@ -122,32 +120,28 @@ Maybe re-introduce the schwa to avoid all those *ʌ*
 * cereal
 * creator
 * whoever (drop exception on who), ver should be in the wall
-* notice, entice
 * satiate
 * thanos
 * ghoul, gould
 * opener, ravener
 * townswoman
 * impromptu (final u)
-* Xavier, heavier
 * nature, natural, creature nate nathan mature nation
-* Fruit, suit, pursuit build - jesuit, suite, ambiguity - quitting - circuit - genuine
+* Fruit, suit, pursuit - jesuit, suite, genuine - quitting - circuit - build
 * able
 * war, warden
 * Louis, Lewis
 * vagina
 * penis
 * flandres
-* catastrophe, recipe, adobe
+* catastrophe, recipe, adobe, Phoebe, phebe
 * whatever (ver => wall)
-* telephone
+* telephone, telescope
 * love
 * chorus
 * word, worm, ford, wyrm
 * machine
-* keanu
-* syko
-* heavier, applier, lier
+* applier, lier, liar
 * sewers, skewer - sew
 * reside designate
 * preparation
@@ -155,11 +149,9 @@ Maybe re-introduce the schwa to avoid all those *ʌ*
 * attorney, await, alive, award (a initial)
 * mediterranean
 * pizza
-* aorta
 * anarchy
 * amy, baby
-* oceans, crustacean
-* couple
+* oceans, crustacean, sean
 * michael
 * people, meow, cameo, peon
 * pneumo, deuce, feud - sleuth, leukemia
@@ -169,35 +161,20 @@ Maybe re-introduce the schwa to avoid all those *ʌ*
 * guire guidance guile guilty disguise
 * boi
 * deputy
-* randell, ayn rand
-* area (initial a, final ea)
 * iron irony
-* eveline, evelyne, eve (final line/tine after something)
+* eveline, evelyne, eve, celine (final line/tine after something)
 * idea, area
 * tonight together
 * family
-* stupid tuned
-* steward stuart, stew
 * above, jove, proving, prove, drove
 * societies niceties
 * husband
 * moira, choir, noir, memoir, coir
-* die tie pie lie vie - cookie sophie sweetie
-* neurotic neutral
-* scion, zion
-* goes does
+* die tie pie lie vie untie - cookie sophie sweetie
 * para (pareunoid)
-* turing
-* something
-* some, dome
-* mehdi Zadeh
-* obsolete rule
 * apply
 * agenda (wall should take [nr] as follower to e as blocker?)
-* Sheperd, shepard
-* final ch zach, bach beach
-* Ingenuous
-* here hereafter
+* leopard
 
 fingerprint words
 
