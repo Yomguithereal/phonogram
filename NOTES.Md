@@ -70,6 +70,11 @@ Note => kinda french-based
 * mehdi Zadeh
 * Ghosn
 * Gausnes
+* empreints emprunts embruns
+* flux
+* Lucquiaud
+* Foenkinos
+* Tacchini
 
 http://parler-francais.eklablog.com/vous-dites-a3737989
 
@@ -98,8 +103,6 @@ Maybe re-introduce the schwa to avoid all those *ʌ*
 * Phoebe
 * readopt readmit 
 * liver, live, life, alive, giver, driver, silver, river, deliver, diver
-* how, row, now, pow wow ; low
-* super, duper, supper
 * heroin, heroine
 * fascism
 * science, experience, ambience
@@ -115,22 +118,19 @@ Maybe re-introduce the schwa to avoid all those *ʌ*
 * atheist
 * schedule, school, schizo, kirsch, scholar, porsche, schneider, schtuck, mischievious
 * cereal
-* our, hour, sour, scour, flour, dour | humour, glamour, labour, vigour
 * creator
 * whoever (drop exception on who), ver should be in the wall
 * notice, entice
 * satiate
-* sanctuary
 * thanos
 * ghoul, gould
-* mercenary
 * opener
 * townswoman
 * impromptu (final u)
 * Xavier, heavier
 * virtues
 * nature, natural, creature nate nathan mature nation
-* Fruit, suit, pursuit - jesuit, suite, ambiguity - quitting - circuit - genuine
+* Fruit, suit, pursuit build - jesuit, suite, ambiguity - quitting - circuit - genuine
 * able
 * war, warden
 * Louis, Lewis
@@ -166,77 +166,48 @@ Maybe re-introduce the schwa to avoid all those *ʌ*
 * couple
 * michael
 * anxiety
-* righteous, courteous, mighteous, dexterous
-* question
+* question, exhaustion
 * people, meow, cameo, peon
 * pneumo, deuce, feud - sleuth, leukemia
 * moussorgsky
-* lipovetsky
 * algae, aegis
 * poutine, ernestine
-* guire
-* disguise
-* colloquial
+* guire guidance guile guilty disguise
 * ethan, logan
-* yes
 * awry
 * boi
 * deputy
 * randell, ayn rand
 * area (initial a, final ea)
-* dylan, alan, logan, nolan
 * iron irony
-* dewey lewey lewis
-* doesn't
-* eveline, evelyne, eve
-* players, prayers
-* appreciate
-* precious, precocious
-* idea
-* intellectual
-* you, yourself
+* eveline, evelyne, eve (final line/tine after something)
+* idea, area
 * tonight together
 * family
-* hideous
 * pour proud shroud loud lousy aroused devour
-* harvard, wizard
-* existential crucial
-* stupid
+* harvard, wizard, hard
+* stupid tuned
 * steward stuart, stew
 * above, jove, proving, prove, drove
-* aren't shouldn't
 * societies niceties
-* jules juliettes july
-* equation
 * husband
 * moira, choir, noir, memoir, coir
 * die tie pie lie vie - cookie sophie sweetie
-* marceus thaddeus
-* exhaust exhaustion
 * neurotic neutral
 * scion, zion
-* religion
-* guidance
 * goes does
 * para (pareunoid)
 * turing
-* yetee bletchley
-* tongue
 * something
 * some, dome
 * mehdi Zadeh
-* robin, robyn (o)
-* roam
 * obsolete rule
-* check validity of cistern
 * apply
-* thiel
-* ground pound
-* agenda
-* pair
-* shaun shawn
-* Frown
-* loft
+* agenda (wall should take [nr] as follower to e as blocker?)
+* Sheperd, shepard
+* final ch zach, bach beach
+* Ingenuous
+* here hereafter
 
 fingerprint words
 
@@ -255,6 +226,7 @@ read/read, lead/lead, live/live, tear/tear
 ## Italian
 
 * Prosciutto
+* Mauri
 
 ## German
 
@@ -288,6 +260,9 @@ read/read, lead/lead, live/live, tear/tear
 * lk -> k
 * rk -> k
 * ld -> d
+* dʒ -> ʒ
+* tʃ -> ʃ
+* ʃ -> k
 * final ar -> r
 * drop final s or z
 * nt -> n
