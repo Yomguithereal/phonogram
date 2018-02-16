@@ -63,6 +63,13 @@ Note => kinda french-based
 * ouaip
 * Satie, satiété
 * Ex aequo
+* steuplé
+* sixième dixième
+* examen
+* Taieb
+* mehdi Zadeh
+* Ghosn
+* Gausnes
 
 http://parler-francais.eklablog.com/vous-dites-a3737989
 
@@ -86,7 +93,7 @@ Maybe re-introduce the schwa to avoid all those *ʌ*
 * crusoe
 * ally, allies
 * cache, zach, ache
-* rationale
+* rationale, finale
 * evacuation, ratio, ration
 * Phoebe
 * readopt readmit 
@@ -212,6 +219,24 @@ Maybe re-introduce the schwa to avoid all those *ʌ*
 * guidance
 * goes does
 * para (pareunoid)
+* turing
+* yetee bletchley
+* tongue
+* something
+* some, dome
+* mehdi Zadeh
+* robin, robyn (o)
+* roam
+* obsolete rule
+* check validity of cistern
+* apply
+* thiel
+* ground pound
+* agenda
+* pair
+* shaun shawn
+* Frown
+* loft
 
 fingerprint words
 
@@ -269,4 +294,5 @@ read/read, lead/lead, live/live, tear/tear
 * ju -> u
 * squeeze à la fin?
 * keep initial j
-* Garder la leading vowel?
+* diphtongue to initial mapping
+* Garder la leading vowel ou la leading semi-vowel

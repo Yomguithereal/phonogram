@@ -213,7 +213,7 @@ export const POETIC_RULES = compileRules({
     // Sometimes, final "ed" does not pronounced "e"
     [/e(?=d$)/, 'ɛ', /(?:^.|sl)$/],
     [/ened$/, 'ʌnd'],
-    [/ed$/, 'd', /(?:[^s]l|sh|[gknprvw])$/],
+    [/ed$/, 'd', /(?:[^s]l|sh|[gknprsvw])$/],
 
     // "ebt" is pronounced *ɛt*
     ['ebt', 'ɛt'],
@@ -792,8 +792,8 @@ export const POETIC_RULES = compileRules({
     [/u(?=ny|[br][ei])/, 'ju', /^p$/],
     ['u', 'ju', /.p$/],
 
-    // Before an "a", "u" is pronounced *ju*
-    [/u(?=a)/, 'ju'],
+    // Before some letters "u" is pronounced *ju*
+    [/u(?=ce|a)/, 'ju'],
 
     // Before "m" or "n", "u" is pronounced *ʌ*
     [/u(?=[mn])/, 'ʌ'],
