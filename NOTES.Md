@@ -76,6 +76,12 @@ Note => kinda french-based
 * Foenkinos
 * Tacchini
 * fichtre
+* chaos
+* Lorenz
+* Mitry Claye
+* Hélas
+* Licenciements, remerciements
+* Détenue
 
 http://parler-francais.eklablog.com/vous-dites-a3737989
 
@@ -117,8 +123,9 @@ Maybe re-introduce the schwa to avoid all those *ʌ*
 * bowel, vowel, camel
 * atheist
 * schedule, mischievious, schizo
-* cereal
+* cereal, real sidereal
 * creator
+* cube
 * whoever (drop exception on who), ver should be in the wall
 * satiate
 * thanos
@@ -166,7 +173,7 @@ Maybe re-introduce the schwa to avoid all those *ʌ*
 * idea, area
 * tonight together
 * family
-* above, jove, proving, prove, drove
+* above, jove, proving, prove, move, drove, trove
 * societies niceties
 * husband
 * moira, choir, noir, memoir, coir
@@ -175,6 +182,58 @@ Maybe re-introduce the schwa to avoid all those *ʌ*
 * apply
 * agenda (wall should take [nr] as follower to e as blocker?)
 * leopard
+* chaos
+* Lorenz
+* going
+* target, targeted
+* marauders
+* abdul
+* Saunders, flaunt
+* sceptical
+* recoil poison poise noise tortoise
+* posh
+* allow cow moscow
+* subtle
+* dire direct
+* search
+* trying
+* acquainte
+* student studies
+* desperately
+* your (o)
+* graphs grafs giraffes
+* porridge
+* courage
+* pear disappear pearl, rehearse
+* interest
+* futile
+* juice, cruise
+* entrepreneur
+* Chelsea
+* Cheesecake
+* Mueller
+* Socrates
+* confused
+* theorem
+* anxious
+* pyre aspire
+* ledge privilege
+* privy
+* psi
+* shine shiny
+* source resource
+* indicting
+* vamped
+* argue
+* armed
+* european
+* state, devastating
+* while, vile
+* kremlin gremlin
+* Unhinged
+* regular
+* years
+* dynamic
 
 fingerprint words
 
