@@ -82,6 +82,7 @@ Note => kinda french-based
 * Hélas
 * Licenciements, remerciements
 * Détenue
+* Samson
 
 http://parler-francais.eklablog.com/vous-dites-a3737989
 
@@ -113,16 +114,14 @@ Maybe re-introduce the schwa to avoid all those *ʌ*
 * fascism
 * hoist, moist, foist, pianoist
 * holstein
-* cartouche, bouche, douche | aouch, couch, vouch, crouch, pouch, slouch | touch
 * pour proud shroud loud lousy aroused devour
 * erasure, sure, sugar, supper, sued, use
 * ere, heir, are
 * Zoey, Gooey, Body, suey
 * devil, developer
-* tyger tiger
 * bowel, vowel, camel
 * atheist
-* schedule, mischievious, schizo
+* mischievious, schizo
 * cereal, real sidereal
 * creator
 * cube
@@ -134,9 +133,9 @@ Maybe re-introduce the schwa to avoid all those *ʌ*
 * townswoman
 * impromptu (final u)
 * nature, natural, creature nate nathan mature nation
-* Fruit, suit, pursuit - jesuit, suite, genuine - quitting - circuit - build
+* Fruit, suit, pursuit juice, cruise - jesuit, suite, genuine - quitting - circuit - build
 * able
-* war, warden
+* war, warden, wall, waldorf
 * Louis, Lewis
 * vagina
 * penis
@@ -151,7 +150,6 @@ Maybe re-introduce the schwa to avoid all those *ʌ*
 * applier, lier, liar
 * sewers, skewer - sew
 * reside designate
-* preparation
 * tower, power, bower, flower ; blower, lower, mower
 * attorney, await, alive, award (a initial)
 * mediterranean
@@ -160,86 +158,62 @@ Maybe re-introduce the schwa to avoid all those *ʌ*
 * amy, baby
 * oceans, crustacean, sean
 * michael
-* people, meow, cameo, peon
-* pneumo, deuce, feud - sleuth, leukemia
+* meow cameo
+* sleuth, leukemia
 * moussorgsky
 * algae, aegis
 * poutine, ernestine
 * guire guidance guile guilty disguise
-* boi
-* deputy
 * iron irony
 * eveline, evelyne, eve, celine (final line/tine after something)
 * idea, area
 * tonight together
 * family
-* above, jove, proving, prove, move, drove, trove
 * societies niceties
 * husband
 * moira, choir, noir, memoir, coir
 * die tie pie lie vie untie - cookie sophie sweetie
-* para (pareunoid)
+* para (pareunoid) annoy
 * apply
 * agenda (wall should take [nr] as follower to e as blocker?)
 * leopard
 * chaos
 * Lorenz
-* going
 * target, targeted
-* marauders
-* abdul
+* abdul (final ul)
 * Saunders, flaunt
-* sceptical
-* recoil poison poise noise tortoise
-* posh
-* allow cow moscow
+* sceptical scepter scene
 * subtle
-* dire direct
-* search
-* trying
-* acquainte
 * student studies
+* scavenger
 * desperately
 * your (o)
-* graphs grafs giraffes
-* porridge
 * courage
-* pear disappear pearl, rehearse
-* interest
-* futile
-* juice, cruise
-* entrepreneur
-* Chelsea
-* Cheesecake
 * Mueller
 * Socrates
-* confused
-* theorem
-* anxious
+* theoretical
 * pyre aspire
 * ledge privilege
 * privy
 * psi
-* shine shiny
-* source resource
+* shiny
 * indicting
-* vamped
 * argue
-* armed
 * european
-* state, devastating
-* while, vile
-* kremlin gremlin
+* devastating
 * Unhinged
 * regular
-* years
 * dynamic
+* comply
+* initial un- often ju
 
 fingerprint words
 
 * Genitives
 
 mother, bother, weather, bathe, etc
+
+Consider the schwa and the addition of long vowels for row oomeg?
 
 **Multi**
 
@@ -248,6 +222,8 @@ read/read, lead/lead, live/live, tear/tear
 ## Spanish
 
 * Handle better vocalization
+* Starting es-
+* Final -ad should drop the d
 
 ## Italian
 
