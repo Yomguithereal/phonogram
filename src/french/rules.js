@@ -779,7 +779,7 @@ export const POETIC_RULES = compileRules({
     ['sch', 'ʃ'],
 
     // Non-initial "sn" is pronounced *n* if the consecutive letter is "e"
-    [/sn(?=e|il)/, 'n', INITIAL, NEGATIVE],
+    [/sn(?=e|il|$)/, 'n', INITIAL, NEGATIVE],
 
     // "stl" is pronounced *sl*
     ['stl', 'sl'],

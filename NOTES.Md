@@ -68,9 +68,6 @@ Note => kinda french-based
 * examen
 * Taieb
 * mehdi Zadeh
-* Ghosn
-* Gausnes
-* empreints emprunts embruns
 * flux
 * Lucquiaud
 * Foenkinos
@@ -124,7 +121,6 @@ Maybe re-introduce the schwa to avoid all those *ʌ*
 * mischievious, schizo
 * cereal, real sidereal
 * creator
-* cube
 * whoever (drop exception on who), ver should be in the wall
 * satiate
 * thanos

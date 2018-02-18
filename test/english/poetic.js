@@ -211,6 +211,7 @@ export default {
     ['cruel', 'krul'],
     ['crumb', 'krʌmb'],
     ['crush', 'krʌʃ'],
+    ['cube', 'kjub'],
     ['cue', 'kju'],
     ['cur', 'kʌr'],
     ['cure', 'kjur'],
