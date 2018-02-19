@@ -485,7 +485,7 @@ export const POETIC_RULES = compileRules({
     [/ingt$/, 'ẽ'],
 
     // "in" before a consonant which is not "n" or final is pronounced *ẽ*
-    [`i([mn])(?=$|[^${VOWELS}\\1])`, 'ẽ'],
+    [`i([mn])(?=$|[^${VOWELS}])`, 'ẽ'],
 
     // Final "ied" is pronounced *je*
     [/ieds?/, 'je'],
