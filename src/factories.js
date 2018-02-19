@@ -106,6 +106,6 @@ export function createPoetic(options) {
   return function(string) {
     const code = encode(string);
 
-    return code.get();
+    return code.toString();
   };
 }

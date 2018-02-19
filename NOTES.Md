@@ -80,6 +80,7 @@ Note => kinda french-based
 * Licenciements, remerciements
 * Détenue
 * Samson
+* accent pas une exception
 
 http://parler-francais.eklablog.com/vous-dites-a3737989
 
@@ -231,11 +232,34 @@ read/read, lead/lead, live/live, tear/tear
 * Dirndl
 * Nietzsche
 * Schwimm
+* stalled
+* sacred
+* domination
+* asleep
+* advisor
+* standby
+* Frasier frazier
+* Levine
+* Lynch
+* duchovny
+* wednesday tuesday
+* comparison
+* secret
+* mobilizing
+* feasible
+* Deptford
+* Marylebone
+* exposure measure
+* phase phazer razer
+* scenario
+* tackled
+* adapt
+* when does english diphtongues?
 
 ## Syllabification
 
 * Every consonant should be squeezed but syllabification should handle the case on its own to get back to the original word.
-* Handle le ao
+* Handle doubled consonants
 
 ## General simplification rules
 
@@ -265,6 +289,7 @@ read/read, lead/lead, live/live, tear/tear
 * drop final s or z
 * nt -> n
 * ju -> u
+* crush diphtongues
 * squeeze à la fin?
 * keep initial j
 * diphtongue to initial mapping

@@ -27,11 +27,13 @@ export default class PhonogramCode {
     // Properties
     this.word = word;
     this.normalizedWord = word.toLowerCase().trim();
-    this.mapping = [];
+    this.original = new Array(this.normalizedWord.length);
+    this.mapping = new Array(this.normalizedWord.length);
 
     for (let i = 0, l = this.normalizedWord.length; i < l; i++) {
       const character = this.normalizedWord[i];
-      this.mapping.push([character, character]);
+      this.original[i] = character;
+      this.mapping[i] = character;
     }
 
     // Apply some generic normalization
@@ -52,7 +54,7 @@ export default class PhonogramCode {
    * @return {PhonogramCode}             - Returns itself for chaining.
    */
   replaceAt(index, replacement = '') {
-    this.mapping[index][1] = replacement;
+    this.mapping[index] = replacement;
   }
 
   /**
@@ -85,13 +87,8 @@ export default class PhonogramCode {
    *
    * @return {string} - The code.
    */
-  get() {
-    let code = '';
-
-    for (let i = 0, l = this.mapping.length; i < l; i++)
-      code += this.mapping[i][1];
-
-    return code;
+  toString() {
+    return this.mapping.join('');
   }
 }
 
@@ -103,6 +100,8 @@ export default class PhonogramCode {
  * @param  {array}         mapping - Pre-existing mapping.
  * @return {PhonogramCode}
  */
+
+// TODO: redo that
 PhonogramCode.from = function(word, mapping) {
   const code = new PhonogramCode(word);
   code.mapping = mapping;

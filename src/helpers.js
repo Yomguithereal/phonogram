@@ -76,14 +76,14 @@ export function compileExceptions(exceptions) {
           .match(EXCEPTION_REGEX);
 
         for (let j = 0, m = pattern.length; j < m; j++)
-          mapping[mappingIndex++] = [pattern[j], !j ? replacement : ''];
+          mapping[mappingIndex++] = !j ? replacement : '';
 
         i += pattern.length + replacement.length + 2;
 
         continue;
       }
 
-      mapping[mappingIndex++] = [character, character];
+      mapping[mappingIndex++] = character;
     }
 
     compiled[word] = mapping;

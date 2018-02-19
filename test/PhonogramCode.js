@@ -14,20 +14,13 @@ describe('PhonogramCode', function() {
     code.replace(0, /b/, 'p');
     code.replace(3, /b/, 'p');
 
-    assert.strictEqual(code.get(), 'põpõ');
-    assert.deepEqual(code.mapping, [
-      ['b', 'p'],
-      ['o', 'õ'],
-      ['n', ''],
-      ['b', 'p'],
-      ['o', 'õ'],
-      ['n', '']
-    ]);
+    assert.strictEqual(code.toString(), 'põpõ');
+    assert.deepEqual(code.mapping, ['p', 'õ', '', 'p', 'õ', '']);
   });
 
   it('should normalized some cases.', function() {
     const code = new PhonogramCode('Cœlacanthe');
 
-    assert.strictEqual(code.get(), 'coelacanthe');
+    assert.strictEqual(code.toString(), 'coelacanthe');
   });
 });
