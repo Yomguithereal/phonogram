@@ -68,14 +68,21 @@ export default class PhonogramCode {
    * @param  {string}  replacement - Replacement if pattern is found.
    * @return {object}              - Potential match information.
    */
-  replace(offset, pattern, replacement = '') {
+  replace(offset, pattern, replacement, lookbehind, negative) {
     const match = pattern.exec(this.normalizedWord.slice(offset));
 
     if (!match)
       return null;
 
     if (this.trace !== null)
-      this.trace.push([pattern, replacement]);
+      this.trace.push({
+        match: match[0],
+        position: match.index,
+        pattern,
+        replacement,
+        lookbehind,
+        negative
+      });
 
     // Solving matches in reverse order
     const index = match.index + offset,

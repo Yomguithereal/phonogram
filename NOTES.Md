@@ -81,6 +81,8 @@ Note => kinda french-based
 * Détenue
 * Samson
 * accent pas une exception
+* Wauquiez Woerth
+* aix
 
 http://parler-francais.eklablog.com/vous-dites-a3737989
 
@@ -205,7 +207,26 @@ Maybe re-introduce the schwa to avoid all those *ʌ*
 * pollution
 * initial un- often ju
 * narrative
-* visual
+* reunion
+* chemicals
+* irate
+* fewer
+* major mage
+* rein reinvented rain
+* royal loyal royales
+* said
+* circle sir
+* exiting exciting
+* fusion
+* advisor
+* arsenal
+* haste
+* grease lease
+* integer
+* plumbing
+* occasion
+* silhouette
+* tourist
 
 fingerprint words
 
@@ -283,10 +304,13 @@ read/read, lead/lead, live/live, tear/tear
 * ɛj -> ɛ
 * rs -> s
 * lk -> k
+* rm -> m
+* lm -> m
 * rk -> k
 * ld -> d
 * dʒ -> ʒ
 * tʃ -> ʃ
+* th dur -> t
 * ʃ -> k
 * final ar -> r
 * drop final s or z

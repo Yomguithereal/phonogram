@@ -67,8 +67,21 @@ function printDebug(code) {
     return;
   }
 
-  code.trace.forEach(([pattern, replacement], i) => {
-    console.log(`  ${i + 1}.`, chalk.red(pattern), replacement);
+  code.trace.forEach((info, i) => {
+    const log = [`  ${i + 1}.`];
+
+    if (info.negative)
+      log.push(chalk.red('NOT'));
+
+    if (info.lookbehind)
+      log.push(chalk.red(info.lookbehind));
+
+    log.push(chalk.green(`(${info.match})`));
+    log.push(chalk.red(info.pattern));
+    log.push('->');
+    log.push(chalk.cyan(info.replacement || '-'));
+
+    console.log(...log);
   });
 
   console.log();

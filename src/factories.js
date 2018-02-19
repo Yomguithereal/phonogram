@@ -64,6 +64,7 @@ export function createPoeticCode(options) {
         ] = patterns[j];
 
         // If pattern is "null", we just need to apply the replacement
+        // TODO: add to debug
         if (!pattern) {
           code.replaceAt(i, replacement);
           break;
@@ -84,7 +85,7 @@ export function createPoeticCode(options) {
         }
 
         // Applying substitution
-        const match = code.replace(i, pattern, replacement);
+        const match = code.replace(i, pattern, replacement, lookbehind, negative);
 
         if (match) {
           i += match[0].length - 1;
