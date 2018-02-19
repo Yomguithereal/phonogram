@@ -106,7 +106,7 @@ Maybe re-introduce the schwa to avoid all those *ʌ*
 * crusoe
 * ally, allies
 * cache, zach, ache
-* rationale, finale
+* rationale, finale, guacamole
 * readopt readmit
 * driver, diver
 * liver, live, life, alive, giver, silver, river, deliver, diver, driven
@@ -227,6 +227,9 @@ Maybe re-introduce the schwa to avoid all those *ʌ*
 * occasion
 * silhouette
 * tourist
+* seven
+* occasion
+* cucumber
 
 fingerprint words
 

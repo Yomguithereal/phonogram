@@ -76,7 +76,7 @@ function printDebug(code) {
     if (info.lookbehind)
       log.push(chalk.red(info.lookbehind));
 
-    log.push(chalk.green(`(${info.match})`));
+    log.push(chalk.green(`${code.word.slice(0, info.position)}${chalk.underline(info.match)}${code.word.slice(info.position + info.match.length)}`));
     log.push(chalk.red(info.pattern));
     log.push('->');
     log.push(chalk.cyan(info.replacement || '-'));

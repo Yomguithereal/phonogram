@@ -229,6 +229,7 @@ export default {
     ['dawn', 'dɔn'],
     ['day', 'dɛ'],
     ['dead', 'dɛd'],
+    ['dealt', 'dɛlt'],
     ['dean', 'din'],
     ['dear', 'dir'],
     ['death', 'dɛθ'],

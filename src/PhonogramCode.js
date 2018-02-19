@@ -77,7 +77,7 @@ export default class PhonogramCode {
     if (this.trace !== null)
       this.trace.push({
         match: match[0],
-        position: match.index,
+        position: match.index + offset,
         pattern,
         replacement,
         lookbehind,

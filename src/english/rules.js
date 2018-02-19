@@ -274,7 +274,7 @@ export const POETIC_RULES = compileRules({
     // "ea" is sometimes pronounced *ɛ*
     [/ea(?=th[ei])/, 'i', /br$/],
     [/ea(?=ch)/, 'i', /[bp]$/],
-    [/ea(?=lth|nse|[mp]t)/, 'ɛ'],
+    [/ea(?=lth|nse|[lmp]t)/, 'ɛ'],
     [/ea(?!n)/, 'ɛ', /(?:thr|spr|[bgt]r|ph|(?:^|[^p])p|[bhwy])$/],
     [/ea(?=d(?:ow|y)|san|nt$)/, 'ɛ', /(?:st|pl|[mr])$/],
     [/ea(?=th|d)/, 'ɛ', /dr?$/],
