@@ -205,6 +205,7 @@ Maybe re-introduce the schwa to avoid all those *ʌ*
 * pollution
 * initial un- often ju
 * narrative
+* visual
 
 fingerprint words
 

@@ -30,6 +30,7 @@ const EXCEPTIONS = {
   leases: 'l(ea•i)s(e•i)(s•z)',
   liege: 'l(ie•i)(g•ʒ)(e•)',
   hi: 'h(i•aj)',
+  ok: 'o(k•kɛ)',
   once: '(o•wa)n(ce•s)',
   prayer: 'pr(ay•ɛ)(er•r)',
   prayers: 'pr(ay•ɛ)(er•r)(s•z)',

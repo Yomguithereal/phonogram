@@ -34,8 +34,8 @@ export function createPoeticCode(options) {
    * @param  {object}        params - Optional parameters.
    * @return {PhonogramCode}        - The resulting code.
    */
-  return function poetic(string, params) {
-    const code = new PhonogramCode(string, typeof params === 'object' && params.debug === true),
+  return function poeticCode(string, params) {
+    const code = new PhonogramCode(string, typeof params === 'object' && params.trace === true),
           normalizedWord = code.normalizedWord;
 
     // Checking whether the normalized word exists as an exception
@@ -102,7 +102,7 @@ export function createPoeticCode(options) {
  * code instance.
  */
 export function createPoetic(encode) {
-  return function(string) {
+  return function poetic(string) {
     const code = encode(string);
 
     return code.toString();

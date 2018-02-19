@@ -5,6 +5,7 @@
  *
  * Exposing handy CLI tools related to Phonogram encoding.
  */
+import chalk from 'chalk';
 import yargs from 'yargs';
 import phonogram from './index';
 
@@ -40,19 +41,14 @@ const argv = yargs
     choices: SUPPORTED_LEVELS,
     default: 'poetic'
   })
+  .option('detail', {
+    type: 'boolean',
+    default: false
+  })
   .help('h')
   .alias('h', 'help')
   .locale('en')
   .argv;
-
-const words = argv._;
-
-let lang = argv.lang;
-
-if (lang in SIMPLIFIED_LANGUAGES)
-  lang = SIMPLIFIED_LANGUAGES[lang];
-
-const level = argv.level;
 
 /**
  * Helpers.
@@ -61,11 +57,72 @@ function cleanInput(string) {
   return string.replace(/[,;.|\-]/g, '');
 }
 
+function printDebug(code) {
+  console.log(chalk.green(code.word), '->', chalk.cyan(code.toString()));
+
+  if (code.exception)
+    return console.log('  ', chalk.red('Exception'));
+
+  code.trace.forEach(([pattern, replacement], i) => {
+    console.log(`  ${i + 1}.`, chalk.red(pattern), replacement);
+  });
+
+  console.log();
+}
+
+function printMultiLang(word, codes) {
+  console.log(chalk.green(word));
+
+  codes.forEach(info => {
+    console.log(`${chalk.cyan(info.lang)}:`, info.encoded);
+  });
+
+  console.log();
+}
+
+/**
+ * State.
+ */
+const words = argv._.map(cleanInput);
+
+let lang = argv.lang;
+
+if (lang in SIMPLIFIED_LANGUAGES)
+  lang = SIMPLIFIED_LANGUAGES[lang];
+
+const level = argv.level,
+      detail = argv.detail;
+
 /**
  * Operations.
  */
-if (lang) {
-  const fn = phonogram[lang][level];
 
-  console.log(words.map(cleanInput).map(fn).join(' '));
+// Working on a single lang
+if (lang) {
+
+  if (!detail) {
+    const fn = phonogram[lang][level];
+
+    console.log(words.map(fn).join(' '));
+  }
+  else {
+    const fn = phonogram[lang].poeticCode;
+
+    words.forEach(w => printDebug(fn(w, {trace: true})));
+  }
+
+  process.exit(0);
+}
+
+// Working on all langs
+if (!detail) {
+  words.forEach(w => {
+    const codes = Object.keys(phonogram).map(l => {
+      const fn = phonogram[l][level];
+
+      return {lang: l, encoded: fn(w)};
+    });
+
+    printMultiLang(w, codes);
+  });
 }
