@@ -60,8 +60,12 @@ function cleanInput(string) {
 function printDebug(code) {
   console.log(chalk.green(code.word), '->', chalk.cyan(code.toString()));
 
-  if (code.exception)
-    return console.log('  ', chalk.red('Exception'));
+  if (code.exception) {
+    console.log('  ', chalk.red('Exception'));
+    console.log();
+
+    return;
+  }
 
   code.trace.forEach(([pattern, replacement], i) => {
     console.log(`  ${i + 1}.`, chalk.red(pattern), replacement);
