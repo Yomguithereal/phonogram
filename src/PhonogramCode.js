@@ -22,13 +22,15 @@
  * @param {string} word - The word to encode.
  */
 export default class PhonogramCode {
-  constructor(word = '') {
+  constructor(word = '', trace = false) {
 
     // Properties
     this.word = word;
     this.normalizedWord = word.toLowerCase().trim();
     this.original = new Array(this.normalizedWord.length);
     this.mapping = new Array(this.normalizedWord.length);
+    this.exception = false;
+    this.trace = trace ? [] : null;
 
     for (let i = 0, l = this.normalizedWord.length; i < l; i++) {
       const character = this.normalizedWord[i];
@@ -72,6 +74,9 @@ export default class PhonogramCode {
     if (!match)
       return null;
 
+    if (this.trace !== null)
+      this.trace.push([pattern, replacement]);
+
     // Solving matches in reverse order
     const index = match.index + offset,
           limit = index + match[0].length;
@@ -100,11 +105,10 @@ export default class PhonogramCode {
  * @param  {array}         mapping - Pre-existing mapping.
  * @return {PhonogramCode}
  */
-
-// TODO: redo that
-PhonogramCode.from = function(word, mapping) {
+PhonogramCode.fromException = function(word, mapping) {
   const code = new PhonogramCode(word);
   code.mapping = mapping;
+  code.exception = true;
 
   return code;
 };

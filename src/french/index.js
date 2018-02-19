@@ -7,7 +7,7 @@
 import exceptions from './exceptions';
 import {POETIC_RULES} from './rules';
 import {isGreekCh} from './heuristics';
-import {createPoetic} from '../factories';
+import {createPoetic, createPoeticCode} from '../factories';
 
 const hasher = (index, letter, word) => {
 
@@ -21,10 +21,12 @@ const hasher = (index, letter, word) => {
   return letter;
 };
 
-const poetic = createPoetic({
+const poeticCode = createPoeticCode({
   rules: POETIC_RULES,
   exceptions,
   hasher
 });
 
-export {poetic};
+const poetic = createPoetic(poeticCode);
+
+export {poetic, poeticCode};

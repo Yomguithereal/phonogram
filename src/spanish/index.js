@@ -7,7 +7,7 @@
 import exceptions from './exceptions';
 import {O, POETIC_RULES} from './rules';
 import {isJotaX, isNahuatl} from './heuristics';
-import {createPoetic} from '../factories';
+import {createPoetic, createPoeticCode} from '../factories';
 
 const O_SET = new Set(O);
 
@@ -26,11 +26,12 @@ const hasher = (index, letter, word) => {
   return 'x';
 };
 
-const poetic = createPoetic({
+const poeticCode = createPoeticCode({
   rules: POETIC_RULES,
   exceptions,
   hasher
 });
 
-export {poetic};
+const poetic = createPoetic(poeticCode);
 
+export {poetic, poeticCode};

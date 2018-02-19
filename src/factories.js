@@ -31,17 +31,18 @@ export function createPoeticCode(options) {
    * representation.
    *
    * @param  {string}        string - Target string.
+   * @param  {object}        params - Optional parameters.
    * @return {PhonogramCode}        - The resulting code.
    */
-  return function poetic(string) {
-    const code = new PhonogramCode(string),
+  return function poetic(string, params) {
+    const code = new PhonogramCode(string, typeof params === 'object' && params.debug === true),
           normalizedWord = code.normalizedWord;
 
     // Checking whether the normalized word exists as an exception
     const exception = EXCEPTIONS[normalizedWord];
 
     if (exception)
-      return PhonogramCode.from(normalizedWord, exception);
+      return PhonogramCode.fromException(normalizedWord, exception);
 
     // Looping on each letter
     for (let i = 0, l = normalizedWord.length; i < l; i++) {
@@ -100,9 +101,7 @@ export function createPoeticCode(options) {
  * Poetic factory returning the string encoding itself rather than the
  * code instance.
  */
-export function createPoetic(options) {
-  const encode = createPoeticCode(options);
-
+export function createPoetic(encode) {
   return function(string) {
     const code = encode(string);
 

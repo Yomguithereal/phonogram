@@ -6,11 +6,13 @@
  */
 import exceptions from './exceptions';
 import {POETIC_RULES} from './rules';
-import {createPoetic} from '../factories';
+import {createPoetic, createPoeticCode} from '../factories';
 
-const poetic = createPoetic({
+const poeticCode = createPoeticCode({
   rules: POETIC_RULES,
   exceptions
 });
 
-export {poetic};
+const poetic = createPoetic(poeticCode);
+
+export {poetic, poeticCode};

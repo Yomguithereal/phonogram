@@ -202,7 +202,9 @@ Maybe re-introduce the schwa to avoid all those *ʌ*
 * regular
 * dynamic
 * comply
+* pollution
 * initial un- often ju
+* narrative
 
 fingerprint words
 

@@ -8,11 +8,21 @@
 import yargs from 'yargs';
 import phonogram from './index';
 
+/**
+ * Configuration.
+ */
 const SUPPORTED_LANGUAGES = [
+  null,
   'english',
   'french',
   'spanish'
 ];
+
+const SIMPLIFIED_LANGUAGES = {
+  en: 'english',
+  fr: 'french',
+  sp: 'spanish'
+};
 
 const SUPPORTED_LEVELS = [
   'poetic'
@@ -22,8 +32,8 @@ const argv = yargs
   .option('lang', {
     alias: 'l',
     type: 'string',
-    choices: SUPPORTED_LANGUAGES,
-    default: 'english'
+    choices: SUPPORTED_LANGUAGES.concat(Object.keys(SIMPLIFIED_LANGUAGES)),
+    default: null
   })
   .option('level', {
     type: 'string',
@@ -35,8 +45,27 @@ const argv = yargs
   .locale('en')
   .argv;
 
-const words = argv._,
-      fn = phonogram[argv.lang][argv.level],
-      codes = words.map(w => fn(w.replace(/[,;.|\-]/g, '')));
+const words = argv._;
 
-console.log(codes.join(' '));
+let lang = argv.lang;
+
+if (lang in SIMPLIFIED_LANGUAGES)
+  lang = SIMPLIFIED_LANGUAGES[lang];
+
+const level = argv.level;
+
+/**
+ * Helpers.
+ */
+function cleanInput(string) {
+  return string.replace(/[,;.|\-]/g, '');
+}
+
+/**
+ * Operations.
+ */
+if (lang) {
+  const fn = phonogram[lang][level];
+
+  console.log(words.map(cleanInput).map(fn).join(' '));
+}
