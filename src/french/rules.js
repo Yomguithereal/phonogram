@@ -101,7 +101,7 @@ export const POETIC_RULES = compileRules({
     [/anc$/, 'ã'],
 
     // Final "ant" is pronounced *ã*
-    [/ant$/, 'ã'],
+    [/ants?$/, 'ã'],
 
     // Final "and" is pronounced *ã*
     [/ands?$/, 'ã', /[^l]$/],
@@ -573,6 +573,9 @@ export const POETIC_RULES = compileRules({
   //-- (n)
   //----------------------------------------------------------------------------
   n: [
+
+    // Final "nom" is pronounced *nõ*
+    [/noms?$/, 'nõ'],
 
     // "nn" is squeezed
     ['nn', 'n']

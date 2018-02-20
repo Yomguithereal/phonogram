@@ -238,7 +238,7 @@ export const POETIC_RULES = compileRules({
     ['ebt', 'ɛt'],
 
     // Sometimes, in the middle of a word, the "e" can be silent
-    [/e(?=n)/, '', /rc$/],
+    [/e(?=n)/, '', /r[cs]$/],
     [`e(?=th|[lrst][${VOWELS}])`, '', /(?:gu|[fmt])$/],
 
     // "ewey" and "ewi" are pronounced *uwi*
@@ -399,7 +399,7 @@ export const POETIC_RULES = compileRules({
     [`h(?=our|[^${VOWELS}])`, ''],
 
     // "h" is silent after some consonants
-    ['h', '', /[kx]$/],
+    ['h', '', /[klx]$/],
 
     [null, 'h']
   ],
@@ -473,7 +473,7 @@ export const POETIC_RULES = compileRules({
     [/i(?=a|ou)/, 'j'],
 
     // "i" before some consonants is pronounced *ʌ*
-    [/i(?=rst|rth|rd|rs?$)/, 'ʌ'],
+    [/i(?=rst|rth|r[cd]|rs?$)/, 'ʌ'],
 
     // "ie" is pronounced *i*
     [/ie(?!n)/, 'i'],

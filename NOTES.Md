@@ -82,7 +82,8 @@ Note => kinda french-based
 * Samson
 * accent pas une exception
 * Wauquiez Woerth
-* aix
+* Veil
+* aaron
 
 http://parler-francais.eklablog.com/vous-dites-a3737989
 
@@ -215,21 +216,31 @@ Maybe re-introduce the schwa to avoid all those *ʌ*
 * rein reinvented rain
 * royal loyal royales
 * said
-* circle sir
 * exiting exciting
-* fusion
 * advisor
-* arsenal
 * haste
 * grease lease
 * integer
-* plumbing
+* plumbing bombing
 * occasion
 * silhouette
 * tourist
 * seven
 * occasion
 * cucumber
+* aaron
+* forsythe
+* flamboyant
+* stead
+* rosewater
+* bueller
+* gross
+* vibrant
+* pint
+* lavatory
+* bureau
+* april
+* adrian
 
 fingerprint words
 
