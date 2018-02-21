@@ -68,7 +68,6 @@ Note => kinda french-based
 * examen
 * Taieb
 * mehdi Zadeh
-* Lucquiaud
 * Foenkinos
 * Tacchini
 * fichtre

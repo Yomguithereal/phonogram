@@ -466,6 +466,7 @@ export default {
     ['lobe', 'lɔb'],
     ['lorient', 'lorjã'],
     ['loup', 'lu'],
+    ['Lucquiaud', 'lykjo'],
     ['lunaire', 'lynɛr'],
     ['lut', 'ly'],
     ['lyncher', 'lẽʃe'],
