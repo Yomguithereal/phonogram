@@ -302,6 +302,14 @@ read/read, lead/lead, live/live, tear/tear
 * scenario
 * tackled
 * adapt
+* wellesley
+* bicycle
+* windsor
+* collective
+* tackle
+* acumen document
+* queue
+* breast
 * when does english diphtongues?
 
 ## Syllabification
