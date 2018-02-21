@@ -84,6 +84,7 @@ Note => kinda french-based
 * Wauquiez Woerth
 * Veil
 * aaron
+* vraies
 
 http://parler-francais.eklablog.com/vous-dites-a3737989
 
@@ -241,6 +242,13 @@ Maybe re-introduce the schwa to avoid all those *ʌ*
 * bureau
 * april
 * adrian
+* measure
+* grey
+* uniqueness
+* vibranium
+* lion billion
+* clare clara claire
+* catherine
 
 fingerprint words
 
@@ -259,6 +267,8 @@ read/read, lead/lead, live/live, tear/tear
 * Handle better vocalization
 * Starting es-
 * Final -ad should drop the d
+* gu -> gw actually sounds more like w
+* simplify v to b?
 
 ## Italian
 
