@@ -7,6 +7,7 @@ import {poetic} from '../../src/french';
 export default {
   fn: poetic,
   cases: [
+    ['Aaron', 'arõ'],
     ['abasourdie', 'abazurdi'],
     ['abbaye', 'abɛi'],
     ['abeille', 'abɛj'],
@@ -41,6 +42,7 @@ export default {
     ['amniotique', 'amnjotik'],
     ['amphétamine', 'ãfetamin'],
     ['amphore', 'ãfɔr'],
+    ['amsonie', 'ãsoni'],
     ['amygdales', 'amidal'],
     ['an', 'ã'],
     ['Aneth', 'anɛt'],
@@ -238,6 +240,7 @@ export default {
     ['Descartes', 'dekart'],
     ['détail', 'detaj'],
     ['détails', 'detaj'],
+    ['détenues', 'detøny'],
     ['deux', 'dø'],
     ['deuxièmement', 'døzjɛmømã'],
     ['deuxio', 'døzjo'],
@@ -693,6 +696,7 @@ export default {
     ['salop', 'salo'],
     ['salut', 'saly'],
     ['sagement', 'saʒømã'],
+    ['Samson', 'sãsõ'],
     ['sang', 'sã'],
     ['Saoudite', 'saudit'],
     ['saoul', 'su'],
@@ -833,6 +837,7 @@ export default {
     ['vous', 'vu'],
     ['voyeur', 'wajʌr'],
     ['vraie', 'vrɛ'],
+    ['vraies', 'vrɛ'],
 
     ['wagon', 'vagõ'],
     ['wagonlit', 'vagõli'],

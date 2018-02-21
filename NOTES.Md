@@ -78,13 +78,9 @@ Note => kinda french-based
 * Mitry Claye
 * Hélas
 * Licenciements, remerciements
-* Détenue
-* Samson
 * accent pas une exception
 * Wauquiez Woerth
 * Veil
-* aaron
-* vraies
 
 http://parler-francais.eklablog.com/vous-dites-a3737989
 
@@ -249,6 +245,35 @@ Maybe re-introduce the schwa to avoid all those *ʌ*
 * lion billion
 * clare clara claire
 * catherine
+* stalled
+* sacred
+* domination
+* asleep
+* advisor
+* standby
+* Frasier frazier
+* Levine
+* Lynch
+* duchovny
+* wednesday tuesday
+* comparison
+* secret
+* mobilizing
+* feasible
+* Deptford
+* Marylebone
+* exposure measure
+* phase phazer razer
+* scenario
+* tackled
+* adapt
+* wellesley
+* bicycle
+* windsor
+* tackle
+* acumen document
+* queue
+* when does english diphtongues?
 
 fingerprint words
 
@@ -280,37 +305,6 @@ read/read, lead/lead, live/live, tear/tear
 * Dirndl
 * Nietzsche
 * Schwimm
-* stalled
-* sacred
-* domination
-* asleep
-* advisor
-* standby
-* Frasier frazier
-* Levine
-* Lynch
-* duchovny
-* wednesday tuesday
-* comparison
-* secret
-* mobilizing
-* feasible
-* Deptford
-* Marylebone
-* exposure measure
-* phase phazer razer
-* scenario
-* tackled
-* adapt
-* wellesley
-* bicycle
-* windsor
-* collective
-* tackle
-* acumen document
-* queue
-* breast
-* when does english diphtongues?
 
 ## Syllabification
 

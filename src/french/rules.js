@@ -57,6 +57,9 @@ export const POETIC_RULES = compileRules({
     // "aiguill" is pronounced *ɛgɥij*
     ['aiguill', 'ɛgɥij'],
 
+    // "am" before "son" is pronounced *ã*
+    [/am(?=son)/, 'ã'],
+
     // "alcool" is pronounced *alkɔl*
     [/alcool/, 'alkɔl'],
 
@@ -126,8 +129,11 @@ export const POETIC_RULES = compileRules({
     // Final "aux" is pronounced *o*
     [/aux$/, 'o'],
 
+    // "aa" is squeezed
+    ['aa', 'a'],
+
     // "aë" is pronounced *ɛ*
-    [/aë/, 'ɛ'],
+    ['aë', 'ɛ'],
 
     // "au" is generally pronounced *o*
     ['au', 'o']
