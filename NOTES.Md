@@ -63,7 +63,6 @@ Note => kinda french-based
 * ouaip
 * Satie, satiété
 * Ex aequo
-* steuplé
 * sixième dixième
 * examen
 * Taieb
@@ -73,9 +72,8 @@ Note => kinda french-based
 * fichtre
 * chaos
 * Lorenz
-* Mitry Claye
+* Mitry Claye, st germain en laye
 * Hélas
-* Licenciements, remerciements
 * accent pas une exception
 * Wauquiez Woerth
 * Veil
