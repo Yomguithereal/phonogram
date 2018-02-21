@@ -414,6 +414,9 @@ export const POETIC_RULES = compileRules({
     // Final "fum" is pronounced *fẽ*
     [/fums?$/, 'fẽ'],
 
+    // Final "flux" is pronounced *flu*
+    [/flux$/, 'fly'],
+
     // Handling "faisan" and the verb "faire"
     [`fais(?=[${A + E + I + O}])`, 'føz'],
 

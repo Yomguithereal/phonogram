@@ -341,6 +341,7 @@ export default {
     ['floc', 'flɔk'],
     ['flop', 'flɔp'],
     ['fluet', 'flyɛ'],
+    ['flux', 'fly'],
     ['fol', 'fɔl'],
     ['folie', 'foli'],
     ['folle', 'fɔl'],
