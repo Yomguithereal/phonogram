@@ -355,8 +355,8 @@ export const POETIC_RULES = compileRules({
     // Final "eth" is pronounced *ɛt*
     [/eths?$/, 'ɛt'],
 
-    // "e" before "x" is pronounced *ɛ*
-    [/e(?=x)/, 'ɛ'],
+    // "e" before "x" or "h" is pronounced *ɛ*
+    [/e(?=[hx])/, 'ɛ'],
 
     // "e" before some doubled consonants is prounced *e*
     [/e(?=ss|ff)/, 'e'],

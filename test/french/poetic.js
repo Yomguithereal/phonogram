@@ -461,6 +461,7 @@ export default {
     ['licenciements', 'lisãsimã'],
     ['lien', 'ljẽ'],
     ['lient', 'li'],
+    ['Lipovetsky', 'lipovɛtski'],
     ['litigieuse', 'litiʒjøz'],
     ['Lisle', 'lil'],
     ['Livaro', 'livaro'],
@@ -485,6 +486,7 @@ export default {
     ['maous', 'maus'],
     ['marmoréens', 'marmoreẽ'],
     ['me', 'mø'],
+    ['Mehdi', 'mɛdi'],
     ['même', 'mɛm'],
     ['ménagerie', 'menaʒøri'],
     ['meneuse', 'mønøz'],
@@ -846,6 +848,7 @@ export default {
     ['wagon', 'vagõ'],
     ['wagonlit', 'vagõli'],
     ['wapiti', 'wapiti'],
+    ['Wauquiez', 'wokje'],
     ['wifi', 'wifi'],
     ['Wladimir', 'vladimir'],
 
@@ -855,6 +858,7 @@ export default {
     ['yaourt', 'jaurt'],
     ['yeux', 'jø'],
 
+    ['Zadeh', 'zadɛ'],
     ['zèbre', 'zɛbr'],
     ['zoo', 'zoo'],
     ['zoologie', 'zooloʒi'],

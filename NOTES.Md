@@ -41,7 +41,7 @@ Note => kinda french-based
 * Payn
 * expriment, ment
 * Us, Lys, physalis
-* oeuf Oeufs beouf boeufs voeu voeux
+* oeuf Oeufs beouf boeufs voeu voeux woerth
 * sens, encens, yens, mens, Brassens, tremens
 * adéquat, squat, reliquat
 * Arès, ès - grès, très, après, dès
@@ -53,7 +53,6 @@ Note => kinda french-based
 * Holstein
 * Laëtitia Lætitia, Gwenaël, Staël, Saint Saens
 * thorez
-* Lipovetsky
 * technique
 * Kislev
 * schizophrène
@@ -75,8 +74,8 @@ Note => kinda french-based
 * Mitry Claye, st germain en laye
 * Hélas
 * accent pas une exception
-* Wauquiez Woerth
 * Veil
+* Paul -> pas *pol* (against Saule)
 
 http://parler-francais.eklablog.com/vous-dites-a3737989
 
@@ -270,6 +269,12 @@ Maybe re-introduce the schwa to avoid all those *ʌ*
 * acumen document
 * queue
 * when does english diphtongues?
+* syrup
+* hierarchy
+* Loach
+* Lounge launch
+
+Don't log trace if replacement is the same
 
 fingerprint words
 
