@@ -39,23 +39,16 @@ Note => kinda french-based
 * Phoenix, Phoenicien, Phoebus, laetitia Foetus
 * laetitia, initiative
 * Payn
-* hormone (o)
 * expriment, ment
 * Us, Lys, physalis
-* oeuf Oeufs beouf boeufs voeu voeux woerth
 * sens, encens, yens, mens, Brassens, tremens
 * adéquat, squat, reliquat
 * Arès, ès - grès, très, après, dès
 * Compresser inutilement de *inytilømã* à *inytilmã*, mannequin, effectivement, émeraude, coquelicot
-* Complexifier -> règle du x. probablement rare d'avoir *gz*
 * fascisme
-* michael
-* rubens
 * Holstein
 * Laëtitia Lætitia, Gwenaël, Staël, Saint Saens
 * thorez
-* technique
-* Kislev
 * schizophrène
 * chiasme
 * possibilité de simplifier la règle du effes et du elles
@@ -63,21 +56,26 @@ Note => kinda french-based
 * ouaip
 * Satie, satiété
 * Ex aequo
-* sixième dixième
 * Foenkinos
-* Tacchini
-* fichtre
 * chaos
 * Lorenz
-* Mitry Claye, st germain en laye
 * Hélas
 * accent pas une exception
 * Veil
 * Paul -> pas *pol* (against Saule)
-* Paresser cresson
+* Paresser cresson fesse liesse
 * Adam
 * distiller
-* linguiste lingual
+* linguiste
+* étang outang rang sang orang orangoutang
+* Thym
+* kouign
+* rhododendron rubens
+* incoercible
+* gaule paule
+* taïwan
+* priest
+* duwez
 
 *Liaisions*
 
@@ -203,6 +201,7 @@ Maybe re-introduce the schwa to avoid all those *ʌ*
 * reunion
 * chemicals
 * irate
+* lonely
 * fewer
 * major mage
 * rein reinvented rain
@@ -275,6 +274,36 @@ Maybe re-introduce the schwa to avoid all those *ʌ*
 * Lounge launch
 * view
 * reconfigure
+* other
+* despair
+* eggsy
+* meyer
+* menu
+* found
+* reliable
+* dare ware
+* montgomery
+* Lucy
+* Kindly Kindle
+* section
+* flood
+* viking
+* share
+* lloyd
+* kansas city
+* clumsy
+* rule for final s might actually work everywhere else
+* liquor
+* chocolate
+* inconspicuous
+* pleasure
+* modesty
+* o'leary
+* a before x always *a*
+* learn learnt
+* enforcement
+* guernsey
+* zhivago
 
 Don't log trace if replacement is the same
 
@@ -293,11 +322,12 @@ read/read, lead/lead, live/live, tear/tear
 ## Spanish
 
 * Handle better vocalization
-* Starting es-
+* Starting es- comme dans especial should simplify to s
 * Final -ad should drop the d
 * gu -> gw actually sounds more like w
 * simplify v to b?
 * guëllo, uello
+* ramidreju
 
 ## Italian
 
@@ -324,6 +354,7 @@ read/read, lead/lead, live/live, tear/tear
 * rm -> m
 * rd -> d
 * nd -> d
+* rl -> l
 * ft -> f
 * rs/rz -> s/z
 * mb -> m

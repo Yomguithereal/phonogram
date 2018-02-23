@@ -16,6 +16,7 @@ const GREEK_CH = [
   'chiro(?!u)',
   'chor(?!izo)',
   'lichen',
+  'tech',
   'tricho',
   'stocha',
   'varech'

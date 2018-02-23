@@ -11,7 +11,7 @@ import {compileRules, INITIAL, NEGATIVE} from '../helpers';
  * Vowel definitions.
  */
 export const A = 'aàâ';
-export const E = 'eéèë';
+export const E = 'eéèëê';
 export const I = 'iïî';
 export const O = 'oôùü';
 export const U = 'uü';
@@ -100,11 +100,8 @@ export const POETIC_RULES = compileRules({
     // "aon" is always pronounced *ã*
     ['aon', 'ã'],
 
-    // Final "anc" is pronounced *ã*
-    [/anc$/, 'ã'],
-
-    // Final "ant" is pronounced *ã*
-    [/ants?$/, 'ã'],
+    // Final "anc/ant" is pronounced *ã*
+    [/an[ct]s?$/, 'ã'],
 
     // Final "and" is pronounced *ã*
     [/ands?$/, 'ã', /[^l]$/],
@@ -117,7 +114,7 @@ export const POETIC_RULES = compileRules({
 
     // Final "aye"
     [/aye$/, 'ɛi', /abb$/],
-    [/aye$/, 'ɛ', /.{3,}/],
+    [/aye$/, 'ɛ', /.{3,}|l$/],
     [/aye$/, 'ɛj'],
 
     // "ai" or "ay" are generally pronounced *ɛ*, also covers final "aie"
@@ -203,7 +200,7 @@ export const POETIC_RULES = compileRules({
     ['ck', 'k'],
 
     // "ch" before a consonant is always *k*
-    [`ch(?=[^${VOWELS}n])`, 'k'],
+    [`ch(?=[^${VOWELS}n](?!r)|ae)`, 'k'],
 
     // "ch" is generally pronounced "ʃ"
     ['ch', 'ʃ'],
@@ -357,6 +354,7 @@ export const POETIC_RULES = compileRules({
 
     // Before some letters, "e" is pronounced *ɛ*
     [/e(?=[bhx])/, 'ɛ'],
+    [/e(?=v$)/, 'ɛ'],
 
     // "e" before some doubled consonants is prounced *e*
     [/e(?=ss|ff)/, 'e'],
@@ -503,7 +501,7 @@ export const POETIC_RULES = compileRules({
     [/ies?$/, 'i'],
 
     // "isle" is pronounced *il*
-    [/isl(?=e)/, 'il'],
+    [/isl(?=e(?!v))/, 'il'],
 
     // Sometimes, "ient" is pronounced *iã*
     [/ien(?=t)/, 'iã', /cl$/],
@@ -564,7 +562,7 @@ export const POETIC_RULES = compileRules({
   m: [
 
     // Sometimes, initial "mont" is pronounced *mõ*
-    [/mont(?=rach|ro(?!ns)|b)/, 'mõ'],
+    [/mont(?=rach|ro(?!ns)|[bg])/, 'mõ'],
 
     // Final "ment" is pronounced *mã*
     [/ments?$/, 'mã'],
@@ -597,6 +595,9 @@ export const POETIC_RULES = compileRules({
     // "orient" is pronounced *orjã*
     [/orien(?=t)/, 'orjã'],
 
+    // "oglie" is pronounced *ʌj*
+    ['oglie', 'ʌj'],
+
     // "ouill" is pronounced *uj*
     [/(?:ouill|ouils?$)/, 'uj'],
 
@@ -604,7 +605,7 @@ export const POETIC_RULES = compileRules({
     [/oigts?$/, 'wa'],
 
     // Final "oubs" is pronounced *u*
-    [/oubs$/, 'u'],
+    [/ou[bd]s$/, 'u'],
 
     // Final "oeil" is pronounced *ʌj*
     [/oeil$/, 'ʌj'],
@@ -661,9 +662,11 @@ export const POETIC_RULES = compileRules({
     [/ow/, 'o'],
 
     // "oeu" is generally pronounced *ʌ*
+    [/oeu(?:fs|x?)$/, 'ø'],
     [/oeu/, 'ʌ'],
 
-    // "oe" is pronounced *ø*
+    // "oe" is pronounced *ø* or *ʌ*
+    [/oe(?=r)/, 'ʌ'],
     [/oe/, 'ø'],
 
     // "oê" is pronounced *wa*
@@ -685,13 +688,13 @@ export const POETIC_RULES = compileRules({
     [/ocr/, 'ɔkr', INITIAL],
 
     // "o" before "qu" or some "ch" is pronounced *ɔ*
-    [/o(?=ble|c?k|ch(?![iy])|qu)/, 'ɔ'],
+    [`o(?=ble|c?k|qu|ch(?![iy])|r[^${VOWELS}r])`, 'ɔ'],
 
     // "o" before some doubled consonants is pronounced *ɔ*
-    [/o(?=ll|mm|nn|tt|ss)/, 'ɔ'],
+    [/o(?=ff|ll|mm|nn|tt|ss)/, 'ɔ'],
 
     // Final "o" before a single consonant is pronounced *ɔ*
-    [`o(?=[^${VOWELS}](?:es?|s?)$|r[dt]s?$)`, 'ɔ']
+    [`o(?=[^${VOWELS}](?:es?|s?)$|r[cdkt]s?$)`, 'ɔ']
   ],
 
   //-- (ô)
@@ -805,8 +808,8 @@ export const POETIC_RULES = compileRules({
     // "sh" is pronounced *ʃ*
     ['sh', 'ʃ'],
 
-    // Final "s" is not pronounced, except before a "è"
-    [/s$/, '', /[^è]$/],
+    // Final "s" is not pronounced, except before some letters
+    [/s$/, '', /[^èï]$/],
 
     // "sol" is always pronounced *sol*
     ['sol', 'sol'],
@@ -922,19 +925,13 @@ export const POETIC_RULES = compileRules({
   x: [
 
     // "x" after "deu" and before "i" is pronounced *z*
-    [/x(?=i)/, 'z', 'deu'],
+    [/x(?=i)/, 'z', /([ds]i|deu)$/],
 
     // "xc" simplifies to *ks* before "e", "i" & "y"
     [`xc(?=[${E + I + Y}])`, 'ks'],
 
-    // Before a "u" or a "o", "x" is pronounced *ks* if not after an initial "e"
-    [/x(?=[ou])/, 'ks', /^e$/, NEGATIVE],
-
-    // Before a "i", "x" is sometimes pronounced *ks*
-    [/x(?=i(?:ll|e))/, 'ks'],
-
-    // Before another vowel, "x" is pronounced *gz*
-    [`x(?=h?[${VOWELS}])`, 'gz', /(?:a|eu)/, NEGATIVE],
+    // Sometimes, "x" is pronounced *gz*
+    [/x(?=is|[huy])/, 'gz', /se$/, NEGATIVE],
 
     // Else it is pronounced *ks*
     [null, 'ks']
