@@ -768,6 +768,7 @@ export default {
     ['syrop', 'siro'],
 
     ['tabac', 'taba'],
+    ['Taieb', 'tajɛb'],
     ['tapecul', 'tapky'],
     ['taxonomie', 'taksonomi'],
     ['téraflops', 'teraflɔps'],
@@ -849,6 +850,7 @@ export default {
     ['wagonlit', 'vagõli'],
     ['wapiti', 'wapiti'],
     ['Wauquiez', 'wokje'],
+    ['web', 'wɛb'],
     ['wifi', 'wifi'],
     ['Wladimir', 'vladimir'],
 

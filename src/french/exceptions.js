@@ -46,6 +46,7 @@ const EXCEPTIONS = {
   est: '(est•ɛ)',
   estomac: '(e•ɛ)stom(ac•a)',
   et: 'e(t•)',
+  examen: '(e•ɛ)(x•gz)am(en•ẽ)',
   femme: 'f(e•a)(mme•m)',
   fez: 'f(e•ɛ)z',
   filament: 'filam(ent•ã)',

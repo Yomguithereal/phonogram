@@ -36,9 +36,10 @@ Note => kinda french-based
 * apophis sarapis gratis =/= semis souris gris batis suis
 * brosse, gosse =/= grosse, fosse
 * cointerne
-* Phoenix, Phoenicien, Phoebus, laetitia
+* Phoenix, Phoenicien, Phoebus, laetitia Foetus
 * laetitia, initiative
 * Payn
+* hormone (o)
 * expriment, ment
 * Us, Lys, physalis
 * oeuf Oeufs beouf boeufs voeu voeux woerth
@@ -63,9 +64,6 @@ Note => kinda french-based
 * Satie, satiété
 * Ex aequo
 * sixième dixième
-* examen
-* Taieb
-* mehdi Zadeh
 * Foenkinos
 * Tacchini
 * fichtre
@@ -76,8 +74,10 @@ Note => kinda french-based
 * accent pas une exception
 * Veil
 * Paul -> pas *pol* (against Saule)
-
-http://parler-francais.eklablog.com/vous-dites-a3737989
+* Paresser cresson
+* Adam
+* distiller
+* linguiste lingual
 
 *Liaisions*
 
@@ -295,6 +295,7 @@ read/read, lead/lead, live/live, tear/tear
 * Final -ad should drop the d
 * gu -> gw actually sounds more like w
 * simplify v to b?
+* guëllo, uello
 
 ## Italian
 
