@@ -17,6 +17,7 @@ const SUPPORTED_LANGUAGES = [
   'english',
   'french',
   'german',
+  'italian',
   'spanish'
 ];
 
@@ -24,6 +25,7 @@ const SIMPLIFIED_LANGUAGES = {
   en: 'english',
   fr: 'french',
   de: 'german',
+  it: 'italian',
   sp: 'spanish'
 };
 

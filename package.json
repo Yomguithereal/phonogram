@@ -14,6 +14,7 @@
     "de": "babel-node ./src/cli.js --lang de --detail",
     "en": "babel-node ./src/cli.js --lang en --detail",
     "fr": "babel-node ./src/cli.js --lang fr --detail",
+    "it": "babel-node ./src/cli.js --lang it --detail",
     "sp": "babel-node ./src/cli.js --lang sp --detail",
     "dist": "npm run clean && babel src --out-dir ./",
     "lint": "eslint src test",
@@ -27,7 +28,7 @@
     "url": "git+https://github.com/yomguithereal/phonogram.git"
   },
   "phonogram": {
-    "folders": "./!(ui).js english french german spanish"
+    "folders": "./!(ui).js english french german italian spanish"
   },
   "keywords": [
     "phonetic"
