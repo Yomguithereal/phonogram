@@ -664,6 +664,7 @@ export default {
     ['mat', 'mat'],
     ['Matthew', 'maθju'],
     ['Matthews', 'maθjuz'],
+    ['mayorships', 'mɛrʃips'],
     ['mead', 'mid'],
     ['meadow', 'mɛdo'],
     ['mean', 'min'],

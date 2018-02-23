@@ -528,6 +528,9 @@ export const POETIC_RULES = compileRules({
     // Final "mn" is pronounced *m*
     [/mn$/, 'm'],
 
+    // "mayor" is pronounced *mɛr*
+    ['mayor', 'mɛr'],
+
     // Double "m" is squeezed
     ['mm', 'm'],
 

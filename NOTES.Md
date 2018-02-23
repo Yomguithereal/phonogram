@@ -273,6 +273,8 @@ Maybe re-introduce the schwa to avoid all those *ʌ*
 * hierarchy
 * Loach
 * Lounge launch
+* view
+* reconfigure
 
 Don't log trace if replacement is the same
 
