@@ -16,12 +16,14 @@ const SUPPORTED_LANGUAGES = [
   null,
   'english',
   'french',
+  'german',
   'spanish'
 ];
 
 const SIMPLIFIED_LANGUAGES = {
   en: 'english',
   fr: 'french',
+  de: 'german',
   sp: 'spanish'
 };
 

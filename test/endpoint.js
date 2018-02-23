@@ -34,6 +34,10 @@ describe('french', function() {
   test('poetic', './french/poetic.js');
 });
 
+describe('german', function() {
+  test('poetic', './german/poetic.js');
+});
+
 describe('spanish', function() {
   require('./spanish/heuristics.js');
   test('poetic', './spanish/poetic.js');

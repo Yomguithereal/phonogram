@@ -11,6 +11,7 @@
     "check": "npm test && npm run lint",
     "clean": "rimraf $npm_package_phonogram_folders",
     "cli": "babel-node ./src/cli.js",
+    "de": "babel-node ./src/cli.js --lang de --detail",
     "en": "babel-node ./src/cli.js --lang en --detail",
     "fr": "babel-node ./src/cli.js --lang fr --detail",
     "sp": "babel-node ./src/cli.js --lang sp --detail",
@@ -26,7 +27,7 @@
     "url": "git+https://github.com/yomguithereal/phonogram.git"
   },
   "phonogram": {
-    "folders": "./!(ui).js english french spanish"
+    "folders": "./!(ui).js english french german spanish"
   },
   "keywords": [
     "phonetic"
