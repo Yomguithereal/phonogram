@@ -3,8 +3,10 @@ import {render} from 'react-dom';
 import phonogram from './src';
 
 const TITLE = {
-  french: 'French',
   english: 'English',
+  french: 'French',
+  german: 'German',
+  italian: 'Italian',
   spanish: 'Spanish'
 }
 
