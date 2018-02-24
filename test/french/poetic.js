@@ -175,6 +175,7 @@ export default {
     ['chnèque', 'ʃnɛk'],
     ['chnoque', 'ʃnɔk'],
     ['chorizo', 'ʃorizo'],
+    ['Christ', 'krist'],
     ['chrysanthème', 'krizãtɛm'],
     ['chtonien', 'ktonjẽ'],
     ['chut', 'ʃyt'],
@@ -461,6 +462,7 @@ export default {
     ['julie', 'ʒyli'],
 
     ['Kislev', 'kislɛv'],
+    ['kouign', 'kwinj'],
 
     ['laitue', 'lɛty'],
     ['lapin', 'lapẽ'],
@@ -707,6 +709,7 @@ export default {
     ['rayoner', 'rɛjone'],
     ['refroidir', 'røfrwadir'],
     ['Rheims', 'rẽs'],
+    ['rédemption', 'redãpsjõ'],
     ['réimplanter', 'reẽplãte'],
     ['reine', 'rɛn'],
     ['remontrons', 'rømõtrõ'],
@@ -825,6 +828,7 @@ export default {
     ['Thibault', 'tibo'],
     ['Thiers', 'tjɛr'],
     ['Thor', 'tɔr'],
+    ['thym', 'tẽ'],
     ['tian', 'tjã'],
     ['tiare', 'tjar'],
     ['tien', 'tjẽ'],

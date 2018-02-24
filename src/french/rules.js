@@ -941,6 +941,9 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   y: [
 
+    // Sometimes, final "ym" is pronounced *ẽ*
+    [/yms?/, 'ẽ', /th$/],
+
     // "yg" before "d" is pronouncde *i*
     [/yg(?=d)/, 'i'],
 

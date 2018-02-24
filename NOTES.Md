@@ -68,13 +68,10 @@ Note => kinda french-based
 * distiller
 * linguiste
 * étang outang rang sang orang orangoutang
-* Thym
-* kouign
 * rhododendron rubens
 * incoercible
 * gaule paule
 * taïwan
-* priest
 * duwez
 
 *Liaisions*
