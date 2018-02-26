@@ -76,6 +76,7 @@ Note => kinda french-based
 * tympans (lié à thym?)
 * Siemens
 * Poirier Poyrier Poërier
+* rocco
 
 *Liaisions*
 
@@ -337,7 +338,6 @@ read/read, lead/lead, live/live, tear/tear
 ## Italian
 
 * Prosciutto
-* Mauri
 * magia
 
 ## German
