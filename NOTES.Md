@@ -62,7 +62,7 @@ Note => kinda french-based
 * Hélas
 * accent pas une exception
 * Veil
-* Paul -> pas *pol* (against Saule)
+* Paul -> pas *pol* (against Saule), gaule paule
 * Paresser cresson fesse liesse
 * Adam
 * distiller
@@ -70,17 +70,12 @@ Note => kinda french-based
 * étang outang rang sang orang orangoutang
 * rhododendron rubens
 * incoercible
-* gaule paule
 * taïwan
 * duwez
 * exiler
 * tympans (lié à thym?)
-* bled
-* Fontvannes
 * Siemens
 * Poirier Poyrier Poërier
-* Proulx
-* Montcuq
 
 *Liaisions*
 
@@ -343,6 +338,7 @@ read/read, lead/lead, live/live, tear/tear
 
 * Prosciutto
 * Mauri
+* magia
 
 ## German
 

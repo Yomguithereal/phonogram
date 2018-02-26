@@ -172,6 +172,9 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   c: [
 
+    // Final "cuq" is pronounced *ku*
+    [/cuqs?$/, 'ku'],
+
     // "corps" is pronounced *kɔr*
     [/corps/, 'kɔr'],
 
@@ -354,7 +357,7 @@ export const POETIC_RULES = compileRules({
 
     // Before some letters, "e" is pronounced *ɛ*
     [/e(?=[bhx])/, 'ɛ'],
-    [/e(?=v$)/, 'ɛ'],
+    [/e(?=[dv]s?$)/, 'ɛ'],
 
     // "e" before some doubled consonants is prounced *e*
     [/e(?=ss|ff)/, 'e'],
@@ -561,9 +564,6 @@ export const POETIC_RULES = compileRules({
   //----------------------------------------------------------------------------
   m: [
 
-    // Sometimes, initial "mont" is pronounced *mõ*
-    [/mont(?=rach|ro(?!ns)|[bg])/, 'mõ'],
-
     // Final "ment" is pronounced *mã*
     [/ments?$/, 'mã'],
 
@@ -617,6 +617,9 @@ export const POETIC_RULES = compileRules({
     [`oi(?=d[${VOWELS}])`, 'wa'],
     [/(?:oids?|oist$|o[iî]x?|oy$)/, 'wa'],
 
+    // Sometimes "ont" in the middle of a word is pronounced *õ*
+    [/ont(?=rach|ro(?!ns)|[bcgv])/, 'õ'],
+
     // Final "ond" is pronounced *õ*
     [/onds?$/, 'õ'],
 
@@ -636,7 +639,7 @@ export const POETIC_RULES = compileRules({
     [/ombs?$/, 'õ'],
 
     // Final "oult" is pronounced *u*
-    [/oults?$/, 'u'],
+    [/oul[tx]s?$/, 'u'],
 
     // "ompt" is sometimes pronounced *õt*
     [/ompt$/, 'õ'],
