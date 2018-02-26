@@ -339,6 +339,7 @@ read/read, lead/lead, live/live, tear/tear
 
 * Prosciutto
 * magia
+* azalea, mezzo, rozzo Demander à Donato
 
 ## German
 

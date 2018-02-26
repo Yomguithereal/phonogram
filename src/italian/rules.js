@@ -15,7 +15,7 @@ export const A = 'a';
 export const E = 'e';
 export const I = 'i';
 export const O = 'o';
-export const U = 'u';
+export const U = 'uù';
 export const Y = 'y';
 export const VOWELS = A + E + I + O + U + Y;
 
@@ -34,6 +34,16 @@ export const POETIC_RULES = compileRules({
     [null, 'a']
   ],
 
+  //-- (b)
+  //----------------------------------------------------------------------------
+  b: [
+
+    // "bb" is squeezed
+    ['bb', 'b'],
+
+    [null, 'b']
+  ],
+
   //-- (c)
   //----------------------------------------------------------------------------
   c: [
@@ -42,9 +52,33 @@ export const POETIC_RULES = compileRules({
     ['ch', 'k'],
 
     // Before "e" or "i", "c" is pronounced *tʃ*
-    [/c(?=[ei])/, 'tʃ'],
+    [/cc?i(?=a)/, 'tʃ'],
+    [/cc?(?=[ei])/, 'tʃ'],
+
+    // "cc" is squeezed
+    ['cc', 'k'],
 
     [null, 'k']
+  ],
+
+  //-- (d)
+  //----------------------------------------------------------------------------
+  d: [
+
+    // "dd" is squeezed
+    ['dd', 'd'],
+
+    [null, 'd']
+  ],
+
+  //-- (f)
+  //----------------------------------------------------------------------------
+  f: [
+
+    // "ff" is squeezed
+    ['ff', 'f'],
+
+    [null, 'f']
   ],
 
   //-- (g)
@@ -54,10 +88,87 @@ export const POETIC_RULES = compileRules({
     // "gn" is pronounced *nj*
     ['gn', 'nj'],
 
-    [null, 'ʒ']
+    // "gh" is pronounced *g*
+    ['gh', 'g'],
+
+    // "g" before some vowels is pronounced *ʒ*
+    [`gg?i(?=[${VOWELS}])`, 'dʒ'],
+    [/gg?(?=[ei])/, 'dʒ'],
+
+    // "gg" is squeezed
+    ['gg', 'g'],
+
+    [null, 'g']
   ],
+
+  //-- (i)
+  //----------------------------------------------------------------------------
+  i: [
+
+    // Before another vowel but after a "r", "i" is pronounced *ij*
+    [`i(?=[${VOWELS}])`, 'ij', /r$/],
+
+    // Before another vowel, "i" is pronounced *j*
+    [`i(?=[${VOWELS}])`, 'j'],
+
+    [null, 'i']
+  ],
+
+  //-- (n)
+  //----------------------------------------------------------------------------
+  n: [
+
+    // "nn" is squeezed
+    ['nn', 'n'],
+
+    [null, 'n']
+  ],
+
+  //-- (p)
+  //----------------------------------------------------------------------------
+  p: [
+
+    // "pp" is squeezed
+    ['pp', 'p'],
+
+    [null, 'p']
+  ],
+
+  //-- (q)
+  //----------------------------------------------------------------------------
+  q: [
+
+    // "qu" is pronounced *kw*
+    ['qu', 'kw'],
+
+    [null, 'k']
+  ],
+
+  //-- (t)
+  //----------------------------------------------------------------------------
+  t: [
+
+    // "tt" is squeezed
+    ['tt', 't'],
+
+    [null, 't']
+  ],
+
+  // (ù)
+  //----------------------------------------------------------------------------
+  ù: 'u',
 
   //-- (z)
   //----------------------------------------------------------------------------
-  z: 'ts'
+  z: [
+
+    // "zz" is pronounced *ts*
+    ['zz', 'ts'],
+
+    // Before some letters, "z" is pronounced *ts*
+    [/z(?=[io])/, 'ts'],
+
+    // Else is pronounced *dz*
+    [null, 'dz']
+  ]
 });
