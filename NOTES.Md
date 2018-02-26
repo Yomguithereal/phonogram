@@ -43,7 +43,7 @@ Note => kinda french-based
 * Us, Lys, physalis
 * sens, encens, yens, mens, Brassens, tremens
 * adéquat, squat, reliquat
-* Arès, ès - grès, très, après, dès
+* Arès, ès - grès, très, après, dès hermès
 * Compresser inutilement de *inytilømã* à *inytilmã*, mannequin, effectivement, émeraude, coquelicot
 * fascisme
 * Holstein
@@ -73,6 +73,14 @@ Note => kinda french-based
 * gaule paule
 * taïwan
 * duwez
+* exiler
+* tympans (lié à thym?)
+* bled
+* Fontvannes
+* Siemens
+* Poirier Poyrier Poërier
+* Proulx
+* Montcuq
 
 *Liaisions*
 
@@ -127,6 +135,8 @@ Maybe re-introduce the schwa to avoid all those *ʌ*
 * vagina
 * penis
 * flandres
+* fragrance miniature
+* riot liable nyall i après le r diphtongue comme dans les autres langues
 * catastrophe, recipe, adobe, Phoebe, phebe
 * whatever (ver => wall)
 * telephone, telescope
@@ -301,6 +311,8 @@ Maybe re-introduce the schwa to avoid all those *ʌ*
 * enforcement
 * guernsey
 * zhivago
+* genghis
+* nh
 
 Don't log trace if replacement is the same
 
@@ -325,6 +337,7 @@ read/read, lead/lead, live/live, tear/tear
 * simplify v to b?
 * guëllo, uello
 * ramidreju
+* quixote
 
 ## Italian
 
@@ -373,6 +386,7 @@ read/read, lead/lead, live/live, tear/tear
 * final ar -> r
 * drop final s or z
 * nt -> n
+* lf -> f (r or l before some other consonant simplifies)
 * ju -> u
 * crush diphtongues
 * squeeze à la fin?
