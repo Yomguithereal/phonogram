@@ -328,7 +328,7 @@ read/read, lead/lead, live/live, tear/tear
 
 * Handle better vocalization
 * Starting es- comme dans especial should simplify to s
-* Final -ad should drop the d
+* Final -ad should drop the d (also final -ados?)
 * gu -> gw actually sounds more like w
 * simplify v to b?
 * guëllo, uello
@@ -340,6 +340,7 @@ read/read, lead/lead, live/live, tear/tear
 * Prosciutto
 * magia
 * azalea, mezzo, rozzo Demander à Donato
+* rosa, asma, sbavare
 
 ## German
 

@@ -66,6 +66,9 @@ export function createPoeticCode(options) {
         // If pattern is "null", we just need to apply the replacement
         if (!pattern) {
 
+          if (code.word[i] === replacement)
+            break;
+
           // TODO: move this elsewhere
           if (code.trace)
             code.trace.push({

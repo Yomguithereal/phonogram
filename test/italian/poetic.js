@@ -19,7 +19,9 @@ export default {
     ['ampio', 'ampjo'],
     ['anche', 'anke'],
     ['appena', 'apena'],
+    ['assassino', 'asasino'],
     ['attraverso', 'atraverso'],
+    ['avvocato', 'avokato'],
 
     ['babbo', 'babo'],
     ['baffo', 'bafo'],
@@ -30,6 +32,7 @@ export default {
     ['caldo', 'kaldo'],
     ['canzone', 'kantsone'],
     ['cavolo', 'kavolo'],
+    ['censimento', 'tʃensimento'],
     ['chiesa', 'kjesa'],
     ['ciao', 'tʃao'],
     ['cibo', 'tʃibo'],
@@ -39,9 +42,11 @@ export default {
     ['dunque', 'dunkwe'],
 
     ['effetto', 'efeto'],
+    ['evviva', 'eviva'],
 
     ['fabbro', 'fabro'],
     ['facevo', 'fatʃevo'],
+    ['famiglia', 'familja'],
     ['fatto', 'fato'],
     ['fingere', 'findʒere'],
     ['fosforo', 'fosforo'],
@@ -50,10 +55,14 @@ export default {
     ['ghetto', 'geto'],
     ['ghianda', 'gjanda'],
     ['giungla', 'dʒungla'],
+    ['gli', 'li'],
+    ['glielo', 'ljelo'],
     ['gnoco', 'njoko'],
     ['grazie', 'gratsje'],
 
     ['idra', 'idra'],
+
+    ['luglio', 'luljo'],
 
     ['maggio', 'madʒo'],
     ['Marzabotto', 'mardzaboto'],
@@ -65,18 +74,25 @@ export default {
     ['oggi', 'odʒi'],
 
     ['pagina', 'padʒina'],
+    ['paglia', 'palja'],
     ['papa', 'papa'],
+    ['pasta', 'pasta'],
     ['pazza', 'patsa'],
     ['peccato', 'pekato'],
     ['peggio', 'pedʒo'],
+    ['pessimo', 'pesimo'],
     ['piano', 'pjano'],
     ['piccolo', 'pikolo'],
     ['pizza', 'pitsa'],
     ['povero', 'povero'],
+    ['posso', 'poso'],
     ['proprio', 'proprijo'],
 
     ['Ricci', 'ritʃi'],
     ['Rocco', 'roko'],
+
+    ['sano', 'sano'],
+    ['sovvenire', 'sovenire'],
 
     ['tranne', 'trane'],
 
