@@ -65,6 +65,9 @@ Note => kinda french-based
 * Paul -> pas *pol* (against Saule), gaule paule
 * Paresser cresson fesse liesse
 * Adam
+* Delescluses Delescluze
+* Jared
+* Jiofor
 * distiller
 * linguiste
 * étang outang rang sang orang orangoutang
@@ -77,6 +80,34 @@ Note => kinda french-based
 * Siemens
 * Poirier Poyrier Poërier
 * rocco
+* facétieux
+* tînt
+* Aymé
+* Lesnard
+* Boisnard
+* Lê
+* Choix
+* Baîlle
+* Savigny, Lesigny
+* Descartes Desmoulins
+* Nogent
+* Buzyn
+* Lyncher
+* comté compter
+* acre
+* La Cluzaz
+* Joug
+* Tabac Hamac
+* Solennel
+* Uruguay
+* harengs
+* naïade
+* saur
+* vauxbuin
+* Longjumeau, longpont
+* christophe, colle
+* Facétieux
+* sirop, salop
 
 *Liaisions*
 
@@ -104,20 +135,31 @@ Maybe re-introduce the schwa to avoid all those *ʌ*
 * liver, live, life, alive, giver, silver, river, deliver, diver, driven
 * heroin, heroine
 * fascism
+* able idle disciple le before consonant => diphtongue
 * hoist, moist, foist, pianoist
 * holstein
 * pour proud shroud loud lousy aroused devour
 * erasure, sure, sugar, supper, sued, use
 * ere, heir, are
+* uzi, cuz
 * Zoey, Gooey, Body, suey
 * devil, developer
 * bowel, vowel, camel
 * atheist
+* acres
+* here
+* stomach
+* leech
+* Vries
+* Personally
+* Jeaninne
 * mischievious, schizo
+* graphed
 * cereal, real sidereal
 * creator
 * whoever (drop exception on who), ver should be in the wall
 * satiate
+* Reid
 * thanos
 * ghoul, gould
 * opener, ravener
@@ -125,12 +167,16 @@ Maybe re-introduce the schwa to avoid all those *ʌ*
 * impromptu (final u)
 * nature, natural, creature nate nathan mature nation
 * Fruit, suit, pursuit juice, cruise - jesuit, suite, genuine - quitting - circuit - build
+* uruguay
+* shears
 * able
 * war, warden, wall, waldorf
 * Louis, Lewis
 * vagina
 * penis
 * flandres
+* lynch
+* enquirer
 * fragrance miniature
 * riot liable nyall i après le r diphtongue comme dans les autres langues
 * catastrophe, recipe, adobe, Phoebe, phebe
@@ -297,6 +343,7 @@ Maybe re-introduce the schwa to avoid all those *ʌ*
 * clumsy
 * rule for final s might actually work everywhere else
 * liquor
+* greenwich
 * chocolate
 * inconspicuous
 * pleasure
@@ -308,7 +355,22 @@ Maybe re-introduce the schwa to avoid all those *ʌ*
 * guernsey
 * zhivago
 * genghis
+* dhal
 * nh
+* berkeley kelly
+* rescuing soldier yearn earn
+* withdrawal
+* jealous heather
+* idle
+* waffle
+* piehole
+* Campbell
+* deaf
+* mild child wild
+* alexie
+* bull
+* increase
+* Weisz
 
 Don't log trace if replacement is the same
 
@@ -334,13 +396,19 @@ read/read, lead/lead, live/live, tear/tear
 * guëllo, uello
 * ramidreju
 * quixote
+* arquitectura
+* Echegu
+* Cuzco cusco cuzqo
 
 ## Italian
 
 * Prosciutto
+* finocchio
+* dhal
 * magia
 * azalea, mezzo, rozzo Demander à Donato
-* rosa, asma, sbavare
+* rosa, asma, sbavare, sbagliato, sguardo
+* jacopo, juventus (*j*)
 
 ## German
 
@@ -379,6 +447,7 @@ read/read, lead/lead, live/live, tear/tear
 * ld -> d
 * dʒ -> ʒ
 * tʃ -> ʃ
+* pb
 * th dur -> t
 * ʃ -> k
 * final ar -> r
