@@ -95,6 +95,7 @@ Note => kinda french-based
 * Lyncher
 * comté compter
 * acre
+* péripéties
 * La Cluzaz
 * Joug
 * Tabac Hamac
@@ -107,7 +108,7 @@ Note => kinda french-based
 * Longjumeau, longpont
 * christophe, colle
 * Facétieux
-* sirop, salop
+* sirop, salop, sirops
 
 *Liaisions*
 
@@ -132,6 +133,7 @@ Maybe re-introduce the schwa to avoid all those *ʌ*
 * rationale, finale, guacamole
 * readopt readmit
 * driver, diver
+* exploit
 * liver, live, life, alive, giver, silver, river, deliver, diver, driven
 * heroin, heroine
 * fascism

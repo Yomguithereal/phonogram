@@ -325,6 +325,7 @@ export default {
     ['exulter', 'ɛgzylte'],
     ['exutoire', 'ɛgzytwar'],
 
+    ['facéties', 'fasesi'],
     ['factureriez', 'faktyrørje'],
     ['faïence', 'fajãs'],
     ['faisan', 'føzã'],
