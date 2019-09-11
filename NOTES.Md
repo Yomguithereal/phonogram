@@ -51,6 +51,7 @@ Note => kinda french-based
 * thorez
 * schizophrène
 * chiasme
+* macqueron
 * possibilité de simplifier la règle du effes et du elles
 * discutions tion stions
 * ouaip
@@ -58,6 +59,7 @@ Note => kinda french-based
 * Ex aequo
 * Foenkinos
 * chaos
+* Guyane
 * Lorenz
 * Hélas
 * accent pas une exception
@@ -76,6 +78,7 @@ Note => kinda french-based
 * taïwan
 * duwez
 * exiler
+* duboust
 * tympans (lié à thym?)
 * Siemens
 * Poirier Poyrier Poërier
@@ -108,7 +111,8 @@ Note => kinda french-based
 * Longjumeau, longpont
 * christophe, colle
 * Facétieux
-* sirop, salop, sirops
+* sirop, salop, sirops galop, trop
+* Baptiste
 
 *Liaisions*
 
@@ -161,6 +165,7 @@ Maybe re-introduce the schwa to avoid all those *ʌ*
 * creator
 * whoever (drop exception on who), ver should be in the wall
 * satiate
+* grey
 * Reid
 * thanos
 * ghoul, gould
@@ -372,7 +377,10 @@ Maybe re-introduce the schwa to avoid all those *ʌ*
 * alexie
 * bull
 * increase
+* ache
 * Weisz
+
+Resimplify new, change etc.
 
 Don't log trace if replacement is the same
 
