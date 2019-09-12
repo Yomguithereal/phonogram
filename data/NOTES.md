@@ -8,8 +8,7 @@ https://en.wikipedia.org/wiki/Slavic_name_suffixes
 * van/von
 * -son/sen
 * dottir
-* san
-* saint
+* san/saint/sao
 * de
 * le/la/les
 * al/el
