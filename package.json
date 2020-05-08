@@ -45,15 +45,15 @@
   "devDependencies": {
     "@yomguithereal/eslint-config": "^4.0.0",
     "babel-cli": "^6.6.5",
-    "babel-core": "^6.7.4",
+    "babel-core": "^6.26.3",
     "babel-plugin-transform-es2015-destructuring": "^6.6.5",
     "babel-preset-es2015": "^6.6.0",
-    "eslint": "^4.8.0",
-    "kotatsu": "^0.15.2",
-    "mocha": "^4.0.0",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
-    "rimraf": "^2.5.4"
+    "eslint": "^6.8.0",
+    "kotatsu": "^0.19.1",
+    "mocha": "^7.1.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "rimraf": "^3.0.2"
   },
   "babel": {
     "presets": [
@@ -72,7 +72,7 @@
     "extends": "@yomguithereal/eslint-config/es6"
   },
   "dependencies": {
-    "chalk": "^2.3.1",
-    "yargs": "^11.0.0"
+    "chalk": "^4.0.0",
+    "yargs": "^15.3.1"
   }
 }
