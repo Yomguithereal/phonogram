@@ -124,6 +124,8 @@ Note => kinda french-based
 
 couvent, président, plus, est, os, dessein, fils, persil, goupil, ch grec, mots finissant par us, par is, pugnace, magnat, rations
 
+> Meurt meursault pleiade. Crouy vregny. Villon villers. Senlis. Brandt gand. Vauciennes. Magnien magnen. Xantah. Angers gers. Longtemps longchamps. Cyanure. Geai. Quail. Vacuum. Giroult. Vatignies. Carleton. Arctique gnarly nausea bear heather szechuan. Rosnes. Neufchatel. Fier hier. Adam. Giroud. Poulenc. Asnière. Oignonnade. Sybille. Cloud. Monod. Provost. Vaulx. Desroches. Saône. Meung. Gulliver echegu. Aigu aigues. Maussang. Raphaël. Alguien. Laetitia. Croquer. Draps. Jouët. Pouls. Baez. Montpellier. Duquesne. Brieuc. Plessix. Convainc. Nduja. Damrémont. Vosge. Que. Vainc. Fontvannes. Pernod. Nid. Deshabiller. Courtauld chrestien. Buzyn lynx pharynx. Asnieres. Meusnier. Guesde. Dossot
+
 ## English
 
 Maybe re-introduce the schwa to avoid all those *ʌ*
