@@ -45,7 +45,7 @@ Aléssi,Alexis,greek
 Aleixo,Alexis,greek
 Oleksiï,Alexis,greek
 Олексiй,Alexis,greek
-Sergei,Serge,latin,
+Sergei,Serge,latin
 Serge,Serge,latin
 Sergey,Serge,latin
 Sergeï,Serge,latin
@@ -208,9 +208,6 @@ Ruan,Nguyen,vietnamese
 Yuen,Nguyen,vietnamese
 Gnieuh,Nguyen,vietnamese
 Nguang,Nguyen,vietnamese
-Mbappe,Mbappe,african
-Mbappé,Mbappe,african
-M'bappé,Mbappe,african
 Aarhus,Aarhus,nordic
 Århus,Aarhus,nordic
 Stephan,Stephan,greek
@@ -233,6 +230,8 @@ Lefevre,Lefèvre,french
 Lefébure,Lefèvre,french
 Le Fèvre,Lefèvre,french
 Dougherty,Dougherty,gaelic
+Dogherty,Dougherty,gaelic
+Docherty,Dougherty,gaelic
 Doughertie,Dougherty,gaelic
 Doherty,Dougherty,gaelic
 Daugherty,Dougherty,gaelic
@@ -305,7 +304,12 @@ Frantz,Franz,germanic
 Joseph,Joseph,hebrew
 Josef,Joseph,hebrew
 Iosif,Joseph,hebrew
+Josip,Joseph,hebrew
 Ioussouf,Joseph,hebrew
+Iosef,Joseph,hebrew
+Youssef,Joseph,hebrew
+Yousseph,Joseph,hebrew
+Iousef,Joseph,hebrew
 Stuart,Stuart,english
 Steward,Stuart,english
 Stewart,Stuart,english
@@ -414,8 +418,6 @@ Fredric,Frederic,germanic
 Federico,Frederic,germanic
 Thompson,Thompson,english
 Thomson,Thompson,english
-LLoyd,LLoyd,english
-Loyd,LLoyd,english
 Strathmore,Strathmore,english
 Stratmore,Strathmore,english
 Kinghorne,Kinghorne,english
@@ -478,6 +480,7 @@ Vicente,Vincent,latin
 Bixente,Vincent,latin
 Ahmad,Ahmad,arabic
 Achmed,Ahmad,arabic
+Akmed,Ahmad,arabic
 Ahmed,Ahmad,arabic
 Jennifer,Jennifer,hebrew
 Jenifer,Jennifer,hebrew
@@ -565,6 +568,7 @@ Mbappe,Mbappe,african
 Mbappé,Mbappe,african
 'Mbappé,Mbappe,african
 'Mbappe,Mbappe,african
+M'bappé,Mbappe,african
 Pratt,Pratt,english
 Prat,Pratt,english
 Clément,Clément,latin
@@ -616,6 +620,7 @@ Plicke,Plique,french
 Wright,Wright,english
 Wrighte,Wright,english
 Right,Wright,english
+Righte,Wright,english
 Leroux,Leroux,french
 Le Roux,Leroux,french
 Borough,Brow,english
@@ -819,3 +824,74 @@ Blum,Blum,germanic
 Bloom,Blum,germanic
 Javier,Javier,catalan
 Xavier,Javier,catalan
+Philippe,Philippe,greek
+Philipe,Philippe,greek
+Phillip,Philippe,greek
+Phillippe,Philippe,greek
+Philip,Philippe,greek
+Filip,Philippe,greek
+Felipe,Philippe,greek
+Vaughan,Vaughan,gaelic
+Vaughn,Vaughan,gaelic
+Iraq,Iraq,arabic
+Irak,Iraq,arabic
+Jackson,Jackson,english
+Jaxon,Jackson,english
+Icks,Icks,english
+Ickx,Icks,english
+Ix,Icks,english
+Hicks,Icks,english
+Vivian,Vivian,latin
+Vivianne,Vivian,latin
+Vivyan,Vivian,latin
+Vyvyan,Vivian,latin
+Scott,Scott,gaelic
+Scot,Scott,gaelic
+Skott,Scott,gaelic
+Barthez,Barthez,french
+Bartez,Barthez,french
+Bartès,Barthez,french
+Barthe,Barthez,french
+Barthes,Barthez,french
+Queneau,Queneau,french
+Quenot,Queneau,french
+Ernestein,Ernestein,germanic
+Ernestine,Ernestein,germanic
+Stine,Stine,dutch
+Stijn,Stine,dutch
+Stein,Stine,dutch
+Sladeczek,Sladeczek,slavic
+Sladeczech,Sladeczek,slavic
+Sladétchèque,Sladeczek,slavic
+Del Paso,Del Paso,spanish
+Delpaso,Del Paso,spanish
+DelPaso,Del Paso,spanish
+De Lulle,De Lulle,french
+Delulle,De Lulle,french
+Delule,De Lulle,french
+Carmichael,Carmichael,english
+Karmichael,Carmichael,english
+Deschamps,Deschamps,french
+Déchamps,Deschamps,french
+Déchant,Deschamps,french
+Deschamp,Deschamps,french
+Dalglish,Dalglish,gaelic
+Dalglesh,Dalglish,gaelic
+Caniço,Caniço,portuguese
+Canisso,Caniço,portuguese
+Wriggler,Wriggler,english
+Wrigler,Wriggler,english
+Riggler,Wright,english
+Yves,Yves,celt
+Yvon,Yves,celt
+Yvain,Yves,celt
+Ivain,Yves,celt
+MacLeod,MacLeod,english
+Mac Leod,MacLeod,english
+McLeod,MacLeod,english
+Mc Leod,MacLeod,english
+MccLeod,MacLeod,english
+Mcc Leod,MacLeod,english
+M'Leod,MacLeod,english
+Joe,Joe,english
+Jo,Joe,english
