@@ -25,3 +25,4 @@ https://en.wikipedia.org/wiki/Slavic_name_suffixes
 * Chinese
 
 Add other unambiguous names to the lot
+GOLD, GOLDSCHMIDT, GOLDSMITH, GOLDSTEIN
