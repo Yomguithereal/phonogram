@@ -54,6 +54,13 @@ Ekaterina,Catherine,greek
 Yekaterina,Catherine,greek
 Catherine,Catherine,greek
 Katherin,Catherine,greek
+Katharina,Catherine,greek
+Katarina,Catherine,greek
+Caitrín,Catherine,greek
+Catarina,Catherine,greek
+Katarzyna,Catherine,greek
+Catherina,Catherine,greek
+Caitríona,Catherine,greek
 Kathryn,Catherine,greek
 Jekaterina,Catherine,greek
 Catrin,Catherine,greek
@@ -97,6 +104,12 @@ Wladimir,Vladimir,slavic
 Volodymyr,Vladimir,slavic
 Wolodymyr,Vladimir,slavic
 Mikhail,Michael,hebrew
+Mihail,Michael,hebrew
+Mikkel,Michael,hebrew
+Micheil,Michael,hebrew
+Mícheál,Michael,hebrew
+Miguel,Michael,hebrew
+Michele,Michael,hebrew
 Michael,Michael,hebrew
 Michel,Michael,hebrew
 Mitchell,Michael,hebrew
@@ -117,6 +130,14 @@ Alexandre,Alexandre,greek
 Alexander,Alexandre,greek
 Aleksander,Alexandre,greek
 Aleksandr,Alexandre,greek
+Alessandro,Alexandre,greek
+Alsander,Alexandre,greek
+Alejandro,Alexandre,greek
+Alastair,Alasdair,greek|gaelic
+Allistair,Alasdair,greek|gaelic
+Allister,Alasdair,greek|gaelic
+Alister,Alasdair,greek|gaelic
+Alasdair,Alasdair,greek|gaelic
 Jeanne,Jeanne,hebrew
 Zanna,Jeanne,hebrew
 Žanna,Jeanne,hebrew
@@ -191,7 +212,16 @@ Wojciek,Wojciek,slavic
 Wojciech,Wojciek,slavic
 Andre,André,greek
 Andrzej,André,greek
+Anders,André,greek
 André,André,greek
+Aindréas,André,greek
+Andrea,André,greek
+Andreï,André,greek
+Andrés,André,greek
+Andrei,André,greek
+Andrej,André,greek
+Andros,André,greek
+Andras,André,greek
 Andrew,André,greek
 Djezira,Jaazira,arabic
 Jaazira,Jaazira,arabic
@@ -278,7 +308,9 @@ Nicolas,Nicolas,greek
 Nicholas,Nicolas,greek
 Nickolas,Nicolas,greek
 Nikolas,Nicolas,greek
+Nikolás,Nicolas,greek
 Nikolaus,Nicolas,greek
+Nicolaus,Nicolas,greek
 Niccolo,Nicolas,greek
 Nichols,Nicolas,greek
 Nikolaï,Nicolas,greek
@@ -304,7 +336,9 @@ Frantz,Franz,germanic
 Joseph,Joseph,hebrew
 Josef,Joseph,hebrew
 Iosif,Joseph,hebrew
+Józef,Joseph,hebrew
 Josip,Joseph,hebrew
+Iòseph,Joseph,hebrew
 Ioussouf,Joseph,hebrew
 Iosef,Joseph,hebrew
 Youssef,Joseph,hebrew
@@ -349,11 +383,16 @@ Crommie,Crombie,english
 Cromy,Crombie,english
 Crumbie,Crombie,english
 Jacques,Jake,hebrew
+Jack,Jake,hebrew
+Iakobos,Jake,hebrew
+Jakób,Jake,hebrew
 Jake,Jake,hebrew
 Jacob,Jacob,hebrew
 Jacopo,Jacob,hebrew
+Giacobbe,Jacob,hebrew
 Iacob,Jacob,hebrew
 Yaqob,Jacob,hebrew
+Jakub,Jacob,hebrew
 Sean,Sean,gaelic
 Shawn,Sean,gaelic
 Séan,Sean,gaelic
@@ -366,6 +405,7 @@ Shayne,Sean,gaelic
 Shane,Sean,gaelic
 Shon,Sean,gaelic
 Seamus,Seamus,gaelic
+Séamus,Seamus,gaelic
 Sheamus,Seamus,gaelic
 Samus,Seamus,gaelic
 Séamas,Seamus,gaelic
@@ -375,6 +415,7 @@ Jean,John,hebrew
 Joao,John,hebrew
 João,John,hebrew
 John,John,hebrew
+Jon,John,hebrew
 Campbell,Campbell,english
 Cambell,Campbell,english
 Campbel,Campbell,english
@@ -447,6 +488,8 @@ Glouster,Gloucester,english
 Leicester,Leicester,english
 Leister,Leicester,english
 Mohammed,Mohammed,arabic
+Mohammad,Mohammed,arabic
+Muhammad,Mohammed,arabic
 Mehmet,Mohammed,arabic
 Mahmoud,Mohammed,arabic
 Mohamed,Mohammed,arabic
@@ -525,6 +568,8 @@ Sonja,Sonia,slavic
 Soña,Sonia,slavic
 Martiño,Martiño,latin
 Martinho,Martinho,latin
+Martin,Martin,latin
+Martyn,Martin,latin
 Loyd,LLoyd,english
 LLoyd,LLoyd,english
 Marius,Marius,hebrew
@@ -706,6 +751,11 @@ Matthew,Matthews,hebrew
 Mathews,Matthews,hebrew
 Mathieu,Matthews,hebrew
 Matthieu,Matthews,hebrew
+Matej,Matthews,hebrew
+Matthaeus,Matthews,hebrew
+Matthias,Matthews,hebrew
+Maitias,Matthews,hebrew
+Mateusz,Matthews,hebrew
 Arnaud,Arnaud,germanic
 Arnault,Arnaud,germanic
 Arnauld,Arnaud,germanic
@@ -895,3 +945,84 @@ Mcc Leod,MacLeod,english
 M'Leod,MacLeod,english
 Joe,Joe,english
 Jo,Joe,english
+Schultz,Schultz,germanic
+Schults,Schultz,germanic
+Anne,Anne,hebrew
+Ann,Anne,hebrew
+Hannah,Anne,hebrew
+Marc,Marc,hebrew
+Mark,Marc,hebrew
+Denis,Denis,hebrew
+Dennis,Denis,hebrew
+Jesse,Jesse,hebrew
+Jessie,Jesse,hebrew
+Jessé,Jesse,hebrew
+Jessée,Jesse,hebrew
+Carl,Karl,germanic
+Karl,Karl,germanic
+Jerry,Jerry,english
+Gerry,Jerry,english
+Nathalie,Nathalie,latin
+Nathalia,Nathalie,latin
+Natalya,Nathalie,latin
+Natalie,Nathalie,latin
+Natali,Nathalie,latin
+Zoé,Zoé,greek
+Zoée,Zoé,greek
+Zoe,Zoé,greek
+Zoey,Zoé,greek
+Sarah,Sarah,hebrew
+Sara,Sarah,hebrew
+Claire,Claire,latin
+Clare,Claire,latin
+James,James,hebrew
+Jaime,James,hebrew
+Jaimes,James,hebrew
+Robert,Robert,germanic
+Robart,Robert,germanic
+Roibeárd,Robert,germanic
+Roberto,Robert,germanic
+Raibeart,Robert,germanic
+Elizabeth,Elizabeth,hebrew
+Erzebeth,Elizabeth,hebrew
+Erzsébet,Elizabeth,hebrew
+Elisabeth,Elizabeth,hebrew
+Elisabette,Elizabeth,hebrew
+Elisabetta,Elizabeth,hebrew
+Elzbieta,Elizabeth,hebrew
+Elizabeta,Elizabeth,hebrew
+Elisabeta,Elizabeth,hebrew
+Elisabet,Elizabeth,hebrew
+Emily,Emily,latin
+Aemilia,Emilu,latin
+Émilie,Emilu,latin
+Emilie,Emilu,latin
+Emelie,Emilu,latin
+Emelia,Emilu,latin
+Madeleine,Madeleine,hebrew
+Madeline,Madeleine,hebrew
+Magdalina,Madeleine,hebrew
+Magdalena,Madeleine,hebrew
+Madailéin,Madeleine,hebrew
+MaryEllen,Maryellen,hebrew
+Maryellen,Maryellen,hebrew
+Mary-Ellen,Maryellen,hebrew
+Mary Ellen,Maryellen,hebrew
+Van Dyke,Van Dyke,dutch
+Van. Dyke,Van Dyke,dutch
+VanDyke,Van Dyke,dutch
+Vandyke,Van Dyke,dutch
+Vandijk,Van Dyke,dutch
+Van Dijk,Van Dyke,dutch
+Van Dike,Van Dyke,dutch
+Vandike,Van Dyke,dutch
+Von Dijk,Van Dyke,dutch
+Rasheed,Rasheed,arabic
+Al-Rasheed,Rasheed,arabic
+Al rasheed,Rasheed,arabic
+Ibn-al-rasheed,Rasheed,arabic
+Ibn al rasheed,Rasheed,arabic
+Ibn al' rasheed,Rasheed,arabic
+Ibn' al' rasheed,Rasheed,arabic
+Rashid,Rasheed,arabic
+Rachid,Rasheed,arabic
