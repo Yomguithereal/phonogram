@@ -15,6 +15,8 @@ https://en.wikipedia.org/wiki/Slavic_name_suffixes
 * ben
 * ibn al
 * O'
+* san
+* sama
 
 ## Origins
 
@@ -28,3 +30,5 @@ Add other unambiguous names to the lot
 GOLD, GOLDSCHMIDT, GOLDSMITH, GOLDSTEIN
 
 Vocalisation: a/e/o - i - u
+
+Ajouter système de fingerprinting avec gestion des initiales + abbréviations honorifiques
